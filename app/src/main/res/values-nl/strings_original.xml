@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Texts and translations taken from the original Tell Me The Time app. -->
 <resources>
-    <string name="app_name">Tell Me The Time</string>
     <string name="app_close">Sluiten</string>
     <string name="app_info">Info</string>
     <string name="app_ok">OK</string>
     <string name="app_cancel">Annuleren</string>
     <string name="app_yes">Ja</string>
     <string name="app_no">Nee</string>
-    <string name="app_request_close_question">Wil je echt de TellMeTheTime dienst sluiten? Deze service is nodig om de tijd aan te kondigen.</string>
+    <string name="app_request_close_question">Wil je echt de Timesay dienst sluiten? Deze service is nodig om de tijd aan te kondigen.</string>
     <string name="app_pulse_interval_title">Selecteer een interval</string>
     <string name="app_tts_install_title">TTS data ontbreekt</string>
     <string name="app_tts_install_message">Tekst-naar-spraak (TTS) gegevens worden niet aan het genstalleerde mobiel apparaat ondersteunt. Deze app is niet volledig functioneel zonder TTS data. Wil je de Play Store te openen om deze gegevens te downloaden?</string>

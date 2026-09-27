@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Timesay: clock hands inside a speech bubble. -->
+<!-- Themed icon: the speech bubble as an outline so the hands stay visible in one colour. -->
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
     android:width="108dp"
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Speech bubble with its tail at the lower left -->
-    <path
-        android:fillColor="#FFFFFFFF"
-        android:pathData="M35.6,66.4L32,76L43.9,72.8A24,24 0,1 0,35.6 66.4Z" />
-    <!-- Hands -->
     <path
         android:fillColor="#00000000"
-        android:strokeColor="#FF1C1C1C"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineJoin="round"
+        android:strokeWidth="4"
+        android:pathData="M35.6,66.4L32,76L43.9,72.8A24,24 0,1 0,35.6 66.4Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
         android:strokeLineCap="round"
         android:strokeLineJoin="round"
         android:strokeWidth="4.5"
-        android:pathData="M54,51V37M54,51L64,57" />
-    <path
-        android:fillColor="#FF1C1C1C"
-        android:pathData="M54,48a3,3 0,1 1,0 6a3,3 0,1 1,0 -6z" />
+        android:pathData="M54,51V39M54,51L63,56.5" />
 </vector>

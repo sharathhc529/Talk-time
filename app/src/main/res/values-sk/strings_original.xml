@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Texts and translations taken from the original Tell Me The Time app. -->
 <resources>
-    <string name="app_name">Tell Me The Time</string>
     <string name="app_close">Zavrieť</string>
     <string name="app_info">Info</string>
     <string name="app_ok">OK</string>
     <string name="app_cancel">Zrušiť</string>
     <string name="app_yes">Áno</string>
     <string name="app_no">Nie</string>
-    <string name="app_request_close_question">Naozaj chcete zatvoriť TellMeTheTime službu? Táto služba je potrebná pre oznámenie času.</string>
+    <string name="app_request_close_question">Naozaj chcete zatvoriť Timesay službu? Táto služba je potrebná pre oznámenie času.</string>
     <string name="app_pulse_interval_title">Vyberte interval</string>
     <string name="app_tts_install_title">TTS dáta nedostupné</string>
     <string name="app_tts_install_message">Text-to-speech (TTS) nie sú nainštalované. Aplikácia nebude plne funkčná bez TTS dát. Chcete otvoriť službu Obchod Play k stiahnutiu týchto údajov?</string>

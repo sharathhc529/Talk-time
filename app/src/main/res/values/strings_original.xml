@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Texts and translations taken from the original Tell Me The Time app. -->
 <resources>
-    <string name="app_name">Tell Me The Time</string>
+    <string name="app_name" translatable="false">Timesay</string>
     <string name="app_close">Close</string>
     <string name="app_info">Info</string>
     <string name="app_ok">OK</string>
     <string name="app_cancel">Cancel</string>
     <string name="app_yes">Yes</string>
     <string name="app_no">No</string>
-    <string name="app_request_close_question">Do you really want to close the TellMeTheTime service? This service is needed to announce the time.</string>
+    <string name="app_request_close_question">Do you really want to close the Timesay service? This service is needed to announce the time.</string>
     <string name="app_pulse_interval_title">Select an interval</string>
     <string name="app_tts_install_title">TTS data is missing</string>
     <string name="app_tts_install_message">Text-to-speech (TTS) data is not installed on the mobile device. This app is not full functional without TTS data. Do you want to open the Play Store to download this data?</string>

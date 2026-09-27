@@ -1,7 +1,7 @@
-# Talk Time
+# Timesay
 
-A rebuild of the Android talking clock **Tell Me The Time** (version 1.19.0, 2017, by Andreas Meyer)
-for current Android versions. The app speaks the time with the phone's text-to-speech engine, on a
+A talking clock for Android, based on the talking clock **Tell Me The Time** (version 1.19.0, 2017,
+by Andreas Meyer) and rebuilt for current Android versions. The app speaks the time with the phone's text-to-speech engine, on a
 schedule or when you tap the screen, wave over the proximity sensor, shake the phone, double-press the
 power button or press a headset button. It also works as a night clock.
 
@@ -13,7 +13,7 @@ Android 8.0 (API 26).
 
 | Feature | Details |
 | --- | --- |
-| Clock screen | Full-screen digital clock with date. Colours, gradient background, bold text, shadow or glow effect, 12/24-hour format and screen orientation are configurable. Touch it to hear the time. |
+| Clock screen | Full-screen clock with date and an announce button, in six styles: retro flip (default, with animated split-flap cards), stacked bold, liquid glass, spoken words, minute ring and classic analog. The flip clock's colours and text weights, the 12/24-hour format and the screen orientation are configurable. Touch it to hear the time. |
 | Languages | 23 announcement grammars in 28 language variants: Chinese (Mandarin, Cantonese, Taiwan), Czech, Danish, Dutch, English (US, UK, India, Australia), French, German, Hindi, Hungarian, Indonesian, Italian, Korean, Polish, Portuguese (Portugal, Brazil), Romanian, Russian, Slovak, Spanish (Spain, US, Mexico), Thai and Turkish. |
 | Phrasing | Formal ("14 25") or common ("twenty-five past two"), 12 or 24 hours, optional part of day ("in the afternoon"), seconds, and an intro ("It's …"). |
 | Interval speaking clock | Every 15/20/30 seconds, every minute, even or odd minutes, every 5/10/15/20/30 minutes or every hour. Uses exact alarms, optionally registered as an alarm clock so announcements are on time in deep sleep. Can start automatically when a headset is plugged in. |
@@ -35,7 +35,7 @@ To sign release builds with your own key, set these environment variables (or Gi
 the build step): `TALKTIME_KEYSTORE` (path to the keystore file), `TALKTIME_KEYSTORE_PASSWORD`,
 `TALKTIME_KEY_ALIAS`, `TALKTIME_KEY_PASSWORD`.
 
-The rebuilt app has its own application ID (`io.github.sharathhc529.talktime`), so it installs next to the
+The rebuilt app has its own application ID (`io.github.sharathhc529.timesay`), so it installs next to the
 original app instead of replacing it.
 
 ## Building locally
@@ -52,7 +52,8 @@ Requirements: JDK 17 or newer and the Android SDK (platform 36).
 - `timespeech/` – plain Kotlin library that turns a time into a sentence in each language
   (`SpeechLanguage`, `lang/*`) and calculates the interval schedule (`SpeakingInterval`).
 - `app/` – the Android app:
-  - `ui/` – clock screen, menu and dialogs (`MainActivity`, `ClockScreen`) and the settings screens.
+  - `ui/` – menu and dialogs (`MainActivity`) and the settings screens; `ui/clock/` – the clock styles
+    (`ClockScreen` picks the one chosen in the display settings).
   - `service/TalkTimeService` – foreground service that owns the triggers and the speech engine;
     `IntervalScheduler` sets the alarms.
   - `speech/Announcer` – text-to-speech, intro sound, audio focus and volume handling.
@@ -93,3 +94,8 @@ Changes forced by, or taking advantage of, modern Android:
 - The unfinished scheduler screen of the original (not reachable from its menu) and the links to the
   original author's store page, e-mail and privacy policy were left out.
 - Settings are stored under new keys; settings from the original app are not imported.
+
+## Fonts
+
+The clock styles use Oswald, Bricolage Grotesque, Fraunces, Space Grotesk and Manrope, licensed under
+the SIL Open Font License 1.1 (see `licenses/`).

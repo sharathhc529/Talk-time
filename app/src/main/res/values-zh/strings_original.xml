@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Texts and translations taken from the original Tell Me The Time app. -->
 <resources>
-    <string name="app_name">告訴我時間</string>
     <string name="app_close">關閉</string>
     <string name="app_info">信息</string>
     <string name="app_ok">好了</string>
