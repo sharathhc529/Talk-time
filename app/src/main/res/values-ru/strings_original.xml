@@ -13,7 +13,7 @@
     <string name="app_tts_install_activity_missing">Установка данных TTS диалога не найдена. Пожалуйста, установите TTS движок от Play Store.</string>
     <string name="app_open_tts_setting_failure">TTS настройки диалога не найдены.</string>
     <string name="app_install_tts_data_title">TTS данные отсутствуют</string>
-    <string name="app_install_tts_voice_data_message">Text-To-Speech данные для %1$S отсутствуют. Пожалуйста, проверьте настройки TTS данных или загрузите недостающие TTS данные из магазина Play Google.</string>
+    <string name="app_install_tts_voice_data_message">Text-To-Speech данные для %1$s отсутствуют. Пожалуйста, проверьте настройки TTS данных или загрузите недостающие TTS данные из магазина Play Google.</string>
     <string name="app_start_night_clock">Старт ночные часы</string>
     <string name="app_stop_night_clock">Стоп ночные часы</string>
     <string name="app_start_speaking_clock">Старт говорящие часы</string>
@@ -69,7 +69,7 @@
     <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Экран выключен</string>
     <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Приложение срабатывает только на датчик приближения, когда экран устройства выключен.</string>
     <string name="pref_preference_title_proximity_speed_of_recognition">Скорость отклика</string>
-    <string name="pref_preference_summary_proximity_speed_of_recognition">Определение реакции датчика приближения . В каждом устройстве датчик приближения, реагирует по разному. Этот параметр может помочь предотвратить ошибочные срабатывания.</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">Жест должен быть выполнен за %1$s. В каждом устройстве датчик приближения, реагирует по разному. Этот параметр может помочь предотвратить ошибочные срабатывания.</string>
     <string name="pref_screen_title_night_clock">Ночные часы</string>
     <string name="pref_screen_summary_night_clock">Параметры автоматического запуска опций режима ночных часов. Ночные часы могут быть запущены одним взмахом над датчиком приближения.</string>
     <string name="pref_category_title_night_clock_start_options">Опции запуска</string>
