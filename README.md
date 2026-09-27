@@ -99,3 +99,14 @@ Changes forced by, or taking advantage of, modern Android:
 
 The clock styles use Oswald, Bricolage Grotesque, Fraunces, Space Grotesk and Manrope, licensed under
 the SIL Open Font License 1.1 (see `licenses/`).
+
+## Author and copyright
+
+Timesay is developed by sharathchandrahc. © 2026 sharathchandrahc. All rights reserved for the
+code written for this project; no open-source licence is granted at this time.
+
+Parts that belong to others keep their owners' rights:
+
+- The app texts and their translations in `app/src/main/res/values*/strings_original.xml` come from
+  Tell Me The Time by Andreas Meyer.
+- The fonts in `app/src/main/res/font/` are licensed under the SIL Open Font License 1.1 (see `licenses/`).
