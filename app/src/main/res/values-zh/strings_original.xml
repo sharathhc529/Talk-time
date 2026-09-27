@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts and translations taken from the original Tell Me The Time app. -->
+<resources>
+    <string name="app_name">告訴我時間</string>
+    <string name="app_close">關閉</string>
+    <string name="app_info">信息</string>
+    <string name="app_ok">好了</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_yes">確定</string>
+    <string name="app_no">否定</string>
+    <string name="app_request_close_question">你真的要关闭告訴我時間服务？这项服务是提供公布时间的。</string>
+    <string name="app_pulse_interval_title">選擇一個間隔</string>
+    <string name="app_tts_install_title">TTS 數據丟失</string>
+    <string name="app_tts_install_message">文本到語音轉換(TTS) 數據沒有安裝到移動設備。沒有完整的TTS數據這個程序是不能正常應用的。你想打開Play商店下載這個數據嗎？</string>
+    <string name="app_tts_install_activity_missing">找不到安裝TTS數據對話框。請從Play商店安裝TTS引擎。</string>
+    <string name="app_open_tts_setting_failure">TTS 設置對話框沒有找到。</string>
+    <string name="app_install_tts_data_title">TTS 數據丟失</string>
+    <string name="app_install_tts_voice_data_message">文本到語音數據的丟失。請檢查TTS數據設置或者從谷歌Play商店下載缺少的TTS數據。</string>
+    <string name="app_start_night_clock">開啟夜間模式</string>
+    <string name="app_stop_night_clock">關閉夜間模式</string>
+    <string name="app_start_speaking_clock">啟動語音時鐘</string>
+    <string name="app_stop_speaking_clock">停止語音時鐘</string>
+    <string name="app_preferences">偏好</string>
+    <string name="app_seekbar_seconds_unit">s</string>
+    <string name="app_seekbar_gravity_unit">g</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_version_label">版本:</string>
+    <string name="app_disclaimer_title">免責聲明</string>
+    <string name="pref_screen_title_control">控制</string>
+    <string name="pref_screen_summary_control">時間公告及夜間時鐘的啟動選項的多個觸發器的設置。</string>
+    <string name="pref_screen_title_headset_trigger">耳機</string>
+    <string name="pref_screen_summary_headset_trigger">關於語音時鐘是由耳機按鈕觸發設置。</string>
+    <string name="pref_category_trigger_title_wired_headset_button">有線耳機按鈕</string>
+    <string name="pref_list_title_headset_hook_button">耳機按鈕</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">延遲</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">兩次點擊在多個點擊事件之間的延遲時間。</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">藍牙耳機的多媒體按鍵</string>
+    <string name="pref_list_title_headset_media_play_pause_button">播放/暫停按鈕</string>
+    <string name="pref_list_title_headset_media_stop_button">停止按鈕</string>
+    <string name="pref_list_title_headset_media_previous_button">上一曲目按鈕</string>
+    <string name="pref_list_title_headset_media_next_button">下一曲目按鈕</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">延遲</string>
+    <string name="pref_list_summary_headset_event_none">停用 - 關閉的觸發時間公佈此按鈕。</string>
+    <string name="pref_list_summary_headset_event_single_click">單擊- 語音時鐘是由一個單一的點擊觸發。</string>
+    <string name="pref_list_summary_headset_event_double_click">雙擊 - 語音時鐘是通過雙擊觸發。</string>
+    <string name="pref_list_summary_headset_event_triple_click">三重擊- 語音時鐘是由一個三擊觸發。</string>
+    <string name="pref_checkbox_title_touch">觸摸屏</string>
+    <string name="pref_checkbox_summary_touch">語音時鐘通過觸摸這個程序的主屏幕觸發。</string>
+    <string name="pref_screen_title_open_app">開啟應用程式</string>
+    <string name="pref_screen_summary_open_app">設置關於語音時鐘的應用程序打開時，它被觸發。</string>
+    <string name="pref_checkbox_title_open_app">開啟應用程式</string>
+    <string name="pref_checkbox_summary_open_app">啟用該應用程序打開時的時間被公佈。</string>
+    <string name="pref_checkbox_open_app_title_auto_close">自動關閉</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">該應用程序將在%1$s秒後關閉。</string>
+    <string name="pref_screen_title_system">系統</string>
+    <string name="pref_screen_summary_system">系統設置</string>
+    <string name="pref_checkbox_title_autostart">自動運行</string>
+    <string name="pref_checkbox_summary_autostart">此應用程序是在系統啟動時自動啟動。</string>
+    <string name="pref_checkbox_title_tts_check">TTS 檢查</string>
+    <string name="pref_checkbox_summary_tts_check">在下次啟動該應用程序會檢查文本到語音轉換組件是完全安裝。</string>
+    <string name="pref_checkbox_title_power">電源</string>
+    <string name="pref_checkbox_summary_power">當移動設備被連接到電源的夜晚時鐘自動啟動。</string>
+    <string name="pref_screen_title_proximity_trigger">接近傳感器</string>
+    <string name="pref_screen_summary_proximity_trigger">語音時鐘是由一個觸控在移動設備的非接觸式傳感器觸發的設置。</string>
+    <string name="pref_checkbox_title_proximity">開啟觸控檢測</string>
+    <string name="pref_checkbox_summary_proximity">語音時鐘是由觸控在移動設備的非接觸式傳感器觸發。在某些移動設備，這可能更快地消耗電池。</string>
+    <string name="pref_list_title_proximity_gesture">觸控</string>
+    <string name="pref_list_summary_proximity_gesture_1">單指觸控</string>
+    <string name="pref_list_summary_proximity_gesture_2">雙指觸控</string>
+    <string name="pref_list_summary_proximity_gesture_3">三指觸控</string>
+    <string name="pref_checkbox_title_proximity_vibrate">振動</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">觸發式接近傳感器時，移動設備振動。</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">屏幕關閉</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">語音時鐘僅由接近傳感器時，所述移動設備的屏幕被關閉觸發。</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">識別速度</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">在%1$s內的手勢必須執行。對每個設備的接近傳感器的反應不同。此設置可以幫助防止錯誤激活。</string>
+    <string name="pref_screen_title_night_clock">夜間模式</string>
+    <string name="pref_screen_summary_night_clock">關於夜間時鐘模式下，自動啟動選項的設置。夜間時鐘可以通過一個單一的滑動比接近傳感器觸發。</string>
+    <string name="pref_category_title_night_clock_start_options">啟動選項</string>
+    <string name="pref_category_title_time_format">時間格式</string>
+    <string name="pref_list_title_speaking_clock_style">時鐘風格</string>
+    <string name="pref_checkbox_title_time_of_day">一天中的時間</string>
+    <string name="pref_list_title_time_hour_format">小時格式</string>
+    <string name="pref_screen_title_appearance">顯示</string>
+    <string name="pref_screen_summary_appearance">時鐘顯示的顯示設置。</string>
+    <string name="pref_category_title_clock_text">字體</string>
+    <string name="pref_preference_title_night_clock_text_color">顏色</string>
+    <string name="pref_preference_summary_night_clock_text_color">字體顏色</string>
+    <string name="pref_list_title_time_text_style">字體風格</string>
+    <string name="pref_list_summary_time_text_style_normal">時間顯示在正常的文本樣式。</string>
+    <string name="pref_list_summary_time_text_style_bold">時間以粗體顯示。</string>
+    <string name="pref_list_title_time_of_day_text_style">一天的時間樣式</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">一天中的時間顯示在正常的文本樣式。</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">一天的時間以粗體顯示。</string>
+    <string name="pref_list_title_date_text_style">日期文本樣式</string>
+    <string name="pref_list_summary_date_text_style_normal">日期顯示在正常的文本樣式。</string>
+    <string name="pref_list_summary_date_text_style_bold">日期以粗體顯示。</string>
+    <string name="pref_category_title_clock_background">背景</string>
+    <string name="pref_preference_title_night_clock_background_color">顏色</string>
+    <string name="pref_preference_summary_night_clock_background_color">時鐘背景的顏色</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">顏色漸變</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">定義背景的顏色漸變。</string>
+    <string name="pref_screen_title_audio">音頻</string>
+    <string name="pref_screen_summary_audio">時間公佈音頻輸出設置。</string>
+    <string name="pref_checkbox_title_system_independent_volume">系統獨立音量</string>
+    <string name="pref_checkbox_summary_system_independent_volume">時間播報的音量是獨立於系統音量。</string>
+    <string name="pref_preference_title_tts_volume">音量</string>
+    <string name="app_notification_title_night_clock">夜間模式</string>
+    <string name="app_notification_title_pulse_generator">會說話的時鐘</string>
+    <string name="pref_checkbox_title_night_clock_notification">通知</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">通知会显示在标题栏中当夜晚时钟启动。</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">没有通知会显示在标题栏中当夜晚时钟启动。</string>
+    <string name="pref_screen_title_interval_speaking_clock">时钟說話间隔</string>
+    <string name="pref_screen_summary_interval_speaking_clock">大约间隔控制时间公告设置。时间可以在定义的时间间隔内公布。</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">通知</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">通知会显示在标题栏时的间隔會說話的時鐘启动。</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">没有通知会显示在标题栏时的间隔會說話的時鐘启动。</string>
+    <string name="app_pulse_generator_interval_1">每分鐘</string>
+    <string name="app_pulse_generator_interval_2">每個偶數分鐘</string>
+    <string name="app_pulse_generator_interval_3">每個單數分鐘</string>
+    <string name="app_pulse_generator_interval_4">每隔5分鐘</string>
+    <string name="app_pulse_generator_interval_5">每隔10分鐘</string>
+    <string name="app_pulse_generator_interval_6">每隔15分鐘</string>
+    <string name="app_pulse_generator_interval_7">每隔20分鐘</string>
+    <string name="app_pulse_generator_interval_8">每隔30分鐘</string>
+    <string name="app_pulse_generator_interval_9">每隔一小時</string>
+    <string name="app_pulse_generator_interval_10">每隔15秒</string>
+    <string name="app_pulse_generator_interval_11">每隔20秒</string>
+    <string name="app_pulse_generator_interval_12">每隔30秒</string>
+    <string name="pref_screen_title_shake_detector_trigger">搖晃</string>
+    <string name="pref_screen_summary_shake_detector_trigger">語音時鐘是由搖動移動設備觸發設置。</string>
+    <string name="pref_checkbox_title_shake_detector">搖晃</string>
+    <string name="pref_checkbox_summary_shake_detector_1">啟動 - 語音時鐘是通過搖動移動設備觸發。</string>
+    <string name="pref_checkbox_summary_shake_detector_2">關閉 - 語音時鐘通過搖動移動設備關閉。</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">重力</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">需要認識到它作為一個晃動的加速度。</string>
+    <string name="pref_preference_title_shake_counter">搖振幅數</string>
+    <string name="pref_preference_summary_shake_counter">需要觸發時間公佈抖動振幅的數目。</string>
+    <string name="pref_checkbox_title_shake_vibrate">振動</string>
+    <string name="pref_screen_title_power_button_trigger">電源按鈕</string>
+    <string name="pref_screen_summary_power_button_trigger">語音時鐘是由所述移動設備的電源按鈕觸發設置。</string>
+    <string name="pref_checkbox_title_power_button">電源按鈕</string>
+    <string name="pref_checkbox_summary_power_button_1">啟動 - 語音時鐘是通過雙擊觸發。</string>
+    <string name="pref_checkbox_summary_power_button_2">關閉 - 關閉的觸發時間公佈此按鈕。</string>
+    <string name="pref_preference_title_power_button_click_delay">延遲</string>
+    <string name="pref_preference_summary_power_button_click_delay">兩次點擊在多個點擊事件之間的延遲時間。</string>
+    <string name="pref_list_title_audio_general">一般</string>
+    <string name="pref_list_title_ringer_mode">振鈴模式</string>
+    <string name="pref_list_summary_ringer_mode">允許公佈的時間鈴聲模式。</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">沒有選擇振鈴模式 - 不允許的宣布當沒有選擇任何振鈴模式的時間。</string>
+    <string name="pref_category_title_night_clock_general">一般</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">公佈時接近傳感器被觸發的時間和顯示。</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">公佈時接近傳感器被觸發的時間。</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">顯示時間，接近傳感器被觸發的時間。</string>
+    <string name="pref_list_title_night_clock_behaviour">行為</string>
+    <string name="pref_list_title_screen_orientation">屏幕方向</string>
+    <string name="pref_list_summary_screen_orientation_system">系統設置用於該應用程序的屏幕的方向。</string>
+    <string name="pref_list_summary_screen_orientation_automatic">該應用程序的屏幕是由感應器自動導向。</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">該應用程序的屏幕僅在水平方向導向。</string>
+    <string name="pref_list_summary_screen_orientation_vertical">該應用程序的屏幕只有垂直定向。</string>
+    <string name="pref_category_title_appearance_general">一般</string>
+    <string name="pref_list_title_language">語言</string>
+    <string name="pref_category_title_speech">語音</string>
+    <string name="pref_preference_title_speech_tts_settings">文字轉語音输出</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">延遲</string>
+    <string name="pref_list_title_pulse_interval">間隔</string>
+    <string name="pref_category_title_speaking_clock_general">一般</string>
+    <string name="pref_category_title_speaking_clock_start_options">啟動選項</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>停用</item>
+        <item>單擊</item>
+        <item>雙擊</item>
+        <item>三重擊</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>正式</item>
+        <item>常見</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>系統設置</item>
+        <item>24小時格式</item>
+        <item>12小時格式</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>音頻設置</item>
+        <item>24小時格式</item>
+        <item>12小時格式</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>無聲</item>
+        <item>振動</item>
+        <item>正常</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>公告 + 顯示</item>
+        <item>公告</item>
+        <item>顯示</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>系統</item>
+        <item>自動</item>
+        <item>直向顯示</item>
+        <item>橫向顯示</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>正常</item>
+        <item>粗體</item>
+    </string-array>
+</resources>

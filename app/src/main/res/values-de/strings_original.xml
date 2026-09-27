@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts and translations taken from the original Tell Me The Time app. -->
+<resources>
+    <string name="app_name">Sag mir die Zeit</string>
+    <string name="app_close">Beenden</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Abbrechen</string>
+    <string name="app_yes">Ja</string>
+    <string name="app_no">Nein</string>
+    <string name="app_request_close_question">Wollen Sie wirklich den SagMirDieZeit Dienst beenden? Dieser Dienst wird benötigt um die Zeit anzusagen.</string>
+    <string name="app_pulse_interval_title">Wähle ein Intervall</string>
+    <string name="app_tts_install_title">TTS Daten fehlen</string>
+    <string name="app_tts_install_message">Text-To-Speech (TTS) Daten sind nicht auf dem Gerät installiert. Diese App ist nicht voll funktionsfähig ohne TTS-Daten. Möchten Sie den Play Store öffnen um diese Daten herunterzuladen?</string>
+    <string name="app_tts_install_activity_missing">Der TTS Daten Installationsdialog konnte nicht gefunden werden. Bitte installieren Sie eine TTS Engine vom Play Store.</string>
+    <string name="app_open_tts_setting_failure">TTS Einstellungsdialog nicht gefunden.</string>
+    <string name="app_install_tts_data_title">TTS Daten fehlen</string>
+    <string name="app_install_tts_voice_data_message">Es fehlen die Text-To-Speech Daten für %1$s. Bitte überprüfen Sie die TTS Einstellungen oder laden Sie die fehlenden TTS-Daten aus dem Google Play Store herunter.</string>
+    <string name="app_start_night_clock">Nachtuhr starten</string>
+    <string name="app_stop_night_clock">Nachtuhr stoppen</string>
+    <string name="app_start_speaking_clock">Zeitansage starten</string>
+    <string name="app_stop_speaking_clock">Zeitansage stoppen</string>
+    <string name="app_preferences">Einstellungen</string>
+    <string name="app_version_label">Version:</string>
+    <string name="app_disclaimer_title">Haftungsausschluss</string>
+    <string name="pref_screen_title_control">Steuerung</string>
+    <string name="pref_screen_summary_control">Einstellungen bezüglich der verschiedenen Auslöser einer Zeitansage und Startoptionen der Nachtuhr.</string>
+    <string name="pref_screen_title_headset_trigger">Headset</string>
+    <string name="pref_screen_summary_headset_trigger">Einstellungen für eine Zeitansage die durch die Tasten am Kopfhörer ausgelöst wird.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Kabelgebundene Headset Taste</string>
+    <string name="pref_list_title_headset_hook_button">Headset Taste</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Verzögerung</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Verzögerungszeit zwischen zwei Klicks bei Mehrfachklickereignissen.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Bluetooth Headset Medien Tasten</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Abspielen/Pause-Taste</string>
+    <string name="pref_list_title_headset_media_stop_button">Stop-Taste</string>
+    <string name="pref_list_title_headset_media_previous_button">Zurück-Taste</string>
+    <string name="pref_list_title_headset_media_next_button">Weiter-Taste</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Verzögerung</string>
+    <string name="pref_list_summary_headset_event_none">DEAKTIVIERT - Diese Taste ist für das Auslösen einer Zeitansage deaktiviert.</string>
+    <string name="pref_list_summary_headset_event_single_click">EINZELKLICK - Die Zeitansage wird durch einen Einzelklick ausgelöst.</string>
+    <string name="pref_list_summary_headset_event_double_click">DOPPELKLICK - Die Zeitansage wird durch einen Doppelklick ausgelöst.</string>
+    <string name="pref_list_summary_headset_event_triple_click">DREIFACHKLICK - Die Zeitansage wird durch einen Dreifachklick ausgelöst.</string>
+    <string name="pref_checkbox_title_touch">Bildschirm berühren</string>
+    <string name="pref_checkbox_summary_touch">Die Zeitansage wird durch das Berühren des Hauptbildschirms dieser Anwendung ausgelöst.</string>
+    <string name="pref_screen_title_open_app">Anwendung öffnen</string>
+    <string name="pref_screen_summary_open_app">Einstellungen für eine Zeitansage die beim Öffnen der Anwendung ausgelöst wird.</string>
+    <string name="pref_checkbox_title_open_app">Anwendung öffnen</string>
+    <string name="pref_checkbox_summary_open_app">Ermöglicht, dass die Zeit beim Öffnen der Anwendung angesagt wird.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Automatisches Beenden</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">Die Anwendung wird nach %1$s Sekunden automatisch wieder beendet.</string>
+    <string name="pref_screen_title_system">System</string>
+    <string name="pref_screen_summary_system">System Einstellungen</string>
+    <string name="pref_checkbox_title_autostart">Autostart</string>
+    <string name="pref_checkbox_summary_autostart">Diese Anwendung wird automatisch beim Systemstart gestartet.</string>
+    <string name="pref_checkbox_title_tts_check">TTS Prüfung</string>
+    <string name="pref_checkbox_summary_tts_check">Die Anwendung prüft beim nächsten Start die Text-To-Speech Installation auf Vollständigkeit.</string>
+    <string name="pref_checkbox_title_power">Stromversorgung</string>
+    <string name="pref_checkbox_summary_power">Startet die Nachtuhr, wenn das Mobiltelefon mit einer Stromversorgung verbunden wird.</string>
+    <string name="pref_screen_title_proximity_trigger">Näherungssensor</string>
+    <string name="pref_screen_summary_proximity_trigger">Einstellungen für eine Zeitansage die durch eine Geste über den Näherungssensor des Mobiltelefons ausgelöst wird.</string>
+    <string name="pref_checkbox_title_proximity">Gestenerkennung einschalten</string>
+    <string name="pref_checkbox_summary_proximity">Eine Zeitansage wird mit Hilfe einer Geste mit der Hand über dem Näherungssensor des Mobilengeräts ausgelöst. Bei einigen Mobilengeräten kann dies zu einem schnelleren Entladen des Akkus führen.</string>
+    <string name="pref_list_title_proximity_gesture">Geste</string>
+    <string name="pref_list_summary_proximity_gesture_1">Ein-Finger-Geste</string>
+    <string name="pref_list_summary_proximity_gesture_2">Zwei-Finger-Geste</string>
+    <string name="pref_list_summary_proximity_gesture_3">Drei-Finger-Geste</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Vibrieren</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Das Mobiltelefon vibriert, beim Auslösen des Näherungssensors.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Bildschirm aus</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Die Zeitansage wird nur durch den Näherungssensor ausgelöst wenn der Bildschirm des Mobiltelefons ausgeschaltet ist.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Erkennungsgeschwindigkeit</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">In %1$s muss die Geste ausgeführt werden. Auf jedem Gerät reagiert der Näherungssensor unterschiedlich. Diese Einstellung kann helfen Fehlaktivierungen zu verhindern.</string>
+    <string name="pref_screen_title_night_clock">Nachtuhr</string>
+    <string name="pref_screen_summary_night_clock">Einstellungen bezüglich der automatischen Startoption des Nachtuhrmodus. Die Nachtuhr kann dann mit einem einzigen Wisch über den Näherungssensor ausgelöst werden.</string>
+    <string name="pref_category_title_night_clock_start_options">Startoptionen</string>
+    <string name="pref_category_title_time_format">Uhrzeitformat</string>
+    <string name="pref_list_title_speaking_clock_style">Stil der Zeitansage</string>
+    <string name="pref_checkbox_title_time_of_day">Tageszeit</string>
+    <string name="pref_list_title_time_hour_format">Stundenformat</string>
+    <string name="pref_screen_title_appearance">Anzeige</string>
+    <string name="pref_screen_summary_appearance">Einstellungen bezüglich der Anzeige der Uhr.</string>
+    <string name="pref_category_title_clock_text">Text</string>
+    <string name="pref_preference_title_night_clock_text_color">Textfarbe</string>
+    <string name="pref_preference_summary_night_clock_text_color">Textfarbe der Uhr.</string>
+    <string name="pref_list_title_time_text_style">Zeittextstil</string>
+    <string name="pref_list_summary_time_text_style_normal">Die Zeit wird im normalen Textstil dargestellt.</string>
+    <string name="pref_list_summary_time_text_style_bold">Die Zeit wird im Fettdruck dargestellt.</string>
+    <string name="pref_list_title_time_of_day_text_style">Tageszeittextstil</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">Die Tageszeit wird im normalen Textstil dargestellt.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">Die Tageszeit wird im Fettdruck dargestellt.</string>
+    <string name="pref_list_title_date_text_style">Datumstextstil</string>
+    <string name="pref_list_summary_date_text_style_normal">Das Datum wird im normalen Textstil dargestellt.</string>
+    <string name="pref_list_summary_date_text_style_bold">Das Datum wird im Fettdruck dargestellt.</string>
+    <string name="pref_category_title_clock_background">Hintergrund</string>
+    <string name="pref_preference_title_night_clock_background_color">Farbe</string>
+    <string name="pref_preference_summary_night_clock_background_color">Hintergrundfarbe der Uhr.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Farbverlauf</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Definiert den Farbverlauf des Hintergrundes.</string>
+    <string name="pref_list_title_text_effect">Effekt</string>
+    <string name="pref_list_summary_text_effect_shadow">Der Text der Uhr wird mit einem Schatteneffekt dargestellt.</string>
+    <string name="pref_list_summary_text_effect_glow">Der Text der Uhr wird mit einem Glüheffekt dargestellt.</string>
+    <string name="pref_list_summary_text_effect_none">Der Text der Uhr wird ohne Effekt dargestellt.</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">Einstellungen der Audioausgabe der Zeitansage.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Systemunabhängige Lautstärke</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Die Lautstärke der Zeitansage wird unabhängig von der System-Lautstärke geregelt.</string>
+    <string name="pref_preference_title_tts_volume">Lautstärke</string>
+    <string name="app_notification_title_night_clock">Nachtuhr</string>
+    <string name="app_notification_title_pulse_generator">Zeitansage</string>
+    <string name="pref_checkbox_title_night_clock_notification">Benachrichtigung</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Eine Benachrichtigung wird in der Titelleiste angezeigt wenn die Nachtuhr gestartet ist.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Keine Benachrichtigung wird in der Titelleiste angezeigt wenn die Nachtuhr gestartet ist.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Intervall-Zeitansage</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Einstellungen für eine Intervall gesteuerte Zeitansage. Die Zeit kann in einem vordefinierten Zeitintervall angesagt werden.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Benachrichtigung</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Eine Benachrichtigung wird in der Titelleiste angezeigt wenn die Intervall-Zeitansage gestartet ist.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Keine Benachrichtigung wird in der Titelleiste angezeigt wenn die Intervall-Zeitansage gestartet ist.</string>
+    <string name="app_pulse_generator_interval_1">Jede Minute</string>
+    <string name="app_pulse_generator_interval_2">Jede gerade Minute</string>
+    <string name="app_pulse_generator_interval_3">Jede ungerade Minute</string>
+    <string name="app_pulse_generator_interval_4">Alle 5 Minuten</string>
+    <string name="app_pulse_generator_interval_5">Alle 10 Minuten</string>
+    <string name="app_pulse_generator_interval_6">Alle 15 Minuten</string>
+    <string name="app_pulse_generator_interval_7">Alle 20 Minuten</string>
+    <string name="app_pulse_generator_interval_8">Alle 30 Minuten</string>
+    <string name="app_pulse_generator_interval_9">Jede Stunde</string>
+    <string name="app_pulse_generator_interval_10">Alle 15 Sekunden</string>
+    <string name="app_pulse_generator_interval_11">Alle 20 Sekunden</string>
+    <string name="app_pulse_generator_interval_12">Alle 30 Sekunden</string>
+    <string name="pref_screen_title_shake_detector_trigger">Schütteln</string>
+    <string name="pref_screen_summary_shake_detector_trigger">Einstellungen für eine Zeitansage die durch das Schütteln des Mobilgreäts ausgelöst wird.</string>
+    <string name="pref_checkbox_title_shake_detector">Schütteln</string>
+    <string name="pref_checkbox_summary_shake_detector_1">AKTIVIERT - Die Zeitansage wird durch das Schütteln des Mobilgeräts ausgelöst.</string>
+    <string name="pref_checkbox_summary_shake_detector_2">DEAKTIVIERT - Die Schüttelerkennung ist deaktiviert.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">Gravitation</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">Die Beschleunigung die nötigt ist um als Schüttelereignis erkannt zu werden.</string>
+    <string name="pref_preference_title_shake_counter">Anzahl der Schüttelamplituden</string>
+    <string name="pref_preference_summary_shake_counter">Die Anzahl von Schüttelamplituden welche nötig sind um eine Zeitansage auszulösen.</string>
+    <string name="pref_checkbox_title_shake_vibrate">Vibrieren</string>
+    <string name="pref_checkbox_summary_shake_vibrate">Das Mobiltelefon vibriert, wenn ein Schütteln erkannt wurde.</string>
+    <string name="pref_screen_title_power_button_trigger">Ein-/Ausschalttaste</string>
+    <string name="pref_screen_summary_power_button_trigger">Einstellungen für eine Zeitansage die durch die Ein-/Ausschalttaste des Mobiltelefons ausgelöst wird.</string>
+    <string name="pref_checkbox_title_power_button">Ein-/Ausschalttaste</string>
+    <string name="pref_checkbox_summary_power_button_1">AKTIVIERT - Die Zeitansage wird durch einen Doppelklick ausgelöst.</string>
+    <string name="pref_checkbox_summary_power_button_2">DEAKTIVIERT - Diese Taste ist für das Auslösen einer Zeitansage deaktiviert.</string>
+    <string name="pref_preference_title_power_button_click_delay">Verzögerung</string>
+    <string name="pref_preference_summary_power_button_click_delay">Verzögerungszeit zwischen zwei Klicks bei Mehrfachklickereignissen.</string>
+    <string name="pref_list_title_audio_general">Allgemein</string>
+    <string name="pref_list_title_ringer_mode">Ruftonmodus</string>
+    <string name="pref_list_summary_ringer_mode">Ruftonmodus bei dem es erlaubt ist die Zeit anzusagen.</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">Kein Ruftonmodus ausgewählt - Es ist bei keinem Ruftonmodus erlaubt die Zeit anzusagen.</string>
+    <string name="pref_category_title_night_clock_general">Allgemein</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Ansage und Anzeige der Zeit wenn der Näherungssensor ausgelöst wird.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Ansage der Zeit wenn der Näherungssensor ausgelöst wird.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Anzeige der Zeit wenn der Näherungssensor ausgelöst wird.</string>
+    <string name="pref_list_title_night_clock_behaviour">Verhalten</string>
+    <string name="pref_list_title_screen_orientation">Bildschirmausrichtung</string>
+    <string name="pref_list_summary_screen_orientation_system">Die Systemeinstellung wird zur Orientierung des Anwendungsbildschirms benutzt.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">Die Orientierung des Anwendungsbildschirm wird automatisch durch den Sensor angepasst.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">Der Anwendungsbildschirm ist immer horizontal ausgerichtet.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">Der Anwendungsbildschirm ist immer vertikal ausgerichtet.</string>
+    <string name="pref_category_title_appearance_general">Allgemein</string>
+    <string name="pref_list_title_language">Sprache</string>
+    <string name="pref_category_title_speech">Sprache</string>
+    <string name="pref_preference_title_speech_tts_settings">Text-in-Sprache-Ausgabe</string>
+    <string name="pref_checkbox_title_volume_control_is_allowed">Lautstärkeregelung</string>
+    <string name="pref_checkbox_summary_volume_control_is_allowed">Die systemunabhängige Lautstärke kann während einer Zeitansage mit den Lautstärketasten des Gerätes geregelt werden.</string>
+    <string name="pref_checkbox_title_intro_text">Intro Text</string>
+    <string name="pref_checkbox_summary_intro_text">Die Zeitansage wird mit einem Intro Text angesagt.</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Verzögerung</string>
+    <string name="pref_checkbox_summary_pulse">Die Zeit wird in einem festgelegten Intervall angesagt.</string>
+    <string name="pref_list_title_pulse_interval">Intervall</string>
+    <string name="pref_preference_title_intro_sound">Intro Ton</string>
+    <string name="pref_preference_summary_intro_sound">Der Ton %1$s wird vor jeder Zeitansage abgespielt.</string>
+    <string name="pref_preference_summary_no_intro_sound">Es wird kein Ton vor einer Zeitansage abgespielt.</string>
+    <string name="pref_list_title_intro_sound">Wähle einen Intro Ton</string>
+    <string name="pref_category_title_speaking_clock_general">Allgemein</string>
+    <string name="pref_category_title_speaking_clock_start_options">Startoptionen</string>
+    <string name="pref_checkbox_title_speaking_clock_headset">Headset anschließen</string>
+    <string name="pref_checkbox_summary_speaking_clock_headset">Startet die Zeitansage, wenn ein Headset angeschlossen wird.</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_selection_dialog">Intervall-Auswahldialog</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_selection_dialog">Das Intervall der Zeitansage kann im Optionsmenü ausgewählt werden.</string>
+    <string name="pref_checkbox_title_seconds">Sekunden</string>
+    <string name="pref_checkbox_summary_seconds">Die Zeit wird sekundengenau angekündigt.</string>
+    <string name="pref_checkbox_summary_seconds_not_supported">Sekundengenaue Zeitansagen werden nicht in %1$s unterstützt.</string>
+    <string name="pref_list_summary_audio_focus_0">Keine Änderung der Lautstärke anderer Audioanwendungen während einer Zeitansage.</string>
+    <string name="pref_list_summary_audio_focus_1">Reduzierung der Lautstärke anderer Audioanwendungen während einer Zeitansage.</string>
+    <string name="pref_list_summary_audio_focus_2">Ausschalten der Lautstärke anderer Audioanwendungen während einer Zeitansage.</string>
+    <string name="pref_list_title_audio_focus_selection">Lautstärke andere Audioanwendungen</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_alarm_mode">Alarmmodus</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_alarm_mode">Die Zeitansage wird als Alarm im System registriert. Dies behebt auf einigen Geräten eine verzögerte Zeitansage.</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_start_info">Ansage beim Start</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_start_info">Die aktuelle Uhrzeit und das Intervall wird beim Start der Intervall-Zeitansage angesagt.</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Deaktiviert</item>
+        <item>Einzelklick</item>
+        <item>Doppelklick</item>
+        <item>Dreifachklick</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Förmlich</item>
+        <item>Gebräuchlich</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Systemeinstellung</item>
+        <item>24-Stunden-Format</item>
+        <item>12-Stunden-Format</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Audio-Einstellung</item>
+        <item>24-Stunden-Format</item>
+        <item>12-Stunden-Format</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Lautlos</item>
+        <item>Vibrieren</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Ansage + Anzeige</item>
+        <item>Ansage</item>
+        <item>Anzeige</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Systemeinstellung</item>
+        <item>Automatisch</item>
+        <item>Vertikal</item>
+        <item>Horizontal</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normal</item>
+        <item>Fett</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Kein</item>
+        <item>Schatten</item>
+        <item>Glühen</item>
+    </string-array>
+    <string-array name="pref_list_audio_focus_name">
+        <item>Keine Änderung</item>
+        <item>Reduzieren</item>
+        <item>Ausschalten</item>
+    </string-array>
+</resources>

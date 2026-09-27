@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts and translations taken from the original Tell Me The Time app. -->
+<resources>
+    <string name="app_name">บอกเวลาแก่ฉัน</string>
+    <string name="app_close">ปิด</string>
+    <string name="app_info">เกี่ยวกับ</string>
+    <string name="app_ok">ตกลง</string>
+    <string name="app_cancel">ยกเลิก</string>
+    <string name="app_yes">ใช่</string>
+    <string name="app_no">ไม่</string>
+    <string name="app_request_close_question">Do you really want to close the TellMeTheTime service? This service is needed to announce the time.</string>
+    <string name="app_pulse_interval_title">Select an interval</string>
+    <string name="app_tts_install_title">TTS data is missing</string>
+    <string name="app_tts_install_message">Text-to-speech (TTS) data is not installed on the mobile device. This app is not full functional without TTS data. Do you want to open the Play Store to download this data?</string>
+    <string name="app_tts_install_activity_missing">The install TTS data dialog could not be found. Please install a TTS engine from Play Store.</string>
+    <string name="app_open_tts_setting_failure">TTS settings dialog not found.</string>
+    <string name="app_install_tts_data_title">TTS data is missing</string>
+    <string name="app_install_tts_voice_data_message">The Text-To-Speech data for %1$s is missing. Please check the TTS data settings or download the missing TTS data from the Google Play Store.</string>
+    <string name="app_start_night_clock">เริ่มนาฬิกากลางคืน</string>
+    <string name="app_stop_night_clock">หยุดนาฬิกากลางคืน</string>
+    <string name="app_start_speaking_clock">เริ่มนาฬิกาพูดบอกเวลา</string>
+    <string name="app_stop_speaking_clock">หยุดนาฬิกาพูดบอกเวลา</string>
+    <string name="app_preferences">การควบคุม</string>
+    <string name="app_seekbar_seconds_unit">วินาที</string>
+    <string name="app_seekbar_gravity_unit">ความถ่วง</string>
+    <string name="app_seekbar_milliseconds_unit">มิลลิวินาที</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_seekbar_x">x</string>
+    <string name="app_version_label">Version:</string>
+    <string name="app_disclaimer_title">Disclaimer</string>
+    <string name="pref_screen_title_control">การควบคุม</string>
+    <string name="pref_screen_summary_control">การตั้งค่าหลายอย่างเพื่อพูดบอกเวลา และ นาฬิกากลางคืนเริ่มต้นทำงาน</string>
+    <string name="pref_screen_title_headset_trigger">หูฟัง</string>
+    <string name="pref_screen_summary_headset_trigger">การตั้งค่านาฬิกาพูดบอกเวลาซึ่งถูกกระตุ้นโดยปุ่มบนหูฟัง</string>
+    <string name="pref_category_trigger_title_wired_headset_button">ปุ่มบนหูฟังแบบสาย</string>
+    <string name="pref_list_title_headset_hook_button">ปุ่มบนหูฟัง</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">หน่วงเวลา</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">เวลาที่หน่วงระหว่างคลิ๊กหลายๆครั้ง</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">หูฟังบลูทู๊ต</string>
+    <string name="pref_list_title_headset_media_play_pause_button">ปุ่มเล่น/หยุด</string>
+    <string name="pref_list_title_headset_media_stop_button">ปุ่มหยุด</string>
+    <string name="pref_list_title_headset_media_previous_button">Previous track button</string>
+    <string name="pref_list_title_headset_media_next_button">Next track button</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">หน่วงเวลา</string>
+    <string name="pref_list_summary_headset_event_none">ไม่ทำงาน - นาฬิกาพูดบอกเวลาไม่เริ่มทำงานจากการคลิ๊กปุ่ม</string>
+    <string name="pref_list_summary_headset_event_single_click">คลิ๊ก 1 ครั้ง - นาฬิกาพูดบอกเวลาเริ่มทำงานจากการคลิ๊กปุ่ม 1 ครั้ง</string>
+    <string name="pref_list_summary_headset_event_double_click">คลิ๊ก 2 ครั้ง - นาฬิกาพูดบอกเวลาเริ่มทำงานจากการคลิ๊กปุ่ม 2 ครั้ง</string>
+    <string name="pref_list_summary_headset_event_triple_click">คลิ๊ก 3 ครั้ง - นาฬิกาพูดบอกเวลาเริ่มทำงานจากการคลิ๊กปุ่ม 3 ครั้ง</string>
+    <string name="pref_checkbox_title_touch">สัมผัสหน้าจอ</string>
+    <string name="pref_checkbox_summary_touch">นาฬิกาพูดบอกเวลาถูกกระตุ้นให้ทำงานโดยการสัมผัสหน้าจอแอป</string>
+    <string name="pref_screen_title_open_app">เปิดแอป</string>
+    <string name="pref_screen_summary_open_app">การตั้งค่านาฬิกาพูดบอกเวลาซึ่งถูกกระตุ้นให้ทำงานเมื่อเปิดแอป</string>
+    <string name="pref_checkbox_title_open_app">เปิดแอป</string>
+    <string name="pref_checkbox_summary_open_app">เมื่อแอปเปิดให้พูดบอกเวลา</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Automatic close</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">ให้แอปพูดบอกเวลาปิดหลังจากเวลา %1$s ินาที</string>
+    <string name="pref_screen_title_system">ระบบ</string>
+    <string name="pref_screen_summary_system">ระบบตั้งค่าระบบ</string>
+    <string name="pref_checkbox_title_autostart">Autorun</string>
+    <string name="pref_checkbox_summary_autostart">แอปนี้จะเริ่มโดยอัตโนมัติเมื่อเปิดเครื่อง</string>
+    <string name="pref_checkbox_title_tts_check">TTS check</string>
+    <string name="pref_checkbox_summary_tts_check">ให้เช็คว่า TTS ได้ติดตั้งสมบูรณ์หรือไม่ในการเปิดเครื่องครั้งหน้า</string>
+    <string name="pref_checkbox_title_power">ชาร์จไฟแบตเตอรี่</string>
+    <string name="pref_checkbox_summary_power">นาฬิกากลางคืนเริ่มต้นทำงานโดยอัตโนมัติเมื่อชาร์จไฟแบตเตอรี่</string>
+    <string name="pref_screen_title_proximity_trigger">พร้อกซิมิตี้เซนเซอร์</string>
+    <string name="pref_screen_summary_proximity_trigger">Settings about the speaking clock which is triggered by a gesture over the proximity sensor of the mobile device.</string>
+    <string name="pref_checkbox_title_proximity">พร๊อกซิมิตี้เซนเซอร์</string>
+    <string name="pref_checkbox_summary_proximity">การตั้งค่านาฬิกาพูดบอกเวลาซึ่งถูกกระตุ้นโดยการวาดนิ้วเหนือพร๊อกซิมิตี้เซนเซอ</string>
+    <string name="pref_list_title_proximity_gesture">การวาดนิ้ว</string>
+    <string name="pref_list_summary_proximity_gesture_1">วาดนิ้วเดียว</string>
+    <string name="pref_list_summary_proximity_gesture_2">วาดสองนิ้ว</string>
+    <string name="pref_list_summary_proximity_gesture_3">วาดสามนิ้ว</string>
+    <string name="pref_checkbox_title_proximity_vibrate">สั่น</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">มือถือสั่นเมื่อพร้อกซิมิตี้เซนเซอร์เริ่มทำงาน</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">หน้าจอดับ</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">นาฬิกาพูดบอกเวลาเริ่มต้นทำงานเฉพาะเมื่อพร้อกซิมิตี้เซนเซอร์ถูกกระตุ้นและหน้าจอมือถือดับเท่านั้น</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">ความเร็วของการรับรู้</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">%1$s การตั้งค่าเวลาในการวาดนิ้วเพื่อจัดการความผิดพลาดจากการตอบสนองที่ต่างๆกันในมือถือต่างรุ่น</string>
+    <string name="pref_screen_title_night_clock">นาฬิกากลางคืน</string>
+    <string name="pref_screen_summary_night_clock">การตั้งค่าเงื่อนไขต่างๆเพื่อให้นาฬิกากลางคืนเริ่มต้นทำงานโดยอัตโนมัติหลังจากนั้นการพูดบอกเวลาจะถูกกระตุ้นให้ทำงานโดยการลูบบนพร้อกซิมิตี้เซนเซอร์เพียงครั้งเดียว</string>
+    <string name="pref_category_title_night_clock_start_options">ทางเลือกการเริ่มต้น</string>
+    <string name="pref_category_title_time_format">รูปแบบของเวลา</string>
+    <string name="pref_list_title_speaking_clock_style">สไตล์นาฬิกาพูดบอกเวลา</string>
+    <string name="pref_checkbox_title_time_of_day">รูปแบบของเวลา</string>
+    <string name="pref_list_title_time_hour_format">รูปแบบของชั่วโมง</string>
+    <string name="pref_screen_title_appearance">หน้าจอ</string>
+    <string name="pref_screen_summary_appearance">การตั้งค่าหน้าจอ</string>
+    <string name="pref_category_title_clock_text">ข้อความ</string>
+    <string name="pref_preference_title_night_clock_text_color">สีของข้อความ</string>
+    <string name="pref_preference_summary_night_clock_text_color">Color of the clock text.</string>
+    <string name="pref_list_title_time_text_style">รูปแบบของตัวเลขเวลา</string>
+    <string name="pref_list_summary_time_text_style_normal">The time is displayed in normal text style.</string>
+    <string name="pref_list_summary_time_text_style_bold">The time is displayed in bold.</string>
+    <string name="pref_list_title_time_of_day_text_style">รูปแบบเวลาของวันที่</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">The time of day is displayed in normal text style.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">The time of day is displayed in bold.</string>
+    <string name="pref_list_title_date_text_style">รูปแบบของวันที่</string>
+    <string name="pref_list_summary_date_text_style_normal">The date is displayed in normal text style.</string>
+    <string name="pref_list_summary_date_text_style_bold">The date is displayed in bold.</string>
+    <string name="pref_category_title_clock_background">พื้นหลัง</string>
+    <string name="pref_preference_title_night_clock_background_color">สี</string>
+    <string name="pref_preference_summary_night_clock_background_color">สีของพื้นหลังนาฬิกา</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">ความลาดชันของสี</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Defines the color gradient of the background.</string>
+    <string name="pref_list_title_text_effect">เอฟเฟค</string>
+    <string name="pref_list_summary_text_effect_shadow">The text of the clock is displayed with a shadow effect.</string>
+    <string name="pref_list_summary_text_effect_glow">The text of the clock is displayed with a glow effect.</string>
+    <string name="pref_list_summary_text_effect_none">ข้อความบนนาฬิกาแสดงโดยไม่มีเอฟเฟค</string>
+    <string name="pref_screen_title_audio">เสียง</string>
+    <string name="pref_screen_summary_audio">การตั้งค่าเสียงบอกเวลา</string>
+    <string name="pref_checkbox_title_system_independent_volume">ความดังการพูดบอกเวลาขึ้นอยู่กับความดังระบบ</string>
+    <string name="pref_checkbox_summary_system_independent_volume">The volume of a time announcement is independent of the system volume.</string>
+    <string name="pref_preference_title_tts_volume">ความดัง</string>
+    <string name="app_notification_title_night_clock">นาฬิกากลางคืน</string>
+    <string name="app_notification_title_pulse_generator">นาฬิกาพูดบอกเวลา</string>
+    <string name="pref_checkbox_title_night_clock_notification">คำแจ้งเตือน</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">มีคำแจ้งเตือนบนไตเติ้ลบาร์เมื่อนาฬิกาพูดบอกเวลาตามช่วงจังหวะเริ่มต้นทำงาน</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">No notification is shown in the title bar when the night clock is started.</string>
+    <string name="pref_screen_title_interval_speaking_clock">นาฬิกาพูดบอกเวลาตามช่วงเวลาที่กำหนด</string>
+    <string name="pref_screen_summary_interval_speaking_clock">การตั้งค่านาฬิกาพูดบอกเวลาตามช่วงเวลาที่กำหนด</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">คำแจ้งเตือน</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">มีคำแจ้งเตือนบนไตเติ้ลบาร์เมื่อนาฬิกาพูดบอกเวลาตามช่วงจังหวะเริ่มต้นทำงาน</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">No notification is shown in the title bar when the interval speaking clock is started.</string>
+    <string name="app_pulse_generator_interval_1">ทุกๆ นาที</string>
+    <string name="app_pulse_generator_interval_2">ทุกๆ นาทีเลขคู่</string>
+    <string name="app_pulse_generator_interval_3">ทุกๆ นาทีเลขคี่</string>
+    <string name="app_pulse_generator_interval_4">ทุกๆ 5 นาที</string>
+    <string name="app_pulse_generator_interval_5">ทุกๆ 10 นาที</string>
+    <string name="app_pulse_generator_interval_6">ทุกๆ 15 นาที</string>
+    <string name="app_pulse_generator_interval_7">ทุกๆ 20 นาที</string>
+    <string name="app_pulse_generator_interval_8">ทุกๆ 30 นาที</string>
+    <string name="app_pulse_generator_interval_9">ทุกๆ ชั่วโมง</string>
+    <string name="app_pulse_generator_interval_10">ทุกๆ 15 วินาที</string>
+    <string name="app_pulse_generator_interval_11">ทุกๆ 20 วินาที</string>
+    <string name="app_pulse_generator_interval_12">ทุกๆ 30 วินาที</string>
+    <string name="pref_screen_title_shake_detector_trigger">เขย่า</string>
+    <string name="pref_screen_summary_shake_detector_trigger">การตั้งค่านาฬิกาพูดบอกเวลาถูกกระตุ้นให้ทำงานโดยการเขย่ามือถือ</string>
+    <string name="pref_checkbox_title_shake_detector">เขย่า</string>
+    <string name="pref_checkbox_summary_shake_detector_1">ทำงาน - The speaking clock is triggered by shaking the mobile device.</string>
+    <string name="pref_checkbox_summary_shake_detector_2">ไม่ทำงาน - The shake recognition is deactivated.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">ความแรงในการเขย่า</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">ความแรงในการที่ทำให้นาฬิกาพูดบอกเวลาทำงาน</string>
+    <string name="pref_preference_title_shake_counter">Number of shake amplitudes</string>
+    <string name="pref_preference_summary_shake_counter">จำนวนครั้งในการเขย่าเพื่อให้นาฬิกาพูดบอกเวลาทำงาน</string>
+    <string name="pref_checkbox_title_shake_vibrate">สั่น</string>
+    <string name="pref_checkbox_summary_shake_vibrate">มือถือสั่นรับในการเขย่าแต่ละครั้ง</string>
+    <string name="pref_screen_title_power_button_trigger">ปุ่มเปิดปิด</string>
+    <string name="pref_screen_summary_power_button_trigger">การตั้งค่านาฬิกาพูดบอกเวลาซึ่งถูกกระตุ้นโดยการกดปุ่มเปิดปิดบนมือถือ</string>
+    <string name="pref_checkbox_title_power_button">ปุ่มเปิดปิด</string>
+    <string name="pref_checkbox_summary_power_button_1">ทำงาน - ทำงาน นาฬิกาพูดบอกเวลาถูกกระตุ้นโดยการคลิ๊ก 2 ครั้ง</string>
+    <string name="pref_checkbox_summary_power_button_2">ไม่ทำงาน - ไม่ทำงาน ไม่สามารถกระตุ้นให้พูดบอกเวลาโดยปุ่มเปิดปิด</string>
+    <string name="pref_preference_title_power_button_click_delay">เวลาหน่วง</string>
+    <string name="pref_preference_summary_power_button_click_delay">เวลาหน่วง 2 วินาทีระหว่างคลิ๊กหลายๆครั้ง</string>
+    <string name="pref_list_title_audio_general">ทั่วไป</string>
+    <string name="pref_list_title_ringer_mode">Ringer mode</string>
+    <string name="pref_list_summary_ringer_mode">Ringer mode for which it is allowed to announce the time.</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">No ringer mode selected - It is not allowed to announce the time when no ringer mode is selected.</string>
+    <string name="pref_category_title_night_clock_general">ทั่วไป</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Announcement and display of the time when the proximity sensor is triggered.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Announcement of the time when the proximity sensor is triggered.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Display of the time when the proximity sensor is triggered.</string>
+    <string name="pref_list_title_night_clock_behaviour">การแสดงผล</string>
+    <string name="pref_list_title_screen_orientation">แนวการแสดงผล</string>
+    <string name="pref_list_summary_screen_orientation_system">The system settings are used for the orientation of the app screen.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">The app screen is automatically orientated by the sensor.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">The app screen is only horizontally orientated.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">The app screen is only vertically orientated.</string>
+    <string name="pref_category_title_appearance_general">ทั่วไป</string>
+    <string name="pref_list_title_language">ภาษา</string>
+    <string name="pref_category_title_speech">คำพูด</string>
+    <string name="pref_preference_title_speech_tts_settings">การอ่านออกเสียงข้อความ</string>
+    <string name="pref_checkbox_title_volume_control_is_allowed">ควบคุมความดัง</string>
+    <string name="pref_checkbox_summary_volume_control_is_allowed">The system independent volume can be controlled with the volume buttons of the device during a time announcement.</string>
+    <string name="pref_checkbox_title_intro_text">Intro text</string>
+    <string name="pref_checkbox_summary_intro_text">มีคำเกริ่นนำก่อนพูดบอกเวลา</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">หน่วงเวลา</string>
+    <string name="pref_checkbox_summary_pulse">The time is announced in a defined time interval.</string>
+    <string name="pref_list_title_pulse_interval">ช่วงจังหวะเวลา</string>
+    <string name="pref_preference_title_intro_sound">เสียงอินโทร</string>
+    <string name="pref_preference_summary_intro_sound">%1$s เสียงอินโทรก่อนพูดบอกเวลา</string>
+    <string name="pref_preference_summary_no_intro_sound">No sound is played before a time announcement.</string>
+    <string name="pref_list_title_intro_sound">Select an intro sound</string>
+    <string name="pref_category_title_speaking_clock_general">ทั่วไป</string>
+    <string name="pref_category_title_speaking_clock_start_options">ทางเลือกการเริ่มต้น</string>
+    <string name="pref_checkbox_title_speaking_clock_headset">Plug in headset</string>
+    <string name="pref_checkbox_summary_speaking_clock_headset">เริ่มนาฬิกาพูดบอกเวลาเมื่อต่อหูฟัง</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_selection_dialog">Interval selection dialog</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_selection_dialog">The interval of the speaking clock can be selected in the option menu.</string>
+    <string name="pref_checkbox_title_seconds">วินาที</string>
+    <string name="pref_checkbox_summary_seconds">พูดบอกเวลาอย่างละเอียดเป็นวินาที</string>
+    <string name="pref_checkbox_summary_seconds_not_supported">Announcements exact to the second are not supported in %1$s.</string>
+    <string name="pref_list_summary_audio_focus_1">Lowering the volume of other audio applications during a time announcement.</string>
+    <string name="pref_list_summary_audio_focus_2">Turning-off the volume of other audio applications during a time announcement.</string>
+    <string name="pref_list_title_audio_focus_selection">Volume of others audio apps</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>ไม่ทำงาน</item>
+        <item>คลิ๊ก 1 ครั้ง</item>
+        <item>คลิ๊ก 2 ครั้ง</item>
+        <item>คลิ๊ก 3 ครั้ง</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>ปรกติ</item>
+        <item>ทั่วไป</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>ตามรูปแบบของระบบ</item>
+        <item>แบบ 24 ชั่วโมง</item>
+        <item>แบบ 12 ชั่วโมง</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Audio setting</item>
+        <item>แบบ 24 ชั่วโมง</item>
+        <item>แบบ 12 ชั่วโมง</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>เงียบ</item>
+        <item>สั่น</item>
+        <item>ปรกติ</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>พูดบอกเวลา และ แสดงเวลาบนหน้าจอ</item>
+        <item>พูดบอกเวลา</item>
+        <item>แสดงเวลาบนหน้าจอ</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>ตามการตั้งค่าระบบ</item>
+        <item>อัตโนมัติ</item>
+        <item>แนวตั้ง</item>
+        <item>แนวนอน</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>ปรกติ</item>
+        <item>ตัวเข้ม</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>ไม่มี</item>
+        <item>เงา</item>
+        <item>ประกาย</item>
+    </string-array>
+    <string-array name="pref_list_audio_focus_name">
+        <item>None change</item>
+        <item>Lowering</item>
+        <item>Turning-off</item>
+    </string-array>
+</resources>

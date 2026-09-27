@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- White clock face with hands and a sound wave, after the original app icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Clock ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="5"
+        android:pathData="M54,29a25,25 0,1 1,0 50a25,25 0,1 1,0 -50z" />
+    <!-- Hands -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3.5"
+        android:pathData="M45,39L54,52L64,55" />
+    <!-- Sound wave -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeLineCap="round"
+        android:strokeWidth="2"
+        android:pathData="M40,64v2M43.5,62.5v5M47,61v8M50.5,59v12M54,61v8M57.5,58v14M61,61v8M64.5,62.5v5M68,64v2" />
+</vector>

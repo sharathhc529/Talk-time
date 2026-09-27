@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts and translations taken from the original Tell Me The Time app. -->
+<resources>
+    <string name="app_name">Tell Me The Time</string>
+    <string name="app_close">Закрыть</string>
+    <string name="app_info">Инфо</string>
+    <string name="app_ok">ОК</string>
+    <string name="app_cancel">Отменить</string>
+    <string name="app_yes">Да</string>
+    <string name="app_no">Нет</string>
+    <string name="app_request_close_question">Вы действительно хотите закрыть TellMeTheTime приложение? Это приложение необходимо для объявления времени.</string>
+    <string name="app_pulse_interval_title">Выберите интерва́л</string>
+    <string name="app_tts_install_title">TTS данные отсутствуют</string>
+    <string name="app_tts_install_message">Text-to-speech (TTS) данные не установлены на мобильном устройстве. Это приложение не является полнофункциональным без данных TTS. Вы хотите открыть Play Store, чтобы загрузить эти данные?</string>
+    <string name="app_tts_install_activity_missing">Установка данных TTS диалога не найдена. Пожалуйста, установите TTS движок от Play Store.</string>
+    <string name="app_open_tts_setting_failure">TTS настройки диалога не найдены.</string>
+    <string name="app_install_tts_data_title">TTS данные отсутствуют</string>
+    <string name="app_install_tts_voice_data_message">Text-To-Speech данные для %1$S отсутствуют. Пожалуйста, проверьте настройки TTS данных или загрузите недостающие TTS данные из магазина Play Google.</string>
+    <string name="app_start_night_clock">Старт ночные часы</string>
+    <string name="app_stop_night_clock">Стоп ночные часы</string>
+    <string name="app_start_speaking_clock">Старт говорящие часы</string>
+    <string name="app_stop_speaking_clock">Стоп говорящие часы</string>
+    <string name="app_preferences">Предпочтения</string>
+    <string name="app_seekbar_milliseconds_unit">мс</string>
+    <string name="app_version_label">Версия:</string>
+    <string name="app_disclaimer_title">Отказ от ответственности</string>
+    <string name="pref_screen_title_control">Управление</string>
+    <string name="pref_screen_summary_control">Настройки нескольких запусков объявления времени и параметров запуска ночных часов.</string>
+    <string name="pref_screen_title_headset_trigger">Гарнитура</string>
+    <string name="pref_screen_summary_headset_trigger">Настройки говорящих часов которые запускаются кнопкой гарнитуры.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Проводные гарнитуры</string>
+    <string name="pref_list_title_headset_hook_button">Кнопки гарнитуры</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Задержка</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Время задержки между двумя щелчками в несколько щелчков.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Bluetooth гарнитуры мультимедийные кнопки</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Кнопка воспроизведения/паузы</string>
+    <string name="pref_list_title_headset_media_stop_button">Кнопка СТОП</string>
+    <string name="pref_list_title_headset_media_previous_button">Кнопка предидущий трек</string>
+    <string name="pref_list_title_headset_media_next_button">Кнопка следующий трек</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Задержка</string>
+    <string name="pref_list_summary_headset_event_none">ОТКЛЮЧИТЬ - кнопка отключения запуска объявления по расписанию.</string>
+    <string name="pref_list_summary_headset_event_single_click">ОДИН КЛИК - говорящие часы запускаются одним нажатием кнопки.</string>
+    <string name="pref_list_summary_headset_event_double_click">ДВОЙНОЙ КЛИК - говорящие часы запускаются двойным щелчком.</string>
+    <string name="pref_list_summary_headset_event_triple_click">ТРОЙНОЙ КЛИК - говорящие часы запускаются тройным нажатием.</string>
+    <string name="pref_checkbox_title_touch">Сенсорный экран</string>
+    <string name="pref_checkbox_summary_touch">Говорящие часы срабатывают от прикосновения к главному экрану этого приложения.</string>
+    <string name="pref_screen_title_open_app">Открытие приложения</string>
+    <string name="pref_screen_summary_open_app">Настройки говорящих часов которые запускаются при открытии приложения.</string>
+    <string name="pref_checkbox_title_open_app">Открытие приложения</string>
+    <string name="pref_checkbox_summary_open_app">Включить объявление времени, когда приложение открыто.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Автоматическое закрытие</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">Приложение будет закрыто, через %1$s секунд.</string>
+    <string name="pref_screen_title_system">Система</string>
+    <string name="pref_screen_summary_system">Системные настройки</string>
+    <string name="pref_checkbox_title_autostart">Автозапуск</string>
+    <string name="pref_checkbox_summary_autostart">Это приложение автоматически запускается при запуске системы.</string>
+    <string name="pref_checkbox_title_tts_check">TTS проверка</string>
+    <string name="pref_checkbox_summary_tts_check">Приложение проверит, при следующем запуске, что text-to-speech компонент полностью установлен.</string>
+    <string name="pref_checkbox_title_power">Источник питания</string>
+    <string name="pref_checkbox_summary_power">Ночные часы автоматически запускаются, когда мобильное устройство подключено к зарядному устройству.</string>
+    <string name="pref_screen_title_proximity_trigger">Датчик приближения</string>
+    <string name="pref_screen_summary_proximity_trigger">Настройки говорящих часо, которые запускают датчик приближения мобильного устройства.</string>
+    <string name="pref_checkbox_title_proximity">Включить управление жестом</string>
+    <string name="pref_checkbox_summary_proximity">Включен режим управления датчиком приближения на мобильном устройстве. На некоторых мобильных устройствах это может привести к быстрому разряду аккумулятора.</string>
+    <string name="pref_list_title_proximity_gesture">Датчик приближения</string>
+    <string name="pref_list_summary_proximity_gesture_1">Один проход</string>
+    <string name="pref_list_summary_proximity_gesture_2">Два прохода</string>
+    <string name="pref_list_summary_proximity_gesture_3">Три прохода</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Вибрация</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Мобильное устройство вибрирует, когда срабатывает датчик приближения.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Экран выключен</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Приложение срабатывает только на датчик приближения, когда экран устройства выключен.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Скорость отклика</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">Определение реакции датчика приближения . В каждом устройстве датчик приближения, реагирует по разному. Этот параметр может помочь предотвратить ошибочные срабатывания.</string>
+    <string name="pref_screen_title_night_clock">Ночные часы</string>
+    <string name="pref_screen_summary_night_clock">Параметры автоматического запуска опций режима ночных часов. Ночные часы могут быть запущены одним взмахом над датчиком приближения.</string>
+    <string name="pref_category_title_night_clock_start_options">Опции запуска</string>
+    <string name="pref_category_title_time_format">Формат времени</string>
+    <string name="pref_list_title_speaking_clock_style">Стиль говорящих часов</string>
+    <string name="pref_checkbox_title_time_of_day">Время дня</string>
+    <string name="pref_list_title_time_hour_format">Формат часов</string>
+    <string name="pref_screen_title_appearance">Экран</string>
+    <string name="pref_screen_summary_appearance">Настройки отображения дисплея часов.</string>
+    <string name="pref_category_title_clock_text">Текст</string>
+    <string name="pref_preference_title_night_clock_text_color">Цвет</string>
+    <string name="pref_preference_summary_night_clock_text_color">Цвет текста часов.</string>
+    <string name="pref_list_title_time_text_style">Стиль текста времени</string>
+    <string name="pref_list_summary_time_text_style_normal">Время отображается в обычном текстовом стиле.</string>
+    <string name="pref_list_summary_time_text_style_bold">Время отображается жирным шрифтом.</string>
+    <string name="pref_list_title_time_of_day_text_style">Стиль текста времени суток</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">Время дня отображается в обычном текстовом стиле.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">Время суток отображается жирным шрифтом.</string>
+    <string name="pref_list_title_date_text_style">Стиль текста даты</string>
+    <string name="pref_list_summary_date_text_style_normal">Дата отображается в обычном текстовом стиле.</string>
+    <string name="pref_list_summary_date_text_style_bold">Дата отображается жирным шрифтом.</string>
+    <string name="pref_category_title_clock_background">Фон</string>
+    <string name="pref_preference_title_night_clock_background_color">Цвет</string>
+    <string name="pref_preference_summary_night_clock_background_color">Цвет фона часов.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Цвет градиента</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Задать цвет градиента фона.</string>
+    <string name="pref_list_title_text_effect">Эффе́кт</string>
+    <string name="pref_list_summary_text_effect_shadow">Текст часов отображается с тенью.</string>
+    <string name="pref_list_summary_text_effect_glow">Текст часов отображается с свечение.</string>
+    <string name="pref_list_summary_text_effect_none">Текст часов отображается без эффе́кт.</string>
+    <string name="pref_screen_title_audio">Звук</string>
+    <string name="pref_screen_summary_audio">Настройки звуков объявления времени.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Свои настройки громкости</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Громкость, привязана к системным настройкам.</string>
+    <string name="pref_preference_title_tts_volume">Громкость</string>
+    <string name="app_notification_title_night_clock">Ночные часы</string>
+    <string name="app_notification_title_pulse_generator">Говорящие часы</string>
+    <string name="pref_checkbox_title_night_clock_notification">Уведомление</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Уведомление отображается в строке заголовка, когда ночью Таймер запускается.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Уведомление не отображается в строке заголовка, когда ночью Таймер запускается.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Интервал произношения времени</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Настройки интервалов объявления времени. Время может быть объявлено в определенный интервал времени.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Уведомление</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Уведомление отображается в строке заголовка, когда заданные интервалы запущены.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Уведомление не отображается в строке заголовка, когда заданные интервалы запущены.</string>
+    <string name="app_pulse_generator_interval_1">Каждую минуту</string>
+    <string name="app_pulse_generator_interval_2">Каждую четную минуту</string>
+    <string name="app_pulse_generator_interval_3">Каждую не четную минуту</string>
+    <string name="app_pulse_generator_interval_4">Каждые 5 минут</string>
+    <string name="app_pulse_generator_interval_5">Каждые 10 минут</string>
+    <string name="app_pulse_generator_interval_6">Каждые 15 минут</string>
+    <string name="app_pulse_generator_interval_7">Каждые 20 минут</string>
+    <string name="app_pulse_generator_interval_8">Каждые 30 минут</string>
+    <string name="app_pulse_generator_interval_9">Каждый час</string>
+    <string name="app_pulse_generator_interval_10">Каждые 15 секунд</string>
+    <string name="app_pulse_generator_interval_11">Каждые 20 секунд</string>
+    <string name="app_pulse_generator_interval_12">Каждые 30 секунд</string>
+    <string name="pref_screen_title_power_button_trigger">кнопка питания</string>
+    <string name="pref_screen_summary_power_button_trigger">Настройки говорящих часо, которые запускают кнопка питания устройства.</string>
+    <string name="pref_checkbox_title_power_button">кнопка питания</string>
+    <string name="pref_checkbox_summary_power_button_1">АКТИВИРОВАННЫЙ - говорящие часы запускаются двойным щелчком.</string>
+    <string name="pref_checkbox_summary_power_button_2">ОТКЛЮЧИТЬ - кнопка отключения запуска объявления по расписанию.</string>
+    <string name="pref_preference_title_power_button_click_delay">Задержка</string>
+    <string name="pref_preference_summary_power_button_click_delay">Время задержки между двумя щелчками в несколько щелчков.</string>
+    <string name="pref_list_title_audio_general">Общие настройки</string>
+    <string name="pref_list_title_ringer_mode">Тип оповещения</string>
+    <string name="pref_list_summary_ringer_mode">Выбор типа оповещения.</string>
+    <string name="pref_category_title_night_clock_general">Общие настройки</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Объявление и отображение времени, когда датчик приближения срабатывает.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Объявление времени, когда датчик приближения срабатывает.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Отображение времени, когда датчик приближения срабатывает.</string>
+    <string name="pref_list_title_night_clock_behaviour">Режим</string>
+    <string name="pref_list_title_screen_orientation">Ориентация экрана</string>
+    <string name="pref_list_summary_screen_orientation_system">Система.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">Авто.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">Горизонтально.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">Вертикально.</string>
+    <string name="pref_category_title_appearance_general">Общие настройки</string>
+    <string name="pref_list_title_language">Язык</string>
+    <string name="pref_category_title_speech">Речь</string>
+    <string name="pref_preference_title_speech_tts_settings">Cинтез речи</string>
+    <string name="pref_checkbox_title_intro_text">Предварительное сообщение</string>
+    <string name="pref_checkbox_summary_intro_text">Служебное сообщение перед сообщением времени.</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Задержка</string>
+    <string name="pref_list_title_pulse_interval">Интерва́л</string>
+    <string name="pref_preference_title_intro_sound">Предупреждающий сигнал</string>
+    <string name="pref_preference_summary_intro_sound">%1$s будет проигрываться перед сообщениями.</string>
+    <string name="pref_preference_summary_no_intro_sound">Сигнал не будет проигрываться перед сообщениями.</string>
+    <string name="pref_category_title_speaking_clock_general">Общие настройки</string>
+    <string name="pref_category_title_speaking_clock_start_options">Опции запуска</string>
+    <string name="pref_checkbox_title_seconds">Секунды</string>
+    <string name="pref_checkbox_summary_seconds">Сообщение секунд недоступно для языка</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Выключено</item>
+        <item>Один клик</item>
+        <item>Двойной клик</item>
+        <item>Тройной клик</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Стандартый</item>
+        <item>Простой</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Системные настройки</item>
+        <item>24-часовой формат</item>
+        <item>12-часовой формат</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Звук настройки</item>
+        <item>24-часовой формат</item>
+        <item>12-часовой формат</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Беззвучный</item>
+        <item>Вибро</item>
+        <item>Нормальный</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Звук + Дисплей</item>
+        <item>Звук</item>
+        <item>Дисплей</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Система</item>
+        <item>Авто</item>
+        <item>Вертикально</item>
+        <item>Горизонтально</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Нормальный</item>
+        <item>Жирный</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Ни один</item>
+        <item>Тень</item>
+        <item>Свечение</item>
+    </string-array>
+</resources>

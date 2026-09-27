@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts and translations taken from the original Tell Me The Time app. -->
+<resources>
+    <string name="app_name">Tell Me The Time</string>
+    <string name="app_close">Zamknij&amp;Wyłącz</string>
+    <string name="app_info">Informacje</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Anuluj</string>
+    <string name="app_yes">Tak</string>
+    <string name="app_no">Nie</string>
+    <string name="app_request_close_question">Czy naprawdę chcesz zamknąć usługę Tell Me The Time? Ta usługa jest potrzebna, żeby oznajmiać czas.</string>
+    <string name="app_pulse_interval_title">Ustaw przedział</string>
+    <string name="app_tts_install_title">Brak mechanizmu TTS</string>
+    <string name="app_tts_install_message">Nie zainstalowano na urządzeniu mobilnym mechanizmu Text-to-speech (TTS). Aplikacja niniejsza nie jest w pełni funkcjonalna bez mechanizmu TTS. Czy chcesz otworzyć Google Play, aby pobrać TTS?</string>
+    <string name="app_tts_install_activity_missing">Nie znaleziono instalacji syntezatora TTS. Zainstaluj mechanizm TTS z Google Play.</string>
+    <string name="app_open_tts_setting_failure">Nie znaleziono ustawień syntezatora TTS.</string>
+    <string name="app_install_tts_data_title">Brak mechanizmu TTS</string>
+    <string name="app_install_tts_voice_data_message">Występują braki w mechanizmie Text-To-Speech dla %1$s. Sprawdź ustawienia TTS lub pobierz brakujące dane z Google Play.</string>
+    <string name="app_start_night_clock">Uruchom zegar nocny</string>
+    <string name="app_stop_night_clock">Zatrzymaj zegar nocny</string>
+    <string name="app_start_speaking_clock">Uruchom&amp;Ustaw zegarynkę</string>
+    <string name="app_stop_speaking_clock">Zatrzymaj zegarynkę</string>
+    <string name="app_preferences">Ustawienia</string>
+    <string name="app_seekbar_seconds_unit">s</string>
+    <string name="app_seekbar_gravity_unit">g</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_seekbar_x">x</string>
+    <string name="app_version_label">Wersja:</string>
+    <string name="app_disclaimer_title">Wyłączenie odpowiedzialności</string>
+    <string name="pref_screen_title_control">Sterowanie</string>
+    <string name="pref_screen_summary_control">Ustawienia opcji wywołania komunikatu czasu oraz startu zegara nocnego.</string>
+    <string name="pref_screen_title_headset_trigger">Słuchawki</string>
+    <string name="pref_screen_summary_headset_trigger">Ustawienia zegarynki wywoływanej przez przycisk słuchawki.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Przycisk na przewodzie słuchawki</string>
+    <string name="pref_list_title_headset_hook_button">Przycisk słuchawki</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Ustawienie zwłoki</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">- Czas zwłoki w cyklu podwójnego kliknięcia.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Przyciski słuchawki bluetooth</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Przycisk Play/Pause</string>
+    <string name="pref_list_title_headset_media_stop_button">Przycisk Stop</string>
+    <string name="pref_list_title_headset_media_previous_button">Przycisk Previous track</string>
+    <string name="pref_list_title_headset_media_next_button">Przycisk Next track</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Ustawienie zwłoki</string>
+    <string name="pref_list_summary_headset_event_none">NIEAKTYWNY - Wyłączone wywołanie zegarynki przez przycisk.</string>
+    <string name="pref_list_summary_headset_event_single_click">POJEDYNCZE KLIKNIĘCIE - Zegarynka zostanie wywołana przez pojedyncze kliknięcie.</string>
+    <string name="pref_list_summary_headset_event_double_click">PODWÓJNE KLIKNIĘCIE - Zegarynka zostanie wywołana przez podwójne kliknięcie.</string>
+    <string name="pref_list_summary_headset_event_triple_click">POTRÓJNE KLIKNIĘCIE - Zegarynka zostanie wywołana przez potrójne kliknięcie.</string>
+    <string name="pref_checkbox_title_touch">Ekran dotykowy</string>
+    <string name="pref_checkbox_summary_touch">Zegarynka zostaje wywołana przez dotknięcie głównego ekranu tej aplikacji.</string>
+    <string name="pref_screen_title_open_app">Otwarcie aplikacji</string>
+    <string name="pref_screen_summary_open_app">Ustawienia wywołania zegarynki przez otwarcie programu.</string>
+    <string name="pref_checkbox_title_open_app">Otwarcie aplikacji</string>
+    <string name="pref_checkbox_summary_open_app">Komunikat czasu przy otwarciu aplikacji.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Automatyczne zamknięcie</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">Aplikacja zostanie zamknięta po %1$s sek.</string>
+    <string name="pref_screen_title_system">Systemowe</string>
+    <string name="pref_screen_summary_system">Ustawienia systemu</string>
+    <string name="pref_checkbox_title_autostart">Automatyczne uruchomienie</string>
+    <string name="pref_checkbox_summary_autostart">Aplikacja zostanie automatycznie uruchomiony przy starcie systemu.</string>
+    <string name="pref_checkbox_title_tts_check">Weryfikacja TTS</string>
+    <string name="pref_checkbox_summary_tts_check">Aplikacja sprawdzi przy następnym uruchomieniu czy komponent text-to-speech został w pełni zainstalowany.</string>
+    <string name="pref_checkbox_title_power">Zasilacz</string>
+    <string name="pref_checkbox_summary_power">Zegar nocny zostanie automatycznie włączony po podłączeniu zasilacza do urządzenia mobilnego.</string>
+    <string name="pref_screen_title_proximity_trigger">Czujnik zbliżeniowy</string>
+    <string name="pref_screen_summary_proximity_trigger">Ustawienia wywołania zegarynki poprzez gest zbliżenia w obrębie czujnika zbliżeniowego na urządzeniu mobilnym.</string>
+    <string name="pref_checkbox_title_proximity">Włącz wykrywanie zbliżenia</string>
+    <string name="pref_checkbox_summary_proximity">Zegarynka zostaje wywołana przez gest zbliżenia nad czujnikiem zbliżeniowym urządzenia mobilnego. Na niektórych urządzeniach może to spowodować szybsze rozładowanie baterii.</string>
+    <string name="pref_list_title_proximity_gesture">Gest zbliżenia</string>
+    <string name="pref_list_summary_proximity_gesture_1">Pojedynczy gest</string>
+    <string name="pref_list_summary_proximity_gesture_2">Podwójny gest</string>
+    <string name="pref_list_summary_proximity_gesture_3">Potrójny gest</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Wibracje</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Urządzenie mobilne wibruje przy wywołaniu czujnika zbliżeniowego.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Ekran wyłączony</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Zegarynka zostanie wywołana przez czujnik zbliżeniowy, tylko w przypadku wyłączonego ekranu.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Szybkość rozpoznawania</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">Gest musi być wykonany w przeciągu %1$s. Na różnych urządzeniach czujniki zbliżeniowe reagują w inny sposób. To ustawienie może dopomóc wyeliminować błędne aktywacje.</string>
+    <string name="pref_screen_title_night_clock">Zegar nocny</string>
+    <string name="pref_screen_summary_night_clock">Ustawienia opcji automatycznego włączenia zegara nocnego. Zegarynka może wówczas zostać wywołana przez pojedynczy gest w obrębie czujnika zbliżeniowego.</string>
+    <string name="pref_category_title_night_clock_start_options">Opcje uruchomienia</string>
+    <string name="pref_category_title_time_format">Format czasu</string>
+    <string name="pref_list_title_speaking_clock_style">Styl zegarynki</string>
+    <string name="pref_checkbox_title_time_of_day">Pora dnia</string>
+    <string name="pref_list_title_time_hour_format">Format godziny</string>
+    <string name="pref_screen_title_appearance">Wyświetlanie</string>
+    <string name="pref_screen_summary_appearance">Ustawienia sposobu wyświetlania zegara.</string>
+    <string name="pref_category_title_clock_text">Tekst</string>
+    <string name="pref_preference_title_night_clock_text_color">Kolor</string>
+    <string name="pref_preference_summary_night_clock_text_color">Kolor tekstu zegara.</string>
+    <string name="pref_list_title_time_text_style">Styl czcionki godziny</string>
+    <string name="pref_list_summary_time_text_style_normal">Czas jest wyświetlany normalną czcionki.</string>
+    <string name="pref_list_summary_time_text_style_bold">Czas jest wyświetlany wytłuszczoną czcionką.</string>
+    <string name="pref_list_title_time_of_day_text_style">Styl czcionki pory dnia</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">Styl czcionki pory dnia jest wyświetlany normalną czcionką.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">Styl czcionki pory dnia jest wyświetlany wytłuszczoną czcionką.</string>
+    <string name="pref_list_title_date_text_style">Styl czcionki daty</string>
+    <string name="pref_list_summary_date_text_style_normal">Data jest wyświetlana normalną czcionki.</string>
+    <string name="pref_list_summary_date_text_style_bold">Data jest wyświetlana wytłuszczoną czcionką.</string>
+    <string name="pref_category_title_clock_background">Tło</string>
+    <string name="pref_preference_title_night_clock_background_color">Kolor</string>
+    <string name="pref_preference_summary_night_clock_background_color">Kolor tła zegara.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Gradient koloru</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Ustawienia gradientu koloru tła.</string>
+    <string name="pref_list_title_text_effect">Efekt</string>
+    <string name="pref_list_summary_text_effect_shadow">Tekst zegara jest wyświetlany z efektem cienia.</string>
+    <string name="pref_list_summary_text_effect_glow">Tekst zegara jest wyświetlany z efektem poświaty.</string>
+    <string name="pref_list_summary_text_effect_none">Tekst zegara jest wyświetlany bez jakichkolwiek efektów.</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">Ustawienia wyjściowe komunikatu o czasie.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Niezależność głośności od systemowej</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Głośność komunikatu o czasie jest niezależna od ustawień głośności systemu.</string>
+    <string name="pref_preference_title_tts_volume">Głośność</string>
+    <string name="app_notification_title_night_clock">Zegar nocny</string>
+    <string name="app_notification_title_pulse_generator">Zegarynka</string>
+    <string name="pref_checkbox_title_night_clock_notification">Powiadomienie</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">W pasku tytułu jest widoczne powiadomienie o uruchomieniu zegara nocnego.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">W pasku tytułu nie ma widocznego powiadomienie o uruchomieniu zegara nocnego.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Przedział czasowy zegarynki</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Ustawienia kontroli przedziału czasowego zegarynki. Czas może być ogłaszany w zdefiniowanych odstępach czasowych.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Powiadomienie</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">W pasku tytułu jest widoczne powiadomienie o uruchomieniu przedziału czasowego zegarynki.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">W pasku tytułu nie ma widocznego powiadomienie o uruchomieniu przedziału czasowego zegarynki.</string>
+    <string name="app_pulse_generator_interval_1">Każdą pełną minutę</string>
+    <string name="app_pulse_generator_interval_2">Każdą parzystą minutę</string>
+    <string name="app_pulse_generator_interval_3">Każdą nieparzystą minutę</string>
+    <string name="app_pulse_generator_interval_4">Każde pełne 5 minut</string>
+    <string name="app_pulse_generator_interval_5">Każde pełne 10 minut</string>
+    <string name="app_pulse_generator_interval_6">Każde pełne 15 minut</string>
+    <string name="app_pulse_generator_interval_7">Każde pełne 20 minut</string>
+    <string name="app_pulse_generator_interval_8">Każde pełne 30 minut</string>
+    <string name="app_pulse_generator_interval_9">Każdą pełną godzinę</string>
+    <string name="app_pulse_generator_interval_10">Każde pełne 15 sekund</string>
+    <string name="app_pulse_generator_interval_11">Każde pełne 20 sekund</string>
+    <string name="app_pulse_generator_interval_12">Każde pełne 30 sekund</string>
+    <string name="pref_screen_title_shake_detector_trigger">Potrząśnięcie</string>
+    <string name="pref_screen_summary_shake_detector_trigger">Ustawienia zegarynki wywołanej przez potrząśnięcie urządzeniem mobilnym.</string>
+    <string name="pref_checkbox_title_shake_detector">Potrząśnięcie</string>
+    <string name="pref_checkbox_summary_shake_detector_1">AKTYWNY - zegarynka zostaje wywołana przez potrząsanie urządzeniem mobilnym.</string>
+    <string name="pref_checkbox_summary_shake_detector_2">NIEAKTYWNY - wyłączone rozpoznanie potrząsania.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">Siła ciężkości</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">Akceleracja ruchu potrzebna do rozpoznana potrząśnięcia.</string>
+    <string name="pref_preference_title_shake_counter">Liczba amplitud potrząśnięć</string>
+    <string name="pref_preference_summary_shake_counter">Liczba pełnych potrząśnięć potrzebnych do wywołania zegarynki.</string>
+    <string name="pref_checkbox_title_shake_vibrate">Wibracje</string>
+    <string name="pref_checkbox_summary_shake_vibrate">Urządzenie mobilne drga przy wykryciu każdego potrząśnięcia.</string>
+    <string name="pref_screen_title_power_button_trigger">Przycisk zasilania</string>
+    <string name="pref_screen_summary_power_button_trigger">Ustawienia wywołania zegarynki przez przycisk zasilania urządzenia mobilnego.</string>
+    <string name="pref_checkbox_title_power_button">Przycisk zasilania</string>
+    <string name="pref_checkbox_summary_power_button_1">AKTYWNY - Zegarynka zostanie wywołana przez podwójne kliknięcie.</string>
+    <string name="pref_checkbox_summary_power_button_2">NIEAKTYWNY - Wyłączone wywołanie zegarynki przez przycisk.</string>
+    <string name="pref_preference_title_power_button_click_delay">Ustawienie zwłoki</string>
+    <string name="pref_preference_summary_power_button_click_delay">- Czas zwłoki w cyklu podwójnego kliknięcia.</string>
+    <string name="pref_list_title_audio_general">Ogólne</string>
+    <string name="pref_list_title_ringer_mode">Tryb powiadomienia</string>
+    <string name="pref_list_summary_ringer_mode">Tryb powiadomienia umożliwiający ogłaszanie czasu.</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">Nie wybranie żadnego trybu powoduje niemożliwość ogłoszenie czasu.</string>
+    <string name="pref_category_title_night_clock_general">Ogólne</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Komunikat i wyświetlenie czasu po wywołaniu czujnika zbliżeniowego.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Komunikat czasu po wywołaniu czujnika zbliżeniowego.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Wyświetlenie czasu po wywołaniu czujnika zbliżeniowego.</string>
+    <string name="pref_list_title_night_clock_behaviour">Zachowanie</string>
+    <string name="pref_list_title_screen_orientation">Orientacja ekranu</string>
+    <string name="pref_list_summary_screen_orientation_system">Aplikacja przybiera orientację według ustawień systemu.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">Aplikacja przybiera orientację zgodną z automatyką sensora.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">Aplikacja ma stale poziomą orientację.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">Aplikacja ma stale pionową orientację.</string>
+    <string name="pref_category_title_appearance_general">Ogólne</string>
+    <string name="pref_list_title_language">Język lektora</string>
+    <string name="pref_category_title_speech">Mowa</string>
+    <string name="pref_preference_title_speech_tts_settings">Przetwarzanie Text-to-speech</string>
+    <string name="pref_checkbox_title_volume_control_is_allowed">Korekta głośności</string>
+    <string name="pref_checkbox_summary_volume_control_is_allowed">Niezależna głośność od systemowej może być korygowana klawiszami głośności urządzenia podczas komunikatu.</string>
+    <string name="pref_checkbox_title_intro_text">Wprowadzenie tekstowe</string>
+    <string name="pref_checkbox_summary_intro_text">Komunikat czasu będzie poprzedzony tekstem wprowadzającym.</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Ustawienie zwłoki</string>
+    <string name="pref_list_title_pulse_interval">Interwał</string>
+    <string name="pref_category_title_speaking_clock_general">Ogólne</string>
+    <string name="pref_category_title_speaking_clock_start_options">Opcje uruchomienia</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Wyłączone</item>
+        <item>Pojedyncze kliknięcie</item>
+        <item>Podwójne kliknięcie</item>
+        <item>Potrójne kliknięcie</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Urzędowy</item>
+        <item>Powszechny</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Ustawienia systemu</item>
+        <item>Format 24-godzinny</item>
+        <item>Format 12-godzinny</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Ustawienia audio</item>
+        <item>Format 24-godzinny</item>
+        <item>Format 12-godzinny</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Niemy</item>
+        <item>Wibracje</item>
+        <item>Normalne</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Komunikat + wyświetlanie</item>
+        <item>Komunikat</item>
+        <item>Wyświetlanie</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Systemowe</item>
+        <item>Automatyczne</item>
+        <item>Pionowe</item>
+        <item>Poziome</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normalne</item>
+        <item>Wytłuszczone</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Normalne</item>
+        <item>Cień</item>
+        <item>Poświata</item>
+    </string-array>
+</resources>
