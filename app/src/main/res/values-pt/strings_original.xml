@@ -15,7 +15,7 @@
     <string name="app_tts_install_activity_missing">Os dados de instalação TTS não foram encontrados. Por favor instale um mecanismo TTS da Play Store.</string>
     <string name="app_open_tts_setting_failure">Configurações TTS não encontradas.</string>
     <string name="app_install_tts_data_title">Faltam dados TTS</string>
-    <string name="app_install_tts_voice_data_message">Faltam dados TTS. Por favor verifique as configurações de dados TTS ou adquira os dados da Play Store.</string>
+    <string name="app_install_tts_voice_data_message">Faltam dados TTS para %1$s. Por favor verifique as configurações de dados TTS ou adquira os dados da Play Store.</string>
     <string name="app_start_night_clock">Iniciar relógio noturno</string>
     <string name="app_stop_night_clock">Parar relógio noturno</string>
     <string name="app_start_speaking_clock">Iniciar relógio falante</string>

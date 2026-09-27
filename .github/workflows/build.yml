@@ -25,6 +25,10 @@ jobs:
       - name: Build and lint
         run: ./gradlew --no-daemon :app:assembleDebug :app:assembleRelease :app:lintDebug
 
+      - name: Show lint findings
+        if: failure()
+        run: find app/build -name 'lint-results*.txt' -exec cat {} + || true
+
       - name: Upload APKs
         uses: actions/upload-artifact@v4
         with:

@@ -15,7 +15,7 @@
     <string name="app_tts_install_activity_missing">找不到安裝TTS數據對話框。請從Play商店安裝TTS引擎。</string>
     <string name="app_open_tts_setting_failure">TTS 設置對話框沒有找到。</string>
     <string name="app_install_tts_data_title">TTS 數據丟失</string>
-    <string name="app_install_tts_voice_data_message">文本到語音數據的丟失。請檢查TTS數據設置或者從谷歌Play商店下載缺少的TTS數據。</string>
+    <string name="app_install_tts_voice_data_message">%1$s 的文本到語音數據丟失。請檢查TTS數據設置或者從谷歌Play商店下載缺少的TTS數據。</string>
     <string name="app_start_night_clock">開啟夜間模式</string>
     <string name="app_stop_night_clock">關閉夜間模式</string>
     <string name="app_start_speaking_clock">啟動語音時鐘</string>
