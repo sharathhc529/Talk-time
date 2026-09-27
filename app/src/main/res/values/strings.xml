@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Texts added in the rebuilt app. The original texts are in strings_original.xml. -->
+<resources>
+    <string name="menu">Menu</string>
+    <string name="back">Back</string>
+    <string name="action_announce">Announce time</string>
+    <string name="channel_status">Background service</string>
+    <string name="channel_alerts">Alerts</string>
+    <string name="status_listening">Ready to announce the time</string>
+
+    <string name="info_credits">A rebuild of Tell Me The Time 1.19.0 by Andreas Meyer for current Android versions.</string>
+    <string name="info_privacy">This app does not collect, store or share any personal data. Time announcements are generated on the device by the text-to-speech engine you have installed.</string>
+    <string name="info_disclaimer">This software is provided without any warranty. In no event shall the authors be liable for any damages arising from the use of, or inability to use, this software.</string>
+
+    <string name="color_hue">Hue</string>
+    <string name="color_saturation">Saturation</string>
+    <string name="color_brightness">Brightness</string>
+
+    <string name="lang_device">Device language</string>
+    <string name="pref_test_title">Test announcement</string>
+    <string name="proximity_missing">This device has no proximity sensor.</string>
+    <string name="headset_note">Android sends headset buttons to the app that played audio most recently. While a headset button is enabled here, a paused music player may not receive it.</string>
+    <string name="shake_note">Shake detection keeps the motion sensor running while the screen is off, which uses more battery.</string>
+    <string name="settings_not_found">This settings page is not available on this device.</string>
+
+    <string name="perm_full_screen_title">Show the night clock over the lock screen</string>
+    <string name="perm_full_screen_summary">Tap to allow full-screen notifications, so that a swipe over the sensor can wake the screen and show the clock.</string>
+    <string name="perm_exact_alarm_title">Allow alarms and reminders</string>
+    <string name="perm_exact_alarm_summary">Tap to allow exact alarms. Without them, Android may delay the interval announcements.</string>
+    <string name="perm_notifications_title">Allow notifications</string>
+    <string name="perm_notifications_summary">Tap to allow notifications, which show the speaking clock and the night clock and let you stop them.</string>
+    <string name="perm_battery_title">Battery optimization</string>
+    <string name="perm_battery_summary">Tap and set this app to \"Unrestricted\" if announcements are late or missing while the screen is off.</string>
+    <string name="perm_battery_summary_granted">Not restricted. Announcements can run while the screen is off.</string>
+</resources>

@@ -1,0 +1,1611 @@
+# language	time	24h	style	timeOfDay	intro	seconds	expected (from the original app)
+EN_US	00:00:00	false	COMMON	true	true	false	It's midnight
+EN_US	00:00:00	false	COMMON	false	false	false	Midnight
+EN_US	00:00:00	true	FORMAL	false	true	true	It's 0 0 and 0 seconds
+EN_US	00:00:00	false	FORMAL	true	false	false	12 AM
+EN_US	00:00:00	true	FORMAL	false	false	false	Zero hundred hours
+EN_US	00:30:01	false	COMMON	true	true	false	It's half past midnight
+EN_US	00:30:01	false	COMMON	false	false	false	Half past midnight
+EN_US	00:30:01	true	FORMAL	false	true	true	It's 0 30 and 1 second
+EN_US	00:30:01	false	FORMAL	true	false	false	12 30 AM
+EN_US	00:30:01	true	FORMAL	false	false	false	Zero zero 30
+EN_US	01:01:01	false	COMMON	true	true	false	It's 1 minute past 1 at night
+EN_US	01:01:01	false	COMMON	false	false	false	1 minute past 1
+EN_US	01:01:01	true	FORMAL	false	true	true	It's 1 O 1 and 1 second
+EN_US	01:01:01	false	FORMAL	true	false	false	1 O 1 AM
+EN_US	01:01:01	true	FORMAL	false	false	false	Zero 1 zero 1
+EN_US	02:02:02	false	COMMON	true	true	false	It's 2 minutes past 2 at night
+EN_US	02:02:02	false	COMMON	false	false	false	2 minutes past 2
+EN_US	02:02:02	true	FORMAL	false	true	true	It's 2 O 2 and 2 seconds
+EN_US	02:02:02	false	FORMAL	true	false	false	2 O 2 AM
+EN_US	02:02:02	true	FORMAL	false	false	false	Zero 2 zero 2
+EN_US	07:05:30	false	COMMON	true	true	false	It's 5 past 7 in the morning
+EN_US	07:05:30	false	COMMON	false	false	false	5 past 7
+EN_US	07:05:30	true	FORMAL	false	true	true	It's 7 O 5 and 30 seconds
+EN_US	07:05:30	false	FORMAL	true	false	false	7 O 5 AM
+EN_US	07:05:30	true	FORMAL	false	false	false	Zero 7 zero 5
+EN_US	09:15:00	false	COMMON	true	true	false	It's quarter past 9 in the morning
+EN_US	09:15:00	false	COMMON	false	false	false	Quarter past 9
+EN_US	09:15:00	true	FORMAL	false	true	true	It's 9 15 and 0 seconds
+EN_US	09:15:00	false	FORMAL	true	false	false	9 15 AM
+EN_US	09:15:00	true	FORMAL	false	false	false	Zero 9 15
+EN_US	11:45:00	false	COMMON	true	true	false	It's quarter to noon
+EN_US	11:45:00	false	COMMON	false	false	false	Quarter to noon
+EN_US	11:45:00	true	FORMAL	false	true	true	It's 11 45 and 0 seconds
+EN_US	11:45:00	false	FORMAL	true	false	false	11 45 AM
+EN_US	11:45:00	true	FORMAL	false	false	false	11 45
+EN_US	12:00:00	false	COMMON	true	true	false	It's noon
+EN_US	12:00:00	false	COMMON	false	false	false	Noon
+EN_US	12:00:00	true	FORMAL	false	true	true	It's 12 0 and 0 seconds
+EN_US	12:00:00	false	FORMAL	true	false	false	Twelve PM
+EN_US	12:00:00	true	FORMAL	false	false	false	12 hundred hours
+EN_US	12:31:00	false	COMMON	true	true	false	It's 29 minutes to 1 in the afternoon
+EN_US	12:31:00	false	COMMON	false	false	false	29 minutes to 1
+EN_US	12:31:00	true	FORMAL	false	true	true	It's 12 31 and 0 seconds
+EN_US	12:31:00	false	FORMAL	true	false	false	Twelve 31 PM
+EN_US	12:31:00	true	FORMAL	false	false	false	12 31
+EN_US	13:30:00	false	COMMON	true	true	false	It's half past 1 in the afternoon
+EN_US	13:30:00	false	COMMON	false	false	false	Half past 1
+EN_US	13:30:00	true	FORMAL	false	true	true	It's 13 30 and 0 seconds
+EN_US	13:30:00	false	FORMAL	true	false	false	1 30 PM
+EN_US	13:30:00	true	FORMAL	false	false	false	13 30
+EN_US	14:22:22	false	COMMON	true	true	false	It's 22 minutes past 2 in the afternoon
+EN_US	14:22:22	false	COMMON	false	false	false	22 minutes past 2
+EN_US	14:22:22	true	FORMAL	false	true	true	It's 14 22 and 22 seconds
+EN_US	14:22:22	false	FORMAL	true	false	false	2 22 PM
+EN_US	14:22:22	true	FORMAL	false	false	false	14 22
+EN_US	18:40:00	false	COMMON	true	true	false	It's 20 to 7 in the evening
+EN_US	18:40:00	false	COMMON	false	false	false	20 to 7
+EN_US	18:40:00	true	FORMAL	false	true	true	It's 18 40 and 0 seconds
+EN_US	18:40:00	false	FORMAL	true	false	false	6 40 PM
+EN_US	18:40:00	true	FORMAL	false	false	false	18 40
+EN_US	21:21:21	false	COMMON	true	true	false	It's 21 minutes past 9 in the evening
+EN_US	21:21:21	false	COMMON	false	false	false	21 minutes past 9
+EN_US	21:21:21	true	FORMAL	false	true	true	It's 21 21 and 21 seconds
+EN_US	21:21:21	false	FORMAL	true	false	false	9 21 PM
+EN_US	21:21:21	true	FORMAL	false	false	false	21 21
+EN_US	23:59:59	false	COMMON	true	true	false	It's 1 minute to midnight
+EN_US	23:59:59	false	COMMON	false	false	false	1 minute to midnight
+EN_US	23:59:59	true	FORMAL	false	true	true	It's 23 59 and 59 seconds
+EN_US	23:59:59	false	FORMAL	true	false	false	11 59 PM
+EN_US	23:59:59	true	FORMAL	false	false	false	23 59
+DE_DE	00:00:00	false	COMMON	true	true	false	Es ist Mitternacht
+DE_DE	00:00:00	false	COMMON	false	false	false	Mitternacht
+DE_DE	00:00:00	true	FORMAL	false	true	true	Es ist 0 Uhr, 0 Minuten, und 0 Sekunden
+DE_DE	00:00:00	false	FORMAL	true	false	false	12 Uhr vormittags
+DE_DE	00:00:00	true	FORMAL	false	false	false	0 Uhr
+DE_DE	00:30:01	false	COMMON	true	true	false	Es ist halb 1 nachts
+DE_DE	00:30:01	false	COMMON	false	false	false	Halb 1
+DE_DE	00:30:01	true	FORMAL	false	true	true	Es ist 0 Uhr, 30 Minuten, und eine Sekunde
+DE_DE	00:30:01	false	FORMAL	true	false	false	12 Uhr 30 vormittags
+DE_DE	00:30:01	true	FORMAL	false	false	false	0 Uhr 30
+DE_DE	01:01:01	false	COMMON	true	true	false	Es ist eine Minute nach 1 nachts
+DE_DE	01:01:01	false	COMMON	false	false	false	Eine Minute nach 1
+DE_DE	01:01:01	true	FORMAL	false	true	true	Es ist ein Uhr, eine Minute, und eine Sekunde
+DE_DE	01:01:01	false	FORMAL	true	false	false	Ein Uhr 1 vormittags
+DE_DE	01:01:01	true	FORMAL	false	false	false	Ein Uhr 1
+DE_DE	02:02:02	false	COMMON	true	true	false	Es ist 2 Minuten nach 2 nachts
+DE_DE	02:02:02	false	COMMON	false	false	false	2 Minuten nach 2
+DE_DE	02:02:02	true	FORMAL	false	true	true	Es ist 2 Uhr, 2 Minuten, und 2 Sekunden
+DE_DE	02:02:02	false	FORMAL	true	false	false	2 Uhr 2 vormittags
+DE_DE	02:02:02	true	FORMAL	false	false	false	2 Uhr 2
+DE_DE	07:05:30	false	COMMON	true	true	false	Es ist 5 nach 7 morgens
+DE_DE	07:05:30	false	COMMON	false	false	false	5 nach 7
+DE_DE	07:05:30	true	FORMAL	false	true	true	Es ist 7 Uhr, 5 Minuten, und 30 Sekunden
+DE_DE	07:05:30	false	FORMAL	true	false	false	7 Uhr 5 vormittags
+DE_DE	07:05:30	true	FORMAL	false	false	false	7 Uhr 5
+DE_DE	09:15:00	false	COMMON	true	true	false	Es ist viertel nach 9 morgens
+DE_DE	09:15:00	false	COMMON	false	false	false	Viertel nach 9
+DE_DE	09:15:00	true	FORMAL	false	true	true	Es ist 9 Uhr, 15 Minuten, und 0 Sekunden
+DE_DE	09:15:00	false	FORMAL	true	false	false	9 Uhr 15 vormittags
+DE_DE	09:15:00	true	FORMAL	false	false	false	9 Uhr 15
+DE_DE	11:45:00	false	COMMON	true	true	false	Es ist viertel vor 12 vormittags
+DE_DE	11:45:00	false	COMMON	false	false	false	Viertel vor 12
+DE_DE	11:45:00	true	FORMAL	false	true	true	Es ist 11 Uhr, 45 Minuten, und 0 Sekunden
+DE_DE	11:45:00	false	FORMAL	true	false	false	11 Uhr 45 vormittags
+DE_DE	11:45:00	true	FORMAL	false	false	false	11 Uhr 45
+DE_DE	12:00:00	false	COMMON	true	true	false	Es ist Mittags
+DE_DE	12:00:00	false	COMMON	false	false	false	Mittags
+DE_DE	12:00:00	true	FORMAL	false	true	true	Es ist 12 Uhr, 0 Minuten, und 0 Sekunden
+DE_DE	12:00:00	false	FORMAL	true	false	false	12 Uhr nachmittags
+DE_DE	12:00:00	true	FORMAL	false	false	false	12 Uhr
+DE_DE	12:31:00	false	COMMON	true	true	false	Es ist eine Minute nach halb 1 nachmittags
+DE_DE	12:31:00	false	COMMON	false	false	false	Eine Minute nach halb 1
+DE_DE	12:31:00	true	FORMAL	false	true	true	Es ist 12 Uhr, 31 Minuten, und 0 Sekunden
+DE_DE	12:31:00	false	FORMAL	true	false	false	12 Uhr 31 nachmittags
+DE_DE	12:31:00	true	FORMAL	false	false	false	12 Uhr 31
+DE_DE	13:30:00	false	COMMON	true	true	false	Es ist halb 2 nachmittags
+DE_DE	13:30:00	false	COMMON	false	false	false	Halb 2
+DE_DE	13:30:00	true	FORMAL	false	true	true	Es ist 13 Uhr, 30 Minuten, und 0 Sekunden
+DE_DE	13:30:00	false	FORMAL	true	false	false	Ein Uhr 30 nachmittags
+DE_DE	13:30:00	true	FORMAL	false	false	false	13 Uhr 30
+DE_DE	14:22:22	false	COMMON	true	true	false	Es ist 8 Minuten vor halb 3 nachmittags
+DE_DE	14:22:22	false	COMMON	false	false	false	8 Minuten vor halb 3
+DE_DE	14:22:22	true	FORMAL	false	true	true	Es ist 14 Uhr, 22 Minuten, und 22 Sekunden
+DE_DE	14:22:22	false	FORMAL	true	false	false	2 Uhr 22 nachmittags
+DE_DE	14:22:22	true	FORMAL	false	false	false	14 Uhr 22
+DE_DE	18:40:00	false	COMMON	true	true	false	Es ist 20 vor 7 abends
+DE_DE	18:40:00	false	COMMON	false	false	false	20 vor 7
+DE_DE	18:40:00	true	FORMAL	false	true	true	Es ist 18 Uhr, 40 Minuten, und 0 Sekunden
+DE_DE	18:40:00	false	FORMAL	true	false	false	6 Uhr 40 nachmittags
+DE_DE	18:40:00	true	FORMAL	false	false	false	18 Uhr 40
+DE_DE	21:21:21	false	COMMON	true	true	false	Es ist 9 Minuten vor halb 10 abends
+DE_DE	21:21:21	false	COMMON	false	false	false	9 Minuten vor halb 10
+DE_DE	21:21:21	true	FORMAL	false	true	true	Es ist 21 Uhr, 21 Minuten, und 21 Sekunden
+DE_DE	21:21:21	false	FORMAL	true	false	false	9 Uhr 21 nachmittags
+DE_DE	21:21:21	true	FORMAL	false	false	false	21 Uhr 21
+DE_DE	23:59:59	false	COMMON	true	true	false	Es ist eine Minute vor 12 nachts
+DE_DE	23:59:59	false	COMMON	false	false	false	Eine Minute vor 12
+DE_DE	23:59:59	true	FORMAL	false	true	true	Es ist 23 Uhr, 59 Minuten, und 59 Sekunden
+DE_DE	23:59:59	false	FORMAL	true	false	false	11 Uhr 59 nachmittags
+DE_DE	23:59:59	true	FORMAL	false	false	false	23 Uhr 59
+FR_FR	00:00:00	false	COMMON	true	true	false	Il est minuit
+FR_FR	00:00:00	false	COMMON	false	false	false	Minuit
+FR_FR	00:00:00	true	FORMAL	false	true	true	Il est 0 heures et 0 minute et 0 secondes
+FR_FR	00:00:00	false	FORMAL	true	false	false	12 heures du matin
+FR_FR	00:00:00	true	FORMAL	false	false	false	0 heures
+FR_FR	00:30:01	false	COMMON	true	true	false	Il est minuit et demi du matin
+FR_FR	00:30:01	false	COMMON	false	false	false	Minuit et demi
+FR_FR	00:30:01	true	FORMAL	false	true	true	Il est 0 heures 30 et un seconde
+FR_FR	00:30:01	false	FORMAL	true	false	false	12 heures 30 du matin
+FR_FR	00:30:01	true	FORMAL	false	false	false	0 heures 30
+FR_FR	01:01:01	false	COMMON	true	true	false	Il est une heure 1 du matin
+FR_FR	01:01:01	false	COMMON	false	false	false	Une heure 1
+FR_FR	01:01:01	true	FORMAL	false	true	true	Il est une heure 1 et un seconde
+FR_FR	01:01:01	false	FORMAL	true	false	false	Une heure 1 du matin
+FR_FR	01:01:01	true	FORMAL	false	false	false	Une heure 1
+FR_FR	02:02:02	false	COMMON	true	true	false	Il est 2 heures 2 du matin
+FR_FR	02:02:02	false	COMMON	false	false	false	2 heures 2
+FR_FR	02:02:02	true	FORMAL	false	true	true	Il est 2 heures 2 et 2 secondes
+FR_FR	02:02:02	false	FORMAL	true	false	false	2 heures 2 du matin
+FR_FR	02:02:02	true	FORMAL	false	false	false	2 heures 2
+FR_FR	07:05:30	false	COMMON	true	true	false	Il est 7 heures 5 du matin
+FR_FR	07:05:30	false	COMMON	false	false	false	7 heures 5
+FR_FR	07:05:30	true	FORMAL	false	true	true	Il est 7 heures 5 et 30 secondes
+FR_FR	07:05:30	false	FORMAL	true	false	false	7 heures 5 du matin
+FR_FR	07:05:30	true	FORMAL	false	false	false	7 heures 5
+FR_FR	09:15:00	false	COMMON	true	true	false	Il est 9 heures et quart du matin
+FR_FR	09:15:00	false	COMMON	false	false	false	9 heures et quart
+FR_FR	09:15:00	true	FORMAL	false	true	true	Il est 9 heures 15 et 0 secondes
+FR_FR	09:15:00	false	FORMAL	true	false	false	9 heures 15 du matin
+FR_FR	09:15:00	true	FORMAL	false	false	false	9 heures 15
+FR_FR	11:45:00	false	COMMON	true	true	false	Il est 12 heures moins le quart du matin
+FR_FR	11:45:00	false	COMMON	false	false	false	12 heures moins le quart
+FR_FR	11:45:00	true	FORMAL	false	true	true	Il est 11 heures 45 et 0 secondes
+FR_FR	11:45:00	false	FORMAL	true	false	false	11 heures 45 du matin
+FR_FR	11:45:00	true	FORMAL	false	false	false	11 heures 45
+FR_FR	12:00:00	false	COMMON	true	true	false	Il est midi
+FR_FR	12:00:00	false	COMMON	false	false	false	Midi
+FR_FR	12:00:00	true	FORMAL	false	true	true	Il est 12 heures et 0 minute et 0 secondes
+FR_FR	12:00:00	false	FORMAL	true	false	false	12 heures de l’après-midi
+FR_FR	12:00:00	true	FORMAL	false	false	false	12 heures
+FR_FR	12:31:00	false	COMMON	true	true	false	Il est une heure moins 29 de l’après-midi
+FR_FR	12:31:00	false	COMMON	false	false	false	Une heure moins 29
+FR_FR	12:31:00	true	FORMAL	false	true	true	Il est 12 heures 31 et 0 secondes
+FR_FR	12:31:00	false	FORMAL	true	false	false	12 heures 31 de l’après-midi
+FR_FR	12:31:00	true	FORMAL	false	false	false	12 heures 31
+FR_FR	13:30:00	false	COMMON	true	true	false	Il est une heure et demie de l’après-midi
+FR_FR	13:30:00	false	COMMON	false	false	false	Une heure et demie
+FR_FR	13:30:00	true	FORMAL	false	true	true	Il est 13 heures 30 et 0 secondes
+FR_FR	13:30:00	false	FORMAL	true	false	false	Une heure 30 de l’après-midi
+FR_FR	13:30:00	true	FORMAL	false	false	false	13 heures 30
+FR_FR	14:22:22	false	COMMON	true	true	false	Il est 2 heures 22 de l’après-midi
+FR_FR	14:22:22	false	COMMON	false	false	false	2 heures 22
+FR_FR	14:22:22	true	FORMAL	false	true	true	Il est 14 heures 22 et 22 secondes
+FR_FR	14:22:22	false	FORMAL	true	false	false	2 heures 22 de l’après-midi
+FR_FR	14:22:22	true	FORMAL	false	false	false	14 heures 22
+FR_FR	18:40:00	false	COMMON	true	true	false	Il est 7 heures moins 20 de l’après-midi
+FR_FR	18:40:00	false	COMMON	false	false	false	7 heures moins 20
+FR_FR	18:40:00	true	FORMAL	false	true	true	Il est 18 heures 40 et 0 secondes
+FR_FR	18:40:00	false	FORMAL	true	false	false	6 heures 40 du soir
+FR_FR	18:40:00	true	FORMAL	false	false	false	18 heures 40
+FR_FR	21:21:21	false	COMMON	true	true	false	Il est 9 heures 21 du soir
+FR_FR	21:21:21	false	COMMON	false	false	false	9 heures 21
+FR_FR	21:21:21	true	FORMAL	false	true	true	Il est vingt et une heures 21 et 21 secondes
+FR_FR	21:21:21	false	FORMAL	true	false	false	9 heures 21 du soir
+FR_FR	21:21:21	true	FORMAL	false	false	false	Vingt et une heures 21
+FR_FR	23:59:59	false	COMMON	true	true	false	Il est 12 heures moins 1 du soir
+FR_FR	23:59:59	false	COMMON	false	false	false	12 heures moins 1
+FR_FR	23:59:59	true	FORMAL	false	true	true	Il est 23 heures 59 et 59 secondes
+FR_FR	23:59:59	false	FORMAL	true	false	false	11 heures 59 du soir
+FR_FR	23:59:59	true	FORMAL	false	false	false	23 heures 59
+IT_IT	00:00:00	false	COMMON	true	true	false	È mezzanotte
+IT_IT	00:00:00	false	COMMON	false	false	false	Mezzanotte
+IT_IT	00:00:00	true	FORMAL	false	true	true	Sono le 24 e 0 minuti e 0 secondi
+IT_IT	00:00:00	false	FORMAL	true	false	false	12 di mattina
+IT_IT	00:00:00	true	FORMAL	false	false	false	24
+IT_IT	00:30:01	false	COMMON	true	true	false	È mezzanotte e mezza
+IT_IT	00:30:01	false	COMMON	false	false	false	Mezzanotte e mezza
+IT_IT	00:30:01	true	FORMAL	false	true	true	Sono le 0 e 30 e un secondo
+IT_IT	00:30:01	false	FORMAL	true	false	false	12 e 30 di mattina
+IT_IT	00:30:01	true	FORMAL	false	false	false	0 e 30
+IT_IT	01:01:01	false	COMMON	true	true	false	È l'una e 1 di mattina
+IT_IT	01:01:01	false	COMMON	false	false	false	L'una e 1
+IT_IT	01:01:01	true	FORMAL	false	true	true	È l'una e 1 e un secondo
+IT_IT	01:01:01	false	FORMAL	true	false	false	L'una e 1 di mattina
+IT_IT	01:01:01	true	FORMAL	false	false	false	L'una e 1
+IT_IT	02:02:02	false	COMMON	true	true	false	Sono le 2 e 2 di mattina
+IT_IT	02:02:02	false	COMMON	false	false	false	2 e 2
+IT_IT	02:02:02	true	FORMAL	false	true	true	Sono le 2 e 2 e 2 secondi
+IT_IT	02:02:02	false	FORMAL	true	false	false	2 e 2 di mattina
+IT_IT	02:02:02	true	FORMAL	false	false	false	2 e 2
+IT_IT	07:05:30	false	COMMON	true	true	false	Sono le 7 e 5 di mattina
+IT_IT	07:05:30	false	COMMON	false	false	false	7 e 5
+IT_IT	07:05:30	true	FORMAL	false	true	true	Sono le 7 e 5 e 30 secondi
+IT_IT	07:05:30	false	FORMAL	true	false	false	7 e 5 di mattina
+IT_IT	07:05:30	true	FORMAL	false	false	false	7 e 5
+IT_IT	09:15:00	false	COMMON	true	true	false	Sono le 9 e un quarto di mattina
+IT_IT	09:15:00	false	COMMON	false	false	false	9 e un quarto
+IT_IT	09:15:00	true	FORMAL	false	true	true	Sono le 9 e 15 e 0 secondi
+IT_IT	09:15:00	false	FORMAL	true	false	false	9 e 15 di mattina
+IT_IT	09:15:00	true	FORMAL	false	false	false	9 e 15
+IT_IT	11:45:00	false	COMMON	true	true	false	È mezzogiorno meno un quarto
+IT_IT	11:45:00	false	COMMON	false	false	false	Mezzogiorno meno un quarto
+IT_IT	11:45:00	true	FORMAL	false	true	true	Sono le 11 e 45 e 0 secondi
+IT_IT	11:45:00	false	FORMAL	true	false	false	11 e 45 di mattina
+IT_IT	11:45:00	true	FORMAL	false	false	false	11 e 45
+IT_IT	12:00:00	false	COMMON	true	true	false	È mezzogiorno
+IT_IT	12:00:00	false	COMMON	false	false	false	Mezzogiorno
+IT_IT	12:00:00	true	FORMAL	false	true	true	Sono le 12 e 0 minuti e 0 secondi
+IT_IT	12:00:00	false	FORMAL	true	false	false	12 di pomeriggio
+IT_IT	12:00:00	true	FORMAL	false	false	false	12
+IT_IT	12:31:00	false	COMMON	true	true	false	È mezzogiorno e 31
+IT_IT	12:31:00	false	COMMON	false	false	false	Mezzogiorno e 31
+IT_IT	12:31:00	true	FORMAL	false	true	true	Sono le 12 e 31 e 0 secondi
+IT_IT	12:31:00	false	FORMAL	true	false	false	12 e 31 di pomeriggio
+IT_IT	12:31:00	true	FORMAL	false	false	false	12 e 31
+IT_IT	13:30:00	false	COMMON	true	true	false	È l'una e mezza di pomeriggio
+IT_IT	13:30:00	false	COMMON	false	false	false	L'una e mezza
+IT_IT	13:30:00	true	FORMAL	false	true	true	Sono le 13 e 30 e 0 secondi
+IT_IT	13:30:00	false	FORMAL	true	false	false	L'una e 30 di pomeriggio
+IT_IT	13:30:00	true	FORMAL	false	false	false	13 e 30
+IT_IT	14:22:22	false	COMMON	true	true	false	Sono le 2 e 22 di pomeriggio
+IT_IT	14:22:22	false	COMMON	false	false	false	2 e 22
+IT_IT	14:22:22	true	FORMAL	false	true	true	Sono le 14 e 22 e 22 secondi
+IT_IT	14:22:22	false	FORMAL	true	false	false	2 e 22 di pomeriggio
+IT_IT	14:22:22	true	FORMAL	false	false	false	14 e 22
+IT_IT	18:40:00	false	COMMON	true	true	false	Sono le 6 e 40 di pomeriggio
+IT_IT	18:40:00	false	COMMON	false	false	false	6 e 40
+IT_IT	18:40:00	true	FORMAL	false	true	true	Sono le 18 e 40 e 0 secondi
+IT_IT	18:40:00	false	FORMAL	true	false	false	6 e 40 di pomeriggio
+IT_IT	18:40:00	true	FORMAL	false	false	false	18 e 40
+IT_IT	21:21:21	false	COMMON	true	true	false	Sono le 9 e 21 di sera
+IT_IT	21:21:21	false	COMMON	false	false	false	9 e 21
+IT_IT	21:21:21	true	FORMAL	false	true	true	Sono le 21 e 21 e 21 secondi
+IT_IT	21:21:21	false	FORMAL	true	false	false	9 e 21 di sera
+IT_IT	21:21:21	true	FORMAL	false	false	false	21 e 21
+IT_IT	23:59:59	false	COMMON	true	true	false	Sono le 11 e 59 di notte
+IT_IT	23:59:59	false	COMMON	false	false	false	11 e 59
+IT_IT	23:59:59	true	FORMAL	false	true	true	Sono le 23 e 59 e 59 secondi
+IT_IT	23:59:59	false	FORMAL	true	false	false	11 e 59 di notte
+IT_IT	23:59:59	true	FORMAL	false	false	false	23 e 59
+PT_PT	00:00:00	false	COMMON	true	true	false	É meia-noite
+PT_PT	00:00:00	false	COMMON	false	false	false	Meia-noite
+PT_PT	00:00:00	true	FORMAL	false	true	true	São 0 horas e 0 minutos e 0 segundo
+PT_PT	00:00:00	false	FORMAL	true	false	false	12 horas da noite
+PT_PT	00:00:00	true	FORMAL	false	false	false	0 horas
+PT_PT	00:30:01	false	COMMON	true	true	false	São 12 e meia da noite
+PT_PT	00:30:01	false	COMMON	false	false	false	12 e meia
+PT_PT	00:30:01	true	FORMAL	false	true	true	São 0 horas e 30 minutos e um segundo
+PT_PT	00:30:01	false	FORMAL	true	false	false	12 horas e 30 minutos da noite
+PT_PT	00:30:01	true	FORMAL	false	false	false	0 horas e 30 minutos
+PT_PT	01:01:01	false	COMMON	true	true	false	É uma e um da madrugada
+PT_PT	01:01:01	false	COMMON	false	false	false	Uma e um
+PT_PT	01:01:01	true	FORMAL	false	true	true	É uma hora e um minuto e um segundo
+PT_PT	01:01:01	false	FORMAL	true	false	false	Uma hora e um minuto da madrugada
+PT_PT	01:01:01	true	FORMAL	false	false	false	Uma hora e um minuto
+PT_PT	02:02:02	false	COMMON	true	true	false	São duas e 2 da madrugada
+PT_PT	02:02:02	false	COMMON	false	false	false	duas e 2
+PT_PT	02:02:02	true	FORMAL	false	true	true	São duas horas e 2 minutos e 2 segundo
+PT_PT	02:02:02	false	FORMAL	true	false	false	duas horas e 2 minutos da madrugada
+PT_PT	02:02:02	true	FORMAL	false	false	false	duas horas e 2 minutos
+PT_PT	07:05:30	false	COMMON	true	true	false	São 7 e 5 da manhã
+PT_PT	07:05:30	false	COMMON	false	false	false	7 e 5
+PT_PT	07:05:30	true	FORMAL	false	true	true	São 7 horas e 5 minutos e 30 segundo
+PT_PT	07:05:30	false	FORMAL	true	false	false	7 horas e 5 minutos da manhã
+PT_PT	07:05:30	true	FORMAL	false	false	false	7 horas e 5 minutos
+PT_PT	09:15:00	false	COMMON	true	true	false	São 9 e um quarto da manhã
+PT_PT	09:15:00	false	COMMON	false	false	false	9 e um quarto
+PT_PT	09:15:00	true	FORMAL	false	true	true	São 9 horas e 15 minutos e 0 segundo
+PT_PT	09:15:00	false	FORMAL	true	false	false	9 horas e 15 minutos da manhã
+PT_PT	09:15:00	true	FORMAL	false	false	false	9 horas e 15 minutos
+PT_PT	11:45:00	false	COMMON	true	true	false	São 12 menos um quarto da tarde
+PT_PT	11:45:00	false	COMMON	false	false	false	12 menos um quarto
+PT_PT	11:45:00	true	FORMAL	false	true	true	São 11 horas e 45 minutos e 0 segundo
+PT_PT	11:45:00	false	FORMAL	true	false	false	11 horas e 45 minutos da tarde
+PT_PT	11:45:00	true	FORMAL	false	false	false	11 horas e 45 minutos
+PT_PT	12:00:00	false	COMMON	true	true	false	É meio-dia
+PT_PT	12:00:00	false	COMMON	false	false	false	Meio-dia
+PT_PT	12:00:00	true	FORMAL	false	true	true	São 12 horas e 0 minutos e 0 segundo
+PT_PT	12:00:00	false	FORMAL	true	false	false	12 horas da tarde
+PT_PT	12:00:00	true	FORMAL	false	false	false	12 horas
+PT_PT	12:31:00	false	COMMON	true	true	false	É uma menos 29 minutos da tarde
+PT_PT	12:31:00	false	COMMON	false	false	false	Uma menos 29 minutos
+PT_PT	12:31:00	true	FORMAL	false	true	true	São 12 horas e 31 minutos e 0 segundo
+PT_PT	12:31:00	false	FORMAL	true	false	false	12 horas e 31 minutos da tarde
+PT_PT	12:31:00	true	FORMAL	false	false	false	12 horas e 31 minutos
+PT_PT	13:30:00	false	COMMON	true	true	false	É uma e meia da tarde
+PT_PT	13:30:00	false	COMMON	false	false	false	Uma e meia
+PT_PT	13:30:00	true	FORMAL	false	true	true	São 13 horas e 30 minutos e 0 segundo
+PT_PT	13:30:00	false	FORMAL	true	false	false	Uma hora e 30 minutos da tarde
+PT_PT	13:30:00	true	FORMAL	false	false	false	13 horas e 30 minutos
+PT_PT	14:22:22	false	COMMON	true	true	false	São duas e 22 da tarde
+PT_PT	14:22:22	false	COMMON	false	false	false	duas e 22
+PT_PT	14:22:22	true	FORMAL	false	true	true	São 14 horas e 22 minutos e 22 segundo
+PT_PT	14:22:22	false	FORMAL	true	false	false	duas horas e 22 minutos da tarde
+PT_PT	14:22:22	true	FORMAL	false	false	false	14 horas e 22 minutos
+PT_PT	18:40:00	false	COMMON	true	true	false	São 7 menos 20 minutos da noite
+PT_PT	18:40:00	false	COMMON	false	false	false	7 menos 20 minutos
+PT_PT	18:40:00	true	FORMAL	false	true	true	São 18 horas e 40 minutos e 0 segundo
+PT_PT	18:40:00	false	FORMAL	true	false	false	6 horas e 40 minutos da noite
+PT_PT	18:40:00	true	FORMAL	false	false	false	18 horas e 40 minutos
+PT_PT	21:21:21	false	COMMON	true	true	false	São 9 e 21 da noite
+PT_PT	21:21:21	false	COMMON	false	false	false	9 e 21
+PT_PT	21:21:21	true	FORMAL	false	true	true	São 21 horas e 21 minutos e 21 segundo
+PT_PT	21:21:21	false	FORMAL	true	false	false	9 horas e 21 minutos da noite
+PT_PT	21:21:21	true	FORMAL	false	false	false	21 horas e 21 minutos
+PT_PT	23:59:59	false	COMMON	true	true	false	São 12 menos um minuto da noite
+PT_PT	23:59:59	false	COMMON	false	false	false	12 menos um minuto
+PT_PT	23:59:59	true	FORMAL	false	true	true	São 23 horas e 59 minutos e 59 segundo
+PT_PT	23:59:59	false	FORMAL	true	false	false	11 horas e 59 minutos da noite
+PT_PT	23:59:59	true	FORMAL	false	false	false	23 horas e 59 minutos
+PT_BR	00:00:00	false	COMMON	true	true	false	É meia-noite
+PT_BR	00:00:00	false	COMMON	false	false	false	Meia-noite
+PT_BR	00:00:00	true	FORMAL	false	true	true	São 0 horas
+PT_BR	00:00:00	false	FORMAL	true	false	false	12 horas da noite
+PT_BR	00:00:00	true	FORMAL	false	false	false	0 horas
+PT_BR	00:30:01	false	COMMON	true	true	false	São 12 e meia da noite
+PT_BR	00:30:01	false	COMMON	false	false	false	12 e meia
+PT_BR	00:30:01	true	FORMAL	false	true	true	São 0 horas e 30 minutos e um segundo
+PT_BR	00:30:01	false	FORMAL	true	false	false	12 horas e 30 minutos da noite
+PT_BR	00:30:01	true	FORMAL	false	false	false	0 horas e 30 minutos
+PT_BR	01:01:01	false	COMMON	true	true	false	É uma e um da madrugada
+PT_BR	01:01:01	false	COMMON	false	false	false	Uma e um
+PT_BR	01:01:01	true	FORMAL	false	true	true	É uma hora e um minuto e um segundo
+PT_BR	01:01:01	false	FORMAL	true	false	false	Uma hora e um minuto da madrugada
+PT_BR	01:01:01	true	FORMAL	false	false	false	Uma hora e um minuto
+PT_BR	02:02:02	false	COMMON	true	true	false	São duas e 2 da madrugada
+PT_BR	02:02:02	false	COMMON	false	false	false	duas e 2
+PT_BR	02:02:02	true	FORMAL	false	true	true	São duas horas e 2 minutos e 2 segundo
+PT_BR	02:02:02	false	FORMAL	true	false	false	duas horas e 2 minutos da madrugada
+PT_BR	02:02:02	true	FORMAL	false	false	false	duas horas e 2 minutos
+PT_BR	07:05:30	false	COMMON	true	true	false	São 7 e 5 da manhã
+PT_BR	07:05:30	false	COMMON	false	false	false	7 e 5
+PT_BR	07:05:30	true	FORMAL	false	true	true	São 7 horas e 5 minutos e 30 segundo
+PT_BR	07:05:30	false	FORMAL	true	false	false	7 horas e 5 minutos da manhã
+PT_BR	07:05:30	true	FORMAL	false	false	false	7 horas e 5 minutos
+PT_BR	09:15:00	false	COMMON	true	true	false	São 9 e quinze da manhã
+PT_BR	09:15:00	false	COMMON	false	false	false	9 e quinze
+PT_BR	09:15:00	true	FORMAL	false	true	true	São 9 horas e 15 minutos e 0 segundo
+PT_BR	09:15:00	false	FORMAL	true	false	false	9 horas e 15 minutos da manhã
+PT_BR	09:15:00	true	FORMAL	false	false	false	9 horas e 15 minutos
+PT_BR	11:45:00	false	COMMON	true	true	false	Faltam quinze pras 12 da tarde
+PT_BR	11:45:00	false	COMMON	false	false	false	quinze pras 12
+PT_BR	11:45:00	true	FORMAL	false	true	true	São 11 horas e 45 minutos e 0 segundo
+PT_BR	11:45:00	false	FORMAL	true	false	false	11 horas e 45 minutos da tarde
+PT_BR	11:45:00	true	FORMAL	false	false	false	11 horas e 45 minutos
+PT_BR	12:00:00	false	COMMON	true	true	false	É meio-dia
+PT_BR	12:00:00	false	COMMON	false	false	false	Meio-dia
+PT_BR	12:00:00	true	FORMAL	false	true	true	São 12 horas
+PT_BR	12:00:00	false	FORMAL	true	false	false	12 horas da tarde
+PT_BR	12:00:00	true	FORMAL	false	false	false	12 horas
+PT_BR	12:31:00	false	COMMON	true	true	false	Faltam 29 pra uma da tarde
+PT_BR	12:31:00	false	COMMON	false	false	false	29 pra uma
+PT_BR	12:31:00	true	FORMAL	false	true	true	São 12 horas e 31 minutos e 0 segundo
+PT_BR	12:31:00	false	FORMAL	true	false	false	12 horas e 31 minutos da tarde
+PT_BR	12:31:00	true	FORMAL	false	false	false	12 horas e 31 minutos
+PT_BR	13:30:00	false	COMMON	true	true	false	É uma e meia da tarde
+PT_BR	13:30:00	false	COMMON	false	false	false	Uma e meia
+PT_BR	13:30:00	true	FORMAL	false	true	true	São 13 horas e 30 minutos e 0 segundo
+PT_BR	13:30:00	false	FORMAL	true	false	false	Uma hora e 30 minutos da tarde
+PT_BR	13:30:00	true	FORMAL	false	false	false	13 horas e 30 minutos
+PT_BR	14:22:22	false	COMMON	true	true	false	São duas e 22 da tarde
+PT_BR	14:22:22	false	COMMON	false	false	false	duas e 22
+PT_BR	14:22:22	true	FORMAL	false	true	true	São 14 horas e 22 minutos e 22 segundo
+PT_BR	14:22:22	false	FORMAL	true	false	false	duas horas e 22 minutos da tarde
+PT_BR	14:22:22	true	FORMAL	false	false	false	14 horas e 22 minutos
+PT_BR	18:40:00	false	COMMON	true	true	false	Faltam 20 pras 7 da noite
+PT_BR	18:40:00	false	COMMON	false	false	false	20 pras 7
+PT_BR	18:40:00	true	FORMAL	false	true	true	São 18 horas e 40 minutos e 0 segundo
+PT_BR	18:40:00	false	FORMAL	true	false	false	6 horas e 40 minutos da noite
+PT_BR	18:40:00	true	FORMAL	false	false	false	18 horas e 40 minutos
+PT_BR	21:21:21	false	COMMON	true	true	false	São 9 e 21 da noite
+PT_BR	21:21:21	false	COMMON	false	false	false	9 e 21
+PT_BR	21:21:21	true	FORMAL	false	true	true	São 21 horas e 21 minutos e 21 segundo
+PT_BR	21:21:21	false	FORMAL	true	false	false	9 horas e 21 minutos da noite
+PT_BR	21:21:21	true	FORMAL	false	false	false	21 horas e 21 minutos
+PT_BR	23:59:59	false	COMMON	true	true	false	Faltam 1 pras 12 da noite
+PT_BR	23:59:59	false	COMMON	false	false	false	1 pras 12
+PT_BR	23:59:59	true	FORMAL	false	true	true	São 23 horas e 59 minutos e 59 segundo
+PT_BR	23:59:59	false	FORMAL	true	false	false	11 horas e 59 minutos da noite
+PT_BR	23:59:59	true	FORMAL	false	false	false	23 horas e 59 minutos
+ES_ES	00:00:00	false	COMMON	true	true	false	Es medianoche
+ES_ES	00:00:00	false	COMMON	false	false	false	Medianoche
+ES_ES	00:00:00	true	FORMAL	false	true	true	Son las 0 horas y 0 minutos y 0 segundos
+ES_ES	00:00:00	false	FORMAL	true	false	false	12 de la noche
+ES_ES	00:00:00	true	FORMAL	false	false	false	0 horas
+ES_ES	00:30:01	false	COMMON	true	true	false	Son las 12 y media de la noche
+ES_ES	00:30:01	false	COMMON	false	false	false	12 y media
+ES_ES	00:30:01	true	FORMAL	false	true	true	Son las 0 horas y 30 minutos y un segundo
+ES_ES	00:30:01	false	FORMAL	true	false	false	12 30 de la noche
+ES_ES	00:30:01	true	FORMAL	false	false	false	0 horas y 30 minutos
+ES_ES	01:01:01	false	COMMON	true	true	false	Es la una y 1 de la madrugada
+ES_ES	01:01:01	false	COMMON	false	false	false	Una y 1
+ES_ES	01:01:01	true	FORMAL	false	true	true	Es la una horas y un minuto y un segundo
+ES_ES	01:01:01	false	FORMAL	true	false	false	Una 1 de la madrugada
+ES_ES	01:01:01	true	FORMAL	false	false	false	Una horas y un minuto
+ES_ES	02:02:02	false	COMMON	true	true	false	Son las 2 y 2 de la madrugada
+ES_ES	02:02:02	false	COMMON	false	false	false	2 y 2
+ES_ES	02:02:02	true	FORMAL	false	true	true	Son las 2 horas y 2 minutos y 2 segundos
+ES_ES	02:02:02	false	FORMAL	true	false	false	2 2 de la madrugada
+ES_ES	02:02:02	true	FORMAL	false	false	false	2 horas y 2 minutos
+ES_ES	07:05:30	false	COMMON	true	true	false	Son las 7 y 5 de la mañana
+ES_ES	07:05:30	false	COMMON	false	false	false	7 y 5
+ES_ES	07:05:30	true	FORMAL	false	true	true	Son las 7 horas y 5 minutos y 30 segundos
+ES_ES	07:05:30	false	FORMAL	true	false	false	7 5 de la mañana
+ES_ES	07:05:30	true	FORMAL	false	false	false	7 horas y 5 minutos
+ES_ES	09:15:00	false	COMMON	true	true	false	Son las 9 y cuarto de la mañana
+ES_ES	09:15:00	false	COMMON	false	false	false	9 y cuarto
+ES_ES	09:15:00	true	FORMAL	false	true	true	Son las 9 horas y 15 minutos y 0 segundos
+ES_ES	09:15:00	false	FORMAL	true	false	false	9 15 de la mañana
+ES_ES	09:15:00	true	FORMAL	false	false	false	9 horas y 15 minutos
+ES_ES	11:45:00	false	COMMON	true	true	false	Son las 12 menos cuarto de la tarde
+ES_ES	11:45:00	false	COMMON	false	false	false	12 menos cuarto
+ES_ES	11:45:00	true	FORMAL	false	true	true	Son las 11 horas y 45 minutos y 0 segundos
+ES_ES	11:45:00	false	FORMAL	true	false	false	11 45 de la tarde
+ES_ES	11:45:00	true	FORMAL	false	false	false	11 horas y 45 minutos
+ES_ES	12:00:00	false	COMMON	true	true	false	Es mediodía
+ES_ES	12:00:00	false	COMMON	false	false	false	Mediodía
+ES_ES	12:00:00	true	FORMAL	false	true	true	Son las 12 horas y 0 minutos y 0 segundos
+ES_ES	12:00:00	false	FORMAL	true	false	false	12 de la tarde
+ES_ES	12:00:00	true	FORMAL	false	false	false	12 horas
+ES_ES	12:31:00	false	COMMON	true	true	false	Es la una menos 29 de la tarde
+ES_ES	12:31:00	false	COMMON	false	false	false	Una menos 29
+ES_ES	12:31:00	true	FORMAL	false	true	true	Son las 12 horas y 31 minutos y 0 segundos
+ES_ES	12:31:00	false	FORMAL	true	false	false	12 31 de la tarde
+ES_ES	12:31:00	true	FORMAL	false	false	false	12 horas y 31 minutos
+ES_ES	13:30:00	false	COMMON	true	true	false	Es la una y media de la tarde
+ES_ES	13:30:00	false	COMMON	false	false	false	Una y media
+ES_ES	13:30:00	true	FORMAL	false	true	true	Son las 13 horas y 30 minutos y 0 segundos
+ES_ES	13:30:00	false	FORMAL	true	false	false	Una 30 de la tarde
+ES_ES	13:30:00	true	FORMAL	false	false	false	13 horas y 30 minutos
+ES_ES	14:22:22	false	COMMON	true	true	false	Son las 2 y 22 de la tarde
+ES_ES	14:22:22	false	COMMON	false	false	false	2 y 22
+ES_ES	14:22:22	true	FORMAL	false	true	true	Son las 14 horas y 22 minutos y 22 segundos
+ES_ES	14:22:22	false	FORMAL	true	false	false	2 22 de la tarde
+ES_ES	14:22:22	true	FORMAL	false	false	false	14 horas y 22 minutos
+ES_ES	18:40:00	false	COMMON	true	true	false	Son las 7 menos 20 de la noche
+ES_ES	18:40:00	false	COMMON	false	false	false	7 menos 20
+ES_ES	18:40:00	true	FORMAL	false	true	true	Son las 18 horas y 40 minutos y 0 segundos
+ES_ES	18:40:00	false	FORMAL	true	false	false	6 40 de la noche
+ES_ES	18:40:00	true	FORMAL	false	false	false	18 horas y 40 minutos
+ES_ES	21:21:21	false	COMMON	true	true	false	Son las 9 y 21 de la noche
+ES_ES	21:21:21	false	COMMON	false	false	false	9 y 21
+ES_ES	21:21:21	true	FORMAL	false	true	true	Son las 21 horas y 21 minutos y 21 segundos
+ES_ES	21:21:21	false	FORMAL	true	false	false	9 21 de la noche
+ES_ES	21:21:21	true	FORMAL	false	false	false	21 horas y 21 minutos
+ES_ES	23:59:59	false	COMMON	true	true	false	Son las 12 menos 1 de la noche
+ES_ES	23:59:59	false	COMMON	false	false	false	12 menos 1
+ES_ES	23:59:59	true	FORMAL	false	true	true	Son las 23 horas y 59 minutos y 59 segundos
+ES_ES	23:59:59	false	FORMAL	true	false	false	11 59 de la noche
+ES_ES	23:59:59	true	FORMAL	false	false	false	23 horas y 59 minutos
+ES_MX	00:00:00	false	COMMON	true	true	false	Es medianoche
+ES_MX	00:00:00	false	COMMON	false	false	false	Medianoche
+ES_MX	00:00:00	true	FORMAL	false	true	true	Son las 0 horas y 0 minutos y 0 segundos
+ES_MX	00:00:00	false	FORMAL	true	false	false	12 de la noche
+ES_MX	00:00:00	true	FORMAL	false	false	false	0 horas
+ES_MX	00:30:01	false	COMMON	true	true	false	Son las 12 de la noche con 30 minutos
+ES_MX	00:30:01	false	COMMON	false	false	false	12 y media
+ES_MX	00:30:01	true	FORMAL	false	true	true	Son las 0 horas y 30 minutos y un segundo
+ES_MX	00:30:01	false	FORMAL	true	false	false	12 30 de la noche
+ES_MX	00:30:01	true	FORMAL	false	false	false	0 horas y 30 minutos
+ES_MX	01:01:01	false	COMMON	true	true	false	Es la una de la madrugada con un minuto
+ES_MX	01:01:01	false	COMMON	false	false	false	Una y 1
+ES_MX	01:01:01	true	FORMAL	false	true	true	Es la una horas y un minuto y un segundo
+ES_MX	01:01:01	false	FORMAL	true	false	false	Una 1 de la madrugada
+ES_MX	01:01:01	true	FORMAL	false	false	false	Una horas y un minuto
+ES_MX	02:02:02	false	COMMON	true	true	false	Son las 2 de la madrugada con 2 minutos
+ES_MX	02:02:02	false	COMMON	false	false	false	2 y 2
+ES_MX	02:02:02	true	FORMAL	false	true	true	Son las 2 horas y 2 minutos y 2 segundos
+ES_MX	02:02:02	false	FORMAL	true	false	false	2 2 de la madrugada
+ES_MX	02:02:02	true	FORMAL	false	false	false	2 horas y 2 minutos
+ES_MX	07:05:30	false	COMMON	true	true	false	Son las 7 de la mañana con 5 minutos
+ES_MX	07:05:30	false	COMMON	false	false	false	7 y 5
+ES_MX	07:05:30	true	FORMAL	false	true	true	Son las 7 horas y 5 minutos y 30 segundos
+ES_MX	07:05:30	false	FORMAL	true	false	false	7 5 de la mañana
+ES_MX	07:05:30	true	FORMAL	false	false	false	7 horas y 5 minutos
+ES_MX	09:15:00	false	COMMON	true	true	false	Son las 9 de la mañana con 15 minutos
+ES_MX	09:15:00	false	COMMON	false	false	false	9 y cuarto
+ES_MX	09:15:00	true	FORMAL	false	true	true	Son las 9 horas y 15 minutos y 0 segundos
+ES_MX	09:15:00	false	FORMAL	true	false	false	9 15 de la mañana
+ES_MX	09:15:00	true	FORMAL	false	false	false	9 horas y 15 minutos
+ES_MX	11:45:00	false	COMMON	true	true	false	Faltan 15 minutos para las 12 de la tarde
+ES_MX	11:45:00	false	COMMON	false	false	false	Un cuarto para las 12
+ES_MX	11:45:00	true	FORMAL	false	true	true	Son las 11 horas y 45 minutos y 0 segundos
+ES_MX	11:45:00	false	FORMAL	true	false	false	11 45 de la tarde
+ES_MX	11:45:00	true	FORMAL	false	false	false	11 horas y 45 minutos
+ES_MX	12:00:00	false	COMMON	true	true	false	Es mediodía
+ES_MX	12:00:00	false	COMMON	false	false	false	Mediodía
+ES_MX	12:00:00	true	FORMAL	false	true	true	Son las 12 horas y 0 minutos y 0 segundos
+ES_MX	12:00:00	false	FORMAL	true	false	false	12 de la tarde
+ES_MX	12:00:00	true	FORMAL	false	false	false	12 horas
+ES_MX	12:31:00	false	COMMON	true	true	false	Faltan 29 minutos para la una de la tarde
+ES_MX	12:31:00	false	COMMON	false	false	false	29 para la una
+ES_MX	12:31:00	true	FORMAL	false	true	true	Son las 12 horas y 31 minutos y 0 segundos
+ES_MX	12:31:00	false	FORMAL	true	false	false	12 31 de la tarde
+ES_MX	12:31:00	true	FORMAL	false	false	false	12 horas y 31 minutos
+ES_MX	13:30:00	false	COMMON	true	true	false	Es la una de la tarde con 30 minutos
+ES_MX	13:30:00	false	COMMON	false	false	false	Una y media
+ES_MX	13:30:00	true	FORMAL	false	true	true	Son las 13 horas y 30 minutos y 0 segundos
+ES_MX	13:30:00	false	FORMAL	true	false	false	Una 30 de la tarde
+ES_MX	13:30:00	true	FORMAL	false	false	false	13 horas y 30 minutos
+ES_MX	14:22:22	false	COMMON	true	true	false	Son las 2 de la tarde con 22 minutos
+ES_MX	14:22:22	false	COMMON	false	false	false	2 y 22
+ES_MX	14:22:22	true	FORMAL	false	true	true	Son las 14 horas y 22 minutos y 22 segundos
+ES_MX	14:22:22	false	FORMAL	true	false	false	2 22 de la tarde
+ES_MX	14:22:22	true	FORMAL	false	false	false	14 horas y 22 minutos
+ES_MX	18:40:00	false	COMMON	true	true	false	Faltan 20 minutos para las 7 de la noche
+ES_MX	18:40:00	false	COMMON	false	false	false	20 para las 7
+ES_MX	18:40:00	true	FORMAL	false	true	true	Son las 18 horas y 40 minutos y 0 segundos
+ES_MX	18:40:00	false	FORMAL	true	false	false	6 40 de la noche
+ES_MX	18:40:00	true	FORMAL	false	false	false	18 horas y 40 minutos
+ES_MX	21:21:21	false	COMMON	true	true	false	Son las 9 de la noche con 21 minutos
+ES_MX	21:21:21	false	COMMON	false	false	false	9 y 21
+ES_MX	21:21:21	true	FORMAL	false	true	true	Son las 21 horas y 21 minutos y 21 segundos
+ES_MX	21:21:21	false	FORMAL	true	false	false	9 21 de la noche
+ES_MX	21:21:21	true	FORMAL	false	false	false	21 horas y 21 minutos
+ES_MX	23:59:59	false	COMMON	true	true	false	Falta un minuto para las 12 de la noche
+ES_MX	23:59:59	false	COMMON	false	false	false	1 para las 12
+ES_MX	23:59:59	true	FORMAL	false	true	true	Son las 23 horas y 59 minutos y 59 segundos
+ES_MX	23:59:59	false	FORMAL	true	false	false	11 59 de la noche
+ES_MX	23:59:59	true	FORMAL	false	false	false	23 horas y 59 minutos
+CS_CZ	00:00:00	false	COMMON	true	true	false	Je půlnoc
+CS_CZ	00:00:00	false	COMMON	false	false	false	Půlnoc
+CS_CZ	00:00:00	true	FORMAL	false	true	true	Je 0 hodin 0 minut a 0 sekúnd
+CS_CZ	00:00:00	false	FORMAL	true	false	false	12 hodin ráno
+CS_CZ	00:00:00	true	FORMAL	false	false	false	0 hodin
+CS_CZ	00:30:01	false	COMMON	true	true	false	Je půl jedné ráno
+CS_CZ	00:30:01	false	COMMON	false	false	false	Půl jedné
+CS_CZ	00:30:01	true	FORMAL	false	true	true	Je 0 hodin 30 minut a 1 sekunda
+CS_CZ	00:30:01	false	FORMAL	true	false	false	12 hodin a 30 minut ráno
+CS_CZ	00:30:01	true	FORMAL	false	false	false	0 hodin a 30 minut
+CS_CZ	01:01:01	false	COMMON	true	true	false	Je za 14 minut čtvrt na 2 ráno
+CS_CZ	01:01:01	false	COMMON	false	false	false	Za 14 minut čtvrt na 2
+CS_CZ	01:01:01	true	FORMAL	false	true	true	Je 1 hodina 1 minuta a 1 sekunda
+CS_CZ	01:01:01	false	FORMAL	true	false	false	1 hodina a 1 minuta ráno
+CS_CZ	01:01:01	true	FORMAL	false	false	false	1 hodina a 1 minuta
+CS_CZ	02:02:02	false	COMMON	true	true	false	Je za 13 minut čtvrt na 3 ráno
+CS_CZ	02:02:02	false	COMMON	false	false	false	Za 13 minut čtvrt na 3
+CS_CZ	02:02:02	true	FORMAL	false	true	true	Jsou 2 hodiny 2 minuty a 2 sekundy
+CS_CZ	02:02:02	false	FORMAL	true	false	false	2 hodiny a 2 minuty ráno
+CS_CZ	02:02:02	true	FORMAL	false	false	false	2 hodiny a 2 minuty
+CS_CZ	07:05:30	false	COMMON	true	true	false	Je za 10 minut čtvrt na 8 ráno
+CS_CZ	07:05:30	false	COMMON	false	false	false	Za 10 minut čtvrt na 8
+CS_CZ	07:05:30	true	FORMAL	false	true	true	Je 7 hodin 5 minut a 30 sekúnd
+CS_CZ	07:05:30	false	FORMAL	true	false	false	7 hodin a 5 minut ráno
+CS_CZ	07:05:30	true	FORMAL	false	false	false	7 hodin a 5 minut
+CS_CZ	09:15:00	false	COMMON	true	true	false	Je čtvrt na 10 ráno
+CS_CZ	09:15:00	false	COMMON	false	false	false	Čtvrt na 10
+CS_CZ	09:15:00	true	FORMAL	false	true	true	Je 9 hodin 15 minut a 0 sekúnd
+CS_CZ	09:15:00	false	FORMAL	true	false	false	9 hodin a 15 minut ráno
+CS_CZ	09:15:00	true	FORMAL	false	false	false	9 hodin a 15 minut
+CS_CZ	11:45:00	false	COMMON	true	true	false	Je tři čtvrtě na 12 ráno
+CS_CZ	11:45:00	false	COMMON	false	false	false	Tři čtvrtě na 12
+CS_CZ	11:45:00	true	FORMAL	false	true	true	Je 11 hodin 45 minut a 0 sekúnd
+CS_CZ	11:45:00	false	FORMAL	true	false	false	11 hodin a 45 minut ráno
+CS_CZ	11:45:00	true	FORMAL	false	false	false	11 hodin a 45 minut
+CS_CZ	12:00:00	false	COMMON	true	true	false	Je poledne
+CS_CZ	12:00:00	false	COMMON	false	false	false	Poledne
+CS_CZ	12:00:00	true	FORMAL	false	true	true	Je 12 hodin 0 minut a 0 sekúnd
+CS_CZ	12:00:00	false	FORMAL	true	false	false	12 hodin odpoledne
+CS_CZ	12:00:00	true	FORMAL	false	false	false	12 hodin
+CS_CZ	12:31:00	false	COMMON	true	true	false	Je za 14 minut tři čtvrtě na 1 odpoledne
+CS_CZ	12:31:00	false	COMMON	false	false	false	Za 14 minut tři čtvrtě na 1
+CS_CZ	12:31:00	true	FORMAL	false	true	true	Je 12 hodin 31 minut a 0 sekúnd
+CS_CZ	12:31:00	false	FORMAL	true	false	false	12 hodin a 31 minut odpoledne
+CS_CZ	12:31:00	true	FORMAL	false	false	false	12 hodin a 31 minut
+CS_CZ	13:30:00	false	COMMON	true	true	false	Je půl druhé odpoledne
+CS_CZ	13:30:00	false	COMMON	false	false	false	Půl druhé
+CS_CZ	13:30:00	true	FORMAL	false	true	true	Je 13 hodin 30 minut a 0 sekúnd
+CS_CZ	13:30:00	false	FORMAL	true	false	false	1 hodina a 30 minut odpoledne
+CS_CZ	13:30:00	true	FORMAL	false	false	false	13 hodin a 30 minut
+CS_CZ	14:22:22	false	COMMON	true	true	false	Je za 8 minut půl třetí odpoledne
+CS_CZ	14:22:22	false	COMMON	false	false	false	Za 8 minut půl třetí
+CS_CZ	14:22:22	true	FORMAL	false	true	true	Je 14 hodin 22 minut a 22 sekúnd
+CS_CZ	14:22:22	false	FORMAL	true	false	false	2 hodiny a 22 minut odpoledne
+CS_CZ	14:22:22	true	FORMAL	false	false	false	14 hodin a 22 minut
+CS_CZ	18:40:00	false	COMMON	true	true	false	Je za 5 minut tři čtvrtě na 7 odpoledne
+CS_CZ	18:40:00	false	COMMON	false	false	false	Za 5 minut tři čtvrtě na 7
+CS_CZ	18:40:00	true	FORMAL	false	true	true	Je 18 hodin 40 minut a 0 sekúnd
+CS_CZ	18:40:00	false	FORMAL	true	false	false	6 hodin a 40 minut odpoledne
+CS_CZ	18:40:00	true	FORMAL	false	false	false	18 hodin a 40 minut
+CS_CZ	21:21:21	false	COMMON	true	true	false	Je za 9 minut půl desáté večer
+CS_CZ	21:21:21	false	COMMON	false	false	false	Za 9 minut půl desáté
+CS_CZ	21:21:21	true	FORMAL	false	true	true	Je 21 hodin 21 minut a 21 sekúnd
+CS_CZ	21:21:21	false	FORMAL	true	false	false	9 hodin a 21 minut večer
+CS_CZ	21:21:21	true	FORMAL	false	false	false	21 hodin a 21 minut
+CS_CZ	23:59:59	false	COMMON	true	true	false	Je za 1 minutu 12 hodin večer
+CS_CZ	23:59:59	false	COMMON	false	false	false	Za 1 minutu 12 hodin
+CS_CZ	23:59:59	true	FORMAL	false	true	true	Je 23 hodin 59 minut a 59 sekúnd
+CS_CZ	23:59:59	false	FORMAL	true	false	false	11 hodin a 59 minut večer
+CS_CZ	23:59:59	true	FORMAL	false	false	false	23 hodin a 59 minut
+PL_PL	00:00:00	false	COMMON	true	true	false	Jest północ
+PL_PL	00:00:00	false	COMMON	false	false	false	Północ
+PL_PL	00:00:00	true	FORMAL	false	true	true	Jest północ
+PL_PL	00:00:00	false	FORMAL	true	false	false	Dwunasta godzina rano
+PL_PL	00:00:00	true	FORMAL	false	false	false	Północ
+PL_PL	00:30:01	false	COMMON	true	true	false	Jest wpół do pierwszej w nocy
+PL_PL	00:30:01	false	COMMON	false	false	false	Wpół do pierwszej
+PL_PL	00:30:01	true	FORMAL	false	true	true	Jest zero 30
+PL_PL	00:30:01	false	FORMAL	true	false	false	Dwunasta 30 rano
+PL_PL	00:30:01	true	FORMAL	false	false	false	Zero 30
+PL_PL	01:01:01	false	COMMON	true	true	false	Jest minuta po pierwszej w nocy
+PL_PL	01:01:01	false	COMMON	false	false	false	Minuta po pierwszej
+PL_PL	01:01:01	true	FORMAL	false	true	true	Jest pierwsza 1
+PL_PL	01:01:01	false	FORMAL	true	false	false	Pierwsza 1 rano
+PL_PL	01:01:01	true	FORMAL	false	false	false	Pierwsza 1
+PL_PL	02:02:02	false	COMMON	true	true	false	Jest 2 minuty po drugiej w nocy
+PL_PL	02:02:02	false	COMMON	false	false	false	2 minuty po drugiej
+PL_PL	02:02:02	true	FORMAL	false	true	true	Jest druga 2
+PL_PL	02:02:02	false	FORMAL	true	false	false	Druga 2 rano
+PL_PL	02:02:02	true	FORMAL	false	false	false	Druga 2
+PL_PL	07:05:30	false	COMMON	true	true	false	Jest 5 minut po siódmej rano
+PL_PL	07:05:30	false	COMMON	false	false	false	5 minut po siódmej
+PL_PL	07:05:30	true	FORMAL	false	true	true	Jest siódma 5
+PL_PL	07:05:30	false	FORMAL	true	false	false	Siódma 5 rano
+PL_PL	07:05:30	true	FORMAL	false	false	false	Siódma 5
+PL_PL	09:15:00	false	COMMON	true	true	false	Jest kwadrans po dziewiątej rano
+PL_PL	09:15:00	false	COMMON	false	false	false	Kwadrans po dziewiątej
+PL_PL	09:15:00	true	FORMAL	false	true	true	Jest dziewiąta 15
+PL_PL	09:15:00	false	FORMAL	true	false	false	Dziewiąta 15 rano
+PL_PL	09:15:00	true	FORMAL	false	false	false	Dziewiąta 15
+PL_PL	11:45:00	false	COMMON	true	true	false	Jest kwadrans przed dwunastą rano
+PL_PL	11:45:00	false	COMMON	false	false	false	Kwadrans przed dwunastą
+PL_PL	11:45:00	true	FORMAL	false	true	true	Jest jedenasta 45
+PL_PL	11:45:00	false	FORMAL	true	false	false	Jedenasta 45 rano
+PL_PL	11:45:00	true	FORMAL	false	false	false	Jedenasta 45
+PL_PL	12:00:00	false	COMMON	true	true	false	Jest południe
+PL_PL	12:00:00	false	COMMON	false	false	false	Południe
+PL_PL	12:00:00	true	FORMAL	false	true	true	Jest dwunasta godzina
+PL_PL	12:00:00	false	FORMAL	true	false	false	Dwunasta godzina popołudniu
+PL_PL	12:00:00	true	FORMAL	false	false	false	Dwunasta godzina
+PL_PL	12:31:00	false	COMMON	true	true	false	Jest 29 minut przed pierwszą po południu
+PL_PL	12:31:00	false	COMMON	false	false	false	29 minut przed pierwszą
+PL_PL	12:31:00	true	FORMAL	false	true	true	Jest dwunasta 31
+PL_PL	12:31:00	false	FORMAL	true	false	false	Dwunasta 31 popołudniu
+PL_PL	12:31:00	true	FORMAL	false	false	false	Dwunasta 31
+PL_PL	13:30:00	false	COMMON	true	true	false	Jest wpół do drugiej po południu
+PL_PL	13:30:00	false	COMMON	false	false	false	Wpół do drugiej
+PL_PL	13:30:00	true	FORMAL	false	true	true	Jest trzynasta 30
+PL_PL	13:30:00	false	FORMAL	true	false	false	Pierwsza 30 popołudniu
+PL_PL	13:30:00	true	FORMAL	false	false	false	Trzynasta 30
+PL_PL	14:22:22	false	COMMON	true	true	false	Jest 22 minuty po drugiej po południu
+PL_PL	14:22:22	false	COMMON	false	false	false	22 minuty po drugiej
+PL_PL	14:22:22	true	FORMAL	false	true	true	Jest czternasta 22
+PL_PL	14:22:22	false	FORMAL	true	false	false	Druga 22 popołudniu
+PL_PL	14:22:22	true	FORMAL	false	false	false	Czternasta 22
+PL_PL	18:40:00	false	COMMON	true	true	false	Jest 20 minut przed siódmą wieczorem
+PL_PL	18:40:00	false	COMMON	false	false	false	20 minut przed siódmą
+PL_PL	18:40:00	true	FORMAL	false	true	true	Jest osiemnasta 40
+PL_PL	18:40:00	false	FORMAL	true	false	false	Szósta 40 popołudniu
+PL_PL	18:40:00	true	FORMAL	false	false	false	Osiemnasta 40
+PL_PL	21:21:21	false	COMMON	true	true	false	Jest 21 minut po dziewiątej wieczorem
+PL_PL	21:21:21	false	COMMON	false	false	false	21 minut po dziewiątej
+PL_PL	21:21:21	true	FORMAL	false	true	true	Jest dwudziesta pierwsza 21
+PL_PL	21:21:21	false	FORMAL	true	false	false	Dziewiąta 21 popołudniu
+PL_PL	21:21:21	true	FORMAL	false	false	false	Dwudziesta pierwsza 21
+PL_PL	23:59:59	false	COMMON	true	true	false	Jest minuta przed dwunastą w nocy
+PL_PL	23:59:59	false	COMMON	false	false	false	Minuta przed dwunastą
+PL_PL	23:59:59	true	FORMAL	false	true	true	Jest dwudziesta trzecia 59
+PL_PL	23:59:59	false	FORMAL	true	false	false	Jedenasta 59 popołudniu
+PL_PL	23:59:59	true	FORMAL	false	false	false	Dwudziesta trzecia 59
+NL_NL	00:00:00	false	COMMON	true	true	false	Het is middernacht
+NL_NL	00:00:00	false	COMMON	false	false	false	Middernacht
+NL_NL	00:00:00	true	FORMAL	false	true	true	Het is nul uur en nul minuten en nul seconden
+NL_NL	00:00:00	false	FORMAL	true	false	false	Twaalf uur 's nachts
+NL_NL	00:00:00	true	FORMAL	false	false	false	Nul uur
+NL_NL	00:30:01	false	COMMON	true	true	false	Het is half een 's nachts
+NL_NL	00:30:01	false	COMMON	false	false	false	Half een
+NL_NL	00:30:01	true	FORMAL	false	true	true	Het is nul uur en dertig minuten en een seconde
+NL_NL	00:30:01	false	FORMAL	true	false	false	Twaalf uur en dertig minuten 's nachts
+NL_NL	00:30:01	true	FORMAL	false	false	false	Nul uur en dertig minuten
+NL_NL	01:01:01	false	COMMON	true	true	false	Het is een over een 's nachts
+NL_NL	01:01:01	false	COMMON	false	false	false	Een over een
+NL_NL	01:01:01	true	FORMAL	false	true	true	Het is een uur en een minuut en een seconde
+NL_NL	01:01:01	false	FORMAL	true	false	false	Een uur en een minuut 's nachts
+NL_NL	01:01:01	true	FORMAL	false	false	false	Een uur en een minuut
+NL_NL	02:02:02	false	COMMON	true	true	false	Het is twee over twee 's nachts
+NL_NL	02:02:02	false	COMMON	false	false	false	Twee over twee
+NL_NL	02:02:02	true	FORMAL	false	true	true	Het is twee uur en twee minuten en twee seconden
+NL_NL	02:02:02	false	FORMAL	true	false	false	Twee uur en twee minuten 's nachts
+NL_NL	02:02:02	true	FORMAL	false	false	false	Twee uur en twee minuten
+NL_NL	07:05:30	false	COMMON	true	true	false	Het is vijf over zeven 's morgens
+NL_NL	07:05:30	false	COMMON	false	false	false	Vijf over zeven
+NL_NL	07:05:30	true	FORMAL	false	true	true	Het is zeven uur en vijf minuten en dertig seconden
+NL_NL	07:05:30	false	FORMAL	true	false	false	Zeven uur en vijf minuten 's morgens
+NL_NL	07:05:30	true	FORMAL	false	false	false	Zeven uur en vijf minuten
+NL_NL	09:15:00	false	COMMON	true	true	false	Het is kwart over negen 's morgens
+NL_NL	09:15:00	false	COMMON	false	false	false	Kwart over negen
+NL_NL	09:15:00	true	FORMAL	false	true	true	Het is negen uur en vijftien minuten en nul seconden
+NL_NL	09:15:00	false	FORMAL	true	false	false	Negen uur en vijftien minuten 's morgens
+NL_NL	09:15:00	true	FORMAL	false	false	false	Negen uur en vijftien minuten
+NL_NL	11:45:00	false	COMMON	true	true	false	Het is kwart voor twaalf 's morgens
+NL_NL	11:45:00	false	COMMON	false	false	false	Kwart voor twaalf
+NL_NL	11:45:00	true	FORMAL	false	true	true	Het is elf uur en vijfenveertig minuten en nul seconden
+NL_NL	11:45:00	false	FORMAL	true	false	false	Elf uur en vijfenveertig minuten 's morgens
+NL_NL	11:45:00	true	FORMAL	false	false	false	Elf uur en vijfenveertig minuten
+NL_NL	12:00:00	false	COMMON	true	true	false	Het is middag
+NL_NL	12:00:00	false	COMMON	false	false	false	Middag
+NL_NL	12:00:00	true	FORMAL	false	true	true	Het is twaalf uur en nul minuten en nul seconden
+NL_NL	12:00:00	false	FORMAL	true	false	false	Twaalf uur 's namiddags
+NL_NL	12:00:00	true	FORMAL	false	false	false	Twaalf uur
+NL_NL	12:31:00	false	COMMON	true	true	false	Het is een over half een 's namiddags
+NL_NL	12:31:00	false	COMMON	false	false	false	Een over half een
+NL_NL	12:31:00	true	FORMAL	false	true	true	Het is twaalf uur en eenendertig minuten en nul seconden
+NL_NL	12:31:00	false	FORMAL	true	false	false	Twaalf uur en eenendertig minuten 's namiddags
+NL_NL	12:31:00	true	FORMAL	false	false	false	Twaalf uur en eenendertig minuten
+NL_NL	13:30:00	false	COMMON	true	true	false	Het is half twee 's namiddags
+NL_NL	13:30:00	false	COMMON	false	false	false	Half twee
+NL_NL	13:30:00	true	FORMAL	false	true	true	Het is dertien uur en dertig minuten en nul seconden
+NL_NL	13:30:00	false	FORMAL	true	false	false	Een uur en dertig minuten 's namiddags
+NL_NL	13:30:00	true	FORMAL	false	false	false	Dertien uur en dertig minuten
+NL_NL	14:22:22	false	COMMON	true	true	false	Het is acht voor half drie 's namiddags
+NL_NL	14:22:22	false	COMMON	false	false	false	Acht voor half drie
+NL_NL	14:22:22	true	FORMAL	false	true	true	Het is veertien uur en tweeëntwintig minuten en tweeëntwintig seconden
+NL_NL	14:22:22	false	FORMAL	true	false	false	Twee uur en tweeëntwintig minuten 's namiddags
+NL_NL	14:22:22	true	FORMAL	false	false	false	Veertien uur en tweeëntwintig minuten
+NL_NL	18:40:00	false	COMMON	true	true	false	Het is tien over half zeven 's avonds
+NL_NL	18:40:00	false	COMMON	false	false	false	Tien over half zeven
+NL_NL	18:40:00	true	FORMAL	false	true	true	Het is achttien uur en veertig minuten en nul seconden
+NL_NL	18:40:00	false	FORMAL	true	false	false	Zes uur en veertig minuten 's avonds
+NL_NL	18:40:00	true	FORMAL	false	false	false	Achttien uur en veertig minuten
+NL_NL	21:21:21	false	COMMON	true	true	false	Het is negen voor half tien 's avonds
+NL_NL	21:21:21	false	COMMON	false	false	false	Negen voor half tien
+NL_NL	21:21:21	true	FORMAL	false	true	true	Het is eenentwintig uur en eenentwintig minuten en eenentwintig seconden
+NL_NL	21:21:21	false	FORMAL	true	false	false	Negen uur en eenentwintig minuten 's avonds
+NL_NL	21:21:21	true	FORMAL	false	false	false	Eenentwintig uur en eenentwintig minuten
+NL_NL	23:59:59	false	COMMON	true	true	false	Het is een voor twaalf 's avonds
+NL_NL	23:59:59	false	COMMON	false	false	false	Een voor twaalf
+NL_NL	23:59:59	true	FORMAL	false	true	true	Het is drieëntwintig uur en negenenvijftig minuten en negenenvijftig seconden
+NL_NL	23:59:59	false	FORMAL	true	false	false	Elf uur en negenenvijftig minuten 's avonds
+NL_NL	23:59:59	true	FORMAL	false	false	false	Drieëntwintig uur en negenenvijftig minuten
+TR_TR	00:00:00	false	COMMON	true	true	false	Gece yarısı oldu
+TR_TR	00:00:00	false	COMMON	false	false	false	Gece yarısı
+TR_TR	00:00:00	true	FORMAL	false	true	true	Gece yarısı oldu
+TR_TR	00:00:00	false	FORMAL	true	false	false	Sabah on iki
+TR_TR	00:00:00	true	FORMAL	false	false	false	Gece yarısı
+TR_TR	00:30:01	false	COMMON	true	true	false	Sabah saat yarım
+TR_TR	00:30:01	false	COMMON	false	false	false	Yarım
+TR_TR	00:30:01	true	FORMAL	false	true	true	Saat sıfır otuz
+TR_TR	00:30:01	false	FORMAL	true	false	false	Sabah on iki otuz
+TR_TR	00:30:01	true	FORMAL	false	false	false	Sıfır otuz
+TR_TR	01:01:01	false	COMMON	true	true	false	Gece saat biri bir dakika geçiyor
+TR_TR	01:01:01	false	COMMON	false	false	false	Biri bir dakika geçiyor
+TR_TR	01:01:01	true	FORMAL	false	true	true	Saat bir sıfır bir
+TR_TR	01:01:01	false	FORMAL	true	false	false	Sabah bir sıfır bir
+TR_TR	01:01:01	true	FORMAL	false	false	false	Bir sıfır bir
+TR_TR	02:02:02	false	COMMON	true	true	false	Gece saat ikiyi iki dakika geçiyor
+TR_TR	02:02:02	false	COMMON	false	false	false	İkiyi iki dakika geçiyor
+TR_TR	02:02:02	true	FORMAL	false	true	true	Saat iki sıfır iki
+TR_TR	02:02:02	false	FORMAL	true	false	false	Sabah iki sıfır iki
+TR_TR	02:02:02	true	FORMAL	false	false	false	İki sıfır iki
+TR_TR	07:05:30	false	COMMON	true	true	false	Sabah saat yediyi beş dakika geçiyor
+TR_TR	07:05:30	false	COMMON	false	false	false	Yediyi beş dakika geçiyor
+TR_TR	07:05:30	true	FORMAL	false	true	true	Saat yedi sıfır beş
+TR_TR	07:05:30	false	FORMAL	true	false	false	Sabah yedi sıfır beş
+TR_TR	07:05:30	true	FORMAL	false	false	false	Yedi sıfır beş
+TR_TR	09:15:00	false	COMMON	true	true	false	Sabah saat dokuzu çeyrek geçiyor
+TR_TR	09:15:00	false	COMMON	false	false	false	Dokuzu çeyrek geçiyor
+TR_TR	09:15:00	true	FORMAL	false	true	true	Saat dokuz on beş
+TR_TR	09:15:00	false	FORMAL	true	false	false	Sabah dokuz on beş
+TR_TR	09:15:00	true	FORMAL	false	false	false	Dokuz on beş
+TR_TR	11:45:00	false	COMMON	true	true	false	Sabah saat on ikiye çeyrek var
+TR_TR	11:45:00	false	COMMON	false	false	false	On ikiye çeyrek var
+TR_TR	11:45:00	true	FORMAL	false	true	true	Saat on bir kırk beş
+TR_TR	11:45:00	false	FORMAL	true	false	false	Sabah on bir kırk beş
+TR_TR	11:45:00	true	FORMAL	false	false	false	On bir kırk beş
+TR_TR	12:00:00	false	COMMON	true	true	false	Bu öğlen
+TR_TR	12:00:00	false	COMMON	false	false	false	Öğlen
+TR_TR	12:00:00	true	FORMAL	false	true	true	Saat on iki
+TR_TR	12:00:00	false	FORMAL	true	false	false	Öğleden sonra on iki
+TR_TR	12:00:00	true	FORMAL	false	false	false	On iki
+TR_TR	12:31:00	false	COMMON	true	true	false	Öğleden sonra saat bire yirmi dokuz dakika var
+TR_TR	12:31:00	false	COMMON	false	false	false	Bire yirmi dokuz dakika var
+TR_TR	12:31:00	true	FORMAL	false	true	true	Saat on iki otuz bir
+TR_TR	12:31:00	false	FORMAL	true	false	false	Öğleden sonra on iki otuz bir
+TR_TR	12:31:00	true	FORMAL	false	false	false	On iki otuz bir
+TR_TR	13:30:00	false	COMMON	true	true	false	Öğleden sonra saat bir buçuk
+TR_TR	13:30:00	false	COMMON	false	false	false	Bir buçuk
+TR_TR	13:30:00	true	FORMAL	false	true	true	Saat on üç otuz
+TR_TR	13:30:00	false	FORMAL	true	false	false	Öğleden sonra bir otuz
+TR_TR	13:30:00	true	FORMAL	false	false	false	On üç otuz
+TR_TR	14:22:22	false	COMMON	true	true	false	Öğleden sonra saat ikiyi yirmi iki dakika geçiyor
+TR_TR	14:22:22	false	COMMON	false	false	false	İkiyi yirmi iki dakika geçiyor
+TR_TR	14:22:22	true	FORMAL	false	true	true	Saat on dört yirmi iki
+TR_TR	14:22:22	false	FORMAL	true	false	false	Öğleden sonra iki yirmi iki
+TR_TR	14:22:22	true	FORMAL	false	false	false	On dört yirmi iki
+TR_TR	18:40:00	false	COMMON	true	true	false	Akşam saat yediye yirmi dakika var
+TR_TR	18:40:00	false	COMMON	false	false	false	Yediye yirmi dakika var
+TR_TR	18:40:00	true	FORMAL	false	true	true	Saat on sekiz kırk
+TR_TR	18:40:00	false	FORMAL	true	false	false	Öğleden sonra altı kırk
+TR_TR	18:40:00	true	FORMAL	false	false	false	On sekiz kırk
+TR_TR	21:21:21	false	COMMON	true	true	false	Akşam saat dokuzu yirmi bir dakika geçiyor
+TR_TR	21:21:21	false	COMMON	false	false	false	Dokuzu yirmi bir dakika geçiyor
+TR_TR	21:21:21	true	FORMAL	false	true	true	Saat yirmi bir yirmi bir
+TR_TR	21:21:21	false	FORMAL	true	false	false	Öğleden sonra dokuz yirmi bir
+TR_TR	21:21:21	true	FORMAL	false	false	false	Yirmi bir yirmi bir
+TR_TR	23:59:59	false	COMMON	true	true	false	Gece saat on ikiye bir dakika var
+TR_TR	23:59:59	false	COMMON	false	false	false	On ikiye bir dakika var
+TR_TR	23:59:59	true	FORMAL	false	true	true	Saat yirmi üç elli dokuz
+TR_TR	23:59:59	false	FORMAL	true	false	false	Öğleden sonra on bir elli dokuz
+TR_TR	23:59:59	true	FORMAL	false	false	false	Yirmi üç elli dokuz
+RU_RU	00:00:00	false	COMMON	true	true	false	Сейчас полночь
+RU_RU	00:00:00	false	COMMON	false	false	false	Полночь
+RU_RU	00:00:00	true	FORMAL	false	true	true	Сейчас ноль часов
+RU_RU	00:00:00	false	FORMAL	true	false	false	Двенадцать часов ночи
+RU_RU	00:00:00	true	FORMAL	false	false	false	Ноль часов
+RU_RU	00:30:01	false	COMMON	true	true	false	Сейчас половина первого ночи
+RU_RU	00:30:01	false	COMMON	false	false	false	Половина первого
+RU_RU	00:30:01	true	FORMAL	false	true	true	Сейчас ноль часов тридцать минут
+RU_RU	00:30:01	false	FORMAL	true	false	false	Двенадцать часов тридцать минут ночи
+RU_RU	00:30:01	true	FORMAL	false	false	false	Ноль часов тридцать минут
+RU_RU	01:01:01	false	COMMON	true	true	false	Сейчас одна минута второго ночи
+RU_RU	01:01:01	false	COMMON	false	false	false	Одна минута второго
+RU_RU	01:01:01	true	FORMAL	false	true	true	Сейчас час одна минута
+RU_RU	01:01:01	false	FORMAL	true	false	false	Час одна минута ночи
+RU_RU	01:01:01	true	FORMAL	false	false	false	Час одна минута
+RU_RU	02:02:02	false	COMMON	true	true	false	Сейчас две минуты третьего ночи
+RU_RU	02:02:02	false	COMMON	false	false	false	Две минуты третьего
+RU_RU	02:02:02	true	FORMAL	false	true	true	Сейчас два часа две минуты
+RU_RU	02:02:02	false	FORMAL	true	false	false	Два часа две минуты ночи
+RU_RU	02:02:02	true	FORMAL	false	false	false	Два часа две минуты
+RU_RU	07:05:30	false	COMMON	true	true	false	Сейчас пять минут восьмого утра
+RU_RU	07:05:30	false	COMMON	false	false	false	Пять минут восьмого
+RU_RU	07:05:30	true	FORMAL	false	true	true	Сейчас семь часов пять минут
+RU_RU	07:05:30	false	FORMAL	true	false	false	Семь часов пять минут утра
+RU_RU	07:05:30	true	FORMAL	false	false	false	Семь часов пять минут
+RU_RU	09:15:00	false	COMMON	true	true	false	Сейчас четверть десятого утра
+RU_RU	09:15:00	false	COMMON	false	false	false	Четверть десятого
+RU_RU	09:15:00	true	FORMAL	false	true	true	Сейчас девять часов пятнадцать минут
+RU_RU	09:15:00	false	FORMAL	true	false	false	Девять часов пятнадцать минут утра
+RU_RU	09:15:00	true	FORMAL	false	false	false	Девять часов пятнадцать минут
+RU_RU	11:45:00	false	COMMON	true	true	false	Сейчас без четверти двенадцать утра
+RU_RU	11:45:00	false	COMMON	false	false	false	Без четверти двенадцать
+RU_RU	11:45:00	true	FORMAL	false	true	true	Сейчас одиннадцать часов сорок пять минут
+RU_RU	11:45:00	false	FORMAL	true	false	false	Одиннадцать часов сорок пять минут утра
+RU_RU	11:45:00	true	FORMAL	false	false	false	Одиннадцать часов сорок пять минут
+RU_RU	12:00:00	false	COMMON	true	true	false	Сейчас полдень
+RU_RU	12:00:00	false	COMMON	false	false	false	Полдень
+RU_RU	12:00:00	true	FORMAL	false	true	true	Сейчас двенадцать часов
+RU_RU	12:00:00	false	FORMAL	true	false	false	Двенадцать часов дня
+RU_RU	12:00:00	true	FORMAL	false	false	false	Двенадцать часов
+RU_RU	12:31:00	false	COMMON	true	true	false	Сейчас без двадцати девяти минут час дня
+RU_RU	12:31:00	false	COMMON	false	false	false	Без двадцати девяти минут час
+RU_RU	12:31:00	true	FORMAL	false	true	true	Сейчас двенадцать часов тридцать одна минута
+RU_RU	12:31:00	false	FORMAL	true	false	false	Двенадцать часов тридцать одна минута дня
+RU_RU	12:31:00	true	FORMAL	false	false	false	Двенадцать часов тридцать одна минута
+RU_RU	13:30:00	false	COMMON	true	true	false	Сейчас половина второго дня
+RU_RU	13:30:00	false	COMMON	false	false	false	Половина второго
+RU_RU	13:30:00	true	FORMAL	false	true	true	Сейчас тринадцать часов тридцать минут
+RU_RU	13:30:00	false	FORMAL	true	false	false	Час тридцать минут дня
+RU_RU	13:30:00	true	FORMAL	false	false	false	Тринадцать часов тридцать минут
+RU_RU	14:22:22	false	COMMON	true	true	false	Сейчас двадцать две минуты третьего дня
+RU_RU	14:22:22	false	COMMON	false	false	false	Двадцать две минуты третьего
+RU_RU	14:22:22	true	FORMAL	false	true	true	Сейчас четырнадцать часов двадцать две минуты
+RU_RU	14:22:22	false	FORMAL	true	false	false	Два часа двадцать две минуты дня
+RU_RU	14:22:22	true	FORMAL	false	false	false	Четырнадцать часов двадцать две минуты
+RU_RU	18:40:00	false	COMMON	true	true	false	Сейчас без двадцати минут семь вечера
+RU_RU	18:40:00	false	COMMON	false	false	false	Без двадцати минут семь
+RU_RU	18:40:00	true	FORMAL	false	true	true	Сейчас восемнадцать часов сорок минут
+RU_RU	18:40:00	false	FORMAL	true	false	false	Шесть часов сорок минут вечера
+RU_RU	18:40:00	true	FORMAL	false	false	false	Восемнадцать часов сорок минут
+RU_RU	21:21:21	false	COMMON	true	true	false	Сейчас двадцать одна минута десятого вечера
+RU_RU	21:21:21	false	COMMON	false	false	false	Двадцать одна минута десятого
+RU_RU	21:21:21	true	FORMAL	false	true	true	Сейчас двадцать один час двадцать одна минута
+RU_RU	21:21:21	false	FORMAL	true	false	false	Девять часов двадцать одна минута вечера
+RU_RU	21:21:21	true	FORMAL	false	false	false	Двадцать один час двадцать одна минута
+RU_RU	23:59:59	false	COMMON	true	true	false	Сейчас без одной минуты двенадцать вечера
+RU_RU	23:59:59	false	COMMON	false	false	false	Без одной минуты двенадцать
+RU_RU	23:59:59	true	FORMAL	false	true	true	Сейчас двадцать три часа пятьдесят девять минут
+RU_RU	23:59:59	false	FORMAL	true	false	false	Одиннадцать часов пятьдесят девять минут вечера
+RU_RU	23:59:59	true	FORMAL	false	false	false	Двадцать три часа пятьдесят девять минут
+SK_SK	00:00:00	false	COMMON	true	true	false	Je polnoc
+SK_SK	00:00:00	false	COMMON	false	false	false	Polnoc
+SK_SK	00:00:00	true	FORMAL	false	true	true	Je 0 hodín 0 minút a 0 sekúnd
+SK_SK	00:00:00	false	FORMAL	true	false	false	12 hodín ráno
+SK_SK	00:00:00	true	FORMAL	false	false	false	0 hodín
+SK_SK	00:30:01	false	COMMON	true	true	false	Je pol jednej ráno
+SK_SK	00:30:01	false	COMMON	false	false	false	Pol jednej
+SK_SK	00:30:01	true	FORMAL	false	true	true	Je 0 hodín 30 minút a jedna sekunda
+SK_SK	00:30:01	false	FORMAL	true	false	false	12 hodín a 30 minút ráno
+SK_SK	00:30:01	true	FORMAL	false	false	false	0 hodín a 30 minút
+SK_SK	01:01:01	false	COMMON	true	true	false	O 14 minút bude štvrť na dve ráno
+SK_SK	01:01:01	false	COMMON	false	false	false	14 minút bude štvrť na dve
+SK_SK	01:01:01	true	FORMAL	false	true	true	Je jedna hodina jedna minúta a jedna sekunda
+SK_SK	01:01:01	false	FORMAL	true	false	false	jedna hodina a jedna minúta ráno
+SK_SK	01:01:01	true	FORMAL	false	false	false	jedna hodina a jedna minúta
+SK_SK	02:02:02	false	COMMON	true	true	false	O 13 minút bude štvrť na 3 ráno
+SK_SK	02:02:02	false	COMMON	false	false	false	13 minút bude štvrť na 3
+SK_SK	02:02:02	true	FORMAL	false	true	true	Sú dve hodiny dve minúty a dve sekundy
+SK_SK	02:02:02	false	FORMAL	true	false	false	dve hodiny a dve minúty ráno
+SK_SK	02:02:02	true	FORMAL	false	false	false	dve hodiny a dve minúty
+SK_SK	07:05:30	false	COMMON	true	true	false	O 10 minút bude štvrť na 8 ráno
+SK_SK	07:05:30	false	COMMON	false	false	false	10 minút bude štvrť na 8
+SK_SK	07:05:30	true	FORMAL	false	true	true	Je 7 hodín 5 minút a 30 sekúnd
+SK_SK	07:05:30	false	FORMAL	true	false	false	7 hodín a 5 minút ráno
+SK_SK	07:05:30	true	FORMAL	false	false	false	7 hodín a 5 minút
+SK_SK	09:15:00	false	COMMON	true	true	false	Je štvrť na 10 ráno
+SK_SK	09:15:00	false	COMMON	false	false	false	Štvrť na 10
+SK_SK	09:15:00	true	FORMAL	false	true	true	Je 9 hodín 15 minút a 0 sekúnd
+SK_SK	09:15:00	false	FORMAL	true	false	false	9 hodín a 15 minút ráno
+SK_SK	09:15:00	true	FORMAL	false	false	false	9 hodín a 15 minút
+SK_SK	11:45:00	false	COMMON	true	true	false	Je tri štvrte na 12 ráno
+SK_SK	11:45:00	false	COMMON	false	false	false	Tri štvrte na 12
+SK_SK	11:45:00	true	FORMAL	false	true	true	Je 11 hodín 45 minút a 0 sekúnd
+SK_SK	11:45:00	false	FORMAL	true	false	false	11 hodín a 45 minút ráno
+SK_SK	11:45:00	true	FORMAL	false	false	false	11 hodín a 45 minút
+SK_SK	12:00:00	false	COMMON	true	true	false	Je poludnie
+SK_SK	12:00:00	false	COMMON	false	false	false	Poludnie
+SK_SK	12:00:00	true	FORMAL	false	true	true	Je 12 hodín 0 minút a 0 sekúnd
+SK_SK	12:00:00	false	FORMAL	true	false	false	12 hodín poobede
+SK_SK	12:00:00	true	FORMAL	false	false	false	12 hodín
+SK_SK	12:31:00	false	COMMON	true	true	false	O 14 minút bude tri štvrte na jednu poobede
+SK_SK	12:31:00	false	COMMON	false	false	false	14 minút bude tri štvrte na jednu
+SK_SK	12:31:00	true	FORMAL	false	true	true	Je 12 hodín 31 minút a 0 sekúnd
+SK_SK	12:31:00	false	FORMAL	true	false	false	12 hodín a 31 minút poobede
+SK_SK	12:31:00	true	FORMAL	false	false	false	12 hodín a 31 minút
+SK_SK	13:30:00	false	COMMON	true	true	false	Je pol druhej poobede
+SK_SK	13:30:00	false	COMMON	false	false	false	Pol druhej
+SK_SK	13:30:00	true	FORMAL	false	true	true	Je 13 hodín 30 minút a 0 sekúnd
+SK_SK	13:30:00	false	FORMAL	true	false	false	jedna hodina a 30 minút poobede
+SK_SK	13:30:00	true	FORMAL	false	false	false	13 hodín a 30 minút
+SK_SK	14:22:22	false	COMMON	true	true	false	O 8 minút bude pol tretej poobede
+SK_SK	14:22:22	false	COMMON	false	false	false	8 minút bude pol tretej
+SK_SK	14:22:22	true	FORMAL	false	true	true	Je 14 hodín 22 minút a 22 sekúnd
+SK_SK	14:22:22	false	FORMAL	true	false	false	dve hodiny a 22 minút poobede
+SK_SK	14:22:22	true	FORMAL	false	false	false	14 hodín a 22 minút
+SK_SK	18:40:00	false	COMMON	true	true	false	O 5 minút bude tri štvrte na 7 poobede
+SK_SK	18:40:00	false	COMMON	false	false	false	5 minút bude tri štvrte na 7
+SK_SK	18:40:00	true	FORMAL	false	true	true	Je 18 hodín 40 minút a 0 sekúnd
+SK_SK	18:40:00	false	FORMAL	true	false	false	6 hodín a 40 minút poobede
+SK_SK	18:40:00	true	FORMAL	false	false	false	18 hodín a 40 minút
+SK_SK	21:21:21	false	COMMON	true	true	false	O 9 minút bude pol desiatej večer
+SK_SK	21:21:21	false	COMMON	false	false	false	9 minút bude pol desiatej
+SK_SK	21:21:21	true	FORMAL	false	true	true	Je 21 hodín 21 minút a 21 sekúnd
+SK_SK	21:21:21	false	FORMAL	true	false	false	9 hodín a 21 minút večer
+SK_SK	21:21:21	true	FORMAL	false	false	false	21 hodín a 21 minút
+SK_SK	23:59:59	false	COMMON	true	true	false	O jednu minútu bude 12 hodín večer
+SK_SK	23:59:59	false	COMMON	false	false	false	Jednu minútu bude 12 hodín
+SK_SK	23:59:59	true	FORMAL	false	true	true	Je 23 hodín 59 minút a 59 sekúnd
+SK_SK	23:59:59	false	FORMAL	true	false	false	11 hodín a 59 minút večer
+SK_SK	23:59:59	true	FORMAL	false	false	false	23 hodín a 59 minút
+HU_HU	00:00:00	false	COMMON	true	true	false	A pontos idő éjfél
+HU_HU	00:00:00	false	COMMON	false	false	false	Éjfél
+HU_HU	00:00:00	true	FORMAL	false	true	true	A pontos idő nulla óra
+HU_HU	00:00:00	false	FORMAL	true	false	false	Éjjel nulla óra
+HU_HU	00:00:00	true	FORMAL	false	false	false	Nulla óra
+HU_HU	00:30:01	false	COMMON	true	true	false	A pontos idő éjjel fél egy
+HU_HU	00:30:01	false	COMMON	false	false	false	Fél egy
+HU_HU	00:30:01	true	FORMAL	false	true	true	A pontos idő fél nulla
+HU_HU	00:30:01	false	FORMAL	true	false	false	Éjjel fél nulla
+HU_HU	00:30:01	true	FORMAL	false	false	false	Fél nulla
+HU_HU	01:01:01	false	COMMON	true	true	false	A pontos idő éjjel egy óra egy perc
+HU_HU	01:01:01	false	COMMON	false	false	false	Egy óra egy perc
+HU_HU	01:01:01	true	FORMAL	false	true	true	A pontos idő egy óra egy perc
+HU_HU	01:01:01	false	FORMAL	true	false	false	Éjjel egy óra egy perc
+HU_HU	01:01:01	true	FORMAL	false	false	false	Egy óra egy perc
+HU_HU	02:02:02	false	COMMON	true	true	false	A pontos idő éjjel kettő óra kettő perc
+HU_HU	02:02:02	false	COMMON	false	false	false	Kettő óra kettő perc
+HU_HU	02:02:02	true	FORMAL	false	true	true	A pontos idő kettő óra kettő perc
+HU_HU	02:02:02	false	FORMAL	true	false	false	Éjjel kettő óra kettő perc
+HU_HU	02:02:02	true	FORMAL	false	false	false	Kettő óra kettő perc
+HU_HU	07:05:30	false	COMMON	true	true	false	A pontos idő hajnali hét óra öt perc
+HU_HU	07:05:30	false	COMMON	false	false	false	Hét óra öt perc
+HU_HU	07:05:30	true	FORMAL	false	true	true	A pontos idő hét óra öt perc
+HU_HU	07:05:30	false	FORMAL	true	false	false	Hajnali hét óra öt perc
+HU_HU	07:05:30	true	FORMAL	false	false	false	Hét óra öt perc
+HU_HU	09:15:00	false	COMMON	true	true	false	A pontos idő reggel negyed tíz
+HU_HU	09:15:00	false	COMMON	false	false	false	Negyed tíz
+HU_HU	09:15:00	true	FORMAL	false	true	true	A pontos idő negyed kilenc
+HU_HU	09:15:00	false	FORMAL	true	false	false	Reggel negyed kilenc
+HU_HU	09:15:00	true	FORMAL	false	false	false	Negyed kilenc
+HU_HU	11:45:00	false	COMMON	true	true	false	A pontos idő délelőtt háromnegyed tizenkét
+HU_HU	11:45:00	false	COMMON	false	false	false	Háromnegyed tizenkét
+HU_HU	11:45:00	true	FORMAL	false	true	true	A pontos idő háromnegyed tizenegy
+HU_HU	11:45:00	false	FORMAL	true	false	false	Délelőtt háromnegyed tizenegy
+HU_HU	11:45:00	true	FORMAL	false	false	false	Háromnegyed tizenegy
+HU_HU	12:00:00	false	COMMON	true	true	false	A pontos idő dél
+HU_HU	12:00:00	false	COMMON	false	false	false	Dél
+HU_HU	12:00:00	true	FORMAL	false	true	true	A pontos idő tizenkét óra
+HU_HU	12:00:00	false	FORMAL	true	false	false	Éjjel tizenkét óra
+HU_HU	12:00:00	true	FORMAL	false	false	false	Tizenkét óra
+HU_HU	12:31:00	false	COMMON	true	true	false	A pontos idő éjjel tizenkét óra harmincegy perc
+HU_HU	12:31:00	false	COMMON	false	false	false	Tizenkét óra harmincegy perc
+HU_HU	12:31:00	true	FORMAL	false	true	true	A pontos idő tizenkét óra harmincegy perc
+HU_HU	12:31:00	false	FORMAL	true	false	false	Éjjel tizenkét óra harmincegy perc
+HU_HU	12:31:00	true	FORMAL	false	false	false	Tizenkét óra harmincegy perc
+HU_HU	13:30:00	false	COMMON	true	true	false	A pontos idő délután fél kettő
+HU_HU	13:30:00	false	COMMON	false	false	false	Fél kettő
+HU_HU	13:30:00	true	FORMAL	false	true	true	A pontos idő fél tizenhárom
+HU_HU	13:30:00	false	FORMAL	true	false	false	Délután fél egy
+HU_HU	13:30:00	true	FORMAL	false	false	false	Fél tizenhárom
+HU_HU	14:22:22	false	COMMON	true	true	false	A pontos idő délután kettő óra huszonkettő perc
+HU_HU	14:22:22	false	COMMON	false	false	false	Kettő óra huszonkettő perc
+HU_HU	14:22:22	true	FORMAL	false	true	true	A pontos idő tizennégy óra huszonkettő perc
+HU_HU	14:22:22	false	FORMAL	true	false	false	Délután kettő óra huszonkettő perc
+HU_HU	14:22:22	true	FORMAL	false	false	false	Tizennégy óra huszonkettő perc
+HU_HU	18:40:00	false	COMMON	true	true	false	A pontos idő este hat óra negyven perc
+HU_HU	18:40:00	false	COMMON	false	false	false	Hat óra negyven perc
+HU_HU	18:40:00	true	FORMAL	false	true	true	A pontos idő tizennyolc óra negyven perc
+HU_HU	18:40:00	false	FORMAL	true	false	false	Este hat óra negyven perc
+HU_HU	18:40:00	true	FORMAL	false	false	false	Tizennyolc óra negyven perc
+HU_HU	21:21:21	false	COMMON	true	true	false	A pontos idő este kilenc óra huszonegy perc
+HU_HU	21:21:21	false	COMMON	false	false	false	Kilenc óra huszonegy perc
+HU_HU	21:21:21	true	FORMAL	false	true	true	A pontos idő huszonegy óra huszonegy perc
+HU_HU	21:21:21	false	FORMAL	true	false	false	Este kilenc óra huszonegy perc
+HU_HU	21:21:21	true	FORMAL	false	false	false	Huszonegy óra huszonegy perc
+HU_HU	23:59:59	false	COMMON	true	true	false	A pontos idő éjjel tizenegy óra ötvenkilenc perc
+HU_HU	23:59:59	false	COMMON	false	false	false	Tizenegy óra ötvenkilenc perc
+HU_HU	23:59:59	true	FORMAL	false	true	true	A pontos idő huszonhárom óra ötvenkilenc perc
+HU_HU	23:59:59	false	FORMAL	true	false	false	Éjjel tizenegy óra ötvenkilenc perc
+HU_HU	23:59:59	true	FORMAL	false	false	false	Huszonhárom óra ötvenkilenc perc
+ZH_CN	00:00:00	false	COMMON	true	true	false	现在是午夜十二点整
+ZH_CN	00:00:00	false	COMMON	false	false	false	十二点整
+ZH_CN	00:00:00	true	FORMAL	false	true	true	现在是二十四点整
+ZH_CN	00:00:00	false	FORMAL	true	false	false	上午十二点整
+ZH_CN	00:00:00	true	FORMAL	false	false	false	二十四点整
+ZH_CN	00:30:01	false	COMMON	true	true	false	现在是凌晨十二点半
+ZH_CN	00:30:01	false	COMMON	false	false	false	十二点半
+ZH_CN	00:30:01	true	FORMAL	false	true	true	现在是零点三十分一秒
+ZH_CN	00:30:01	false	FORMAL	true	false	false	上午十二点三十分
+ZH_CN	00:30:01	true	FORMAL	false	false	false	零点三十分
+ZH_CN	01:01:01	false	COMMON	true	true	false	现在是凌晨一点零一分
+ZH_CN	01:01:01	false	COMMON	false	false	false	一点零一分
+ZH_CN	01:01:01	true	FORMAL	false	true	true	现在是一点零一分一秒
+ZH_CN	01:01:01	false	FORMAL	true	false	false	上午一点零一分
+ZH_CN	01:01:01	true	FORMAL	false	false	false	一点零一分
+ZH_CN	02:02:02	false	COMMON	true	true	false	现在是凌晨两点零二分
+ZH_CN	02:02:02	false	COMMON	false	false	false	两点零二分
+ZH_CN	02:02:02	true	FORMAL	false	true	true	现在是两点零二分二秒
+ZH_CN	02:02:02	false	FORMAL	true	false	false	上午两点零二分
+ZH_CN	02:02:02	true	FORMAL	false	false	false	两点零二分
+ZH_CN	07:05:30	false	COMMON	true	true	false	现在是上午七点零五分
+ZH_CN	07:05:30	false	COMMON	false	false	false	七点零五分
+ZH_CN	07:05:30	true	FORMAL	false	true	true	现在是七点零五分三十秒
+ZH_CN	07:05:30	false	FORMAL	true	false	false	上午七点零五分
+ZH_CN	07:05:30	true	FORMAL	false	false	false	七点零五分
+ZH_CN	09:15:00	false	COMMON	true	true	false	现在是上午九点一刻
+ZH_CN	09:15:00	false	COMMON	false	false	false	九点一刻
+ZH_CN	09:15:00	true	FORMAL	false	true	true	现在是九点十五分零秒
+ZH_CN	09:15:00	false	FORMAL	true	false	false	上午九点十五分
+ZH_CN	09:15:00	true	FORMAL	false	false	false	九点十五分
+ZH_CN	11:45:00	false	COMMON	true	true	false	现在是中午十一点三刻
+ZH_CN	11:45:00	false	COMMON	false	false	false	十一点三刻
+ZH_CN	11:45:00	true	FORMAL	false	true	true	现在是十一点四十五分零秒
+ZH_CN	11:45:00	false	FORMAL	true	false	false	上午十一点四十五分
+ZH_CN	11:45:00	true	FORMAL	false	false	false	十一点四十五分
+ZH_CN	12:00:00	false	COMMON	true	true	false	现在是中午十二点整
+ZH_CN	12:00:00	false	COMMON	false	false	false	十二点整
+ZH_CN	12:00:00	true	FORMAL	false	true	true	现在是十二点整
+ZH_CN	12:00:00	false	FORMAL	true	false	false	下午十二点整
+ZH_CN	12:00:00	true	FORMAL	false	false	false	十二点整
+ZH_CN	12:31:00	false	COMMON	true	true	false	现在是下午十二点三十一分
+ZH_CN	12:31:00	false	COMMON	false	false	false	十二点三十一分
+ZH_CN	12:31:00	true	FORMAL	false	true	true	现在是十二点三十一分零秒
+ZH_CN	12:31:00	false	FORMAL	true	false	false	下午十二点三十一分
+ZH_CN	12:31:00	true	FORMAL	false	false	false	十二点三十一分
+ZH_CN	13:30:00	false	COMMON	true	true	false	现在是下午一点半
+ZH_CN	13:30:00	false	COMMON	false	false	false	一点半
+ZH_CN	13:30:00	true	FORMAL	false	true	true	现在是十三点三十分零秒
+ZH_CN	13:30:00	false	FORMAL	true	false	false	下午一点三十分
+ZH_CN	13:30:00	true	FORMAL	false	false	false	十三点三十分
+ZH_CN	14:22:22	false	COMMON	true	true	false	现在是下午两点二十二分
+ZH_CN	14:22:22	false	COMMON	false	false	false	两点二十二分
+ZH_CN	14:22:22	true	FORMAL	false	true	true	现在是十四点二十二分二十二秒
+ZH_CN	14:22:22	false	FORMAL	true	false	false	下午两点二十二分
+ZH_CN	14:22:22	true	FORMAL	false	false	false	十四点二十二分
+ZH_CN	18:40:00	false	COMMON	true	true	false	现在是下午六点四十分
+ZH_CN	18:40:00	false	COMMON	false	false	false	六点四十分
+ZH_CN	18:40:00	true	FORMAL	false	true	true	现在是十八点四十分零秒
+ZH_CN	18:40:00	false	FORMAL	true	false	false	下午六点四十分
+ZH_CN	18:40:00	true	FORMAL	false	false	false	十八点四十分
+ZH_CN	21:21:21	false	COMMON	true	true	false	现在是晚间九点二十一分
+ZH_CN	21:21:21	false	COMMON	false	false	false	九点二十一分
+ZH_CN	21:21:21	true	FORMAL	false	true	true	现在是二十一点二十一分二十一秒
+ZH_CN	21:21:21	false	FORMAL	true	false	false	下午九点二十一分
+ZH_CN	21:21:21	true	FORMAL	false	false	false	二十一点二十一分
+ZH_CN	23:59:59	false	COMMON	true	true	false	现在是晚上十一点五十九分
+ZH_CN	23:59:59	false	COMMON	false	false	false	十一点五十九分
+ZH_CN	23:59:59	true	FORMAL	false	true	true	现在是二十三点五十九分五十九秒
+ZH_CN	23:59:59	false	FORMAL	true	false	false	下午十一点五十九分
+ZH_CN	23:59:59	true	FORMAL	false	false	false	二十三点五十九分
+ZH_TW	00:00:00	false	COMMON	true	true	false	現在是午夜十二點整
+ZH_TW	00:00:00	false	COMMON	false	false	false	十二點整
+ZH_TW	00:00:00	true	FORMAL	false	true	true	現在是二十四點整
+ZH_TW	00:00:00	false	FORMAL	true	false	false	上午十二點整
+ZH_TW	00:00:00	true	FORMAL	false	false	false	二十四點整
+ZH_TW	00:30:01	false	COMMON	true	true	false	現在是凌晨十二點半
+ZH_TW	00:30:01	false	COMMON	false	false	false	十二點半
+ZH_TW	00:30:01	true	FORMAL	false	true	true	現在是零點三十分一秒
+ZH_TW	00:30:01	false	FORMAL	true	false	false	上午十二點三十分
+ZH_TW	00:30:01	true	FORMAL	false	false	false	零點三十分
+ZH_TW	01:01:01	false	COMMON	true	true	false	現在是凌晨一點零一分
+ZH_TW	01:01:01	false	COMMON	false	false	false	一點零一分
+ZH_TW	01:01:01	true	FORMAL	false	true	true	現在是一點零一分一秒
+ZH_TW	01:01:01	false	FORMAL	true	false	false	上午一點零一分
+ZH_TW	01:01:01	true	FORMAL	false	false	false	一點零一分
+ZH_TW	02:02:02	false	COMMON	true	true	false	現在是凌晨两點零两分
+ZH_TW	02:02:02	false	COMMON	false	false	false	两點零两分
+ZH_TW	02:02:02	true	FORMAL	false	true	true	現在是两點零两分二秒
+ZH_TW	02:02:02	false	FORMAL	true	false	false	上午两點零两分
+ZH_TW	02:02:02	true	FORMAL	false	false	false	两點零两分
+ZH_TW	07:05:30	false	COMMON	true	true	false	現在是早上七點零五分
+ZH_TW	07:05:30	false	COMMON	false	false	false	七點零五分
+ZH_TW	07:05:30	true	FORMAL	false	true	true	現在是七點零五分三十秒
+ZH_TW	07:05:30	false	FORMAL	true	false	false	上午七點零五分
+ZH_TW	07:05:30	true	FORMAL	false	false	false	七點零五分
+ZH_TW	09:15:00	false	COMMON	true	true	false	現在是早上九點一刻
+ZH_TW	09:15:00	false	COMMON	false	false	false	九點一刻
+ZH_TW	09:15:00	true	FORMAL	false	true	true	現在是九點十五分零秒
+ZH_TW	09:15:00	false	FORMAL	true	false	false	上午九點十五分
+ZH_TW	09:15:00	true	FORMAL	false	false	false	九點十五分
+ZH_TW	11:45:00	false	COMMON	true	true	false	現在是中午十一點三刻
+ZH_TW	11:45:00	false	COMMON	false	false	false	十一點三刻
+ZH_TW	11:45:00	true	FORMAL	false	true	true	現在是十一點四十五分零秒
+ZH_TW	11:45:00	false	FORMAL	true	false	false	上午十一點四十五分
+ZH_TW	11:45:00	true	FORMAL	false	false	false	十一點四十五分
+ZH_TW	12:00:00	false	COMMON	true	true	false	現在是中午十二點整
+ZH_TW	12:00:00	false	COMMON	false	false	false	十二點整
+ZH_TW	12:00:00	true	FORMAL	false	true	true	現在是十二點整
+ZH_TW	12:00:00	false	FORMAL	true	false	false	下午十二點整
+ZH_TW	12:00:00	true	FORMAL	false	false	false	十二點整
+ZH_TW	12:31:00	false	COMMON	true	true	false	現在是下午十二點三十一分
+ZH_TW	12:31:00	false	COMMON	false	false	false	十二點三十一分
+ZH_TW	12:31:00	true	FORMAL	false	true	true	現在是十二點三十一分零秒
+ZH_TW	12:31:00	false	FORMAL	true	false	false	下午十二點三十一分
+ZH_TW	12:31:00	true	FORMAL	false	false	false	十二點三十一分
+ZH_TW	13:30:00	false	COMMON	true	true	false	現在是下午一點半
+ZH_TW	13:30:00	false	COMMON	false	false	false	一點半
+ZH_TW	13:30:00	true	FORMAL	false	true	true	現在是十三點三十分零秒
+ZH_TW	13:30:00	false	FORMAL	true	false	false	下午一點三十分
+ZH_TW	13:30:00	true	FORMAL	false	false	false	十三點三十分
+ZH_TW	14:22:22	false	COMMON	true	true	false	現在是下午两點二十二分
+ZH_TW	14:22:22	false	COMMON	false	false	false	两點二十二分
+ZH_TW	14:22:22	true	FORMAL	false	true	true	現在是十四點二十二分二十二秒
+ZH_TW	14:22:22	false	FORMAL	true	false	false	下午两點二十二分
+ZH_TW	14:22:22	true	FORMAL	false	false	false	十四點二十二分
+ZH_TW	18:40:00	false	COMMON	true	true	false	現在是晚间六點四十分
+ZH_TW	18:40:00	false	COMMON	false	false	false	六點四十分
+ZH_TW	18:40:00	true	FORMAL	false	true	true	現在是十八點四十分零秒
+ZH_TW	18:40:00	false	FORMAL	true	false	false	下午六點四十分
+ZH_TW	18:40:00	true	FORMAL	false	false	false	十八點四十分
+ZH_TW	21:21:21	false	COMMON	true	true	false	現在是晚间九點二十一分
+ZH_TW	21:21:21	false	COMMON	false	false	false	九點二十一分
+ZH_TW	21:21:21	true	FORMAL	false	true	true	現在是二十一點二十一分二十一秒
+ZH_TW	21:21:21	false	FORMAL	true	false	false	下午九點二十一分
+ZH_TW	21:21:21	true	FORMAL	false	false	false	二十一點二十一分
+ZH_TW	23:59:59	false	COMMON	true	true	false	現在是晚上十一點五十九分
+ZH_TW	23:59:59	false	COMMON	false	false	false	十一點五十九分
+ZH_TW	23:59:59	true	FORMAL	false	true	true	現在是二十三點五十九分五十九秒
+ZH_TW	23:59:59	false	FORMAL	true	false	false	下午十一點五十九分
+ZH_TW	23:59:59	true	FORMAL	false	false	false	二十三點五十九分
+HI_IN	00:00:00	false	COMMON	true	true	false	आधी रात है
+HI_IN	00:00:00	false	COMMON	false	false	false	आधी रात
+HI_IN	00:00:00	true	FORMAL	false	true	true	चौबीस बजे हैं
+HI_IN	00:00:00	false	FORMAL	true	false	false	सुबह के बारह बजे
+HI_IN	00:00:00	true	FORMAL	false	false	false	चौबीस बजे
+HI_IN	00:30:01	false	COMMON	true	true	false	रात साढ़े बारह बजे हैं
+HI_IN	00:30:01	false	COMMON	false	false	false	साढ़े बारह बजे
+HI_IN	00:30:01	true	FORMAL	false	true	true	शून्य बजकर तीस मिनट्स और एक सेकंड हैं
+HI_IN	00:30:01	false	FORMAL	true	false	false	सुबह के बारह बजकर तीस मिनट्स
+HI_IN	00:30:01	true	FORMAL	false	false	false	शून्य बजकर तीस मिनट्स
+HI_IN	01:01:01	false	COMMON	true	true	false	रात एक बजकर एक मिनट हो गए है
+HI_IN	01:01:01	false	COMMON	false	false	false	एक बजकर एक मिनट हो गए
+HI_IN	01:01:01	true	FORMAL	false	true	true	एक बजाकर एक मिनट और एक सेकंड है
+HI_IN	01:01:01	false	FORMAL	true	false	false	सुबह के एक बजाकर एक मिनट
+HI_IN	01:01:01	true	FORMAL	false	false	false	एक बजाकर एक मिनट
+HI_IN	02:02:02	false	COMMON	true	true	false	रात दो बजकर दो मिनट हो गए हैं
+HI_IN	02:02:02	false	COMMON	false	false	false	दो बजकर दो मिनट हो गए
+HI_IN	02:02:02	true	FORMAL	false	true	true	दो बजकर दो मिनट्स और दो सेकण्ड हैं
+HI_IN	02:02:02	false	FORMAL	true	false	false	सुबह के दो बजकर दो मिनट्स
+HI_IN	02:02:02	true	FORMAL	false	false	false	दो बजकर दो मिनट्स
+HI_IN	07:05:30	false	COMMON	true	true	false	सुबह सात बजकर पाँच मिनट हो गए हैं
+HI_IN	07:05:30	false	COMMON	false	false	false	सात बजकर पाँच मिनट हो गए
+HI_IN	07:05:30	true	FORMAL	false	true	true	सात बजकर पाँच मिनट्स और तीस सेकण्ड हैं
+HI_IN	07:05:30	false	FORMAL	true	false	false	सुबह के सात बजकर पाँच मिनट्स
+HI_IN	07:05:30	true	FORMAL	false	false	false	सात बजकर पाँच मिनट्स
+HI_IN	09:15:00	false	COMMON	true	true	false	सुबह सवा नौ बजे हैं
+HI_IN	09:15:00	false	COMMON	false	false	false	सवा नौ बजे
+HI_IN	09:15:00	true	FORMAL	false	true	true	नौ बजकर पन्द्रह मिनट्स हैं
+HI_IN	09:15:00	false	FORMAL	true	false	false	सुबह के नौ बजकर पन्द्रह मिनट्स
+HI_IN	09:15:00	true	FORMAL	false	false	false	नौ बजकर पन्द्रह मिनट्स
+HI_IN	11:45:00	false	COMMON	true	true	false	सुबह पौने बारह बजे हैं
+HI_IN	11:45:00	false	COMMON	false	false	false	पौने बारह बजे
+HI_IN	11:45:00	true	FORMAL	false	true	true	ग्यारह बजकर पैंतालीस मिनट्स हैं
+HI_IN	11:45:00	false	FORMAL	true	false	false	सुबह के ग्यारह बजकर पैंतालीस मिनट्स
+HI_IN	11:45:00	true	FORMAL	false	false	false	ग्यारह बजकर पैंतालीस मिनट्स
+HI_IN	12:00:00	false	COMMON	true	true	false	दोपहर है
+HI_IN	12:00:00	false	COMMON	false	false	false	दोपहर
+HI_IN	12:00:00	true	FORMAL	false	true	true	बारह बजे हैं
+HI_IN	12:00:00	false	FORMAL	true	false	false	शाम के बारह बजे
+HI_IN	12:00:00	true	FORMAL	false	false	false	बारह बजे
+HI_IN	12:31:00	false	COMMON	true	true	false	दोपहर एक बजने में उनतीस बाकी है
+HI_IN	12:31:00	false	COMMON	false	false	false	एक बजने में उनतीस बाकी
+HI_IN	12:31:00	true	FORMAL	false	true	true	बारह बजकर इकतीस मिनट्स हैं
+HI_IN	12:31:00	false	FORMAL	true	false	false	शाम के बारह बजकर इकतीस मिनट्स
+HI_IN	12:31:00	true	FORMAL	false	false	false	बारह बजकर इकतीस मिनट्स
+HI_IN	13:30:00	false	COMMON	true	true	false	दोपहर डेढ़ बजा है
+HI_IN	13:30:00	false	COMMON	false	false	false	डेढ़ बजा
+HI_IN	13:30:00	true	FORMAL	false	true	true	तेरह बजकर तीस मिनट्स हैं
+HI_IN	13:30:00	false	FORMAL	true	false	false	शाम के एक बजाकर तीस मिनट्स
+HI_IN	13:30:00	true	FORMAL	false	false	false	तेरह बजकर तीस मिनट्स
+HI_IN	14:22:22	false	COMMON	true	true	false	दोपहर दो बजकर बाईस मिनट हो गए हैं
+HI_IN	14:22:22	false	COMMON	false	false	false	दो बजकर बाईस मिनट हो गए
+HI_IN	14:22:22	true	FORMAL	false	true	true	चौदह बजकर बाईस मिनट्स और बाईस सेकण्ड हैं
+HI_IN	14:22:22	false	FORMAL	true	false	false	शाम के दो बजकर बाईस मिनट्स
+HI_IN	14:22:22	true	FORMAL	false	false	false	चौदह बजकर बाईस मिनट्स
+HI_IN	18:40:00	false	COMMON	true	true	false	शाम सात बजने में बीस बाकी हैं
+HI_IN	18:40:00	false	COMMON	false	false	false	सात बजने में बीस बाकी
+HI_IN	18:40:00	true	FORMAL	false	true	true	अठारह बजकर चालीस मिनट्स हैं
+HI_IN	18:40:00	false	FORMAL	true	false	false	शाम के छः बजकर चालीस मिनट्स
+HI_IN	18:40:00	true	FORMAL	false	false	false	अठारह बजकर चालीस मिनट्स
+HI_IN	21:21:21	false	COMMON	true	true	false	शाम नौ बजकर इक्कीस मिनट हो गए हैं
+HI_IN	21:21:21	false	COMMON	false	false	false	नौ बजकर इक्कीस मिनट हो गए
+HI_IN	21:21:21	true	FORMAL	false	true	true	इक्कीस बजकर इक्कीस मिनट्स और इक्कीस सेकण्ड हैं
+HI_IN	21:21:21	false	FORMAL	true	false	false	शाम के नौ बजकर इक्कीस मिनट्स
+HI_IN	21:21:21	true	FORMAL	false	false	false	इक्कीस बजकर इक्कीस मिनट्स
+HI_IN	23:59:59	false	COMMON	true	true	false	रात बारह बजने में एक बाकी हैं
+HI_IN	23:59:59	false	COMMON	false	false	false	बारह बजने में एक बाकी
+HI_IN	23:59:59	true	FORMAL	false	true	true	तेईस बजकर उनसठ मिनट्स और उनसठ सेकण्ड हैं
+HI_IN	23:59:59	false	FORMAL	true	false	false	शाम के ग्यारह बजकर उनसठ मिनट्स
+HI_IN	23:59:59	true	FORMAL	false	false	false	तेईस बजकर उनसठ मिनट्स
+TH_TH	00:00:00	false	COMMON	true	true	false	ขณะนี้เวลาเที่ยงคืน
+TH_TH	00:00:00	false	COMMON	false	false	false	เที่ยงคืน
+TH_TH	00:00:00	true	FORMAL	false	true	true	ขณะนี้เวลายี่สิบสี่นาฬิกา
+TH_TH	00:00:00	false	FORMAL	true	false	false	สิบสองนาฬิกาก่อนเที่ยง
+TH_TH	00:00:00	true	FORMAL	false	false	false	ยี่สิบสี่นาฬิกา
+TH_TH	00:30:01	false	COMMON	true	true	false	ขณะนี้เวลาเที่ยงคืนครึ่ง
+TH_TH	00:30:01	false	COMMON	false	false	false	เที่ยงคืนครึ่ง
+TH_TH	00:30:01	true	FORMAL	false	true	true	ขณะนี้เวลายี่สิบสี่นาฬิกาสามสิบนาทีหนึ่งวินาที
+TH_TH	00:30:01	false	FORMAL	true	false	false	สิบสองนาฬิกาสามสิบนาทีก่อนเที่ยง
+TH_TH	00:30:01	true	FORMAL	false	false	false	ยี่สิบสี่นาฬิกาสามสิบนาที
+TH_TH	01:01:01	false	COMMON	true	true	false	ขณะนี้เวลาตีหนึ่งหนึ่งนาที
+TH_TH	01:01:01	false	COMMON	false	false	false	ตีหนึ่งหนึ่งนาที
+TH_TH	01:01:01	true	FORMAL	false	true	true	ขณะนี้เวลาหนึ่งนาฬิกาหนึ่งนาทีหนึ่งวินาที
+TH_TH	01:01:01	false	FORMAL	true	false	false	หนึ่งนาฬิกาหนึ่งนาทีก่อนเที่ยง
+TH_TH	01:01:01	true	FORMAL	false	false	false	หนึ่งนาฬิกาหนึ่งนาที
+TH_TH	02:02:02	false	COMMON	true	true	false	ขณะนี้เวลาตีสองสองนาที
+TH_TH	02:02:02	false	COMMON	false	false	false	ตีสองสองนาที
+TH_TH	02:02:02	true	FORMAL	false	true	true	ขณะนี้เวลาสองนาฬิกาสองนาทีสองวินาที
+TH_TH	02:02:02	false	FORMAL	true	false	false	สองนาฬิกาสองนาทีก่อนเที่ยง
+TH_TH	02:02:02	true	FORMAL	false	false	false	สองนาฬิกาสองนาที
+TH_TH	07:05:30	false	COMMON	true	true	false	ขณะนี้เวลาเจ็ดโมงเช้าห้านาที
+TH_TH	07:05:30	false	COMMON	false	false	false	เจ็ดโมงห้านาที
+TH_TH	07:05:30	true	FORMAL	false	true	true	ขณะนี้เวลาเจ็ดนาฬิกาห้านาทีสามสิบวินาที
+TH_TH	07:05:30	false	FORMAL	true	false	false	เจ็ดนาฬิกาห้านาทีก่อนเที่ยง
+TH_TH	07:05:30	true	FORMAL	false	false	false	เจ็ดนาฬิกาห้านาที
+TH_TH	09:15:00	false	COMMON	true	true	false	ขณะนี้เวลาเก้าโมงเช้าสิบห้านาที
+TH_TH	09:15:00	false	COMMON	false	false	false	เก้าโมงสิบห้านาที
+TH_TH	09:15:00	true	FORMAL	false	true	true	ขณะนี้เวลาเก้านาฬิกาสิบห้านาที
+TH_TH	09:15:00	false	FORMAL	true	false	false	เก้านาฬิกาสิบห้านาทีก่อนเที่ยง
+TH_TH	09:15:00	true	FORMAL	false	false	false	เก้านาฬิกาสิบห้านาที
+TH_TH	11:45:00	false	COMMON	true	true	false	ขณะนี้เวลาสิบเอ็ดโมงเช้าสี่สิบห้านาที
+TH_TH	11:45:00	false	COMMON	false	false	false	สิบเอ็ดโมงสี่สิบห้านาที
+TH_TH	11:45:00	true	FORMAL	false	true	true	ขณะนี้เวลาสิบเอ็ดนาฬิกาสี่สิบห้านาที
+TH_TH	11:45:00	false	FORMAL	true	false	false	สิบเอ็ดนาฬิกาสี่สิบห้านาทีก่อนเที่ยง
+TH_TH	11:45:00	true	FORMAL	false	false	false	สิบเอ็ดนาฬิกาสี่สิบห้านาที
+TH_TH	12:00:00	false	COMMON	true	true	false	ขณะนี้เวลาเที่ยงวัน
+TH_TH	12:00:00	false	COMMON	false	false	false	เที่ยงวัน
+TH_TH	12:00:00	true	FORMAL	false	true	true	ขณะนี้เวลาสิบสองนาฬิกา
+TH_TH	12:00:00	false	FORMAL	true	false	false	สิบสองนาฬิกาหลังเที่ยง
+TH_TH	12:00:00	true	FORMAL	false	false	false	สิบสองนาฬิกา
+TH_TH	12:31:00	false	COMMON	true	true	false	ขณะนี้เวลาเที่ยงสามสิบเอ็ดนาที
+TH_TH	12:31:00	false	COMMON	false	false	false	เที่ยงสามสิบเอ็ดนาที
+TH_TH	12:31:00	true	FORMAL	false	true	true	ขณะนี้เวลาสิบสองนาฬิกาสามสิบเอ็ดนาที
+TH_TH	12:31:00	false	FORMAL	true	false	false	สิบสองนาฬิกาสามสิบเอ็ดนาทีหลังเที่ยง
+TH_TH	12:31:00	true	FORMAL	false	false	false	สิบสองนาฬิกาสามสิบเอ็ดนาที
+TH_TH	13:30:00	false	COMMON	true	true	false	ขณะนี้เวลาบ่ายโมงครึ่ง
+TH_TH	13:30:00	false	COMMON	false	false	false	โมงครึ่ง
+TH_TH	13:30:00	true	FORMAL	false	true	true	ขณะนี้เวลาสิบสามนาฬิกาสามสิบนาที
+TH_TH	13:30:00	false	FORMAL	true	false	false	หนึ่งนาฬิกาสามสิบนาทีหลังเที่ยง
+TH_TH	13:30:00	true	FORMAL	false	false	false	สิบสามนาฬิกาสามสิบนาที
+TH_TH	14:22:22	false	COMMON	true	true	false	ขณะนี้เวลาบ่ายสองโมงยี่สิบสองนาที
+TH_TH	14:22:22	false	COMMON	false	false	false	สองโมงยี่สิบสองนาที
+TH_TH	14:22:22	true	FORMAL	false	true	true	ขณะนี้เวลาสิบสี่นาฬิกายี่สิบสองนาทียี่สิบสองวินาที
+TH_TH	14:22:22	false	FORMAL	true	false	false	สองนาฬิกายี่สิบสองนาทีหลังเที่ยง
+TH_TH	14:22:22	true	FORMAL	false	false	false	สิบสี่นาฬิกายี่สิบสองนาที
+TH_TH	18:40:00	false	COMMON	true	true	false	ขณะนี้เวลาหกโมงเย็นสี่สิบนาที
+TH_TH	18:40:00	false	COMMON	false	false	false	หกโมงสี่สิบนาที
+TH_TH	18:40:00	true	FORMAL	false	true	true	ขณะนี้เวลาสิบแปดนาฬิกาสี่สิบนาที
+TH_TH	18:40:00	false	FORMAL	true	false	false	หกนาฬิกาสี่สิบนาทีหลังเที่ยง
+TH_TH	18:40:00	true	FORMAL	false	false	false	สิบแปดนาฬิกาสี่สิบนาที
+TH_TH	21:21:21	false	COMMON	true	true	false	ขณะนี้เวลาสามทุ่มยี่สิบเอ็ดนาที
+TH_TH	21:21:21	false	COMMON	false	false	false	สามทุ่มยี่สิบเอ็ดนาที
+TH_TH	21:21:21	true	FORMAL	false	true	true	ขณะนี้เวลายี่สิบเอ็ดนาฬิกายี่สิบเอ็ดนาทียี่สิบเอ็ดวินาที
+TH_TH	21:21:21	false	FORMAL	true	false	false	เก้านาฬิกายี่สิบเอ็ดนาทีหลังเที่ยง
+TH_TH	21:21:21	true	FORMAL	false	false	false	ยี่สิบเอ็ดนาฬิกายี่สิบเอ็ดนาที
+TH_TH	23:59:59	false	COMMON	true	true	false	ขณะนี้เวลาห้าทุ่มห้าสิบเก้านาที
+TH_TH	23:59:59	false	COMMON	false	false	false	ห้าทุ่มห้าสิบเก้านาที
+TH_TH	23:59:59	true	FORMAL	false	true	true	ขณะนี้เวลายี่สิบสามนาฬิกาห้าสิบเก้านาทีห้าสิบเก้าวินาที
+TH_TH	23:59:59	false	FORMAL	true	false	false	สิบเอ็ดนาฬิกาห้าสิบเก้านาทีหลังเที่ยง
+TH_TH	23:59:59	true	FORMAL	false	false	false	ยี่สิบสามนาฬิกาห้าสิบเก้านาที
+ID_ID	00:00:00	false	COMMON	true	true	false	Sekarang tengah malam
+ID_ID	00:00:00	false	COMMON	false	false	false	Tengah malam
+ID_ID	00:00:00	true	FORMAL	false	true	true	Sekarang jam nol
+ID_ID	00:00:00	false	FORMAL	true	false	false	Jam dua belas malam
+ID_ID	00:00:00	true	FORMAL	false	false	false	Jam nol
+ID_ID	00:30:01	false	COMMON	true	true	false	Sekarang jam setengah satu malam
+ID_ID	00:30:01	false	COMMON	false	false	false	Jam setengah satu
+ID_ID	00:30:01	true	FORMAL	false	true	true	Sekarang jam nol tiga puluh minit dan satu detik
+ID_ID	00:30:01	false	FORMAL	true	false	false	Jam dua belas tiga puluh malam
+ID_ID	00:30:01	true	FORMAL	false	false	false	Jam nol tiga puluh
+ID_ID	01:01:01	false	COMMON	true	true	false	Sekarang jam satu lewat satu malam
+ID_ID	01:01:01	false	COMMON	false	false	false	Jam satu lewat satu
+ID_ID	01:01:01	true	FORMAL	false	true	true	Sekarang jam satu satu minit dan satu detik
+ID_ID	01:01:01	false	FORMAL	true	false	false	Jam satu satu malam
+ID_ID	01:01:01	true	FORMAL	false	false	false	Jam satu satu
+ID_ID	02:02:02	false	COMMON	true	true	false	Sekarang jam dua lewat dua malam
+ID_ID	02:02:02	false	COMMON	false	false	false	Jam dua lewat dua
+ID_ID	02:02:02	true	FORMAL	false	true	true	Sekarang jam dua dua minit dan dua detik
+ID_ID	02:02:02	false	FORMAL	true	false	false	Jam dua dua malam
+ID_ID	02:02:02	true	FORMAL	false	false	false	Jam dua dua
+ID_ID	07:05:30	false	COMMON	true	true	false	Sekarang jam tujuh lewat lima pagi
+ID_ID	07:05:30	false	COMMON	false	false	false	Jam tujuh lewat lima
+ID_ID	07:05:30	true	FORMAL	false	true	true	Sekarang jam tujuh lima minit dan tiga puluh detik
+ID_ID	07:05:30	false	FORMAL	true	false	false	Jam tujuh lima pagi
+ID_ID	07:05:30	true	FORMAL	false	false	false	Jam tujuh lima
+ID_ID	09:15:00	false	COMMON	true	true	false	Sekarang jam sembilan semperempat pagi
+ID_ID	09:15:00	false	COMMON	false	false	false	Jam sembilan semperempat
+ID_ID	09:15:00	true	FORMAL	false	true	true	Sekarang jam sembilan lima belas
+ID_ID	09:15:00	false	FORMAL	true	false	false	Jam sembilan lima belas pagi
+ID_ID	09:15:00	true	FORMAL	false	false	false	Jam sembilan lima belas
+ID_ID	11:45:00	false	COMMON	true	true	false	Sekarang jam dua belas kurang semperempat siang
+ID_ID	11:45:00	false	COMMON	false	false	false	Jam dua belas kurang semperempat
+ID_ID	11:45:00	true	FORMAL	false	true	true	Sekarang jam sebelas empat puluh lima
+ID_ID	11:45:00	false	FORMAL	true	false	false	Jam sebelas empat puluh lima siang
+ID_ID	11:45:00	true	FORMAL	false	false	false	Jam sebelas empat puluh lima
+ID_ID	12:00:00	false	COMMON	true	true	false	Sekarang tengah hari
+ID_ID	12:00:00	false	COMMON	false	false	false	Tengah hari
+ID_ID	12:00:00	true	FORMAL	false	true	true	Sekarang jam dua belas
+ID_ID	12:00:00	false	FORMAL	true	false	false	Jam dua belas
+ID_ID	12:00:00	true	FORMAL	false	false	false	Jam dua belas
+ID_ID	12:31:00	false	COMMON	true	true	false	Sekarang jam satu kurang dua puluh sembilan
+ID_ID	12:31:00	false	COMMON	false	false	false	Jam satu kurang dua puluh sembilan
+ID_ID	12:31:00	true	FORMAL	false	true	true	Sekarang jam dua belas tiga puluh satu
+ID_ID	12:31:00	false	FORMAL	true	false	false	Jam dua belas tiga puluh satu
+ID_ID	12:31:00	true	FORMAL	false	false	false	Jam dua belas tiga puluh satu
+ID_ID	13:30:00	false	COMMON	true	true	false	Sekarang jam setengah dua
+ID_ID	13:30:00	false	COMMON	false	false	false	Jam setengah dua
+ID_ID	13:30:00	true	FORMAL	false	true	true	Sekarang jam tiga belas tiga puluh
+ID_ID	13:30:00	false	FORMAL	true	false	false	Jam satu tiga puluh
+ID_ID	13:30:00	true	FORMAL	false	false	false	Jam tiga belas tiga puluh
+ID_ID	14:22:22	false	COMMON	true	true	false	Sekarang jam dua lewat dua puluh dua
+ID_ID	14:22:22	false	COMMON	false	false	false	Jam dua lewat dua puluh dua
+ID_ID	14:22:22	true	FORMAL	false	true	true	Sekarang jam empat belas dua puluh dua minit dan dua puluh dua detik
+ID_ID	14:22:22	false	FORMAL	true	false	false	Jam dua dua puluh dua
+ID_ID	14:22:22	true	FORMAL	false	false	false	Jam empat belas dua puluh dua
+ID_ID	18:40:00	false	COMMON	true	true	false	Sekarang jam tujuh kurang dua puluh sore
+ID_ID	18:40:00	false	COMMON	false	false	false	Jam tujuh kurang dua puluh
+ID_ID	18:40:00	true	FORMAL	false	true	true	Sekarang jam delapan belas empat puluh
+ID_ID	18:40:00	false	FORMAL	true	false	false	Jam enam empat puluh sore
+ID_ID	18:40:00	true	FORMAL	false	false	false	Jam delapan belas empat puluh
+ID_ID	21:21:21	false	COMMON	true	true	false	Sekarang jam sembilan lewat dua puluh satu malam
+ID_ID	21:21:21	false	COMMON	false	false	false	Jam sembilan lewat dua puluh satu
+ID_ID	21:21:21	true	FORMAL	false	true	true	Sekarang jam dua puluh satu dua puluh satu minit dan dua puluh satu detik
+ID_ID	21:21:21	false	FORMAL	true	false	false	Jam sembilan dua puluh satu malam
+ID_ID	21:21:21	true	FORMAL	false	false	false	Jam dua puluh satu dua puluh satu
+ID_ID	23:59:59	false	COMMON	true	true	false	Sekarang jam dua belas kurang satu malam
+ID_ID	23:59:59	false	COMMON	false	false	false	Jam dua belas kurang satu
+ID_ID	23:59:59	true	FORMAL	false	true	true	Sekarang jam dua puluh tiga lima puluh sembilan minit dan lima puluh sembilan detik
+ID_ID	23:59:59	false	FORMAL	true	false	false	Jam sebelas lima puluh sembilan malam
+ID_ID	23:59:59	true	FORMAL	false	false	false	Jam dua puluh tiga lima puluh sembilan
+DA_DK	00:00:00	false	COMMON	true	true	false	Den er midnat om natten
+DA_DK	00:00:00	false	COMMON	false	false	false	Midnat
+DA_DK	00:00:00	true	FORMAL	false	true	true	Den er nul nul minutter og nul sekunder
+DA_DK	00:00:00	false	FORMAL	true	false	false	Tolv om natten
+DA_DK	00:00:00	true	FORMAL	false	false	false	Nul
+DA_DK	00:30:01	false	COMMON	true	true	false	Den er halv et om natten
+DA_DK	00:30:01	false	COMMON	false	false	false	Halv et
+DA_DK	00:30:01	true	FORMAL	false	true	true	Den er nul tredive minutter og et sekund
+DA_DK	00:30:01	false	FORMAL	true	false	false	Tolv tredive om natten
+DA_DK	00:30:01	true	FORMAL	false	false	false	Nul tredive
+DA_DK	01:01:01	false	COMMON	true	true	false	Den er et minut over et om natten
+DA_DK	01:01:01	false	COMMON	false	false	false	Et minut over et
+DA_DK	01:01:01	true	FORMAL	false	true	true	Den er et et minut og et sekund
+DA_DK	01:01:01	false	FORMAL	true	false	false	Et nul et om natten
+DA_DK	01:01:01	true	FORMAL	false	false	false	Et nul et
+DA_DK	02:02:02	false	COMMON	true	true	false	Den er to minutter over to om natten
+DA_DK	02:02:02	false	COMMON	false	false	false	To minutter over to
+DA_DK	02:02:02	true	FORMAL	false	true	true	Den er to to minutter og to sekunder
+DA_DK	02:02:02	false	FORMAL	true	false	false	To nul to om natten
+DA_DK	02:02:02	true	FORMAL	false	false	false	To nul to
+DA_DK	07:05:30	false	COMMON	true	true	false	Den er fem minutter over syv om morgenen
+DA_DK	07:05:30	false	COMMON	false	false	false	Fem minutter over syv
+DA_DK	07:05:30	true	FORMAL	false	true	true	Den er syv fem minutter og tredive sekunder
+DA_DK	07:05:30	false	FORMAL	true	false	false	Syv nul fem om morgenen
+DA_DK	07:05:30	true	FORMAL	false	false	false	Syv nul fem
+DA_DK	09:15:00	false	COMMON	true	true	false	Den er kvart over ni om formiddagen
+DA_DK	09:15:00	false	COMMON	false	false	false	Kvart over ni
+DA_DK	09:15:00	true	FORMAL	false	true	true	Den er ni femten minutter og nul sekunder
+DA_DK	09:15:00	false	FORMAL	true	false	false	Ni femten om formiddagen
+DA_DK	09:15:00	true	FORMAL	false	false	false	Ni femten
+DA_DK	11:45:00	false	COMMON	true	true	false	Den er kvart i tolv om formiddagen
+DA_DK	11:45:00	false	COMMON	false	false	false	Kvart i tolv
+DA_DK	11:45:00	true	FORMAL	false	true	true	Den er elleve femogfyrre minutter og nul sekunder
+DA_DK	11:45:00	false	FORMAL	true	false	false	Elleve femogfyrre om formiddagen
+DA_DK	11:45:00	true	FORMAL	false	false	false	Elleve femogfyrre
+DA_DK	12:00:00	false	COMMON	true	true	false	Den er middag om natten
+DA_DK	12:00:00	false	COMMON	false	false	false	Middag
+DA_DK	12:00:00	true	FORMAL	false	true	true	Den er tolv nul minutter og nul sekunder
+DA_DK	12:00:00	false	FORMAL	true	false	false	Tolv om natten
+DA_DK	12:00:00	true	FORMAL	false	false	false	Tolv
+DA_DK	12:31:00	false	COMMON	true	true	false	Den er et minut over halv et om natten
+DA_DK	12:31:00	false	COMMON	false	false	false	Et minut over halv et
+DA_DK	12:31:00	true	FORMAL	false	true	true	Den er tolv énogtredive minutter og nul sekunder
+DA_DK	12:31:00	false	FORMAL	true	false	false	Tolv énogtredive om natten
+DA_DK	12:31:00	true	FORMAL	false	false	false	Tolv énogtredive
+DA_DK	13:30:00	false	COMMON	true	true	false	Den er halv to om eftermiddagen
+DA_DK	13:30:00	false	COMMON	false	false	false	Halv to
+DA_DK	13:30:00	true	FORMAL	false	true	true	Den er tretten tredive minutter og nul sekunder
+DA_DK	13:30:00	false	FORMAL	true	false	false	Et tredive om eftermiddagen
+DA_DK	13:30:00	true	FORMAL	false	false	false	Tretten tredive
+DA_DK	14:22:22	false	COMMON	true	true	false	Den er otte minutter i halv tre om eftermiddagen
+DA_DK	14:22:22	false	COMMON	false	false	false	Otte minutter i halv tre
+DA_DK	14:22:22	true	FORMAL	false	true	true	Den er fjorten toogtyve minutter og toogtyve sekunder
+DA_DK	14:22:22	false	FORMAL	true	false	false	To toogtyve om eftermiddagen
+DA_DK	14:22:22	true	FORMAL	false	false	false	Fjorten toogtyve
+DA_DK	18:40:00	false	COMMON	true	true	false	Den er tyve minutter i syv om aftenen
+DA_DK	18:40:00	false	COMMON	false	false	false	Tyve minutter i syv
+DA_DK	18:40:00	true	FORMAL	false	true	true	Den er atten fyrre minutter og nul sekunder
+DA_DK	18:40:00	false	FORMAL	true	false	false	Seks fyrre om aftenen
+DA_DK	18:40:00	true	FORMAL	false	false	false	Atten fyrre
+DA_DK	21:21:21	false	COMMON	true	true	false	Den er ni minutter i halv ti om aftenen
+DA_DK	21:21:21	false	COMMON	false	false	false	Ni minutter i halv ti
+DA_DK	21:21:21	true	FORMAL	false	true	true	Den er énogtyve énogtyve minutter og énogtyve sekunder
+DA_DK	21:21:21	false	FORMAL	true	false	false	Ni énogtyve om aftenen
+DA_DK	21:21:21	true	FORMAL	false	false	false	Énogtyve énogtyve
+DA_DK	23:59:59	false	COMMON	true	true	false	Den er et minut i tolv om aftenen
+DA_DK	23:59:59	false	COMMON	false	false	false	Et minut i tolv
+DA_DK	23:59:59	true	FORMAL	false	true	true	Den er treogtyve nioghalvtreds minutter og nioghalvtreds sekunder
+DA_DK	23:59:59	false	FORMAL	true	false	false	Elleve nioghalvtreds om aftenen
+DA_DK	23:59:59	true	FORMAL	false	false	false	Treogtyve nioghalvtreds
+KO_KR	00:00:00	false	COMMON	true	true	false	자정예요
+KO_KR	00:00:00	false	COMMON	false	false	false	자정
+KO_KR	00:00:00	true	FORMAL	false	true	true	제로시예요
+KO_KR	00:00:00	false	FORMAL	true	false	false	오전 열두시
+KO_KR	00:00:00	true	FORMAL	false	false	false	제로시
+KO_KR	00:30:01	false	COMMON	true	true	false	새벽 열두시 반이에요
+KO_KR	00:30:01	false	COMMON	false	false	false	열두시 반
+KO_KR	00:30:01	true	FORMAL	false	true	true	제로시 삼십분 일초이에요
+KO_KR	00:30:01	false	FORMAL	true	false	false	오전 열두시 삼십분
+KO_KR	00:30:01	true	FORMAL	false	false	false	제로시 삼십분
+KO_KR	01:01:01	false	COMMON	true	true	false	새벽 한시 일분이에요
+KO_KR	01:01:01	false	COMMON	false	false	false	한시 일분
+KO_KR	01:01:01	true	FORMAL	false	true	true	한시 일분 일초이에요
+KO_KR	01:01:01	false	FORMAL	true	false	false	오전 한시 일분
+KO_KR	01:01:01	true	FORMAL	false	false	false	한시 일분
+KO_KR	02:02:02	false	COMMON	true	true	false	새벽 두시 이분이에요
+KO_KR	02:02:02	false	COMMON	false	false	false	두시 이분
+KO_KR	02:02:02	true	FORMAL	false	true	true	두시 이분 이초이에요
+KO_KR	02:02:02	false	FORMAL	true	false	false	오전 두시 이분
+KO_KR	02:02:02	true	FORMAL	false	false	false	두시 이분
+KO_KR	07:05:30	false	COMMON	true	true	false	아침 일곱시 오분이에요
+KO_KR	07:05:30	false	COMMON	false	false	false	일곱시 오분
+KO_KR	07:05:30	true	FORMAL	false	true	true	일곱시 오분 삼십초이에요
+KO_KR	07:05:30	false	FORMAL	true	false	false	오전 일곱시 오분
+KO_KR	07:05:30	true	FORMAL	false	false	false	일곱시 오분
+KO_KR	09:15:00	false	COMMON	true	true	false	아침 아홉시 십오분이에요
+KO_KR	09:15:00	false	COMMON	false	false	false	아홉시 십오분
+KO_KR	09:15:00	true	FORMAL	false	true	true	아홉시 십오분이에요
+KO_KR	09:15:00	false	FORMAL	true	false	false	오전 아홉시 십오분
+KO_KR	09:15:00	true	FORMAL	false	false	false	아홉시 십오분
+KO_KR	11:45:00	false	COMMON	true	true	false	아침 열두시 십오분 전이에요
+KO_KR	11:45:00	false	COMMON	false	false	false	열두시 십오분 전
+KO_KR	11:45:00	true	FORMAL	false	true	true	열한시 사십오분이에요
+KO_KR	11:45:00	false	FORMAL	true	false	false	오전 열한시 사십오분
+KO_KR	11:45:00	true	FORMAL	false	false	false	열한시 사십오분
+KO_KR	12:00:00	false	COMMON	true	true	false	정오예요
+KO_KR	12:00:00	false	COMMON	false	false	false	정오
+KO_KR	12:00:00	true	FORMAL	false	true	true	열두시예요
+KO_KR	12:00:00	false	FORMAL	true	false	false	오후 열두시
+KO_KR	12:00:00	true	FORMAL	false	false	false	열두시
+KO_KR	12:31:00	false	COMMON	true	true	false	한시 이십구분 전이에요
+KO_KR	12:31:00	false	COMMON	false	false	false	한시 이십구분 전
+KO_KR	12:31:00	true	FORMAL	false	true	true	열두시 삼십일분이에요
+KO_KR	12:31:00	false	FORMAL	true	false	false	오후 열두시 삼십일분
+KO_KR	12:31:00	true	FORMAL	false	false	false	열두시 삼십일분
+KO_KR	13:30:00	false	COMMON	true	true	false	한시 반이에요
+KO_KR	13:30:00	false	COMMON	false	false	false	한시 반
+KO_KR	13:30:00	true	FORMAL	false	true	true	열세시 삼십분이에요
+KO_KR	13:30:00	false	FORMAL	true	false	false	오후 한시 삼십분
+KO_KR	13:30:00	true	FORMAL	false	false	false	열세시 삼십분
+KO_KR	14:22:22	false	COMMON	true	true	false	두시 이십이분이에요
+KO_KR	14:22:22	false	COMMON	false	false	false	두시 이십이분
+KO_KR	14:22:22	true	FORMAL	false	true	true	열네시 이십이분 이십이초이에요
+KO_KR	14:22:22	false	FORMAL	true	false	false	오후 두시 이십이분
+KO_KR	14:22:22	true	FORMAL	false	false	false	열네시 이십이분
+KO_KR	18:40:00	false	COMMON	true	true	false	저녁 일곱시 이십분 전이에요
+KO_KR	18:40:00	false	COMMON	false	false	false	일곱시 이십분 전
+KO_KR	18:40:00	true	FORMAL	false	true	true	열여덟시 사십분이에요
+KO_KR	18:40:00	false	FORMAL	true	false	false	오후 여섯시 사십분
+KO_KR	18:40:00	true	FORMAL	false	false	false	열여덟시 사십분
+KO_KR	21:21:21	false	COMMON	true	true	false	저녁 아홉시 이십일분이에요
+KO_KR	21:21:21	false	COMMON	false	false	false	아홉시 이십일분
+KO_KR	21:21:21	true	FORMAL	false	true	true	스무한시 이십일분 이십일초이에요
+KO_KR	21:21:21	false	FORMAL	true	false	false	오후 아홉시 이십일분
+KO_KR	21:21:21	true	FORMAL	false	false	false	스무한시 이십일분
+KO_KR	23:59:59	false	COMMON	true	true	false	저녁 열두시 일분 전이에요
+KO_KR	23:59:59	false	COMMON	false	false	false	열두시 일분 전
+KO_KR	23:59:59	true	FORMAL	false	true	true	스무세시 오십구분 오십구초이에요
+KO_KR	23:59:59	false	FORMAL	true	false	false	오후 열한시 오십구분
+KO_KR	23:59:59	true	FORMAL	false	false	false	스무세시 오십구분
+RO_RO	00:00:00	false	COMMON	true	true	false	Este miezul nopții noapte
+RO_RO	00:00:00	false	COMMON	false	false	false	Miezul nopții
+RO_RO	00:00:00	true	FORMAL	false	true	true	Este ora zero, zero minute, zero secunde
+RO_RO	00:00:00	false	FORMAL	true	false	false	Ora doisprezece noapte
+RO_RO	00:00:00	true	FORMAL	false	false	false	Ora zero
+RO_RO	00:30:01	false	COMMON	true	true	false	Este doisprezece și jumătate noaptea
+RO_RO	00:30:01	false	COMMON	false	false	false	Doisprezece și jumătate
+RO_RO	00:30:01	true	FORMAL	false	true	true	Este ora zero, treizeci minute, un secundă
+RO_RO	00:30:01	false	FORMAL	true	false	false	Ora doisprezece și treizeci de minute noaptea
+RO_RO	00:30:01	true	FORMAL	false	false	false	Ora zero și treizeci de minute
+RO_RO	01:01:01	false	COMMON	true	true	false	Este unu și un minut noaptea
+RO_RO	01:01:01	false	COMMON	false	false	false	Unu și un minut
+RO_RO	01:01:01	true	FORMAL	false	true	true	Este ora unu, un minut, un secundă
+RO_RO	01:01:01	false	FORMAL	true	false	false	Ora unu și un minut noaptea
+RO_RO	01:01:01	true	FORMAL	false	false	false	Ora unu și un minut
+RO_RO	02:02:02	false	COMMON	true	true	false	Este două și două minute noaptea
+RO_RO	02:02:02	false	COMMON	false	false	false	Două și două minute
+RO_RO	02:02:02	true	FORMAL	false	true	true	Este ora două, două minute, două secunde
+RO_RO	02:02:02	false	FORMAL	true	false	false	Ora două și două minute noaptea
+RO_RO	02:02:02	true	FORMAL	false	false	false	Ora două și două minute
+RO_RO	07:05:30	false	COMMON	true	true	false	Este șapte și cinci dimineața
+RO_RO	07:05:30	false	COMMON	false	false	false	Șapte și cinci
+RO_RO	07:05:30	true	FORMAL	false	true	true	Este ora șapte, cinci minute, treizeci secunde
+RO_RO	07:05:30	false	FORMAL	true	false	false	Ora șapte și cinci minute dimineața
+RO_RO	07:05:30	true	FORMAL	false	false	false	Ora șapte și cinci minute
+RO_RO	09:15:00	false	COMMON	true	true	false	Este nouă și un sfert dimineața
+RO_RO	09:15:00	false	COMMON	false	false	false	Nouă și un sfert
+RO_RO	09:15:00	true	FORMAL	false	true	true	Este ora nouă, cincisprezece minute, zero secunde
+RO_RO	09:15:00	false	FORMAL	true	false	false	Ora nouă și cincisprezece minute dimineața
+RO_RO	09:15:00	true	FORMAL	false	false	false	Ora nouă și cincisprezece minute
+RO_RO	11:45:00	false	COMMON	true	true	false	Este doisprezece fără un sfert dimineața
+RO_RO	11:45:00	false	COMMON	false	false	false	Doisprezece fără un sfert
+RO_RO	11:45:00	true	FORMAL	false	true	true	Este ora unsprezece, patruzeci și cinci minute, zero secunde
+RO_RO	11:45:00	false	FORMAL	true	false	false	Ora unsprezece și patruzeci și cinci de minute dimineața
+RO_RO	11:45:00	true	FORMAL	false	false	false	Ora unsprezece și patruzeci și cinci de minute
+RO_RO	12:00:00	false	COMMON	true	true	false	E amiază noapte
+RO_RO	12:00:00	false	COMMON	false	false	false	Amiază
+RO_RO	12:00:00	true	FORMAL	false	true	true	Este ora douăsprezece, zero minute, zero secunde
+RO_RO	12:00:00	false	FORMAL	true	false	false	Ora douăsprezece noapte
+RO_RO	12:00:00	true	FORMAL	false	false	false	Ora douăsprezece
+RO_RO	12:31:00	false	COMMON	true	true	false	Este unu fără douăzeci și nouă noapte
+RO_RO	12:31:00	false	COMMON	false	false	false	Unu fără douăzeci și nouă
+RO_RO	12:31:00	true	FORMAL	false	true	true	Este ora douăsprezece, treizeci și unu minute, zero secunde
+RO_RO	12:31:00	false	FORMAL	true	false	false	Ora douăsprezece și treizeci și unu de minute noapte
+RO_RO	12:31:00	true	FORMAL	false	false	false	Ora douăsprezece și treizeci și unu de minute
+RO_RO	13:30:00	false	COMMON	true	true	false	Este unu și jumătate după-amiaza
+RO_RO	13:30:00	false	COMMON	false	false	false	Unu și jumătate
+RO_RO	13:30:00	true	FORMAL	false	true	true	Este ora treisprezece, treizeci minute, zero secunde
+RO_RO	13:30:00	false	FORMAL	true	false	false	Ora unu și treizeci de minute după-amiaza
+RO_RO	13:30:00	true	FORMAL	false	false	false	Ora treisprezece și treizeci de minute
+RO_RO	14:22:22	false	COMMON	true	true	false	Este două și douăzeci și doi după-amiaza
+RO_RO	14:22:22	false	COMMON	false	false	false	Două și douăzeci și doi
+RO_RO	14:22:22	true	FORMAL	false	true	true	Este ora paisprezece, douăzeci și doi minute, douăzeci și doi secunde
+RO_RO	14:22:22	false	FORMAL	true	false	false	Ora două și douăzeci și doi de minute după-amiaza
+RO_RO	14:22:22	true	FORMAL	false	false	false	Ora paisprezece și douăzeci și doi de minute
+RO_RO	18:40:00	false	COMMON	true	true	false	Este șapte fără douăzeci seara
+RO_RO	18:40:00	false	COMMON	false	false	false	Șapte fără douăzeci
+RO_RO	18:40:00	true	FORMAL	false	true	true	Este ora optsprezece, patruzeci minute, zero secunde
+RO_RO	18:40:00	false	FORMAL	true	false	false	Ora șase și patruzeci de minute seara
+RO_RO	18:40:00	true	FORMAL	false	false	false	Ora optsprezece și patruzeci de minute
+RO_RO	21:21:21	false	COMMON	true	true	false	Este nouă și douăzeci și unu seara
+RO_RO	21:21:21	false	COMMON	false	false	false	Nouă și douăzeci și unu
+RO_RO	21:21:21	true	FORMAL	false	true	true	Este ora douăzeci și unu, douăzeci și unu minute, douăzeci și unu secunde
+RO_RO	21:21:21	false	FORMAL	true	false	false	Ora nouă și douăzeci și unu de minute seara
+RO_RO	21:21:21	true	FORMAL	false	false	false	Ora douăzeci și unu și douăzeci și unu de minute
+RO_RO	23:59:59	false	COMMON	true	true	false	Este doisprezece fără un minut seara
+RO_RO	23:59:59	false	COMMON	false	false	false	Doisprezece fără un minut
+RO_RO	23:59:59	true	FORMAL	false	true	true	Este ora douăzeci și trei, cincizeci și nouă minute, cincizeci și nouă secunde
+RO_RO	23:59:59	false	FORMAL	true	false	false	Ora unsprezece și cincizeci și nouă de minute seara
+RO_RO	23:59:59	true	FORMAL	false	false	false	Ora douăzeci și trei și cincizeci și nouă de minute
