@@ -43,6 +43,7 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
+import io.github.sharathhc529.talktime.ui.clock.ClockScreen
 import io.github.sharathhc529.talktime.R
 import io.github.sharathhc529.talktime.service.Notifications
 import io.github.sharathhc529.talktime.service.TalkTimeService
@@ -118,7 +119,11 @@ class MainActivity : ComponentActivity() {
                         cancelAutoClose()
                         if (settings[Keys.touch]) announce()
                     },
-                    overlay = { Menu() },
+                    onSpeak = {
+                        cancelAutoClose()
+                        announce()
+                    },
+                    overlay = { tint -> Menu(tint) },
                 )
                 Dialogs()
             }
@@ -223,16 +228,15 @@ class MainActivity : ComponentActivity() {
     }
 
     @Composable
-    private fun Menu() {
+    private fun Menu(tint: Color) {
         var expanded by remember { mutableStateOf(false) }
         val connected = service
         val intervalActive by settings.collect(Keys.intervalActive)
         val nightClockActive by settings.collect(Keys.nightClockActive)
-        val textColor = Color(settings.collect(Keys.textColor).value)
         Box(Modifier.fillMaxSize().safeDrawingPadding()) {
             Box(Modifier.align(Alignment.TopEnd)) {
                 IconButton(onClick = { cancelAutoClose(); expanded = true }) {
-                    Icon(Icons.Default.MoreVert, stringResource(R.string.menu), tint = textColor.copy(alpha = 0.6f))
+                    Icon(Icons.Default.MoreVert, stringResource(R.string.menu), tint = tint)
                 }
                 DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
                     if (connected?.hasProximitySensor != false) {
