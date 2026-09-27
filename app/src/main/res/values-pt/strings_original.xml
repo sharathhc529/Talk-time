@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Sair</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Cancelar</string>
+    <string name="app_yes">Sim</string>
+    <string name="app_no">Não</string>
+    <string name="app_request_close_question">Você realmente deseja fechar o serviço Timesay? Este serviço é necessário para anunciar as horas.</string>
+    <string name="app_pulse_interval_title">Selecione um intervalo</string>
+    <string name="app_tts_install_title">Faltam dados TTS</string>
+    <string name="app_tts_install_message">Dados Text-to-speech (TTS) não instalados no dispositivo. Este app não é totalmente funcional sem os dados TTS. Você quer acessar a Play Store para baixar os dados?</string>
+    <string name="app_tts_install_activity_missing">Os dados de instalação TTS não foram encontrados. Por favor instale um mecanismo TTS da Play Store.</string>
+    <string name="app_open_tts_setting_failure">Configurações TTS não encontradas.</string>
+    <string name="app_install_tts_data_title">Faltam dados TTS</string>
+    <string name="app_install_tts_voice_data_message">Faltam dados TTS. Por favor verifique as configurações de dados TTS ou adquira os dados da Play Store.</string>
+    <string name="app_start_night_clock">Iniciar relógio noturno</string>
+    <string name="app_stop_night_clock">Parar relógio noturno</string>
+    <string name="app_start_speaking_clock">Iniciar relógio falante</string>
+    <string name="app_stop_speaking_clock">Parar relógio falante</string>
+    <string name="app_preferences">Preferências</string>
+    <string name="app_seekbar_seconds_unit">s</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_version_label">Versão:</string>
+    <string name="app_disclaimer_title">Retratação</string>
+    <string name="pref_screen_title_control">Controle</string>
+    <string name="pref_screen_summary_control">Ajustes dos vários acionadores de anúncio de hora e opções de início do relógio noturno.</string>
+    <string name="pref_screen_title_headset_trigger">Fone de ouvido</string>
+    <string name="pref_screen_summary_headset_trigger">Ajustes acerca do acionamento do relógio falante pelo botão do fone de ouvido.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Botão de fone de ouvido com fio</string>
+    <string name="pref_list_title_headset_hook_button">Botão de fone de ouvido</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Intervalo</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Intervalo de tempo entre dois cliques nos eventos de cliques múltiplos.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Botões de fone de ouvido Bluetooth</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Executar/Pausar</string>
+    <string name="pref_list_title_headset_media_stop_button">Parar</string>
+    <string name="pref_list_title_headset_media_previous_button">Faixa anterior</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Intervalo</string>
+    <string name="pref_list_summary_headset_event_none">DESATIVADO - Botão desativado para anunciar a hora.</string>
+    <string name="pref_list_summary_headset_event_single_click">CLIQUE SIMPLES - Relógio falante acionado por um clique simples.</string>
+    <string name="pref_list_summary_headset_event_double_click">CLIQUE DUPLO - Relógio falante acionado por um clique duplo.</string>
+    <string name="pref_list_summary_headset_event_triple_click">CLIQUE TRIPLO - Relógio falante acionado por um clique triplo.</string>
+    <string name="pref_checkbox_title_touch">Tela sensível</string>
+    <string name="pref_checkbox_summary_touch">Relógio falante acionado ao tocar a tela inicial do aplicativo.</string>
+    <string name="pref_screen_title_open_app">Aplicativo aberto</string>
+    <string name="pref_screen_summary_open_app">Ajustes acerca do acionamento do relógio falante ao executar o aplicativo.</string>
+    <string name="pref_checkbox_title_open_app">Aplicativo aberto</string>
+    <string name="pref_checkbox_summary_open_app">Permite que a hora seja anunciada ao ser executado o aplicativo.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Encerramento automático</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">O aplicativo é encerrado após %1$s segundos.</string>
+    <string name="pref_screen_title_system">Sistema</string>
+    <string name="pref_screen_summary_system">Ajustes do sistema</string>
+    <string name="pref_checkbox_title_autostart">Execução automática</string>
+    <string name="pref_checkbox_summary_autostart">Aplicativo executado automaticamente durante a inicialização do sistema.</string>
+    <string name="pref_checkbox_title_tts_check">Verificação TTS</string>
+    <string name="pref_checkbox_summary_tts_check">O aplicativo verifica na próxima execução se o componente de voz está completamente instalado.</string>
+    <string name="pref_checkbox_title_power">Fonte de energia</string>
+    <string name="pref_checkbox_summary_power">Relógio noturno acionado automaticamente quando o dispositivo é conectado a uma fonte externa.</string>
+    <string name="pref_screen_title_proximity_trigger">Sensor de proximidade</string>
+    <string name="pref_screen_summary_proximity_trigger">Ajustes acerca do acionamento do relógio falante pelo sensor de proximidade do dispositivo.</string>
+    <string name="pref_checkbox_title_proximity">Permitir detecção gestual</string>
+    <string name="pref_checkbox_summary_proximity">Relógio falante acionado por aceno da mão sobre o sensor de proximidade. Pode consumir mais bateria em alguns dispositivos.</string>
+    <string name="pref_list_title_proximity_gesture">Gesto</string>
+    <string name="pref_list_summary_proximity_gesture_1">Um aceno</string>
+    <string name="pref_list_summary_proximity_gesture_2">Dois acenos</string>
+    <string name="pref_list_summary_proximity_gesture_3">Três acenos</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Vibrar</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">O dispositivo vibra ao acionar o sensor de proximidade.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Tela desligada</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Relógio falante acionado pelo sensor de proximidade apenas quando a tela está desligada.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Velocidade de reconhecimento</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">Em %1$s o gesto deve ser executado. Em cada dispositivo o sensor de proximidade reage diferentemente. Este ajuste pode ajudar a prevenir acionamentos indevidos.</string>
+    <string name="pref_screen_title_night_clock">Relógio noturno</string>
+    <string name="pref_screen_summary_night_clock">Ajustes acerca das opções de acionamento automático do relógio noturno. Este modo pode ser acionado por um aceno simples sobre o sensor de proximidade.</string>
+    <string name="pref_category_title_night_clock_start_options">Opções de inicialização</string>
+    <string name="pref_category_title_time_format">Formato de hora</string>
+    <string name="pref_list_title_speaking_clock_style">Estilo de relógio falante</string>
+    <string name="pref_checkbox_title_time_of_day">Período do dia</string>
+    <string name="pref_list_title_time_hour_format">Formato de hora</string>
+    <string name="pref_screen_title_appearance">Tela</string>
+    <string name="pref_screen_summary_appearance">Ajustes da tela.</string>
+    <string name="pref_category_title_clock_text">Texto</string>
+    <string name="pref_preference_title_night_clock_text_color">Cor</string>
+    <string name="pref_preference_summary_night_clock_text_color">Cor do texto do relógio.</string>
+    <string name="pref_list_title_time_text_style">Estilo do texto da hora</string>
+    <string name="pref_list_summary_time_text_style_normal">Hora exibida em estilo de texto normal.</string>
+    <string name="pref_list_summary_time_text_style_bold">Hora exibida em negrito.</string>
+    <string name="pref_list_title_time_of_day_text_style">Estilo do texto do período do dia</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">O período do dia é exibido em estilo de texto normal.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">O período do dia é exibido em negrito.</string>
+    <string name="pref_list_title_date_text_style">Estilo de texto de data</string>
+    <string name="pref_list_summary_date_text_style_normal">Data exibida em estilo de texto normal.</string>
+    <string name="pref_list_summary_date_text_style_bold">Data exibida em negrito.</string>
+    <string name="pref_category_title_clock_background">Fundo</string>
+    <string name="pref_preference_title_night_clock_background_color">Cor</string>
+    <string name="pref_preference_summary_night_clock_background_color">Cor de fundo do relógio.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Gradiente de cor</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Define o gradiente da cor de fundo.</string>
+    <string name="pref_list_title_text_effect">Efeito</string>
+    <string name="pref_list_summary_text_effect_shadow">Texto do relógio exibido com sombra.</string>
+    <string name="pref_list_summary_text_effect_glow">Texto do relógio exibido com incandescer.</string>
+    <string name="pref_list_summary_text_effect_none">Texto do relógio exibido com não efeito.</string>
+    <string name="pref_screen_title_audio">Áudio</string>
+    <string name="pref_screen_summary_audio">Ajustes de saída do áudio de um anúncio de hora.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Volume independente</string>
+    <string name="pref_checkbox_summary_system_independent_volume">O volume de um anúncio é independente do volume do sistema.</string>
+    <string name="pref_preference_title_tts_volume">Volume</string>
+    <string name="app_notification_title_night_clock">Relógio noturno</string>
+    <string name="app_notification_title_pulse_generator">Relógio falante</string>
+    <string name="pref_checkbox_title_night_clock_notification">Notificação</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Uma notificação é exibida na barra de notificações quando o relógio noturno é iniciado.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Nenhuma notificação exibida quando o relógio noturno é iniciado.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Anunciador por intervalo</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Ajustes acerca de anúncio de hora por intervalo. A hora pode ser anunciada em um intervalo de tempo definido.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Notificação</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Uma notificação é exibida na barra de notificações quando o anunciador por intervalo é iniciado.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Nenhuma notificação exibida quando o anunciador por intervalo é iniciado.</string>
+    <string name="app_pulse_generator_interval_1">A cada minuto</string>
+    <string name="app_pulse_generator_interval_2">Cada minuto par</string>
+    <string name="app_pulse_generator_interval_3">Cada minuto ímpar</string>
+    <string name="app_pulse_generator_interval_4">Cada 5 minutos</string>
+    <string name="app_pulse_generator_interval_5">Cada 10 minutos</string>
+    <string name="app_pulse_generator_interval_6">Cada 15 minutos</string>
+    <string name="app_pulse_generator_interval_7">Cada 20 minutos</string>
+    <string name="app_pulse_generator_interval_8">Cada 30 minutos</string>
+    <string name="app_pulse_generator_interval_9">A cada hora</string>
+    <string name="app_pulse_generator_interval_10">Cada 15 segundos</string>
+    <string name="app_pulse_generator_interval_11">Cada 20 segundos</string>
+    <string name="app_pulse_generator_interval_12">Cada 30 segundos</string>
+    <string name="pref_screen_title_power_button_trigger">Botão liga/desliga</string>
+    <string name="pref_screen_summary_power_button_trigger">Ajustes acerca do acionamento do relógio falante pelo botão liga/desliga.</string>
+    <string name="pref_checkbox_title_power_button">Botão liga/desliga</string>
+    <string name="pref_checkbox_summary_power_button_1">ATIVADO - Relógio falante acionado por um clique duplo.</string>
+    <string name="pref_checkbox_summary_power_button_2">DESATIVADO - Botão desativado para anunciar a hora.</string>
+    <string name="pref_preference_title_power_button_click_delay">Intervalo</string>
+    <string name="pref_preference_summary_power_button_click_delay">Intervalo de tempo entre dois cliques nos eventos de cliques múltiplos.</string>
+    <string name="pref_list_title_audio_general">Geral</string>
+    <string name="pref_list_title_ringer_mode">Perfil de chamada</string>
+    <string name="pref_list_summary_ringer_mode">Perfil de chamada para o qual é permitido anunciar a hora.</string>
+    <string name="pref_category_title_night_clock_general">Geral</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Anúncio e exibição da hora quando o sensor de proximidade é acionado.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Anúncio da hora quando o sensor de proximidade é acionado.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Exibição da hora quando o sensor de proximidade é acionado</string>
+    <string name="pref_list_title_night_clock_behaviour">Comportamento</string>
+    <string name="pref_list_title_screen_orientation">Orientação da tela</string>
+    <string name="pref_list_summary_screen_orientation_system">As configurações do sistema são usadas para a orientação da tela.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">A tela é automaticamente orientada pelo sensor.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">A tela é orientada horizontalmente.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">A tela é orientada verticalmente.</string>
+    <string name="pref_category_title_appearance_general">Geral</string>
+    <string name="pref_list_title_language">Idioma</string>
+    <string name="pref_category_title_speech">Fala</string>
+    <string name="pref_preference_title_speech_tts_settings">Conversão de texto em voz</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Intervalo de tempo</string>
+    <string name="pref_list_title_pulse_interval">Intervalo</string>
+    <string name="pref_category_title_speaking_clock_general">Geral</string>
+    <string name="pref_category_title_speaking_clock_start_options">Opções de inicialização</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Desativado</item>
+        <item>Clique simples</item>
+        <item>Clique duplo</item>
+        <item>Clique triplo</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Formal</item>
+        <item>Negrito</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Configuração do sistema</item>
+        <item>Formato 24-horas</item>
+        <item>Formato 12-horas</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Configuração de áudio</item>
+        <item>Formato 24-horas</item>
+        <item>Formato 12-horas</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Silencioso</item>
+        <item>Vibrar</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Anúncio + Exibição</item>
+        <item>Anúncio</item>
+        <item>Exibição</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Sistema</item>
+        <item>Automático</item>
+        <item>Retrato</item>
+        <item>Paisagem</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Não</item>
+        <item>Sombra</item>
+        <item>Incandescer</item>
+    </string-array>
+</resources>

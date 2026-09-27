@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Quitter</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Annuler</string>
+    <string name="app_yes">Oui</string>
+    <string name="app_no">Non</string>
+    <string name="app_pulse_interval_title">Sélectionnez un intervalle</string>
+    <string name="app_open_tts_setting_failure">"Paramètres TTS de dialogue n'a pu être trouvée."</string>
+    <string name="app_install_tts_data_title">TTS données sont manquantes</string>
+    <string name="app_install_tts_voice_data_message">"Les données Text-To-Speech pour %1$s est manquante. S'il vous plaît vérifiez les paramètres de TTS données ou télécharger les données manquantes TTS dans la Google Play."</string>
+    <string name="app_start_night_clock">"Démarrer l'horloge de nuit"</string>
+    <string name="app_stop_night_clock">"Arrêter l'horloge de nuit"</string>
+    <string name="app_start_speaking_clock">"Démarrer l'horloge parlante"</string>
+    <string name="app_stop_speaking_clock">"Arrêter l'horloge parlante"</string>
+    <string name="app_preferences">Paramètres</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_version_label">Version:</string>
+    <string name="pref_screen_title_control">Contrôle</string>
+    <string name="pref_screen_summary_control">"Réglages des différents options pour dire l'heure ainsi que celles du démarrage pour l'horloge de nuit."</string>
+    <string name="pref_screen_title_headset_trigger">Casque micro</string>
+    <string name="pref_screen_summary_headset_trigger">"Réglages concernant l'annonce de l'heure qui est activée par le bouton du casque."</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Bouton du casque filaire</string>
+    <string name="pref_list_title_headset_hook_button">Bouton du casque</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Retard</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Casque bluetooth boutons de médias</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Bouton lecture / pause</string>
+    <string name="pref_list_title_headset_media_stop_button">"Bouton d'arrêt"</string>
+    <string name="pref_list_title_headset_media_previous_button">Bouton de piste précédente</string>
+    <string name="pref_list_title_headset_media_next_button">Bouton de piste suivante</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Retard</string>
+    <string name="pref_list_summary_headset_event_none">"Désactivé - Ce bouton est désactivé pour déclencher la lecture de l'heure."</string>
+    <string name="pref_list_summary_headset_event_single_click">"UN SEUL CLIC - L'horloge parlante est activée par un seul clic."</string>
+    <string name="pref_list_summary_headset_event_double_click">"DOUBLE CLIC - L'horloge parlante est activée par un double clic."</string>
+    <string name="pref_list_summary_headset_event_triple_click">"TRIPLE CLIC - L'horloge parlante est activée par un triple clic."</string>
+    <string name="pref_checkbox_title_touch">Écran tactile</string>
+    <string name="pref_screen_title_open_app">Application ouverte</string>
+    <string name="pref_checkbox_title_open_app">Application ouverte</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Fermeture automatique</string>
+    <string name="pref_screen_title_system">Système</string>
+    <string name="pref_screen_summary_system">Paramètres système</string>
+    <string name="pref_checkbox_title_autostart">Autorun</string>
+    <string name="pref_checkbox_title_tts_check">TTS vérification</string>
+    <string name="pref_checkbox_title_power">Alimentation</string>
+    <string name="pref_screen_title_proximity_trigger">Détecteur de proximité</string>
+    <string name="pref_screen_summary_proximity_trigger">"Réglages concernant l'annonce de l'heure qui est activée par un geste sur la proximité capteur de l'appareil mobile."</string>
+    <string name="pref_checkbox_title_proximity">Activer la détection de geste</string>
+    <string name="pref_checkbox_summary_proximity">"L'horloge parlante sera activée par un passage de la main sur le capteur de proximité en effleurant l'écran. Le risque de décharger votre batterie plus rapidement."</string>
+    <string name="pref_list_title_proximity_gesture">Geste</string>
+    <string name="pref_list_summary_proximity_gesture_1">Un doigt geste</string>
+    <string name="pref_list_summary_proximity_gesture_2">Deux doigts geste</string>
+    <string name="pref_list_summary_proximity_gesture_3">Trois doigts geste</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Vibrer</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">"L'écran est éteint"</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Vitesse de détection</string>
+    <string name="pref_screen_title_night_clock">Horloge de nuit</string>
+    <string name="pref_category_title_night_clock_start_options">Options de démarrage</string>
+    <string name="pref_category_title_time_format">Heure</string>
+    <string name="pref_list_title_speaking_clock_style">"Style de annonce de l'heure"</string>
+    <string name="pref_checkbox_title_time_of_day">Heure du jour</string>
+    <string name="pref_list_title_time_hour_format">"Format de l'heure"</string>
+    <string name="pref_screen_title_appearance">Affichage</string>
+    <string name="pref_category_title_clock_text">Texte</string>
+    <string name="pref_preference_title_night_clock_text_color">Couleur</string>
+    <string name="pref_preference_summary_night_clock_text_color">"Couleur du texte de l'horloge."</string>
+    <string name="pref_category_title_clock_background">Fond</string>
+    <string name="pref_preference_title_night_clock_background_color">Couleur</string>
+    <string name="pref_preference_summary_night_clock_background_color">"Couleur de fond de l'horloge."</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Dégradé de couleur</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">"Définit le dégradé de couleur de l'arrière-plan."</string>
+    <string name="pref_list_title_text_effect">Effet</string>
+    <string name="pref_list_summary_text_effect_shadow">"Le texte de l'horloge est affichée avec ombre effet."</string>
+    <string name="pref_list_summary_text_effect_glow">"Le texte de l'horloge est affichée avec lueur effet."</string>
+    <string name="pref_list_summary_text_effect_none">"Le texte de l'horloge est affichée avec aucun effet."</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_checkbox_title_system_independent_volume">Volume du système indépendant</string>
+    <string name="pref_preference_title_tts_volume">Volume</string>
+    <string name="app_notification_title_night_clock">Horloge de nuit</string>
+    <string name="app_notification_title_pulse_generator">Horloge parlante</string>
+    <string name="pref_checkbox_title_night_clock_notification">Notification</string>
+    <string name="pref_screen_title_interval_speaking_clock">Horloge parlante intervalle</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Notification</string>
+    <string name="app_pulse_generator_interval_1">Toutes les minutes</string>
+    <string name="app_pulse_generator_interval_2">Toutes les minutes paires</string>
+    <string name="app_pulse_generator_interval_3">Toutes les minutes impaires</string>
+    <string name="app_pulse_generator_interval_4">Toutes les 5 minutes</string>
+    <string name="app_pulse_generator_interval_5">Toutes les 10 minutes</string>
+    <string name="app_pulse_generator_interval_6">Toutes les 15 minutes</string>
+    <string name="app_pulse_generator_interval_7">Toutes les 20 minutes</string>
+    <string name="app_pulse_generator_interval_8">Toutes les 30 minutes</string>
+    <string name="app_pulse_generator_interval_9">Chaque heure</string>
+    <string name="app_pulse_generator_interval_10">Toutes les 15 secondes</string>
+    <string name="app_pulse_generator_interval_11">Toutes les 20 secondes</string>
+    <string name="app_pulse_generator_interval_12">Toutes les 30 secondes</string>
+    <string name="pref_list_title_audio_general">Général</string>
+    <string name="pref_list_title_ringer_mode">Mode sonnerie</string>
+    <string name="pref_category_title_night_clock_general">Général</string>
+    <string name="pref_list_title_night_clock_behaviour">Comportement</string>
+    <string name="pref_list_title_screen_orientation">"Orientation de l'écran"</string>
+    <string name="pref_category_title_appearance_general">Général</string>
+    <string name="pref_list_title_language">Langue</string>
+    <string name="pref_category_title_speech">Voix</string>
+    <string name="pref_preference_title_speech_tts_settings">Sortie de la synthése vocale</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Retard</string>
+    <string name="pref_list_title_pulse_interval">Intervalle</string>
+    <string name="pref_category_title_speaking_clock_general">Général</string>
+    <string name="pref_category_title_speaking_clock_start_options">Options de démarrage</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Désactivé</item>
+        <item>Un seul clic</item>
+        <item>Double clic</item>
+        <item>Triple clic</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Formel</item>
+        <item>Commun</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Paramètres du système</item>
+        <item>Format 24 heures</item>
+        <item>Format 12 heures</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Paramètres du audio</item>
+        <item>Format 24 heures</item>
+        <item>Format 12 heures</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Silencieux</item>
+        <item>Vibreur</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Annonce + Afficher</item>
+        <item>Annonce</item>
+        <item>Afficher</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Système</item>
+        <item>Automatique</item>
+        <item>Verticale</item>
+        <item>Horizontal</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normal</item>
+        <item>Bold</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Aucun</item>
+        <item>Ombre</item>
+        <item>Lueur</item>
+    </string-array>
+</resources>

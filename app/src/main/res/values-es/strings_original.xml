@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Cerrar</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Cancelar</string>
+    <string name="app_yes">Sí</string>
+    <string name="app_no">No</string>
+    <string name="app_request_close_question">¿Realmente desea cerrar el servicio Timesay? Se necesita este servicio para anunciar el tiempo.</string>
+    <string name="app_pulse_interval_title">Seleccione un intervalo</string>
+    <string name="app_tts_install_title">Faltan los Datos TTS</string>
+    <string name="app_tts_install_message">Los datos Text-to-speech (TTS) no está instalado en el dispositivo móvil. Esta aplicación no es completamente funcional sin datos de TTS. Desea abrir la Play Store para descargar estos datos?</string>
+    <string name="app_tts_install_activity_missing">El diálogo de instalación de datos TTS no se pudo encontrar. Por favor, instale un motor TTS desde Play Store.</string>
+    <string name="app_open_tts_setting_failure">Ajustes TTS no Se ha encontrado.</string>
+    <string name="app_install_tts_data_title">Faltan los Datos TTS</string>
+    <string name="app_install_tts_voice_data_message">Los datos de texto a voz para %1$s no se encuentra. Por favor, compruebe los ajustes de datos de TTS o descargar los TTS datos que faltan de la Google Play Store.</string>
+    <string name="app_start_night_clock">Iniciar reloj nocturno</string>
+    <string name="app_stop_night_clock">Detener reloj nocturno</string>
+    <string name="app_start_speaking_clock">Iniciar reloj de voz</string>
+    <string name="app_stop_speaking_clock">Detener reloj de voz</string>
+    <string name="app_preferences">Ajustes</string>
+    <string name="app_seekbar_seconds_unit">s</string>
+    <string name="app_seekbar_gravity_unit">g</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_seekbar_x">x</string>
+    <string name="app_version_label">Version:</string>
+    <string name="app_disclaimer_title">Disclaimer</string>
+    <string name="pref_screen_title_control">Control</string>
+    <string name="pref_screen_summary_control">Configuración de los varios factores desencadenantes de un anuncio de la hora y comienzan opciones del reloj nocturno.</string>
+    <string name="pref_screen_title_headset_trigger">Auricular</string>
+    <string name="pref_screen_summary_headset_trigger">Ajustes sobre el reloj de voz que se activa mediante el botón del auricular.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Botón de los auriculares con cable</string>
+    <string name="pref_list_title_headset_hook_button">Botón Auriculares</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Retraso</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Retraso de tiempo entre dos clics en múltiples eventos de clic.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Botones de medios auricular Bluetooth</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Botón de reproducción / pausa</string>
+    <string name="pref_list_title_headset_media_stop_button">Botón Detener</string>
+    <string name="pref_list_title_headset_media_previous_button">Botón de pista anterior</string>
+    <string name="pref_list_title_headset_media_next_button">Botón de pista siguiente</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Retraso</string>
+    <string name="pref_list_summary_headset_event_none">DESACTIVADO - Este botón se desactiva para el disparo de un anuncio de la hora.</string>
+    <string name="pref_list_summary_headset_event_single_click">CLICK SIMPLE - El reloj de voz se activa por un solo clic.</string>
+    <string name="pref_list_summary_headset_event_double_click">DOBLE CLIC - El reloj de voz se activa con un doble clic.</string>
+    <string name="pref_list_summary_headset_event_triple_click">CLICK TRIPLE - El reloj de voz se desencadena por un triple clic.</string>
+    <string name="pref_checkbox_title_touch">Pantalla táctil</string>
+    <string name="pref_checkbox_summary_touch">El reloj de voz se activa al tocar la pantalla principal de esta aplicación.</string>
+    <string name="pref_screen_title_open_app">Aplicación abierta</string>
+    <string name="pref_screen_summary_open_app">Ajustes sobre el reloj de voz que se activa cuando se abre la aplicación.</string>
+    <string name="pref_checkbox_title_open_app">Aplicación abierta</string>
+    <string name="pref_checkbox_summary_open_app">Permite que el tiempo se anuncia cuando se abre la aplicación.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Cierre automático</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">La aplicación se cerrará después %1$s segundos.</string>
+    <string name="pref_screen_title_system">Sistema</string>
+    <string name="pref_screen_summary_system">Configuración del sistema</string>
+    <string name="pref_checkbox_title_autostart">Autorun</string>
+    <string name="pref_checkbox_summary_autostart">Esta aplicación se inicia automáticamente al iniciar el sistema.</string>
+    <string name="pref_checkbox_title_tts_check">Verificación TTS</string>
+    <string name="pref_checkbox_summary_tts_check">Verificaciones de aplicación en el siguiente inicio si el componente de conversión de texto a voz está completamente instalado.</string>
+    <string name="pref_checkbox_title_power">Fuente de alimentación</string>
+    <string name="pref_checkbox_summary_power">El reloj de la noche se inicia automáticamente cuando elndispositivo móvil está conectado a una fuente de alimentación.</string>
+    <string name="pref_screen_title_proximity_trigger">Sensor de proximidad</string>
+    <string name="pref_screen_summary_proximity_trigger">Ajustes sobre el reloj de voz que se activan por un gesto sobre el sensor de proximidad del dispositivo móvil.</string>
+    <string name="pref_checkbox_title_proximity">Habilitar detección gesto</string>
+    <string name="pref_checkbox_summary_proximity">El reloj de voz se activa por un gesto con la mano sobre el sensor de proximidad del dispositivo móvil. En algunos dispositivos móviles podría agotar la batería más rápidamente.</string>
+    <string name="pref_list_title_proximity_gesture">Gesto</string>
+    <string name="pref_list_summary_proximity_gesture_1">Gesto de un dedo</string>
+    <string name="pref_list_summary_proximity_gesture_2">Gesto con dos dedos</string>
+    <string name="pref_list_summary_proximity_gesture_3">Gesto de tres dedos</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Vibrar</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">El dispositivo móvil vibra cuando se dispara el sensor de proximidad.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Pantalla apagada</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">El reloj de voz sólo se activa por el sensor de proximidad cuando la pantalla del dispositivo móvil está apagado.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">La velocidad de reconocimiento</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">En %1$s el gesto debe ser realizado. En cada dispositivo el sensor de proximidad reacciona de manera diferente. Esta configuración puede ayudar a prevenir activaciones erróneas.</string>
+    <string name="pref_screen_title_night_clock">Reloj de Noche</string>
+    <string name="pref_screen_summary_night_clock">Ajustes sobre las opciones de arranque automático del modo de reloj noche. El reloj de la noche puede entonces ser activado por una sola pasada sobre el sensor de proximidad.</string>
+    <string name="pref_category_title_night_clock_start_options">Iniciar opciones</string>
+    <string name="pref_category_title_time_format">Formato de hora</string>
+    <string name="pref_list_title_speaking_clock_style">Hablar estilo de reloj</string>
+    <string name="pref_checkbox_title_time_of_day">Hora del día</string>
+    <string name="pref_list_title_time_hour_format">Formato de hora</string>
+    <string name="pref_screen_title_appearance">Visualización</string>
+    <string name="pref_screen_summary_appearance">Configuración de la visualización de la pantalla del reloj.</string>
+    <string name="pref_category_title_clock_text">Texto</string>
+    <string name="pref_preference_title_night_clock_text_color">Color</string>
+    <string name="pref_preference_summary_night_clock_text_color">Color del texto de reloj.</string>
+    <string name="pref_list_title_time_text_style">Estilo de texto la Hora</string>
+    <string name="pref_list_summary_time_text_style_normal">La hora se muestra en el estilo de texto normal.</string>
+    <string name="pref_list_summary_time_text_style_bold">La hora se muestra en negrita.</string>
+    <string name="pref_list_title_time_of_day_text_style">Estilo de texto de la Hora del día</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">La hora del día se muestra en el estilo de texto normal.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">La hora del día aparece en negrita.</string>
+    <string name="pref_list_title_date_text_style">Estilo de texto Fecha</string>
+    <string name="pref_list_summary_date_text_style_normal">La fecha se muestra en el estilo de texto normal.</string>
+    <string name="pref_list_summary_date_text_style_bold">La fecha se muestra en negrita.</string>
+    <string name="pref_category_title_clock_background">Fondo</string>
+    <string name="pref_preference_title_night_clock_background_color">Color</string>
+    <string name="pref_preference_summary_night_clock_background_color">Color del fondo del reloj.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Degradado de color</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Define el degradado de color de fondo.</string>
+    <string name="pref_list_title_text_effect">Efecto</string>
+    <string name="pref_list_summary_text_effect_shadow">El texto del reloj se muestra con un efecto de sombra.</string>
+    <string name="pref_list_summary_text_effect_glow">El texto del reloj se muestra con un efecto de brillo.</string>
+    <string name="pref_list_summary_text_effect_none">El texto del reloj se muestra sin efectos.</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">Configuración de la salida de audio de anuncio de la hora.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Sistema de volumen independiente</string>
+    <string name="pref_checkbox_summary_system_independent_volume">El volumen del anuncio tiempo es independiente del volumen del sistema.</string>
+    <string name="pref_preference_title_tts_volume">Volume</string>
+    <string name="app_notification_title_night_clock">Reloj de Noche</string>
+    <string name="app_notification_title_pulse_generator">Hora oficial</string>
+    <string name="pref_checkbox_title_night_clock_notification">Notificación</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Una notificación se muestra en la barra de título cuando se inicia el reloj de la noche.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Ninguna notificación se muestra en la barra de título cuando se inicia el reloj de la noche.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Intervalo de reloj parlante</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Ajustes del control del intervalo de tiempo del anuncio. El tiempo puede ser anunciado en un intervalo de tiempo definido.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Notificación</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Una notificación se muestra en la barra de título cuando se inicia el intervalo de reloj parlante.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Ninguna notificación se muestra en la barra de título cuando se inicia el intervalo del reloj parlante.</string>
+    <string name="app_pulse_generator_interval_1">Cada minuto</string>
+    <string name="app_pulse_generator_interval_2">Cada par minutos</string>
+    <string name="app_pulse_generator_interval_3">Cada impar minutos</string>
+    <string name="app_pulse_generator_interval_4">Cada 5 minutos</string>
+    <string name="app_pulse_generator_interval_5">Cada 10 minutos</string>
+    <string name="app_pulse_generator_interval_6">Cada 15 minutos</string>
+    <string name="app_pulse_generator_interval_7">Cada 20 minutos</string>
+    <string name="app_pulse_generator_interval_8">Cada 30 minutos</string>
+    <string name="app_pulse_generator_interval_9">cada hora</string>
+    <string name="app_pulse_generator_interval_10">Cada 15 segundos</string>
+    <string name="app_pulse_generator_interval_11">Cada 20 segundos</string>
+    <string name="app_pulse_generator_interval_12">Cada 30 segundos</string>
+    <string name="pref_screen_title_shake_detector_trigger">Sacudida</string>
+    <string name="pref_screen_summary_shake_detector_trigger">Ajustes sobre el reloj parlante que se activa agitando el dispositivo móvil.</string>
+    <string name="pref_checkbox_title_shake_detector">Sacudida</string>
+    <string name="pref_checkbox_summary_shake_detector_1">ACTIVADO - El reloj parlante se activa agitando el dispositivo móvil.</string>
+    <string name="pref_checkbox_summary_shake_detector_2">DESACTIVADO - El reconocimiento de sacudida se desactiva.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">Gravedad</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">La aceleración que se necesita para la reconoce como una sacudida.</string>
+    <string name="pref_preference_title_shake_counter">Número de amplitud de agitación</string>
+    <string name="pref_preference_summary_shake_counter">El número de amplitud de agitación que son necesarias para activar el anuncio tiempo.</string>
+    <string name="pref_checkbox_title_shake_vibrate">Vibrar</string>
+    <string name="pref_checkbox_summary_shake_vibrate">El dispositivo móvil vibra por cada agitación detectada.</string>
+    <string name="pref_screen_title_power_button_trigger">Botón de encendido</string>
+    <string name="pref_screen_summary_power_button_trigger">Ajustes sobre el reloj parlante que se activa mediante el botón de encendido del dispositivo móvil.</string>
+    <string name="pref_checkbox_title_power_button">Botón de encendido</string>
+    <string name="pref_checkbox_summary_power_button_1">ACTIVADO - El reloj parlante se activa con un doble click.</string>
+    <string name="pref_checkbox_summary_power_button_2">DESACTIVADO - Este botón se desactiva para el disparo de un anuncio de la hora.</string>
+    <string name="pref_preference_title_power_button_click_delay">Retraso</string>
+    <string name="pref_preference_summary_power_button_click_delay">Retraso de tiempo entre dos clics en múltiples eventos de clic.</string>
+    <string name="pref_list_title_audio_general">General</string>
+    <string name="pref_list_title_ringer_mode">Modo de timbre</string>
+    <string name="pref_list_summary_ringer_mode">El modo de timbre para el que se permite anunciar el tiempo.</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">Sin modo de timbre seleccionado - No está permitido anunciar el tiempo cuando no se selecciona el modo de timbre.</string>
+    <string name="pref_category_title_night_clock_general">General</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Anuncio y visualización de la hora, cuando se activa el sensor de proximidad.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Anuncio del momento en que se activa el sensor de proximidad.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Visualización del momento en que se activa el sensor de proximidad.</string>
+    <string name="pref_list_title_night_clock_behaviour">Comportamiento</string>
+    <string name="pref_list_title_screen_orientation">Orientación de la pantalla</string>
+    <string name="pref_list_summary_screen_orientation_system">La configuración del sistema se utiliza para la orientación de la pantalla de la aplicación.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">La pantalla de la aplicación se orienta automáticamente por el sensor.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">La pantalla de la aplicación sólo está orientada horizontalmente.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">La pantalla de la aplicación está orientada sólo verticalmente.</string>
+    <string name="pref_category_title_appearance_general">General</string>
+    <string name="pref_list_title_language">Idioma</string>
+    <string name="pref_category_title_speech">Speech</string>
+    <string name="pref_preference_title_speech_tts_settings">Text-to-speech output</string>
+    <string name="pref_checkbox_title_volume_control_is_allowed">Control de volumen</string>
+    <string name="pref_checkbox_summary_volume_control_is_allowed">El volumen independiente del sistema puede ser controlado con los botones de volumen del dispositivo durante el anuncio tiempo.</string>
+    <string name="pref_checkbox_title_intro_text">Texto de introducción</string>
+    <string name="pref_checkbox_summary_intro_text">El anuncio de la hora se anunciará con un texto de introducción.</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Retraso</string>
+    <string name="pref_checkbox_summary_pulse">El tiempo se anunció en un intervalo de tiempo definido.</string>
+    <string name="pref_list_title_pulse_interval">Intervalo</string>
+    <string name="pref_preference_title_intro_sound">Sonido Introducción</string>
+    <string name="pref_preference_summary_intro_sound">El %1$s sonido se reproduce antes de cada anuncio de la hora.</string>
+    <string name="pref_preference_summary_no_intro_sound">No se reproduce ningún sonido antes de un anuncio del tiempo</string>
+    <string name="pref_list_title_intro_sound">Seleccione un sonido de introducción</string>
+    <string name="pref_category_title_speaking_clock_general">General</string>
+    <string name="pref_category_title_speaking_clock_start_options">Iniciar opciones</string>
+    <string name="pref_checkbox_title_speaking_clock_headset">Conecte los auriculares</string>
+    <string name="pref_checkbox_summary_speaking_clock_headset">Inicia el reloj de hablar cuando un auricular está enchufado.</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_selection_dialog">Diálogo de selección intervalos</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_selection_dialog">El intervalo del reloj de habla se puede seleccionar en el menú de opciones.</string>
+    <string name="pref_checkbox_title_seconds">Segundos</string>
+    <string name="pref_checkbox_summary_seconds">La hora se anunciada con segundos</string>
+    <string name="pref_checkbox_summary_seconds_not_supported">El anuncio de los segundos exactos en %1$s no está disponible.</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Desactivado</item>
+        <item>Un solo click</item>
+        <item>Doble click</item>
+        <item>Triple click</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Formal</item>
+        <item>Común</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Ajuste del sistema</item>
+        <item>Formato de 24 horas</item>
+        <item>Formato de 12 horas</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Configuración de audio</item>
+        <item>Formato de 24 horas</item>
+        <item>Formato de 12 horas</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Silencioso</item>
+        <item>Vibrar</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Anuncio + Visualización</item>
+        <item>Anuncio</item>
+        <item>Visualización</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Sistema</item>
+        <item>Automático</item>
+        <item>Retrato</item>
+        <item>Apaisado</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normal</item>
+        <item>Negrita</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Ninguno</item>
+        <item>Sombra</item>
+        <item>Brillo</item>
+    </string-array>
+</resources>

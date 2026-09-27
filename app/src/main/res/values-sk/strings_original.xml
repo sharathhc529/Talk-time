@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Zavrieť</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Zrušiť</string>
+    <string name="app_yes">Áno</string>
+    <string name="app_no">Nie</string>
+    <string name="app_request_close_question">Naozaj chcete zatvoriť Timesay službu? Táto služba je potrebná pre oznámenie času.</string>
+    <string name="app_pulse_interval_title">Vyberte interval</string>
+    <string name="app_tts_install_title">TTS dáta nedostupné</string>
+    <string name="app_tts_install_message">Text-to-speech (TTS) nie sú nainštalované. Aplikácia nebude plne funkčná bez TTS dát. Chcete otvoriť službu Obchod Play k stiahnutiu týchto údajov?</string>
+    <string name="app_tts_install_activity_missing">Inštaláciu TTS engine nemožno nájsť. Prosím, nainštalujte TTS engine z Play Obchod.</string>
+    <string name="app_open_tts_setting_failure">Nastavenie TTS dialógové okno pre %1$s nebolo nájdené.</string>
+    <string name="app_install_tts_data_title">TTS dáta nedostupné</string>
+    <string name="app_install_tts_voice_data_message">V Text-To-Speech Dáta pre %1$s chýbajú. Z kontrolujte prosím TTS dátové nastavenie, alebo stiahnuť chýbajúce TTS dáta z obchodu Google Play.</string>
+    <string name="app_start_night_clock">Spustiť nočné hodiny</string>
+    <string name="app_stop_night_clock">Zastaviť nočné hodiny</string>
+    <string name="app_start_speaking_clock">Spustiť hovoriace hodiny</string>
+    <string name="app_stop_speaking_clock">Zastaviť hovoriace hodiny</string>
+    <string name="app_preferences">Nastavenie</string>
+    <string name="app_seekbar_seconds_unit">s</string>
+    <string name="app_seekbar_gravity_unit">g</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_seekbar_x">x</string>
+    <string name="app_version_label">Verzia:</string>
+    <string name="app_disclaimer_title">Ujednanie</string>
+    <string name="pref_screen_title_control">Ovládanie</string>
+    <string name="pref_screen_summary_control">Nastavenie spúšťačov časového oznámenia a možnosti nočných hodín.</string>
+    <string name="pref_screen_title_headset_trigger">Slúchadla</string>
+    <string name="pref_screen_summary_headset_trigger">Nastavenie spustenia hovoriacich hodín tlačidlom slúchadiel.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Tlačidlo káblových slúchadiel</string>
+    <string name="pref_list_title_headset_hook_button">Tlačidlo slúchadiel</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Oneskorenie</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Doba oneskorenia medzi dvoma kliknutiami.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Tlačidlo Bluetooth slúchadiel</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Play/Pause tlačidlo</string>
+    <string name="pref_list_title_headset_media_stop_button">Stop tlačidlo</string>
+    <string name="pref_list_title_headset_media_previous_button">Tlačidlo predchádzajúca skladba</string>
+    <string name="pref_list_title_headset_media_next_button">Tlačidlo ďalšia skladba</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Oneskorenie</string>
+    <string name="pref_list_summary_headset_event_none">VYPNUTÝ - Toto tlačidlo de-aktivuje spúšťač časového oznámenia.</string>
+    <string name="pref_list_summary_headset_event_single_click">JEDNÝM KLIKNUTIM - Hovoriace hodiny sa spustia jediným kliknutím.</string>
+    <string name="pref_list_summary_headset_event_double_click">DVOJITYM KLIKNUTIM - Hovoriace hodiny sa spustia dvojitým kliknutím.</string>
+    <string name="pref_list_summary_headset_event_triple_click">TROJITYM KLIKNUTIM - Hovoriace hodiny sa spustia trojitým kliknutím.</string>
+    <string name="pref_checkbox_title_touch">Dotyk na plochu</string>
+    <string name="pref_checkbox_summary_touch">Hovoriace hodiny sa spustia dotykom na hlavné okno tejto aplikácie.</string>
+    <string name="pref_screen_title_open_app">Otvoriť aplikáciu</string>
+    <string name="pref_screen_summary_open_app">Nastavenie hovoriacich hodín pri spustení rôznych aplikácii.</string>
+    <string name="pref_checkbox_title_open_app">Otvoriť aplikáciu</string>
+    <string name="pref_checkbox_summary_open_app">Umožni oznámiť čas po spustení aplikácie.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Automatický zatvoriť</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">Aplikácia bude ukončená po %1$s sekúnd-e.</string>
+    <string name="pref_screen_title_system">Systém</string>
+    <string name="pref_screen_summary_system">Systémove nastavenie</string>
+    <string name="pref_checkbox_title_autostart">Automatický štart</string>
+    <string name="pref_checkbox_summary_autostart">Automatické spustenie aplikácie po zapnutí zariadenia.</string>
+    <string name="pref_checkbox_title_tts_check">Kontrola TTS</string>
+    <string name="pref_checkbox_summary_tts_check">Pri nasledujúcom spustení aplikácie skontroluje komponentu text-to-speech a jej kompletnej inštalácie.</string>
+    <string name="pref_checkbox_title_power">Napájanie</string>
+    <string name="pref_checkbox_summary_power">Nočné hodiny sa spustia po pripojení napájania.</string>
+    <string name="pref_screen_title_proximity_trigger">Senzor priblíženia</string>
+    <string name="pref_screen_summary_proximity_trigger">Hlasové oznámenie času je spustené senzorom priblíženia.</string>
+    <string name="pref_checkbox_title_proximity">Prepnúť gesto uznávaním</string>
+    <string name="pref_checkbox_summary_proximity">Hlasové oznámenie času je spustené senzorom priblíženia. Tato funkcia môže spôsobiť rýchlejšie vybíjanie batérie.</string>
+    <string name="pref_list_title_proximity_gesture">Aktivácia priblížením</string>
+    <string name="pref_list_summary_proximity_gesture_1">Jedným pohybom ruky</string>
+    <string name="pref_list_summary_proximity_gesture_2">Dvomi pohybmi ruky</string>
+    <string name="pref_list_summary_proximity_gesture_3">Tromi pohybmi ruky</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Vibrovať</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Zariadenie bude vibrovať pri aktivácii senzora priblíženia.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Oddeliť prepážkou</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Hovoriace hodiny sa spustia senzorom priblíženia, kedy obrazovka mobilného zariadenia je vypnutá.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Rýchlosť rozpoznávania</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">Gesto %1$s musí byť vykonané. Na každom inom zariadení senzor priblíženia reaguje odlišne. Toto nastavenie môže pomôcť zabrániť chybným aktiváciám.</string>
+    <string name="pref_screen_title_night_clock">Nočné hodiny</string>
+    <string name="pref_screen_summary_night_clock">Možnosti nastavenia automatického zapínania v režime nočné hodiny. Nočné hodiny môžu byť spustené jedným prejdením rukou cez proximity sensor.</string>
+    <string name="pref_category_title_night_clock_start_options">Možnosti spustenia</string>
+    <string name="pref_category_title_time_format">Čas formát</string>
+    <string name="pref_list_title_speaking_clock_style">Štýl oznámenia času</string>
+    <string name="pref_checkbox_title_time_of_day">Oznámenie dennej doby</string>
+    <string name="pref_list_title_time_hour_format">Formát času</string>
+    <string name="pref_screen_title_appearance">Displej</string>
+    <string name="pref_screen_summary_appearance">Nastavenie zobrazenia hodín na displeji.</string>
+    <string name="pref_category_title_clock_text">Textu</string>
+    <string name="pref_preference_title_night_clock_text_color">Farba</string>
+    <string name="pref_preference_summary_night_clock_text_color">Farba textu hodín.</string>
+    <string name="pref_list_title_time_text_style">Štýl času</string>
+    <string name="pref_list_summary_time_text_style_normal">Čas je zobrazený v normálnom štýle.</string>
+    <string name="pref_list_summary_time_text_style_bold">Čas je zobrazený tučným štýlom.</string>
+    <string name="pref_list_title_time_of_day_text_style">Štýl dňa</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">Deň je zobrazený v normálnom štýle.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">Deň je zobrazený tučným štýlom.</string>
+    <string name="pref_list_title_date_text_style">Štýl dátumu</string>
+    <string name="pref_list_summary_date_text_style_normal">Dátum je zobrazený v normálnom štýle.</string>
+    <string name="pref_list_summary_date_text_style_bold">Dátum je zobrazený tučným štýlom.</string>
+    <string name="pref_category_title_clock_background">Podkladu</string>
+    <string name="pref_preference_title_night_clock_background_color">Farba</string>
+    <string name="pref_preference_summary_night_clock_background_color">Farba podkladu hodín.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Farebný gradient</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Definuje farebný gradient na pozadí.</string>
+    <string name="pref_list_title_text_effect">Efekt</string>
+    <string name="pref_list_summary_text_effect_shadow">Text hodín tieňový efekt.</string>
+    <string name="pref_list_summary_text_effect_glow">Text hodín je zobrazený so svetelnými efektmi.</string>
+    <string name="pref_list_summary_text_effect_none">Text hodín je zobrazený bez efektu.</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">Nastavenie audio výstupu časového oznámenia.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Nezávislý na systéme</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Časové oznámenie je nezávisle na systéme.</string>
+    <string name="pref_preference_title_tts_volume">Hlasitosť</string>
+    <string name="app_notification_title_night_clock">Nočné hodiny spustené</string>
+    <string name="app_notification_title_pulse_generator">Hovoriace hodiny spustené</string>
+    <string name="pref_checkbox_title_night_clock_notification">Oznámenie</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Oznámenie je zobrazovane v záhlaví pri spustení nočných hodín.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Oznámenie nie je zobrazovane v záhlaví pri spustení nočných hodín.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Interval hovoriace hodiny</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Nastavenie intervalu oznámenia času. Čas môže byť oznámený v zadefinovanom časovom intervale.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Oznámenie</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Zobraziť oznámenie v záhlaví pri spustení intervalu hovoriacich hodín.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Nezobraziť oznámenie v záhlaví pri spustení intervalu hovoriacich hodín.</string>
+    <string name="app_pulse_generator_interval_1">Každú minútu</string>
+    <string name="app_pulse_generator_interval_2">Každú párnu minútu</string>
+    <string name="app_pulse_generator_interval_3">Každú nepárnu minutú</string>
+    <string name="app_pulse_generator_interval_4">Každých 5 minút</string>
+    <string name="app_pulse_generator_interval_5">Každých 10 minút</string>
+    <string name="app_pulse_generator_interval_6">Každých 15 minút</string>
+    <string name="app_pulse_generator_interval_7">Každých 20 minút</string>
+    <string name="app_pulse_generator_interval_8">Každých 30 minút</string>
+    <string name="app_pulse_generator_interval_9">Hodinový</string>
+    <string name="app_pulse_generator_interval_10">Každých 15 sekúnd</string>
+    <string name="app_pulse_generator_interval_11">Každých 20 sekúnd</string>
+    <string name="app_pulse_generator_interval_12">Každých 30 sekúnd</string>
+    <string name="pref_screen_title_shake_detector_trigger">Trasenie</string>
+    <string name="pref_screen_summary_shake_detector_trigger">Nastavenie hovoriacich hodín, ktorý je vyvolaný triasom mobilného zariadenia.</string>
+    <string name="pref_checkbox_title_shake_detector">Trasenie</string>
+    <string name="pref_checkbox_summary_shake_detector_1">AKTÍVNE - Hovoriace hodiny sa spustia triasom mobilného zariadenia.</string>
+    <string name="pref_checkbox_summary_shake_detector_2">VYPNUTÉ - Triasom je de-aktivované.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">Gravitácia</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">Zrýchlenie, ktoré je potrebné rozpoznať ako trasenie.</string>
+    <string name="pref_preference_title_shake_counter">Počet zatrasení</string>
+    <string name="pref_preference_summary_shake_counter">Počet zatrasení, ktoré sú potrebné na spustenie časového oznámenia.</string>
+    <string name="pref_checkbox_title_shake_vibrate">Vibrácia</string>
+    <string name="pref_checkbox_summary_shake_vibrate">Zariadenie vibruje z detekovaného počtu trepani.</string>
+    <string name="pref_screen_title_power_button_trigger">Tlačidlo Power</string>
+    <string name="pref_screen_summary_power_button_trigger">Nastavenie tlačidla Power, ktoré spúšťa hovoriace hodiny.</string>
+    <string name="pref_checkbox_title_power_button">Tlačidlo Power</string>
+    <string name="pref_checkbox_summary_power_button_1">AKTÍVNE - Hovoriace hodiny sa spustia dvojitým kliknutím.</string>
+    <string name="pref_checkbox_summary_power_button_2">VYPNUTÉ - Toto tlačidlo je neaktívne pre spustenie časového oznámenia.</string>
+    <string name="pref_preference_title_power_button_click_delay">Oneskorenie</string>
+    <string name="pref_preference_summary_power_button_click_delay">Doba oneskorenia medzi dvoma kliknutiami.</string>
+    <string name="pref_list_title_audio_general">Všeobecne</string>
+    <string name="pref_list_title_ringer_mode">Režim zvonenia</string>
+    <string name="pref_list_summary_ringer_mode">Režim zvonenia, režim pre ktorý ma byť povolené oznamovať čas.</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">Režim zvonenia nezvolený - Zakazuje oznamovať čas, ak nie je vybraný režim zvonenia.</string>
+    <string name="pref_category_title_night_clock_general">Všeobecný</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Oznámenie a zobrazenie času, keď proximity sensor sa spustí.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Oznámenie o čase, keď proximity sensor sa spustí.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Zobrazenie času, keď proximity sensor sa spustí.</string>
+    <string name="pref_list_title_night_clock_behaviour">Správanie</string>
+    <string name="pref_list_title_screen_orientation">Orientácia obrazovky</string>
+    <string name="pref_list_summary_screen_orientation_system">Nastavenia systému sú použité pre orientáciu obrazovky.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">Obrazovka aplikácie je automaticky orientovaná senzorom.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">Obrazovka aplikácie je iba horizontálne orientovaná.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">Obrazovka aplikácie je iba zvislo orientovaná.</string>
+    <string name="pref_category_title_appearance_general">Všeobecné</string>
+    <string name="pref_list_title_language">Jazyk</string>
+    <string name="pref_category_title_speech">Reč</string>
+    <string name="pref_preference_title_speech_tts_settings">Výstup prevodu textu na reč</string>
+    <string name="pref_checkbox_title_volume_control_is_allowed">Ovládanie hlasitosti</string>
+    <string name="pref_checkbox_summary_volume_control_is_allowed">Hlasitosť možno ovládať pomocou tlačidiel zariadenia a to počas časového oznámenia.</string>
+    <string name="pref_checkbox_title_intro_text">Intro text</string>
+    <string name="pref_checkbox_summary_intro_text">Čas oznámenia bude oznámený s intro textom.</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Oneskorenie</string>
+    <string name="pref_checkbox_summary_pulse">Oznamuje čas v zadefinovanom časovom intervale.</string>
+    <string name="pref_list_title_pulse_interval">Interval</string>
+    <string name="pref_preference_title_intro_sound">Intro zvuk</string>
+    <string name="pref_preference_summary_intro_sound">Zvuk %1$s sa hrá pred každým časovým oznámením.</string>
+    <string name="pref_preference_summary_no_intro_sound">Žiadny zvuk pred časovým oznámením.</string>
+    <string name="pref_list_title_intro_sound">Vyberte intro zvuk</string>
+    <string name="pref_category_title_speaking_clock_general">Všeobecne</string>
+    <string name="pref_category_title_speaking_clock_start_options">Možnosti spustenia</string>
+    <string name="pref_checkbox_title_speaking_clock_headset">Pripojenie slúchadiel</string>
+    <string name="pref_checkbox_summary_speaking_clock_headset">Spustí hovoriace hodiny, keď sú pripojené slúchadla.</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_selection_dialog">Dialóg výber Intervalu</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_selection_dialog">Interval hovoriacich hodín možno vybrať v ponuke možností.</string>
+    <string name="pref_checkbox_title_seconds">Sekundy</string>
+    <string name="pref_checkbox_summary_seconds">Čas je oznámený presne na sekundu.</string>
+    <string name="pref_checkbox_summary_seconds_not_supported">Oznámenie presného času na sekundy nie je podporovane v %1$s.</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Neaktívne</item>
+        <item>Jediný klík</item>
+        <item>Dvojitý klík</item>
+        <item>Trojitý klík</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Oficiálne</item>
+        <item>Bežne</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Systémový formát</item>
+        <item>24h formát</item>
+        <item>12h formát</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Audio nastavenia</item>
+        <item>24h formát</item>
+        <item>12h formát</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Tichý</item>
+        <item>Vibrovať</item>
+        <item>Normál</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Oznámenia + Displej</item>
+        <item>Oznámenia</item>
+        <item>Displej</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>System</item>
+        <item>Automatický</item>
+        <item>Na výšku</item>
+        <item>Na dĺžku</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normál</item>
+        <item>Tučne</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Žiadny</item>
+        <item>Tieň</item>
+        <item>Žiara</item>
+    </string-array>
+</resources>

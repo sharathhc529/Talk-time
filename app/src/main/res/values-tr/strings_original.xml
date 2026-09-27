@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Kapat</string>
+    <string name="app_info">Bilgi</string>
+    <string name="app_ok">Tamam</string>
+    <string name="app_cancel">İptal</string>
+    <string name="app_yes">Evet</string>
+    <string name="app_no">Hayır</string>
+    <string name="app_request_close_question">Timesay servisini sonlandırmak istediğinize eminmisiniz? Saati sesli bildirmek için çalışması gereklidir.</string>
+    <string name="app_pulse_interval_title">Zamanlama Seçiniz</string>
+    <string name="app_tts_install_title">TTS bilgisi eksik</string>
+    <string name="app_tts_install_message">Text-to-speech (TTS) Yazıyı sesli okuma bilgisi cihazınızda kurulu değil. Bu yazılım TTS bilgisi olmadan tam özelliklerinde çalışmayacaktır. TTS yazılımını indirmek için Google markete erişmemi istermisiniz?</string>
+    <string name="app_tts_install_activity_missing">TTS veri bilgisi bulunamadı. Lütfen google marketten TTS verilerini yükleyin.</string>
+    <string name="app_open_tts_setting_failure">TTS ayarları bulunamadı.</string>
+    <string name="app_install_tts_data_title">TTS bilgisi eksik</string>
+    <string name="app_install_tts_voice_data_message">%1$s için Text-To-Speech veriler eksik. TTS verileri ayarlarınızı kontrol edin veya Google Play Store dan eksik TTS verileri indirebilirsiniz.</string>
+    <string name="app_start_night_clock">Gece modunu başlat</string>
+    <string name="app_stop_night_clock">Gece modunu durdur</string>
+    <string name="app_start_speaking_clock">Konuşan saati başlat</string>
+    <string name="app_stop_speaking_clock">Konuşan saati durdur</string>
+    <string name="app_preferences">Ayarlar</string>
+    <string name="app_seekbar_milliseconds_unit">ms</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_version_label">Versiyon:</string>
+    <string name="app_disclaimer_title">Feragatname</string>
+    <string name="pref_screen_title_control">Kontrol</string>
+    <string name="pref_screen_summary_control">Değişik durumlarda ses anonsları ve gece saati ayarları.</string>
+    <string name="pref_screen_title_headset_trigger">Kulaklık</string>
+    <string name="pref_screen_summary_headset_trigger">Kulaklık düğmesine basıldığındaki ayarlar</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Kablolu kulaklık düğmesi</string>
+    <string name="pref_list_title_headset_hook_button">Kulaklık düğmesi</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Gecikme</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">İki basma arasındaki gecikme süresi</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Bluetooth kulaklık medya düğmesi</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Oynat/Duraklat düğmesi</string>
+    <string name="pref_list_title_headset_media_stop_button">Durdur düğmesi</string>
+    <string name="pref_list_title_headset_media_previous_button">Önceki parça düğmesi</string>
+    <string name="pref_list_title_headset_media_next_button">Sonraki parça düğmesi</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Gecikme</string>
+    <string name="pref_list_summary_headset_event_none">DEVREDIŞI - Sesli saat okumayı devre dışı bırak.</string>
+    <string name="pref_list_summary_headset_event_single_click">TEK BAS - Tek bastığınızda saat anons edilir.</string>
+    <string name="pref_list_summary_headset_event_double_click">ÇİFT BAS - Çift bastığınızda saat anons edilir.</string>
+    <string name="pref_list_summary_headset_event_triple_click">ÜÇKEZ BAS CLICK - Üçkez bastığınızda saat anons edilir.</string>
+    <string name="pref_checkbox_title_touch">Dokunmatik Ekran</string>
+    <string name="pref_checkbox_summary_touch">Uygulama ekranında basıldığında saati oku</string>
+    <string name="pref_screen_title_open_app">Uygulama aç</string>
+    <string name="pref_screen_summary_open_app">Uygulama açıldığında doğrudan saati bildir</string>
+    <string name="pref_checkbox_title_open_app">Uygulama Aç</string>
+    <string name="pref_checkbox_summary_open_app">Uygulama açıldığında saati bildir</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Otomatik kapat</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">Uygulama %1$ssn. sonra kapanacaktır.</string>
+    <string name="pref_screen_title_system">Sistem</string>
+    <string name="pref_screen_summary_system">Sistem ayarları</string>
+    <string name="pref_checkbox_title_autostart">Otomatik başlat</string>
+    <string name="pref_checkbox_summary_autostart">Cihazınızı açtığınızda bu uygulama otomatik başlar</string>
+    <string name="pref_checkbox_title_tts_check">TTS (metinden okuma) kontrolü</string>
+    <string name="pref_checkbox_summary_tts_check">TTS (metinden okuma) modülü kurulumu kontrol et</string>
+    <string name="pref_checkbox_title_power">Güç kaynağı</string>
+    <string name="pref_checkbox_summary_power">Gece modu, şarja taktığınızda otomatik başlar</string>
+    <string name="pref_screen_title_proximity_trigger">Akıllı sensör</string>
+    <string name="pref_screen_summary_proximity_trigger">Akıllı sensör ayarları ile saat okuması</string>
+    <string name="pref_checkbox_title_proximity">Erişilebilirlik Aktif et</string>
+    <string name="pref_checkbox_summary_proximity">Saat bildirimi akıllı sensör üzerinde elinizi geçirdiğinizde devreye girer. Bazı cihazlarda pilin hızlı tüketilmesine neden olabilir.</string>
+    <string name="pref_list_title_proximity_gesture">Erişilebilirlik</string>
+    <string name="pref_list_summary_proximity_gesture_1">Tek parmak</string>
+    <string name="pref_list_summary_proximity_gesture_2">İki parmak</string>
+    <string name="pref_list_summary_proximity_gesture_3">Üç parmak</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Titreşim</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Akıllı sensör ile iletişime geçildiğinde, titreşim yap.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Ekran kapalı</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">Saat bildirim sadece akıllı sensör ile telefon ekranı kapalı olduğunda devrede olur.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Tanıma süresi</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">%1$saniye sonra algıla. Her cihazda farklıdır. Bu ayar beklenmeyen durumların önüne geçmek içindir.</string>
+    <string name="pref_screen_title_night_clock">Gece saati</string>
+    <string name="pref_screen_summary_night_clock">Gece saati modunda otomatik başlangıç ayarları. Gece modu akıllı sensör üzerini parmağınızla kapatarak devreye girer.</string>
+    <string name="pref_category_title_night_clock_start_options">Başlangıç opsiyonları</string>
+    <string name="pref_category_title_time_format">Saat formatı</string>
+    <string name="pref_list_title_speaking_clock_style">Saat bildirme tarzı</string>
+    <string name="pref_checkbox_title_time_of_day">Günün saati</string>
+    <string name="pref_list_title_time_hour_format">Saat formatı</string>
+    <string name="pref_screen_title_appearance">Görünüm</string>
+    <string name="pref_screen_summary_appearance">Saat görünüm ayarları.</string>
+    <string name="pref_category_title_clock_text">Metin</string>
+    <string name="pref_preference_title_night_clock_text_color">Rengi</string>
+    <string name="pref_preference_summary_night_clock_text_color">Saat metin rengi.</string>
+    <string name="pref_list_title_time_text_style">Saat yazı görünümü</string>
+    <string name="pref_list_summary_time_text_style_normal">Saat normal yazıyla görünür.</string>
+    <string name="pref_list_summary_time_text_style_bold">Saat kalın yazıyla görünür.</string>
+    <string name="pref_list_title_time_of_day_text_style">Gün saati yazı görünümü</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">Gün saati normal yazıyla görünür.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">Gün saati kalın yazıyla görünür.</string>
+    <string name="pref_list_title_date_text_style">Tarih yazı görünümü</string>
+    <string name="pref_list_summary_date_text_style_normal">Tarih normal yazıyla görünür.</string>
+    <string name="pref_list_summary_date_text_style_bold">Tarih kalın yazıyla görünür.</string>
+    <string name="pref_category_title_clock_background">Arkaplan</string>
+    <string name="pref_preference_title_night_clock_background_color">Rengi</string>
+    <string name="pref_preference_summary_night_clock_background_color">Saatin arkaplan rengi.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Renkli gradyan</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Arka plan rengini gradient tanımlar.</string>
+    <string name="pref_screen_title_audio">Ses</string>
+    <string name="pref_screen_summary_audio">Ses Anons ayarı.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Sistemden bağımsız ses ayarı</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Ses anonsu sistem sesinden bağımsız</string>
+    <string name="pref_preference_title_tts_volume">Ses</string>
+    <string name="app_notification_title_night_clock">Gece modu</string>
+    <string name="app_notification_title_pulse_generator">Konuşan Saat</string>
+    <string name="pref_checkbox_title_night_clock_notification">Bildirim</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Gece saati calıştığında başlık çubuğunda bir bildirim gözükür.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Gece saati calıştığında başlık çubuğunda bir bildirim gözükmez.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Zaman aralıkla konuşan saat</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Zaman aralığı kontrollü saat duyurusunun ayarları. Saat tanınlanmış olan bir zaman aralığınla duyurulur.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Bildirim</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Zaman aralıkla konuşan saat calıştığında başlık çubuğunda bir bildirim gözükür.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Zaman aralıkla konuşan saat calıştığında başlık çubuğunda bir bildirim gözükmez</string>
+    <string name="app_pulse_generator_interval_1">Her dakika</string>
+    <string name="app_pulse_generator_interval_2">Her çift dakikada bir</string>
+    <string name="app_pulse_generator_interval_3">Her tek dakikada bir</string>
+    <string name="app_pulse_generator_interval_4">Her 5 dakikada</string>
+    <string name="app_pulse_generator_interval_5">Her 10 dakikada</string>
+    <string name="app_pulse_generator_interval_6">Her 15 dakikada</string>
+    <string name="app_pulse_generator_interval_7">Her 20 dakikada</string>
+    <string name="app_pulse_generator_interval_8">Her 30 dakikada</string>
+    <string name="app_pulse_generator_interval_9">Her saat</string>
+    <string name="app_pulse_generator_interval_10">Her 15 saniye</string>
+    <string name="app_pulse_generator_interval_11">Her 20 saniye</string>
+    <string name="app_pulse_generator_interval_12">Her 30 saniye</string>
+    <string name="pref_screen_title_power_button_trigger">Güç düğmesi</string>
+    <string name="pref_screen_summary_power_button_trigger">Güç düğmesi ayarları ile saat okuması.</string>
+    <string name="pref_checkbox_title_power_button">Güç düğmesi</string>
+    <string name="pref_checkbox_summary_power_button_1">ETKİN - Çift bastığınızda saat anons edilir.</string>
+    <string name="pref_checkbox_summary_power_button_2">DEVREDIŞI - Sesli saat okumayı devre dışı bırak</string>
+    <string name="pref_preference_title_power_button_click_delay">Gecikme</string>
+    <string name="pref_preference_summary_power_button_click_delay">İki basma arasındaki gecikme süresi.</string>
+    <string name="pref_list_title_audio_general">General</string>
+    <string name="pref_list_title_ringer_mode">Bildirim şekli</string>
+    <string name="pref_list_summary_ringer_mode">Saati bildirme şekli</string>
+    <string name="pref_category_title_night_clock_general">General</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Akıllı sensör davranışlarına göre saati okuma ve görünüm ayarı</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Akıllı sensörle saati oku.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Akıllı sensörle saati göster.</string>
+    <string name="pref_list_title_night_clock_behaviour">Davranış</string>
+    <string name="pref_list_title_screen_orientation">Ekran durumlarına göre</string>
+    <string name="pref_list_summary_screen_orientation_system">Cihazınızdaki ayarlara göre görünüm değiştirilir.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">Uygulama ekranı otomatik yöne göre görüntülenir</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">Uygulama ekranı sadece yatay görünümde.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">Uygulama ekranı sadece dikey görünümde.</string>
+    <string name="pref_category_title_appearance_general">Genel</string>
+    <string name="pref_list_title_language">Dil Seçimi</string>
+    <string name="pref_category_title_speech">Konuşma</string>
+    <string name="pref_preference_title_speech_tts_settings">Metin-konuşma çıktısı</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Gecikme</string>
+    <string name="pref_list_title_pulse_interval">Aralık</string>
+    <string name="pref_category_title_speaking_clock_general">General</string>
+    <string name="pref_category_title_speaking_clock_start_options">Başlangıç opsiyonları</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Devredışı</item>
+        <item>Tek tık</item>
+        <item>Çift tık</item>
+        <item>Üçlü tık</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Resmi</item>
+        <item>Sıradan</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Sistem ayarları</item>
+        <item>24-saat formatı</item>
+        <item>12-saat formatı</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Ses ayarları</item>
+        <item>24-saat formatı</item>
+        <item>12-saat formatı</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Sessiz</item>
+        <item>Titreşim</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Anons + Görsel</item>
+        <item>Anons</item>
+        <item>Görsel</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Sistem</item>
+        <item>Otomatik</item>
+        <item>Düşey</item>
+        <item>Yatay</item>
+    </string-array>
+</resources>

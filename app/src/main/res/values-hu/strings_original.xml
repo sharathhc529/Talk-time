@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Bezárás</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Mégse</string>
+    <string name="app_yes">Igen</string>
+    <string name="app_no">Nem</string>
+    <string name="app_request_close_question">Biztos be akarod zárni a Timesay szolgáltatást? A pontos idő hangüzenetekhez szükség.</string>
+    <string name="app_pulse_interval_title">Válassz intervallumot</string>
+    <string name="app_tts_install_title">TTS Adat hiányzik</string>
+    <string name="app_tts_install_message">Felolvasó (TTS) nincs installálva a mobil eszközre. Az alkalmazás összes funkciója nem elérhető a TTS adatok nélkül. Meg akarod nyitni a PlayStore-t a hiányzó adatok letöltéséhez?</string>
+    <string name="app_tts_install_activity_missing">A TTS adat telepítő nem található. Kérlek telepítsd a TTS engine-t a PlayStore-ról.</string>
+    <string name="app_open_tts_setting_failure">TTS beállítások nem található.</string>
+    <string name="app_install_tts_data_title">TTS data nem található</string>
+    <string name="app_install_tts_voice_data_message">Felolvasó adatok hiányoznak a %1$s-hez. Kérlek ellenőrizd a TTS adat beállításait vagy töltsd le a hiányzó TTS adatokat a PlayStore-ról.</string>
+    <string name="app_start_night_clock">Éjszakai üzemmód indítása</string>
+    <string name="app_stop_night_clock">Éjszakai üzemmód leállítása</string>
+    <string name="app_start_speaking_clock">Beszélő óra indítása</string>
+    <string name="app_stop_speaking_clock">Beszélő óra leállítása</string>
+    <string name="app_preferences">Beállítások</string>
+    <string name="app_seekbar_seconds_unit">p</string>
+    <string name="app_seekbar_gravity_unit">g</string>
+    <string name="app_seekbar_milliseconds_unit">mp</string>
+    <string name="app_seekbar_percent_unit">%</string>
+    <string name="app_seekbar_x">x</string>
+    <string name="app_version_label">Verzió:</string>
+    <string name="app_disclaimer_title">Felelősség vállalás</string>
+    <string name="pref_screen_title_control">Kontroll</string>
+    <string name="pref_screen_summary_control">Az idő értesítés indításainak beállítása, és start opció az éjszakai üzemmódhoz.</string>
+    <string name="pref_screen_title_headset_trigger">Headset</string>
+    <string name="pref_screen_summary_headset_trigger">A beszélő óra Headset gombal történő indításának beállítása.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Vezetékes headset gomb</string>
+    <string name="pref_list_title_headset_hook_button">Headset gomb</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Késleltetés</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Késleltetési idő, két kattintás között.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Bluetooth headset gomb</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Play/Pause gomb</string>
+    <string name="pref_list_title_headset_media_stop_button">Stop gomb</string>
+    <string name="pref_list_title_headset_media_previous_button">Előző szám gomb</string>
+    <string name="pref_list_title_headset_media_next_button">Következő szám gomb</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Késleltetés</string>
+    <string name="pref_list_summary_headset_event_none">DEACTIVATED - Ez a gomb inaktív az idő értedítések indításához.</string>
+    <string name="pref_list_summary_headset_event_single_click">SINGLE CLICK - A beszélő óra idítása egy kattintással.</string>
+    <string name="pref_list_summary_headset_event_double_click">DOUBLE CLICK - A beszélő óra indítása két kattintással.</string>
+    <string name="pref_list_summary_headset_event_triple_click">TRIPLE CLICK - A beszélő óra indítása három kattintással.</string>
+    <string name="pref_checkbox_title_touch">Touch screen</string>
+    <string name="pref_checkbox_summary_touch">A beszélő óra indítása, a az alkalmazás fő képernyőjének érintésével.</string>
+    <string name="pref_screen_title_open_app">Alkalmazás megnyitása</string>
+    <string name="pref_screen_summary_open_app">A beszélő óra, alkalmazás menyitásával történő indításának beállítása.</string>
+    <string name="pref_checkbox_title_open_app">Alkalmazás megnyitása</string>
+    <string name="pref_checkbox_summary_open_app">Idő értesítés engedélyezése miközben az alkalmazás meg van nyitva.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Autómatikus bezárás</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">Az alklmazás %1$s másodperc múlva bezárul.</string>
+    <string name="pref_screen_title_system">Rendszer</string>
+    <string name="pref_screen_summary_system">Rendszer beállítások</string>
+    <string name="pref_checkbox_title_autostart">Autorun</string>
+    <string name="pref_checkbox_summary_autostart">Az alkalmazás autómatikus indítása a készülék bekapcsolásakor.</string>
+    <string name="pref_checkbox_title_tts_check">TTS ellenőrzés</string>
+    <string name="pref_checkbox_summary_tts_check">A következő indításkor az alkalmazás ellenőrzi a szöveg felolvasó telepítését.</string>
+    <string name="pref_checkbox_title_power">Energia ellátás</string>
+    <string name="pref_checkbox_summary_power">Az éjszakai óra autómatikus indítása a készülék töltőre csatlakoztatásakor.</string>
+    <string name="pref_screen_title_proximity_trigger">Közelség érzékelő</string>
+    <string name="pref_screen_summary_proximity_trigger">Az alkalmazás közelség érzékelővel történő indításának beállítása.</string>
+    <string name="pref_checkbox_title_proximity">Gesztus érzékelés engedélyezése</string>
+    <string name="pref_checkbox_summary_proximity">Az alkalmazás közelség érzékelővel történő indításának beállítása. Néhány mobil eszkön az akumlátor gyorsabban lemerülhet.</string>
+    <string name="pref_list_title_proximity_gesture">Gesztus</string>
+    <string name="pref_list_summary_proximity_gesture_1">Egy ujjas gesztus</string>
+    <string name="pref_list_summary_proximity_gesture_2">Két ujjas gesztus</string>
+    <string name="pref_list_summary_proximity_gesture_3">Három ujjas gesztus</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Rezgés</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">A készülék rezeg a közelség érzékelő aktiválásakor.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Képernyő kikapcsolása</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">A beszélő óra csak a közeléség érzékelő aktiválásakor indul, ha a készülék kijelzője kikapcsolt állapotban van.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Felismerés gyorsasága</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">%1$s alatt a a mozdulat elvégzendő. A közelség érzékelő minden készüléken máshogy reagálhat. Ez a beállítás segít elkerülni a nem kívánt aktiválásokat.</string>
+    <string name="pref_screen_title_night_clock">Éjszakai óra</string>
+    <string name="pref_screen_summary_night_clock">Az éjszakai óra mód autómatikus indításának beállításai. Az éjszakai óra indítható egy egyszerű mozdulattal a közelség érzékelő felett.</string>
+    <string name="pref_category_title_night_clock_start_options">Indítási beállítások</string>
+    <string name="pref_category_title_time_format">Idő formátum</string>
+    <string name="pref_list_title_speaking_clock_style">Beszélő óra stílusa</string>
+    <string name="pref_checkbox_title_time_of_day">Óra formátum</string>
+    <string name="pref_list_title_time_hour_format">12/24 órás mód</string>
+    <string name="pref_screen_title_appearance">Kijelző</string>
+    <string name="pref_screen_summary_appearance">Az óra mutatásának, kijelző beállításai.</string>
+    <string name="pref_category_title_clock_text">Szöveg</string>
+    <string name="pref_preference_title_night_clock_text_color">Szín</string>
+    <string name="pref_preference_summary_night_clock_text_color">Az óra színe.</string>
+    <string name="pref_list_title_time_text_style">Idő kijelzésének stílusa</string>
+    <string name="pref_list_summary_time_text_style_normal">Az idő kijelzése normál stílusban.</string>
+    <string name="pref_list_summary_time_text_style_bold">Az idő kijelzése félkövér stílusban.</string>
+    <string name="pref_list_title_time_of_day_text_style">Time of day text style</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">Óra formátumának kijelzése normál stílusban.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">Óra formátumának kijelzése félkövér stílusban.</string>
+    <string name="pref_list_title_date_text_style">Dátum stílusa</string>
+    <string name="pref_list_summary_date_text_style_normal">A dátum kijelzése normál stílusban.</string>
+    <string name="pref_list_summary_date_text_style_bold">A dátum kijelzése félkövér stílusban.</string>
+    <string name="pref_category_title_clock_background">Háttér.</string>
+    <string name="pref_preference_title_night_clock_background_color">Szín</string>
+    <string name="pref_preference_summary_night_clock_background_color">Az óra hátterének színe.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Szín átmenet</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">A háttér színátmenetének beállítása.</string>
+    <string name="pref_list_title_text_effect">Hatás</string>
+    <string name="pref_list_summary_text_effect_shadow">Az óra megjelenítése árnyék hatással.</string>
+    <string name="pref_list_summary_text_effect_glow">Az óra megjelenítése fénylő hatással.</string>
+    <string name="pref_list_summary_text_effect_none">Az óra megjelenítése hatások nélkül.</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">A hangüzenetek audió kimenetének beállításai.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Rendszer független hangerő</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Az értesítések hangereje független a rendszer hangerejétől.</string>
+    <string name="pref_preference_title_tts_volume">Hangerő</string>
+    <string name="app_notification_title_night_clock">Éjszakai óra</string>
+    <string name="app_notification_title_pulse_generator">Beszélő óra</string>
+    <string name="pref_checkbox_title_night_clock_notification">Értesítő</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Az értesítés látható mikor az éjszakai üzemmód elindul.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Ne mutasson értesítést az éjszakai üzemmód indításáról.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Időszakos beszélő óra</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Időszakos hangüzenetek beállítasai. Az idő bemondása megadható időszakonként.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Értesítés</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Értesítés megjelenítése ha az időszakos hangüzenet elindul.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Ne mutasson értesítést, ha az időszakos hangüzenet elindul.</string>
+    <string name="app_pulse_generator_interval_1">Minden percben</string>
+    <string name="app_pulse_generator_interval_2">Páros percenként</string>
+    <string name="app_pulse_generator_interval_3">Páratlan percenként</string>
+    <string name="app_pulse_generator_interval_4">Every 5 percenként</string>
+    <string name="app_pulse_generator_interval_5">10 percenként</string>
+    <string name="app_pulse_generator_interval_6">15 percenként</string>
+    <string name="app_pulse_generator_interval_7">20 percenként</string>
+    <string name="app_pulse_generator_interval_8">Félóránként</string>
+    <string name="app_pulse_generator_interval_9">Óránként</string>
+    <string name="pref_screen_title_shake_detector_trigger">Shaking</string>
+    <string name="pref_screen_summary_shake_detector_trigger">A beszélő óra, a készülék rázásával történő indításának beállításai.</string>
+    <string name="pref_checkbox_title_shake_detector">Rázás</string>
+    <string name="pref_checkbox_summary_shake_detector_1">ACTIVATED - A beszélő óra indul a készülék megrázásakor.</string>
+    <string name="pref_checkbox_summary_shake_detector_2">DEACTIVATED - A beszélő óra rázással való indítása inaktív.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">Gravitáció</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">A mozgatás intenzitása ami a rázás felismeréséhez szükséges.</string>
+    <string name="pref_preference_title_shake_counter">Rázások száma</string>
+    <string name="pref_preference_summary_shake_counter">A mozgatások száma, ami a rázás felismeréséhez és a beszélő óra indításához szükséges.</string>
+    <string name="pref_checkbox_title_shake_vibrate">Rezgés</string>
+    <string name="pref_checkbox_summary_shake_vibrate">A készülék rezeg minen rázás érzékelésekor.</string>
+    <string name="pref_screen_title_power_button_trigger">Bekapcsoló gomb</string>
+    <string name="pref_screen_summary_power_button_trigger">A beszélő óra, a készülék bekapcsoló gombjával történő indításának beállításai.</string>
+    <string name="pref_checkbox_title_power_button">Bekapcsoló gomb</string>
+    <string name="pref_checkbox_summary_power_button_1">ACTIVATED - A beszélő óra indítása dupla kattintással.click.</string>
+    <string name="pref_checkbox_summary_power_button_2">DEACTIVATED - Ez a gomb nem aktív a idő értesítések indításához.</string>
+    <string name="pref_preference_title_power_button_click_delay">Delay</string>
+    <string name="pref_preference_summary_power_button_click_delay">Késleltetés a kattintások között.</string>
+    <string name="pref_list_title_audio_general">Általános</string>
+    <string name="pref_list_title_ringer_mode">Csengetési mód</string>
+    <string name="pref_list_summary_ringer_mode">Csengetés mód engedélyezve idő értesítéshez.</string>
+    <string name="pref_list_summary_no_ringer_mode_selected">Nincs csengetési mód kiválasztva - Nem engedélyezett az idő értesítésekhez, ha nincs csengetési mód kiválasztva.</string>
+    <string name="pref_category_title_night_clock_general">Általános</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Értesítsen és mutassa az időt amikor a közelség érzékelő bekapcsol.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Idő értesítés ha a közelség érzékelő bekapcsol.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Az idő mutatása ha a közelség érzékelő beindul.</string>
+    <string name="pref_list_title_night_clock_behaviour">Viselkedés</string>
+    <string name="pref_list_title_screen_orientation">Kijelző elforgatása</string>
+    <string name="pref_list_summary_screen_orientation_system">A rendszer beállításainak használata az kijelző elforgatásához.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">Az alkalmazás elforgatása automatikusan.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">Az alkalmazás kijelzése csak horizontálisan.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">Az alkalmazás kijelzése csak vertikálisan</string>
+    <string name="pref_category_title_appearance_general">Általános</string>
+    <string name="pref_list_title_language">Nyelv</string>
+    <string name="pref_category_title_speech">Beszéd</string>
+    <string name="pref_preference_title_speech_tts_settings">Szöveg felolvasó kimenet</string>
+    <string name="pref_checkbox_title_volume_control_is_allowed">Hangerő szabályzó</string>
+    <string name="pref_checkbox_summary_volume_control_is_allowed">A rendszer független hangerő szabályozható a készülék hangerőszabályzó gombjaival az idő értesítés ideje alatt.</string>
+    <string name="pref_checkbox_title_intro_text">Bevezető szöveg</string>
+    <string name="pref_checkbox_summary_intro_text">Az idő értesítést bevezető szöveg előzi meg.</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Késleltetés</string>
+    <string name="pref_checkbox_summary_pulse">Idő értesítés a beállított intervallum alapján.</string>
+    <string name="pref_list_title_pulse_interval">Intervallum</string>
+    <string name="pref_preference_title_intro_sound">Bevezető hang</string>
+    <string name="pref_preference_summary_intro_sound">A %1$s hang lejátszása minden idő értesítés előtt.</string>
+    <string name="pref_preference_summary_no_intro_sound">Ne legyen bevezető hang lejátszás az idő értesítések előtt.</string>
+    <string name="pref_list_title_intro_sound">Bevezető hang választása</string>
+    <string name="pref_category_title_speaking_clock_general">Általános</string>
+    <string name="pref_category_title_speaking_clock_start_options">Indítási beállítások</string>
+    <string name="pref_checkbox_title_speaking_clock_headset">Headset csatlakoztatás</string>
+    <string name="pref_checkbox_summary_speaking_clock_headset">Beszélő óra indítása headszet csatlakoztatásakor.</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_selection_dialog">Intervallum választás</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_selection_dialog">A beszélő óra intervalluma a beállítások menüben választható ki.</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Inaktív</item>
+        <item>Egy kattintás</item>
+        <item>Két kattintás</item>
+        <item>Három kattintás</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Normál</item>
+        <item>Angol</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Rendszer beállítás</item>
+        <item>24 órás</item>
+        <item>12 órás</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Rendszer beállítás</item>
+        <item>24 órás</item>
+        <item>12 órás</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Csendes</item>
+        <item>Rezgés</item>
+        <item>Normál</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Hang + Kijelzés</item>
+        <item>Hang értesítés</item>
+        <item>Kijelzés</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Rendszer beállítás</item>
+        <item>Autómatikus</item>
+        <item>Álló</item>
+        <item>Fekvő</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normál</item>
+        <item>Félkövér</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>None</item>
+        <item>Shadow</item>
+        <item>Glow</item>
+    </string-array>
+</resources>

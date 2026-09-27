@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Esci</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Annulla</string>
+    <string name="app_yes">Sì</string>
+    <string name="app_no">No</string>
+    <string name="app_request_close_question">"Vuoi davvero interrompere il servizio di Dimmi l'ora? Il servizio è necessario per annunciare l'ora."</string>
+    <string name="app_pulse_interval_title">Seleziona un intervallo</string>
+    <string name="app_tts_install_title">Dati TTS non presenti</string>
+    <string name="app_tts_install_message">I dati text-to-speech (TTS) non sono installati sul dispositivo mobile. Questa app non avrà complete funzionalità senza i dati TTS. Vuoi aprire il Play Store per scaricare questi dati?</string>
+    <string name="app_tts_install_activity_missing">La presenza di dati TTS non è stata trovata. Prego installa un motore TTS dal Play Store.</string>
+    <string name="app_open_tts_setting_failure">La presenza di TTS preferenze non è stata trovata.</string>
+    <string name="app_install_tts_data_title">Dati TTS non presenti</string>
+    <string name="app_install_tts_voice_data_message">Il Text-To-Speech dati per %1$s è mancante. Controllare le impostazioni dei dati TTS o scaricare i dati mancanti TTS dal store di Google Play.</string>
+    <string name="app_start_night_clock">Avvia orologio notturno</string>
+    <string name="app_stop_night_clock">Ferma orologio notturno</string>
+    <string name="app_start_speaking_clock">Avvia orologio parlante</string>
+    <string name="app_stop_speaking_clock">Ferma orologio parlante</string>
+    <string name="app_preferences">Preferenze</string>
+    <string name="app_version_label">Versione:</string>
+    <string name="app_disclaimer_title">Dichiarazione di non responsabilità</string>
+    <string name="pref_screen_title_control">Controlli</string>
+    <string name="pref_screen_summary_control">"Impostazioni dei vari attivatori per annunciare l'ora e opzioni di avvio dell'orologio notturno."</string>
+    <string name="pref_screen_title_headset_trigger">Auricolari</string>
+    <string name="pref_screen_summary_headset_trigger">"Impostazioni dell'orologio parlante attivato dai bottoni degli auricolari."</string>
+    <string name="pref_category_trigger_title_wired_headset_button">"Bottone dell'auricolare con filo"</string>
+    <string name="pref_list_title_headset_hook_button">Bottone auricolare</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Ritardo</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Ritardo tra due click in caso di eventi con click multipli.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Bottoni multimediali auricolare Bluetooth</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Bottone Play/Pausa</string>
+    <string name="pref_list_title_headset_media_stop_button">Bottone Stop</string>
+    <string name="pref_list_title_headset_media_previous_button">Bottone traccia precedente</string>
+    <string name="pref_list_title_headset_media_next_button">Bottone traccia successiva</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Ritardo</string>
+    <string name="pref_list_summary_headset_event_none">DISATTIVATO - Questo bottone è disablitato come attivatore degli annunci orari.</string>
+    <string name="pref_list_summary_headset_event_single_click">"CLICK SINGOLO - L'orologio parlante è attivato con un singolo click."</string>
+    <string name="pref_list_summary_headset_event_double_click">"CLICK DOPPIO - L'orologio parlante è attivato con un doppio click."</string>
+    <string name="pref_list_summary_headset_event_triple_click">"CLICK TRIPLO - L'orologio parlante è attivato con un triplo click."</string>
+    <string name="pref_checkbox_title_touch">Schermo tattile</string>
+    <string name="pref_checkbox_summary_touch">"L'orologio parlante è attivato toccando lo schermo di questa applicazione."</string>
+    <string name="pref_screen_title_open_app">Apertura applicazione</string>
+    <string name="pref_screen_summary_open_app">"Impostazioni dell'orologio parlante attivato dall'apertura dell'applicazione."</string>
+    <string name="pref_checkbox_title_open_app">Apertura applicazione</string>
+    <string name="pref_checkbox_summary_open_app">"Attiva l'annuncio dell'ora all'apertura dell'applicazione."</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Chiusura automatica</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">"L'applicazione verrà chiusa dopo %1$s secondi."</string>
+    <string name="pref_screen_title_system">Sistema</string>
+    <string name="pref_screen_summary_system">Impostazioni di sistema</string>
+    <string name="pref_checkbox_title_autostart">Avvio automatico</string>
+    <string name="pref_checkbox_summary_autostart">"Questa applicazione verrà avviata automaticamanete all'avvio del sistema."</string>
+    <string name="pref_checkbox_title_tts_check">Controlli TTS</string>
+    <string name="pref_checkbox_summary_tts_check">"L'applicazione controlla al prossimo avvio se il componente text-to-speech è completamente installato."</string>
+    <string name="pref_checkbox_title_power">Alimentazione</string>
+    <string name="pref_checkbox_summary_power">"L'orologio notturno viene avviato automaticamente quando il dispositivo mobile è connesso e in carica."</string>
+    <string name="pref_screen_title_proximity_trigger">Sensore di prossimità</string>
+    <string name="pref_screen_summary_proximity_trigger">"Impostazioni dell'orologio parlante attivato dal sensore del dispositivo mobile."</string>
+    <string name="pref_checkbox_title_proximity">Attiva rilevamento gesti</string>
+    <string name="pref_checkbox_summary_proximity">"L'orologio parlante è attivato da un gesto con la mano sul sensore di prossimità del dispositivo mobile. Su alcuni dispositivi mobili potrebbe prosciugare la batteria più velocemente."</string>
+    <string name="pref_list_title_proximity_gesture">Gesti</string>
+    <string name="pref_list_summary_proximity_gesture_1">Gesto con un dito</string>
+    <string name="pref_list_summary_proximity_gesture_2">Gesto con due dita</string>
+    <string name="pref_list_summary_proximity_gesture_3">Gesto con tre dita</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Vibrazione</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Il dispositivo mobile vibra quando attivato dal sensore di prossimità.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Spegnimento schermo</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">"L'orologio parlante è attivato dal sensore di prossimità solamente quando lo schermo del dispositivo mobile è spento."</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Velocità di rilevamento</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">Il gesto va eseguito in %1$s. Il sensore di prossimità reagisce diversamente a seconda del dispositivo. Questa impostazione può aiutare a prevenire attivazioni errate.</string>
+    <string name="pref_screen_title_night_clock">Orologio notturno</string>
+    <string name="pref_screen_summary_night_clock">"Impostazioni per le opzioni di avvio automatico dell'orologio notturno. L'orologio notturno può essere attivato con una sola passata sopra il sensore di prossimità."</string>
+    <string name="pref_category_title_night_clock_start_options">Opzioni di avvio</string>
+    <string name="pref_category_title_time_format">Formato ora</string>
+    <string name="pref_list_title_speaking_clock_style">Stile orologio parlante</string>
+    <string name="pref_checkbox_title_time_of_day">Ora del giorno</string>
+    <string name="pref_list_title_time_hour_format">Formato ore</string>
+    <string name="pref_screen_title_appearance">Schermo</string>
+    <string name="pref_screen_summary_appearance">"Impostazioni dello schermo del display dell'orologio."</string>
+    <string name="pref_category_title_clock_text">Testo</string>
+    <string name="pref_preference_title_night_clock_text_color">Colore</string>
+    <string name="pref_preference_summary_night_clock_text_color">"Colore del testo dell'orologio."</string>
+    <string name="pref_category_title_clock_background">Sfondo</string>
+    <string name="pref_preference_title_night_clock_background_color">Colore</string>
+    <string name="pref_preference_summary_night_clock_background_color">"Colore dello sfondo dell'orologio."</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Sfumatura di colore</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Consente di definire la sfumatura di colore dello sfondo.</string>
+    <string name="pref_list_title_text_effect">Effetto</string>
+    <string name="pref_list_summary_text_effect_shadow">"Il testo dell'orologio sarà ombreggiato."</string>
+    <string name="pref_list_summary_text_effect_glow">"Il testo dell'orologio sarà bagliore."</string>
+    <string name="pref_list_summary_text_effect_none">"Il testo dell'orologio avrà alcun effetto."</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">"Impostazioni dell'uscita audio per l'annuncio orario."</string>
+    <string name="pref_checkbox_title_system_independent_volume">Volume independente dal sistema</string>
+    <string name="pref_checkbox_summary_system_independent_volume">"Il volume dell'annuncio orario è indipendente dal volume di sistema."</string>
+    <string name="pref_preference_title_tts_volume">Volume</string>
+    <string name="app_notification_title_night_clock">Orologio notturno</string>
+    <string name="app_notification_title_pulse_generator">Orologio parlante</string>
+    <string name="pref_checkbox_title_night_clock_notification">Notificazione</string>
+    <string name="pref_screen_title_interval_speaking_clock">Intervallo orologio parlante</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Notificazione</string>
+    <string name="app_pulse_generator_interval_1">Ogni minuto</string>
+    <string name="app_pulse_generator_interval_2">Ogni minuto pari</string>
+    <string name="app_pulse_generator_interval_3">Ogni minuto dispari</string>
+    <string name="app_pulse_generator_interval_4">Ogni 5 minuti</string>
+    <string name="app_pulse_generator_interval_5">Ogni 10 minuti</string>
+    <string name="app_pulse_generator_interval_6">Ogni 15 minuti</string>
+    <string name="app_pulse_generator_interval_7">Ogni 20 minuti</string>
+    <string name="app_pulse_generator_interval_8">Ogni 30 minuti</string>
+    <string name="app_pulse_generator_interval_9">Ogni ora</string>
+    <string name="app_pulse_generator_interval_10">Ogni 15 secondi</string>
+    <string name="app_pulse_generator_interval_11">Ogni 20 secondi</string>
+    <string name="app_pulse_generator_interval_12">Ogni 30 secondi</string>
+    <string name="pref_screen_title_shake_detector_trigger">Scuotimento</string>
+    <string name="pref_screen_summary_shake_detector_trigger">"Impostazioni dell'orologio parlante attivato dallo scuotimento del dispositivo"</string>
+    <string name="pref_checkbox_title_shake_detector">Scuotimento</string>
+    <string name="pref_checkbox_summary_shake_detector_1">"ATTIVATO - L'orologio parlante viene attivato scuotendo il dispositivo."</string>
+    <string name="pref_checkbox_summary_shake_detector_2">DISATTIVATO - La rilevazione dello scuotimento è disattivata.</string>
+    <string name="pref_preference_title_shake_detector_sensitivity">Gravità</string>
+    <string name="pref_preference_summary_shake_detector_sensitivity">"L'accelerazione che occorre per la rilevazione dello scuotimento."</string>
+    <string name="pref_preference_title_shake_counter">Numero di scuotimenti</string>
+    <string name="pref_preference_summary_shake_counter">"Il numero di scuotimenti che occorre per attivare l'annuncio dell'ora."</string>
+    <string name="pref_checkbox_title_shake_vibrate">Vibrazione</string>
+    <string name="pref_checkbox_summary_shake_vibrate">Il dispositivo mobile vibra ogni volta che viene rilevato uno scuotimento.</string>
+    <string name="pref_screen_title_power_button_trigger">Tasto di accensione</string>
+    <string name="pref_screen_summary_power_button_trigger">"Impostazioni dell'orologio parlante attivato il tasto di accensione del dispositivo mobile."</string>
+    <string name="pref_checkbox_title_power_button">Tasto di accensione</string>
+    <string name="pref_checkbox_summary_power_button_1">"ATTIVATO - L'orologio parlante è attivato con un doppio click."</string>
+    <string name="pref_checkbox_summary_power_button_2">DISATTIVATO - Questo bottone è disablitato come attivatore degli annunci orari.</string>
+    <string name="pref_preference_title_power_button_click_delay">Ritardo</string>
+    <string name="pref_preference_summary_power_button_click_delay">Ritardo tra due click in caso di eventi con click multipli.</string>
+    <string name="pref_list_title_audio_general">Generale</string>
+    <string name="pref_list_title_ringer_mode">Modalità suoneria</string>
+    <string name="pref_list_summary_ringer_mode">"Modalità suoneria per la quale è permesso l'annuncio orario."</string>
+    <string name="pref_category_title_night_clock_general">Generale</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">"Annuncia e mostra l'ora se viene attivato il sensore di prossimità."</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">"Annuncia l'ora se viene attivato il sensore di prossimità."</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">"Mostra l'ora se viene attivato il sensore di prossimità."</string>
+    <string name="pref_list_title_night_clock_behaviour">Comportamento</string>
+    <string name="pref_list_title_screen_orientation">Orientamento schermo</string>
+    <string name="pref_list_summary_screen_orientation_system">"Le impostazioni di sistema determinano l'orientamento dello schermo dell'app."</string>
+    <string name="pref_list_summary_screen_orientation_automatic">"Lo schermo dell'app viene automaticamente orientato dal sensore attraverso l'applicazione."</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">"Lo schermo dell'app viene orientato esclusivamente in orizzontale."</string>
+    <string name="pref_list_summary_screen_orientation_vertical">"Lo schermo dell'app viene orientato esclusivamente in verticale."</string>
+    <string name="pref_category_title_appearance_general">Generale</string>
+    <string name="pref_list_title_language">Lingua</string>
+    <string name="pref_category_title_speech">Voce</string>
+    <string name="pref_preference_title_speech_tts_settings">Output sintesi vocale</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Ritardo</string>
+    <string name="pref_list_title_pulse_interval">Intervallo</string>
+    <string name="pref_preference_title_intro_sound">"Suono d'introduzione"</string>
+    <string name="pref_preference_summary_intro_sound">"Il suono %1$s viene riprodotto prima di ogni annuncio dell'ora."</string>
+    <string name="pref_preference_summary_no_intro_sound">"Nessun suono viene riprodotto prima di ogni annuncio dell'ora."</string>
+    <string name="pref_list_title_intro_sound">"Seleziona un suono d'introduzione"</string>
+    <string name="pref_category_title_speaking_clock_general">Generale</string>
+    <string name="pref_category_title_speaking_clock_start_options">Impostazioni iniziali</string>
+    <string name="pref_checkbox_title_speaking_clock_headset">"Collega l'auricolare"</string>
+    <string name="pref_checkbox_summary_speaking_clock_headset">"Attiva l'orologio parlante quando viene collegato l'auricolare."</string>
+    <string name="pref_checkbox_title_speaking_clock_interval_selection_dialog">Interval selection dialog</string>
+    <string name="pref_checkbox_summary_speaking_clock_interval_selection_dialog">"L'intervallo dell'orologio parlante può essere selezionato dal menù opzioni."</string>
+    <string name="pref_checkbox_title_seconds">Secondi</string>
+    <string name="pref_checkbox_summary_seconds">"Viene annunciato l'orario esatto al secondo"</string>
+    <string name="pref_checkbox_summary_seconds_not_supported">"L'annuncio dell'orario esatto al secondo non è supportato in %1$s."</string>
+    <string name="pref_list_summary_audio_focus_1">"Viene abbassato il volume delle altre applicazioni audio durante l'annuncio dell'ora."</string>
+    <string name="pref_list_summary_audio_focus_2">"Vengono sospese le altre applicazioni audio durante l'annuncio dell'ora."</string>
+    <string name="pref_list_title_audio_focus_selection">Volume delle altre applicazioni audio</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Disablitato</item>
+        <item>Click singolo</item>
+        <item>Click doppio</item>
+        <item>Click triplo</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Formale</item>
+        <item>Comune</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>Impostazioni di sistema</item>
+        <item>Formato 24-ore</item>
+        <item>Formato 12-ore</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Impostazioni audio</item>
+        <item>Formato 24-ore</item>
+        <item>Formato 12-ore</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Silente</item>
+        <item>Vibrazione</item>
+        <item>Normale</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Annuncio + Mostra</item>
+        <item>Annuncio</item>
+        <item>Mostra</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Sistema</item>
+        <item>Automatico</item>
+        <item>Verticale</item>
+        <item>Orizzontale</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Nessuno</item>
+        <item>Ombra</item>
+        <item>Bagliore</item>
+    </string-array>
+    <string-array name="pref_list_audio_focus_name">
+        <item>None change</item>
+        <item>Abbassamento</item>
+        <item>Interruzione</item>
+    </string-array>
+</resources>

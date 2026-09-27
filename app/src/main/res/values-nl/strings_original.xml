@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_close">Sluiten</string>
+    <string name="app_info">Info</string>
+    <string name="app_ok">OK</string>
+    <string name="app_cancel">Annuleren</string>
+    <string name="app_yes">Ja</string>
+    <string name="app_no">Nee</string>
+    <string name="app_request_close_question">Wil je echt de Timesay dienst sluiten? Deze service is nodig om de tijd aan te kondigen.</string>
+    <string name="app_pulse_interval_title">Selecteer een interval</string>
+    <string name="app_tts_install_title">TTS data ontbreekt</string>
+    <string name="app_tts_install_message">Tekst-naar-spraak (TTS) gegevens worden niet aan het genstalleerde mobiel apparaat ondersteunt. Deze app is niet volledig functioneel zonder TTS data. Wil je de Play Store te openen om deze gegevens te downloaden?</string>
+    <string name="app_tts_install_activity_missing">Het install TTS data dialoogvenster kon niet worden gevonden. Installeer dan een TTS engine van Play Store.</string>
+    <string name="app_open_tts_setting_failure">TTS instellingen dialoog is niet gevonden.</string>
+    <string name="app_install_tts_data_title">TTS data ontbreekt</string>
+    <string name="app_install_tts_voice_data_message">De Tekst-naar-spraak gegevens voor %1$s ontbreekt. Controleer de TTS data instellingen of download de ontbrekende TTS data uit de Google Play Store.</string>
+    <string name="app_start_night_clock">Start nacht klok</string>
+    <string name="app_stop_night_clock">Stop nacht klok</string>
+    <string name="app_start_speaking_clock">Start sprekende klok</string>
+    <string name="app_stop_speaking_clock">Stop sprekende klok</string>
+    <string name="app_preferences">Voorkeuren</string>
+    <string name="app_version_label">Versie:</string>
+    <string name="app_disclaimer_title">Ontkenning</string>
+    <string name="pref_screen_title_control">Controle</string>
+    <string name="pref_screen_summary_control">Instellingen van de verschillende triggers van een tijd aankondiging en start-opties van de avond klok.</string>
+    <string name="pref_screen_title_headset_trigger">Headset</string>
+    <string name="pref_screen_summary_headset_trigger">Instellingen over de sprekende klok die wordt geactiveerd door de knop op de headset.</string>
+    <string name="pref_category_trigger_title_wired_headset_button">Bedrade headset knop</string>
+    <string name="pref_list_title_headset_hook_button">Knop Headset</string>
+    <string name="pref_preference_title_wired_headset_multiple_click_delay">Vertraging</string>
+    <string name="pref_preference_summary_wired_headset_multiple_click_delay">Vertragingstijd tussen twee klikken in meerdere klikgebeurtenissen.</string>
+    <string name="pref_category_trigger_title_headset_media_buttons">Bluetooth headset media knoppen</string>
+    <string name="pref_list_title_headset_media_play_pause_button">Play/Pause-knop</string>
+    <string name="pref_list_title_headset_media_stop_button">Stopknop</string>
+    <string name="pref_list_title_headset_media_previous_button">Vorige track knop</string>
+    <string name="pref_list_title_headset_media_next_button">Knop Volgende track</string>
+    <string name="pref_preference_title_headset_media_button_multiple_click_delay">Vertraging</string>
+    <string name="pref_list_summary_headset_event_none">UITGESCHAKELD - Deze knop is uitgeschakeld voor het activeren van een tijd aankondiging.</string>
+    <string name="pref_list_summary_headset_event_single_click">ENKELE KLIK - De sprekende klok wordt geactiveerd door een enkele klik.</string>
+    <string name="pref_list_summary_headset_event_double_click">DUBBELE KLIK - De sprekende klok wordt geactiveerd door een dubbele klik.</string>
+    <string name="pref_list_summary_headset_event_triple_click">DRIEVOUDIGE KLIK - De sprekende klok wordt geactiveerd door een drievoudige klik.</string>
+    <string name="pref_checkbox_title_touch">Aanraakscherm</string>
+    <string name="pref_checkbox_summary_touch">De sprekende klok wordt geactiveerd door het aanraken van het hoofdscherm van deze app.</string>
+    <string name="pref_screen_title_open_app">Open toepassing</string>
+    <string name="pref_screen_summary_open_app">Instellingen over de sprekende klok die wordt geactiveerd wanneer de toepassing geopend.</string>
+    <string name="pref_checkbox_title_open_app">Open toepassing</string>
+    <string name="pref_checkbox_summary_open_app">Maakt dat de tijd bekend gemaakt wordt wanneer de toepassing wordt geopend.</string>
+    <string name="pref_checkbox_open_app_title_auto_close">Automatische sluiten</string>
+    <string name="pref_checkbox_open_app_summary_auto_close">De applicatie zal na %1$s seconden sluiten.</string>
+    <string name="pref_screen_title_system">Systeem</string>
+    <string name="pref_screen_summary_system">Systeeminstellingen</string>
+    <string name="pref_checkbox_title_autostart">Autorun</string>
+    <string name="pref_checkbox_summary_autostart">Deze applicatie wordt automatisch gestart tijdens het opstarten van het systeem.</string>
+    <string name="pref_checkbox_title_tts_check">TTS check</string>
+    <string name="pref_checkbox_summary_tts_check">De applicatie controleert op de volgende start als het component tekst-naar-spraak volledig is genstalleerd.</string>
+    <string name="pref_checkbox_title_power">Voeding</string>
+    <string name="pref_checkbox_summary_power">De avond klok begint automatisch wanneer de mobiel apparaat is aangesloten op een voeding.</string>
+    <string name="pref_screen_title_proximity_trigger">Nabijheidssensor</string>
+    <string name="pref_screen_summary_proximity_trigger">Instellingen over de sprekende klok die wordt veroorzaakt door de nabijheidssensor van het mobiele apparaat.</string>
+    <string name="pref_checkbox_title_proximity">Inschakelen gebaar detectie</string>
+    <string name="pref_checkbox_summary_proximity">De sprekende klok wordt geactiveerd door een gebaar met de hand over de nabijheidssensor van het mobiele apparaat. Op sommige mobiele apparaten kan dit de batterij sneller leeg maken.</string>
+    <string name="pref_list_title_proximity_gesture">Gebaar</string>
+    <string name="pref_list_summary_proximity_gesture_1">Een vinger gebaar</string>
+    <string name="pref_list_summary_proximity_gesture_2">Twee vinger gebaar</string>
+    <string name="pref_list_summary_proximity_gesture_3">Drie vinger gebaar</string>
+    <string name="pref_checkbox_title_proximity_vibrate">Trillen</string>
+    <string name="pref_checkbox_summary_proximity_vibrate">Het mobiele apparaat trilt bij het activeren van de nabijheidssensor.</string>
+    <string name="pref_checkbox_title_proximity_disabled_while_screen_on">Scherm uit</string>
+    <string name="pref_checkbox_summary_proximity_disabled_while_screen_on">De sprekende klok wordt alleen geactiveerd door de nabijheidssensor wanneer het scherm van het mobiele apparaat wordt uitgeschakeld.</string>
+    <string name="pref_preference_title_proximity_speed_of_recognition">Snelheid van erkenning</string>
+    <string name="pref_preference_summary_proximity_speed_of_recognition">In %1$s het gebaar moet worden uitgevoerd. Op elk apparaat reageert de nabijheidssensor anders. Deze instelling kan helpen om foutieve activeringen te voorkomen.</string>
+    <string name="pref_screen_title_night_clock">Nacht klok</string>
+    <string name="pref_screen_summary_night_clock">Instellingen over de automatische start-opties van de avond klok modus. De avond klok kan dan worden geactiveerd door een enkele veeg over de nabijheidssensor.</string>
+    <string name="pref_category_title_night_clock_start_options">Start opties</string>
+    <string name="pref_category_title_time_format">Tijdsindeling</string>
+    <string name="pref_list_title_speaking_clock_style">Sprekende klok stijl</string>
+    <string name="pref_checkbox_title_time_of_day">Tijd van de dag</string>
+    <string name="pref_list_title_time_hour_format">Uurformaat</string>
+    <string name="pref_screen_title_appearance">Weergave</string>
+    <string name="pref_screen_summary_appearance">Instellingen van de weergave van de klok.</string>
+    <string name="pref_category_title_clock_text">Tekst</string>
+    <string name="pref_preference_title_night_clock_text_color">Kleur</string>
+    <string name="pref_preference_summary_night_clock_text_color">Kleur van de klok tekst.</string>
+    <string name="pref_list_title_time_text_style">Tijd tekststijl</string>
+    <string name="pref_list_summary_time_text_style_normal">De tijd wordt weergegeven in de normale tekststijl.</string>
+    <string name="pref_list_summary_time_text_style_bold">De tijd wordt vet weergegeven.</string>
+    <string name="pref_list_title_time_of_day_text_style">Tijd van de dag tekststijl</string>
+    <string name="pref_list_summary_time_of_day_text_style_normal">De tijd wordt weergegeven in gewone tekststijl.</string>
+    <string name="pref_list_summary_time_of_day_text_style_bold">De tijd van de dag wordt vet weergegeven.</string>
+    <string name="pref_list_title_date_text_style">Datum tekststijl</string>
+    <string name="pref_list_summary_date_text_style_normal">De datum wordt weergegeven in de normale tekst stijl.</string>
+    <string name="pref_list_summary_date_text_style_bold">De datum wordt vet weergegeven.</string>
+    <string name="pref_category_title_clock_background">Achtergrond</string>
+    <string name="pref_preference_title_night_clock_background_color">Kleur</string>
+    <string name="pref_preference_summary_night_clock_background_color">Kleur van de klok achtergrond.</string>
+    <string name="pref_preference_title_background_gradient_radius_factor">Kleur gradatie</string>
+    <string name="pref_preference_summary_background_gradient_radius_factor">Definieert het kleurverloop van de achtergrond.</string>
+    <string name="pref_list_title_text_effect">Effect</string>
+    <string name="pref_list_summary_text_effect_shadow">De tekst van de klok wordt weergegeven met schaduw.</string>
+    <string name="pref_list_summary_text_effect_glow">De tekst van de klok wordt weergegeven met gloed.</string>
+    <string name="pref_list_summary_text_effect_none">De tekst van de klok wordt weergegeven zonder effect.</string>
+    <string name="pref_screen_title_audio">Audio</string>
+    <string name="pref_screen_summary_audio">Instellingen van de audio-uitgang van een tijd aankondiging.</string>
+    <string name="pref_checkbox_title_system_independent_volume">Systeem onafhankelijke volume</string>
+    <string name="pref_checkbox_summary_system_independent_volume">Het volume van een tijd aankondiging is onafhankelijk van het volume van het systeem.</string>
+    <string name="pref_preference_title_tts_volume">Volume</string>
+    <string name="app_notification_title_night_clock">Nacht klok</string>
+    <string name="app_notification_title_pulse_generator">Sprekende klok</string>
+    <string name="pref_checkbox_title_night_clock_notification">Kennisgeving</string>
+    <string name="pref_checkbox_summary_night_clock_notification_shown">Een kennisgeving wordt weergegeven in de titelbalk wanneer de nacht klok wordt gestart.</string>
+    <string name="pref_checkbox_summary_night_clock_notification_hidden">Geen kennisgeving wordt weergegeven in de titelbalk wanneer de nacht klok wordt gestart.</string>
+    <string name="pref_screen_title_interval_speaking_clock">Interval sprekende klok</string>
+    <string name="pref_screen_summary_interval_speaking_clock">Instellingen over een interval bestuurde tijd aankondiging. De tijd kan worden aangekondigd in een bepaald tijdsinterval.</string>
+    <string name="pref_checkbox_title_pulse_generator_notification">Kennisgeving</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_shown">Een kennisgeving wordt weergegeven in de titelbalk wanneer de interval sprekende klok wordt gestart.</string>
+    <string name="pref_checkbox_summary_pulse_generator_notification_hidden">Geen kennisgeving wordt weergegeven in de titelbalk wanneer de interval sprekende klok wordt gestart.</string>
+    <string name="app_pulse_generator_interval_1">Elke minuut</string>
+    <string name="app_pulse_generator_interval_2">Elke even minuut</string>
+    <string name="app_pulse_generator_interval_3">Elke oneven minuut</string>
+    <string name="app_pulse_generator_interval_4">Elke 5 minuten</string>
+    <string name="app_pulse_generator_interval_5">Elke 10 minuten</string>
+    <string name="app_pulse_generator_interval_6">Elke 15 minuten</string>
+    <string name="app_pulse_generator_interval_7">Elke 20 minuten</string>
+    <string name="app_pulse_generator_interval_8">Elke 30 minuten</string>
+    <string name="app_pulse_generator_interval_9">Elk uur</string>
+    <string name="app_pulse_generator_interval_10">Elke 15 seconden</string>
+    <string name="app_pulse_generator_interval_11">Elke 20 seconden</string>
+    <string name="app_pulse_generator_interval_12">Elke 30 seconden</string>
+    <string name="pref_screen_title_power_button_trigger">Een-uit-knop</string>
+    <string name="pref_screen_summary_power_button_trigger">Instellingen over de sprekende klok die wordt veroorzaakt door de een-uit-knop van het mobiele apparaat.</string>
+    <string name="pref_checkbox_title_power_button">Een-uit-knop</string>
+    <string name="pref_checkbox_summary_power_button_1">INGESCHAKELD - De sprekende klok wordt geactiveerd door een dubbele klik.</string>
+    <string name="pref_checkbox_summary_power_button_2">UITGESCHAKELD - Deze knop is uitgeschakeld voor het activeren van een tijd aankondiging.</string>
+    <string name="pref_preference_title_power_button_click_delay">Vertraging</string>
+    <string name="pref_preference_summary_power_button_click_delay">Vertraging tijd tussen twee klikken in meerdere klikgebeurtenissen.</string>
+    <string name="pref_list_title_audio_general">Algemeen</string>
+    <string name="pref_list_title_ringer_mode">Ringer mode</string>
+    <string name="pref_list_summary_ringer_mode">Ringer-modus waarvoor het is toegestaan om de tijd aantekondigen.</string>
+    <string name="pref_category_title_night_clock_general">Algemeen</string>
+    <string name="pref_list_summary_night_clock_behaviour_1">Aankondiging en de weergave van de tijd wanneer de nabijheidssensor wordt geactiveerd.</string>
+    <string name="pref_list_summary_night_clock_behaviour_2">Aankondiging van de tijd wanneer de nabijheidssensor wordt geactiveerd.</string>
+    <string name="pref_list_summary_night_clock_behaviour_3">Weergave van de tijd wanneer de nabijheidssensor wordt geactiveerd.</string>
+    <string name="pref_list_title_night_clock_behaviour">Gedrag</string>
+    <string name="pref_list_title_screen_orientation">Schermorientatie</string>
+    <string name="pref_list_summary_screen_orientation_system">De systeeminstellingen worden gebruikt voor de orientatie van de app scherm.</string>
+    <string name="pref_list_summary_screen_orientation_automatic">De app scherm is automatisch georienteerd door de sensor.</string>
+    <string name="pref_list_summary_screen_orientation_horizontal">De app scherm is alleen horizontaal georienteerd.</string>
+    <string name="pref_list_summary_screen_orientation_vertical">De app scherm is alleen verticaal georienteerd.</string>
+    <string name="pref_category_title_appearance_general">Algemeen</string>
+    <string name="pref_list_title_language">Taal</string>
+    <string name="pref_category_title_speech">Spraak</string>
+    <string name="pref_preference_title_speech_tts_settings">Uitvoer voor tekst-naar-spraak</string>
+    <string name="pref_preference_open_app_title_auto_close_delay">Vertraging</string>
+    <string name="pref_list_title_pulse_interval">Interval</string>
+    <string name="pref_category_title_speaking_clock_general">Algemeen</string>
+    <string name="pref_category_title_speaking_clock_start_options">Start opties</string>
+    <string-array name="pref_list_headset_event_type_name">
+        <item>Gedeactiveerd</item>
+        <item>Enkele klik</item>
+        <item>Dubbel klik</item>
+        <item>Drievoudige klik</item>
+    </string-array>
+    <string-array name="pref_list_speaking_clock_style_name">
+        <item>Formele</item>
+        <item>Common</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_name">
+        <item>System instelling</item>
+        <item>24-uurs formaat</item>
+        <item>12-uurs formaat</item>
+    </string-array>
+    <string-array name="pref_list_time_hour_format_appearance_name">
+        <item>Audio instelling</item>
+        <item>24-uurs formaat</item>
+        <item>12-uurs formaat</item>
+    </string-array>
+    <string-array name="pref_checkbox_list_ringer_mode_name">
+        <item>Stil</item>
+        <item>Trillen</item>
+        <item>Normaal</item>
+    </string-array>
+    <string-array name="pref_list_night_clock_behaviour_name">
+        <item>Aankondiging + Weergave</item>
+        <item>Aankondiging</item>
+        <item>Weergave</item>
+    </string-array>
+    <string-array name="pref_list_screen_orientation_name">
+        <item>Systeem</item>
+        <item>Automatische</item>
+        <item>Portrait</item>
+        <item>Landschap</item>
+    </string-array>
+    <string-array name="pref_list_text_style_name">
+        <item>Normaal</item>
+        <item>Vet</item>
+    </string-array>
+    <string-array name="pref_list_text_effect_name">
+        <item>Geen</item>
+        <item>Schaduw</item>
+        <item>Gloed</item>
+    </string-array>
+</resources>
