@@ -37,12 +37,12 @@ import io.github.sharathhc529.talktime.settings.AudioFocusMode
 import io.github.sharathhc529.talktime.settings.ClickCount
 import io.github.sharathhc529.talktime.settings.DisplayHourFormat
 import io.github.sharathhc529.talktime.settings.HourFormat
+import io.github.sharathhc529.talktime.settings.ClockStyle
 import io.github.sharathhc529.talktime.settings.Keys
 import io.github.sharathhc529.talktime.settings.NightClockBehaviour
 import io.github.sharathhc529.talktime.settings.RingerMode
 import io.github.sharathhc529.talktime.settings.ScreenOrientation
 import io.github.sharathhc529.talktime.settings.Settings
-import io.github.sharathhc529.talktime.settings.TextEffect
 import io.github.sharathhc529.talktime.settings.collect
 import io.github.sharathhc529.talktime.settings.version
 import io.github.sharathhc529.talktime.speech.SpeakingInterval
@@ -320,32 +320,31 @@ private fun OpenAppScreen(settings: Settings) {
 private fun DisplayScreen(settings: Settings) {
     val styleNames = stringArrayResource(R.array.pref_list_text_style_name)
     val styleOptions = listOf(false to styleNames[0], true to styleNames[1])
-    PreferenceCategory(stringResource(R.string.pref_category_title_clock_text))
-    ColorPreference(settings, Keys.textColor, stringResource(R.string.pref_preference_title_night_clock_text_color), stringResource(R.string.pref_preference_summary_night_clock_text_color))
-    val effectSummaries = listOf(
-        stringResource(R.string.pref_list_summary_text_effect_none),
-        stringResource(R.string.pref_list_summary_text_effect_shadow),
-        stringResource(R.string.pref_list_summary_text_effect_glow),
+    val clockStyleNames = listOf(
+        ClockStyle.FLIP to stringResource(R.string.clock_style_flip),
+        ClockStyle.STACKED to stringResource(R.string.clock_style_stacked),
+        ClockStyle.GLASS to stringResource(R.string.clock_style_glass),
+        ClockStyle.WORDS to stringResource(R.string.clock_style_words),
+        ClockStyle.RING to stringResource(R.string.clock_style_ring),
+        ClockStyle.ANALOG to stringResource(R.string.clock_style_analog),
     )
-    val effectNames = stringArrayResource(R.array.pref_list_text_effect_name)
-    ListPreference(
-        settings, Keys.textEffect, stringResource(R.string.pref_list_title_text_effect),
-        TextEffect.entries.map { it to effectNames[it.ordinal] }, summary = { effectSummaries[it.ordinal] },
-    )
-    val timeSummaries = stringResource(R.string.pref_list_summary_time_text_style_normal) to stringResource(R.string.pref_list_summary_time_text_style_bold)
-    ListPreference(settings, Keys.timeBold, stringResource(R.string.pref_list_title_time_text_style), styleOptions) { if (it) timeSummaries.second else timeSummaries.first }
-    val amPmSummaries = stringResource(R.string.pref_list_summary_time_of_day_text_style_normal) to stringResource(R.string.pref_list_summary_time_of_day_text_style_bold)
-    ListPreference(settings, Keys.amPmBold, stringResource(R.string.pref_list_title_time_of_day_text_style), styleOptions) { if (it) amPmSummaries.second else amPmSummaries.first }
-    val dateSummaries = stringResource(R.string.pref_list_summary_date_text_style_normal) to stringResource(R.string.pref_list_summary_date_text_style_bold)
-    ListPreference(settings, Keys.dateBold, stringResource(R.string.pref_list_title_date_text_style), styleOptions) { if (it) dateSummaries.second else dateSummaries.first }
+    ListPreference(settings, Keys.clockStyle, stringResource(R.string.pref_clock_style_title), clockStyleNames)
+    // The other styles come with their own colours and type; these settings shape the flip clock.
+    val clockStyle by settings.collect(Keys.clockStyle)
+    if (clockStyle == ClockStyle.FLIP) {
+        PreferenceCategory(stringResource(R.string.pref_category_title_clock_text))
+        ColorPreference(settings, Keys.textColor, stringResource(R.string.pref_preference_title_night_clock_text_color), stringResource(R.string.pref_preference_summary_night_clock_text_color))
+        val timeSummaries = stringResource(R.string.pref_list_summary_time_text_style_normal) to stringResource(R.string.pref_list_summary_time_text_style_bold)
+        ListPreference(settings, Keys.timeBold, stringResource(R.string.pref_list_title_time_text_style), styleOptions) { if (it) timeSummaries.second else timeSummaries.first }
+        val amPmSummaries = stringResource(R.string.pref_list_summary_time_of_day_text_style_normal) to stringResource(R.string.pref_list_summary_time_of_day_text_style_bold)
+        ListPreference(settings, Keys.amPmBold, stringResource(R.string.pref_list_title_time_of_day_text_style), styleOptions) { if (it) amPmSummaries.second else amPmSummaries.first }
+        val dateSummaries = stringResource(R.string.pref_list_summary_date_text_style_normal) to stringResource(R.string.pref_list_summary_date_text_style_bold)
+        ListPreference(settings, Keys.dateBold, stringResource(R.string.pref_list_title_date_text_style), styleOptions) { if (it) dateSummaries.second else dateSummaries.first }
 
-    PreferenceCategory(stringResource(R.string.pref_category_title_clock_background))
-    ColorPreference(settings, Keys.backgroundColor, stringResource(R.string.pref_preference_title_night_clock_background_color), stringResource(R.string.pref_preference_summary_night_clock_background_color))
-    val gradientSummary = stringResource(R.string.pref_preference_summary_background_gradient_radius_factor)
-    SliderPreference(
-        settings, Keys.gradient, stringResource(R.string.pref_preference_title_background_gradient_radius_factor), 0..100,
-        format = { "$it" }, summary = { "$it - $gradientSummary" },
-    )
+        PreferenceCategory(stringResource(R.string.pref_category_title_clock_background))
+        ColorPreference(settings, Keys.cardColor, stringResource(R.string.pref_card_color_title), stringResource(R.string.pref_card_color_summary))
+        ColorPreference(settings, Keys.flipBackgroundColor, stringResource(R.string.pref_preference_title_night_clock_background_color), stringResource(R.string.pref_preference_summary_night_clock_background_color))
+    }
 
     PreferenceCategory(stringResource(R.string.pref_category_title_time_format))
     val formatNames = stringArrayResource(R.array.pref_list_time_hour_format_appearance_name)

@@ -27,6 +27,9 @@ enum class AudioFocusMode { NONE, DUCK, PAUSE }
 
 enum class TextEffect { NONE, SHADOW, GLOW }
 
+/** Designs of the main screen clock. */
+enum class ClockStyle { FLIP, STACKED, GLASS, WORDS, RING, ANALOG }
+
 enum class ScreenOrientation { SYSTEM, AUTOMATIC, PORTRAIT, LANDSCAPE }
 
 /** Ringer modes, numbered like [android.media.AudioManager.RINGER_MODE_SILENT] etc. */
@@ -103,6 +106,7 @@ object Keys {
     val ringerModes = IntSetPref("ringer_modes", setOf(RingerMode.SILENT, RingerMode.VIBRATE, RingerMode.NORMAL))
 
     // Display
+    val clockStyle = EnumPref("clock_style", ClockStyle.FLIP, ClockStyle.entries.toTypedArray())
     val textColor = IntPref("text_color", Color.WHITE)
     val textEffect = EnumPref("text_effect", TextEffect.NONE, TextEffect.entries.toTypedArray())
     val timeBold = BoolPref("time_bold", true)
@@ -110,6 +114,8 @@ object Keys {
     val dateBold = BoolPref("date_bold", false)
     val backgroundColor = IntPref("background_color", Color.RED)
     val gradient = IntPref("gradient", 60, 0..100)
+    val flipBackgroundColor = IntPref("flip_background_color", 0xFF121212.toInt())
+    val cardColor = IntPref("card_color", 0xFF262626.toInt())
     val displayHourFormat = EnumPref("display_hour_format", DisplayHourFormat.AUDIO, DisplayHourFormat.entries.toTypedArray())
     val orientation = EnumPref("orientation", ScreenOrientation.SYSTEM, ScreenOrientation.entries.toTypedArray())
 
