@@ -76,10 +76,6 @@ fun InfoDialog(onDismiss: () -> Unit) {
                 Text(stringResource(R.string.app_version_label) + " " + BuildConfig.VERSION_NAME)
                 Text(stringResource(R.string.info_developer, stringResource(R.string.developer_name)))
                 Text(
-                    stringResource(R.string.info_credits),
-                    modifier = Modifier.padding(top = 12.dp),
-                )
-                Text(
                     stringResource(R.string.info_privacy),
                     modifier = Modifier.padding(top = 12.dp),
                 )
