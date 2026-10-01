@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
@@ -36,6 +38,21 @@ jobs:
           path: |
             app/build/outputs/apk/debug/*.apk
             app/build/outputs/apk/release/*.apk
+
+      - name: Publish GitHub Release
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version=$(sed -n 's/.*versionName = "\(.*\)".*/\1/p' app/build.gradle.kts)
+          tag="v${version}-build.${GITHUB_RUN_NUMBER}"
+          mkdir -p release
+          cp app/build/outputs/apk/release/app-release.apk "release/talk-time-${version}.apk"
+          cp app/build/outputs/apk/debug/app-debug.apk "release/talk-time-${version}-debug.apk"
+          gh release create "$tag" release/*.apk \
+            --target "$GITHUB_SHA" \
+            --title "Talk Time ${version} (build ${GITHUB_RUN_NUMBER})" \
+            --notes "Built from ${GITHUB_REF_NAME} at ${GITHUB_SHA}. Install talk-time-${version}.apk on your phone; the -debug APK is for troubleshooting."
 
       - name: Upload reports
         if: always()
