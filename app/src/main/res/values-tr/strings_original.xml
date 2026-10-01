@@ -7,7 +7,7 @@
     <string name="app_cancel">İptal</string>
     <string name="app_yes">Evet</string>
     <string name="app_no">Hayır</string>
-    <string name="app_request_close_question">TellMeTheTime servisini sonlandırmak istediğinize eminmisiniz? Saati sesli bildirmek için çalışması gereklidir.</string>
+    <string name="app_request_close_question">Timesay servisini sonlandırmak istediğinize eminmisiniz? Saati sesli bildirmek için çalışması gereklidir.</string>
     <string name="app_pulse_interval_title">Zamanlama Seçiniz</string>
     <string name="app_tts_install_title">TTS bilgisi eksik</string>
     <string name="app_tts_install_message">Text-to-speech (TTS) Yazıyı sesli okuma bilgisi cihazınızda kurulu değil. Bu yazılım TTS bilgisi olmadan tam özelliklerinde çalışmayacaktır. TTS yazılımını indirmek için Google markete erişmemi istermisiniz?</string>

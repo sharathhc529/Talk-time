@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Texts and translations taken from the original Tell Me The Time app. -->
 <resources>
-    <string name="app_name">Tell Me The Time</string>
     <string name="app_close">Закрыть</string>
     <string name="app_info">Инфо</string>
     <string name="app_ok">ОК</string>
     <string name="app_cancel">Отменить</string>
     <string name="app_yes">Да</string>
     <string name="app_no">Нет</string>
-    <string name="app_request_close_question">Вы действительно хотите закрыть TellMeTheTime приложение? Это приложение необходимо для объявления времени.</string>
+    <string name="app_request_close_question">Вы действительно хотите закрыть Timesay приложение? Это приложение необходимо для объявления времени.</string>
     <string name="app_pulse_interval_title">Выберите интерва́л</string>
     <string name="app_tts_install_title">TTS данные отсутствуют</string>
     <string name="app_tts_install_message">Text-to-speech (TTS) данные не установлены на мобильном устройстве. Это приложение не является полнофункциональным без данных TTS. Вы хотите открыть Play Store, чтобы загрузить эти данные?</string>

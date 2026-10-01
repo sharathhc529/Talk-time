@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TalkTime"
+rootProject.name = "Timesay"
 
 include(":app", ":timespeech")

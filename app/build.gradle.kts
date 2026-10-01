@@ -11,7 +11,7 @@ android {
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "io.github.sharathhc529.talktime"
+        applicationId = "io.github.sharathhc529.timesay"
         minSdk = 26
         targetSdk = 36
         versionCode = 200

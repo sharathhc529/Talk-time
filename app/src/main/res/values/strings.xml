@@ -8,9 +8,26 @@
     <string name="channel_alerts">Alerts</string>
     <string name="status_listening">Ready to announce the time</string>
 
-    <string name="info_credits">A rebuild of Tell Me The Time 1.19.0 by Andreas Meyer for current Android versions.</string>
+    <string name="developer_name" translatable="false">sharathchandrahc</string>
+    <string name="info_developer">Developed by %1$s</string>
+    <string name="info_copyright" translatable="false">© 2026 %1$s</string>
+    <string name="info_credits">Timesay is based on Tell Me The Time 1.19.0 by Andreas Meyer, rebuilt for current Android versions.</string>
     <string name="info_privacy">This app does not collect, store or share any personal data. Time announcements are generated on the device by the text-to-speech engine you have installed.</string>
     <string name="info_disclaimer">This software is provided without any warranty. In no event shall the authors be liable for any damages arising from the use of, or inability to use, this software.</string>
+
+    <string name="pref_clock_style_title">Clock style</string>
+    <string name="clock_style_flip">Retro flip</string>
+    <string name="clock_style_stacked">Stacked bold</string>
+    <string name="clock_style_glass">Liquid glass</string>
+    <string name="clock_style_words">Spoken words</string>
+    <string name="clock_style_ring">Minute ring</string>
+    <string name="clock_style_analog">Classic analog</string>
+    <string name="clock_next_announcement">Next announcement</string>
+    <string name="clock_next_announcement_at">Next announcement at %1$s</string>
+    <string name="clock_next_short">Next %1$s</string>
+    <string name="clock_off">Off</string>
+    <string name="pref_card_color_title">Card color</string>
+    <string name="pref_card_color_summary">Color of the flip cards.</string>
 
     <string name="color_hue">Hue</string>
     <string name="color_saturation">Saturation</string>

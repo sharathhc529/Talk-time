@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Texts and translations taken from the original Tell Me The Time app. -->
 <resources>
-    <string name="app_name">Tell Me The Time</string>
     <string name="app_close">Bezárás</string>
     <string name="app_info">Info</string>
     <string name="app_ok">OK</string>
     <string name="app_cancel">Mégse</string>
     <string name="app_yes">Igen</string>
     <string name="app_no">Nem</string>
-    <string name="app_request_close_question">Biztos be akarod zárni a TellMeTheTime szolgáltatást? A pontos idő hangüzenetekhez szükség.</string>
+    <string name="app_request_close_question">Biztos be akarod zárni a Timesay szolgáltatást? A pontos idő hangüzenetekhez szükség.</string>
     <string name="app_pulse_interval_title">Válassz intervallumot</string>
     <string name="app_tts_install_title">TTS Adat hiányzik</string>
     <string name="app_tts_install_message">Felolvasó (TTS) nincs installálva a mobil eszközre. Az alkalmazás összes funkciója nem elérhető a TTS adatok nélkül. Meg akarod nyitni a PlayStore-t a hiányzó adatok letöltéséhez?</string>

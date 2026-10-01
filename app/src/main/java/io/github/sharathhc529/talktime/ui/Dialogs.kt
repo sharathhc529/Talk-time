@@ -74,6 +74,7 @@ fun InfoDialog(onDismiss: () -> Unit) {
         text = {
             Column(Modifier.verticalScroll(rememberScrollState())) {
                 Text(stringResource(R.string.app_version_label) + " " + BuildConfig.VERSION_NAME)
+                Text(stringResource(R.string.info_developer, stringResource(R.string.developer_name)))
                 Text(
                     stringResource(R.string.info_credits),
                     modifier = Modifier.padding(top = 12.dp),
@@ -88,6 +89,11 @@ fun InfoDialog(onDismiss: () -> Unit) {
                     modifier = Modifier.padding(top = 12.dp),
                 )
                 Text(stringResource(R.string.info_disclaimer), style = MaterialTheme.typography.bodySmall)
+                Text(
+                    stringResource(R.string.info_copyright, stringResource(R.string.developer_name)),
+                    style = MaterialTheme.typography.bodySmall,
+                    modifier = Modifier.padding(top = 12.dp),
+                )
             }
         },
         confirmButton = { TextButton(onClick = onDismiss) { Text(stringResource(R.string.app_ok)) } },
