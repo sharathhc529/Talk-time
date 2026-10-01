@@ -25,12 +25,12 @@ Android 8.0 (API 26).
 ## Getting the APK
 
 Every push builds the app on GitHub Actions (`.github/workflows/build.yml`) and publishes it on the
-repository's **Releases** page as a release named "Talk Time <version> (build <n>)". Download
-`talk-time-<version>.apk` from the newest release and open it on your phone. The `-debug` APK is only
+repository's **Releases** page as a release named "Timesay <version> (build <n>)". Download
+`timesay-<version>.apk` from the newest release and open it on your phone. The `-debug` APK is only
 needed for troubleshooting.
 
 Without a release keystore, the APK is signed with the debug key, which is fine for installing on your own
-phone. The same APKs are also attached to each workflow run as the `talk-time-apk` artifact.
+phone. The same APKs are also attached to each workflow run as the `timesay-apk` artifact.
 
 To sign release builds with your own key, set these environment variables (or GitHub secrets exposed to
 the build step): `TALKTIME_KEYSTORE` (path to the keystore file), `TALKTIME_KEYSTORE_PASSWORD`,

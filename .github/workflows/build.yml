@@ -34,7 +34,7 @@ jobs:
       - name: Upload APKs
         uses: actions/upload-artifact@v4
         with:
-          name: talk-time-apk
+          name: timesay-apk
           path: |
             app/build/outputs/apk/debug/*.apk
             app/build/outputs/apk/release/*.apk
@@ -47,12 +47,12 @@ jobs:
           version=$(sed -n 's/.*versionName = "\(.*\)".*/\1/p' app/build.gradle.kts)
           tag="v${version}-build.${GITHUB_RUN_NUMBER}"
           mkdir -p release
-          cp app/build/outputs/apk/release/app-release.apk "release/talk-time-${version}.apk"
-          cp app/build/outputs/apk/debug/app-debug.apk "release/talk-time-${version}-debug.apk"
+          cp app/build/outputs/apk/release/app-release.apk "release/timesay-${version}.apk"
+          cp app/build/outputs/apk/debug/app-debug.apk "release/timesay-${version}-debug.apk"
           gh release create "$tag" release/*.apk \
             --target "$GITHUB_SHA" \
-            --title "Talk Time ${version} (build ${GITHUB_RUN_NUMBER})" \
-            --notes "Built from ${GITHUB_REF_NAME} at ${GITHUB_SHA}. Install talk-time-${version}.apk on your phone; the -debug APK is for troubleshooting."
+            --title "Timesay ${version} (build ${GITHUB_RUN_NUMBER})" \
+            --notes "Built from ${GITHUB_REF_NAME} at ${GITHUB_SHA}. Install timesay-${version}.apk on your phone; the -debug APK is for troubleshooting."
 
       - name: Upload reports
         if: always()
