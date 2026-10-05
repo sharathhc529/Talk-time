@@ -23,6 +23,9 @@ import io.github.sharathhc529.talktime.speech.lang.Spanish
 import io.github.sharathhc529.talktime.speech.lang.Thai
 import io.github.sharathhc529.talktime.speech.lang.TraditionalChinese
 import io.github.sharathhc529.talktime.speech.lang.Turkish
+import io.github.sharathhc529.talktime.speech.lang.Kannada
+import io.github.sharathhc529.talktime.speech.lang.Tamil
+import io.github.sharathhc529.talktime.speech.lang.Telugu
 import java.util.Locale
 
 /**
@@ -60,6 +63,9 @@ enum class SpeechLanguage(
     ZH_TW(TraditionalChinese, Locale("zh", "TW"), "中文 (台灣)", "歡迎"),
     ZH_HK(TraditionalChinese, Locale("yue", "HK"), "粵文 (香港)", "歡迎"),
     HI_IN(Hindi, Locale("hi", "IN"), "हिन्दी", "स्वागत"),
+    KN_IN(Kannada, Locale("kn", "IN"), "ಕನ್ನಡ", "ಸ್ವಾಗತ"),
+    TA_IN(Tamil, Locale("ta", "IN"), "தமிழ்", "வணக்கம்"),
+    TE_IN(Telugu, Locale("te", "IN"), "తెలుగు", "స్వాగతం"),
     TH_TH(Thai, Locale("th"), "ไทย", "ยินดีต้อนรับ"),
     ID_ID(Indonesian, Locale("id"), "Bahasa Indonesia", "Menyambut"),
     KO_KR(Korean, Locale("ko"), "한국어", "환영"),
@@ -102,6 +108,9 @@ enum class SpeechLanguage(
                 "sk" -> SK_SK
                 "hu" -> HU_HU
                 "hi" -> HI_IN
+                "kn" -> KN_IN
+                "ta" -> TA_IN
+                "te" -> TE_IN
                 "th" -> TH_TH
                 "id", "in" -> ID_ID
                 "ko" -> KO_KR

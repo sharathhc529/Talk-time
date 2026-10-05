@@ -13,7 +13,7 @@ Android 8.0 (API 26).
 | Feature | Details |
 | --- | --- |
 | Clock screen | Full-screen clock with date and an announce button, in six styles: retro flip (default, with animated split-flap cards), stacked bold, liquid glass, spoken words, minute ring and classic analog. The flip clock's colours and text weights, the 12/24-hour format and the screen orientation are configurable. Touch it to hear the time. |
-| Languages | 23 announcement grammars in 28 language variants: Chinese (Mandarin, Cantonese, Taiwan), Czech, Danish, Dutch, English (US, UK, India, Australia), French, German, Hindi, Hungarian, Indonesian, Italian, Korean, Polish, Portuguese (Portugal, Brazil), Romanian, Russian, Slovak, Spanish (Spain, US, Mexico), Thai and Turkish. |
+| Languages | 26 announcement grammars in 31 language variants: Chinese (Mandarin, Cantonese, Taiwan), Czech, Danish, Dutch, English (US, UK, India, Australia), French, German, Hindi, Hungarian, Indonesian, Italian, Kannada, Korean, Polish, Portuguese (Portugal, Brazil), Romanian, Russian, Slovak, Spanish (Spain, US, Mexico), Tamil, Telugu, Thai and Turkish. |
 | Phrasing | Formal ("14 25") or common ("twenty-five past two"), 12 or 24 hours, optional part of day ("in the afternoon"), seconds, and an intro ("It's …"). |
 | Interval speaking clock | Every 15/20/30 seconds, every minute, even or odd minutes, every 5/10/15/20/30 minutes or every hour. Uses exact alarms, optionally registered as an alarm clock so announcements are on time in deep sleep. Can start automatically when a headset is plugged in. |
 | Night clock | Shows the clock over the lock screen; a wave over the proximity sensor wakes the screen and/or speaks the time. Can start automatically on the charger. |

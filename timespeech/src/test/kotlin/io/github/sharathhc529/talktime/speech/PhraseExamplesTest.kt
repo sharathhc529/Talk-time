@@ -50,11 +50,41 @@ class PhraseExamplesTest {
     }
 
     @Test
+    fun kannada() {
+        val kn = SpeechLanguage.KN_IN
+        assertEquals("ಸಮಯ ಈಗ ಎರಡೂ ಕಾಲು", kn.phrase(ClockTime(14, 15), options()))
+        assertEquals("ಸಮಯ ಈಗ ಎರಡೂವರೆ", kn.phrase(ClockTime(14, 30), options()))
+        assertEquals("ಸಮಯ ಈಗ ಮೂರಕ್ಕೇ ಕಾಲು", kn.phrase(ClockTime(14, 45), options()))
+        assertEquals("ಸಮಯ ಈಗ ಮಧ್ಯಾಹ್ನ ಎರಡೂವರೆ", kn.phrase(ClockTime(14, 30), options(timeOfDay = true)))
+    }
+
+    @Test
+    fun tamil() {
+        val ta = SpeechLanguage.TA_IN
+        assertEquals("இப்போது நேரம் இரண்டேகால்", ta.phrase(ClockTime(14, 15), options()))
+        assertEquals("இப்போது நேரம் இரண்டரை", ta.phrase(ClockTime(14, 30), options()))
+        assertEquals("இப்போது நேரம் மூன்றே முக்கால்", ta.phrase(ClockTime(14, 45), options()))
+        assertEquals("இப்போது நேரம் மதியம் இரண்டரை", ta.phrase(ClockTime(14, 30), options(timeOfDay = true)))
+    }
+
+    @Test
+    fun telugu() {
+        val te = SpeechLanguage.TE_IN
+        assertEquals("ఇప్పుడు సమయం రెండుంబావు", te.phrase(ClockTime(14, 15), options()))
+        assertEquals("ఇప్పుడు సమయం రెండున్నర", te.phrase(ClockTime(14, 30), options()))
+        assertEquals("ఇప్పుడు సమయం పావు తక్కువ మూడు", te.phrase(ClockTime(14, 45), options()))
+        assertEquals("ఇప్పుడు సమయం మధ్యాహ్నం రెండున్నర", te.phrase(ClockTime(14, 30), options(timeOfDay = true)))
+    }
+
+    @Test
     fun `device locales map to languages`() {
         assertEquals(SpeechLanguage.EN_GB, SpeechLanguage.forLocale(Locale.UK))
         assertEquals(SpeechLanguage.EN_US, SpeechLanguage.forLocale(Locale("xx")))
         assertEquals(SpeechLanguage.PT_BR, SpeechLanguage.forLocale(Locale("pt", "BR")))
         assertEquals(SpeechLanguage.ZH_TW, SpeechLanguage.forLocale(Locale.TRADITIONAL_CHINESE))
         assertEquals(SpeechLanguage.ID_ID, SpeechLanguage.forLocale(Locale("in", "ID")))
+        assertEquals(SpeechLanguage.KN_IN, SpeechLanguage.forLocale(Locale("kn", "IN")))
+        assertEquals(SpeechLanguage.TA_IN, SpeechLanguage.forLocale(Locale("ta", "IN")))
+        assertEquals(SpeechLanguage.TE_IN, SpeechLanguage.forLocale(Locale("te", "IN")))
     }
 }
