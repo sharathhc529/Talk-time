@@ -53,8 +53,12 @@ class PhraseExamplesTest {
     fun kannada() {
         val kn = SpeechLanguage.KN_IN
         assertEquals("ಸಮಯ ಈಗ ಎರಡೂ ಕಾಲು", kn.phrase(ClockTime(14, 15), options()))
+        assertEquals("ಸಮಯ ಈಗ ಮೂರು ಕಾಲು", kn.phrase(ClockTime(15, 15), options()))
         assertEquals("ಸಮಯ ಈಗ ಎರಡೂವರೆ", kn.phrase(ClockTime(14, 30), options()))
-        assertEquals("ಸಮಯ ಈಗ ಮೂರಕ್ಕೇ ಕಾಲು", kn.phrase(ClockTime(14, 45), options()))
+        assertEquals("ಸಮಯ ಈಗ ಮೂರುವರೆ", kn.phrase(ClockTime(15, 30), options()))
+        assertEquals("ಸಮಯ ಈಗ ಎರಡು ಗಂಟೆ ನಲವತ್ತೈದು ನಿಮಿಷ", kn.phrase(ClockTime(14, 45), options()))
+        assertEquals("ಸಮಯ ಈಗ ಮೂರು ಗಂಟೆ ನಲವತ್ತೈದು ನಿಮಿಷ", kn.phrase(ClockTime(15, 45), options()))
+        assertEquals("ಸಮಯ ಈಗ ಐದು ಗಂಟೆ ಐದು ನಿಮಿಷ", kn.phrase(ClockTime(17, 5), options()))
         assertEquals("ಸಮಯ ಈಗ ಮಧ್ಯಾಹ್ನ ಎರಡೂವರೆ", kn.phrase(ClockTime(14, 30), options(timeOfDay = true)))
     }
 
