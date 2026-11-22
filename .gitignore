@@ -9,3 +9,10 @@ local.properties
 .cxx
 *.keystore
 *.jks
+
+# Signing keys and secrets stay outside git (see README)
+signing.txt
+keystore.properties
+secrets.properties
+*.p12
+*.pem

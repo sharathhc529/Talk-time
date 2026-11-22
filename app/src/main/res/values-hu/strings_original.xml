@@ -169,7 +169,6 @@
     <string name="pref_checkbox_title_intro_text">Bevezető szöveg</string>
     <string name="pref_checkbox_summary_intro_text">Az idő értesítést bevezető szöveg előzi meg.</string>
     <string name="pref_preference_open_app_title_auto_close_delay">Késleltetés</string>
-    <string name="pref_checkbox_summary_pulse">Idő értesítés a beállított intervallum alapján.</string>
     <string name="pref_list_title_pulse_interval">Intervallum</string>
     <string name="pref_preference_title_intro_sound">Bevezető hang</string>
     <string name="pref_preference_summary_intro_sound">A %1$s hang lejátszása minden idő értesítés előtt.</string>

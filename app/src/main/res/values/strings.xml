@@ -28,6 +28,11 @@
     <string name="pref_card_color_title">Card color</string>
     <string name="pref_card_color_summary">Color of the flip cards.</string>
 
+    <string name="pref_interval_schedule_summary_on">Every day the time is announced from %1$s to %2$s.</string>
+    <string name="pref_interval_schedule_summary_same">Set different start and stop times. Both are %1$s.</string>
+    <string name="pref_interval_schedule_start">Start time</string>
+    <string name="pref_interval_schedule_end">Stop time</string>
+
     <string name="color_hue">Hue</string>
     <string name="color_saturation">Saturation</string>
     <string name="color_brightness">Brightness</string>

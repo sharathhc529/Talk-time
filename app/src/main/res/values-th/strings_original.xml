@@ -172,7 +172,6 @@
     <string name="pref_checkbox_title_intro_text">Intro text</string>
     <string name="pref_checkbox_summary_intro_text">มีคำเกริ่นนำก่อนพูดบอกเวลา</string>
     <string name="pref_preference_open_app_title_auto_close_delay">หน่วงเวลา</string>
-    <string name="pref_checkbox_summary_pulse">The time is announced in a defined time interval.</string>
     <string name="pref_list_title_pulse_interval">ช่วงจังหวะเวลา</string>
     <string name="pref_preference_title_intro_sound">เสียงอินโทร</string>
     <string name="pref_preference_summary_intro_sound">%1$s เสียงอินโทรก่อนพูดบอกเวลา</string>

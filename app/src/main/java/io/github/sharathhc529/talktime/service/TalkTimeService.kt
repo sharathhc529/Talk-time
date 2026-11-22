@@ -105,10 +105,12 @@ class TalkTimeService : Service(), SharedPreferences.OnSharedPreferenceChangeLis
     }
 
     private fun handle(intent: Intent?) {
+        intent?.action?.let { Log.i(TAG, "Action ${it.substringAfterLast('.')}") }
         when (intent?.action) {
             ACTION_ANNOUNCE -> announceTime()
             ACTION_INTERVAL_ALARM -> onIntervalAlarm(intent.getLongExtra(IntervalAlarmReceiver.EXTRA_SCHEDULED_AT, 0L))
             ACTION_STOP_INTERVAL -> stopInterval()
+            ACTION_SCHEDULED_START -> if (!settings[Keys.intervalActive]) startInterval()
             ACTION_STOP_NIGHT_CLOCK -> stopNightClock()
         }
         updateForeground()
@@ -152,7 +154,7 @@ class TalkTimeService : Service(), SharedPreferences.OnSharedPreferenceChangeLis
         settings[Keys.interval] = interval
         settings[Keys.intervalActive] = true
         scheduleInterval()
-        if (announce && settings[Keys.intervalAnnounceAtStart]) {
+        if (announce) {
             val text = settings.phrase() + ". " + getString(R.string.pref_list_title_pulse_interval) + " " +
                 getString(intervalName(interval))
             announcer.speak(text)
@@ -180,11 +182,13 @@ class TalkTimeService : Service(), SharedPreferences.OnSharedPreferenceChangeLis
             ClockTime.now()
         }
         announcer.speak(settings.phrase(time), settings.language, withIntroSound = true)
-        scheduler.scheduleNext(
-            settings[Keys.interval],
-            settings[Keys.intervalAlarmMode],
-            LocalDateTime.ofInstant(Instant.ofEpochMilli(maxOf(now, scheduledAt)), ZoneId.systemDefault()),
-        )
+        val after = LocalDateTime.ofInstant(Instant.ofEpochMilli(maxOf(now, scheduledAt)), ZoneId.systemDefault())
+        // A scheduled speaking clock stops right after the announcement at its stop time.
+        if (settings.intervalSchedule?.isLastAnnouncement(settings[Keys.interval], after) == true) {
+            stopInterval()
+            return
+        }
+        scheduler.scheduleNext(settings[Keys.interval], settings[Keys.intervalAlarmMode], after)
     }
 
     private fun onHeadsetChanged(connected: Boolean) {
@@ -356,6 +360,7 @@ class TalkTimeService : Service(), SharedPreferences.OnSharedPreferenceChangeLis
         const val ACTION_ANNOUNCE = "io.github.sharathhc529.talktime.ANNOUNCE"
         const val ACTION_INTERVAL_ALARM = "io.github.sharathhc529.talktime.INTERVAL"
         const val ACTION_STOP_INTERVAL = "io.github.sharathhc529.talktime.STOP_INTERVAL"
+        const val ACTION_SCHEDULED_START = "io.github.sharathhc529.talktime.SCHEDULED_START"
         const val ACTION_STOP_NIGHT_CLOCK = "io.github.sharathhc529.talktime.STOP_NIGHT_CLOCK"
         private const val ON_TIME_TOLERANCE_MS = 5_000L
         private const val NIGHT_CLOCK_WAKE_MS = 10_000L
@@ -363,6 +368,8 @@ class TalkTimeService : Service(), SharedPreferences.OnSharedPreferenceChangeLis
         /** The running service, if any (same process only). */
         @Volatile
         private var instance: TalkTimeService? = null
+
+        val isRunning: Boolean get() = instance != null
 
         /**
          * Sends an intent to the service: directly if it is already running, otherwise by starting
@@ -386,6 +393,7 @@ class TalkTimeService : Service(), SharedPreferences.OnSharedPreferenceChangeLis
          * screens, which are in the foreground and therefore allowed to start it.
          */
         fun refresh(context: Context) {
+            ScheduleScheduler(context).update(Settings(context))
             if (instance == null && Settings(context).needsBackgroundService) {
                 deliver(context, Intent(context, TalkTimeService::class.java))
             }

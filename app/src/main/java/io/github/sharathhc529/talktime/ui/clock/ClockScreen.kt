@@ -13,6 +13,7 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -20,6 +21,7 @@ import androidx.compose.runtime.mutableLongStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.rememberUpdatedState
 import androidx.compose.runtime.setValue
+import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -73,23 +75,30 @@ fun ClockScreen(
     val locale = LocalConfiguration.current.locales[0] ?: Locale.getDefault()
     val info = ClockInfo(now, locale, settings.displayIs24Hour)
     val currentOnTap by rememberUpdatedState(onTap)
+    // Tapping the screen announces the time, so the button is only needed when that is switched off.
+    val touch by settings.collect(Keys.touch)
 
-    Box(modifier.fillMaxSize()) {
-        // Taps that no control of the clock handles fall through to this layer.
-        Box(Modifier.matchParentSize().pointerInput(Unit) { detectTapGestures(onPress = { currentOnTap() }) })
-        when (style) {
-            ClockStyle.FLIP -> FlipClock(settings, info, onSpeak)
-            ClockStyle.STACKED -> StackedClock(settings, info, onSpeak)
-            ClockStyle.GLASS -> GlassClock(settings, info, onSpeak)
-            ClockStyle.WORDS -> WordsClock(settings, info, onSpeak)
-            ClockStyle.RING -> RingClock(settings, info, onSpeak)
-            ClockStyle.ANALOG -> AnalogClock(info, onSpeak)
-        }
-        Box(Modifier.fillMaxSize()) {
-            overlay(if (style == ClockStyle.FLIP) textColor.copy(alpha = 0.6f) else style.contentColor.copy(alpha = 0.7f))
+    CompositionLocalProvider(LocalShowSpeakButton provides !touch) {
+        Box(modifier.fillMaxSize()) {
+            // Taps that no control of the clock handles fall through to this layer.
+            Box(Modifier.matchParentSize().pointerInput(Unit) { detectTapGestures(onPress = { currentOnTap() }) })
+            when (style) {
+                ClockStyle.FLIP -> FlipClock(settings, info, onSpeak)
+                ClockStyle.STACKED -> StackedClock(settings, info, onSpeak)
+                ClockStyle.GLASS -> GlassClock(settings, info, onSpeak)
+                ClockStyle.WORDS -> WordsClock(settings, info, onSpeak)
+                ClockStyle.RING -> RingClock(settings, info, onSpeak)
+                ClockStyle.ANALOG -> AnalogClock(info, onSpeak)
+            }
+            Box(Modifier.fillMaxSize()) {
+                overlay(if (style == ClockStyle.FLIP) textColor.copy(alpha = 0.6f) else style.contentColor.copy(alpha = 0.7f))
+            }
         }
     }
 }
+
+/** Whether the clocks show their "Announce time" button. */
+private val LocalShowSpeakButton = staticCompositionLocalOf { true }
 
 /** Colour of text and icons on each style other than the flip clock, whose colours are settings. */
 private val ClockStyle.contentColor: Color
@@ -152,6 +161,11 @@ internal fun SpeakButton(
     fontSize: TextUnit = 18.sp,
     iconOnly: Boolean = false,
 ) {
+    if (!LocalShowSpeakButton.current) {
+        // Keeps the button's space so each clock style stays balanced.
+        Spacer(modifier)
+        return
+    }
     val label = stringResource(R.string.action_announce)
     Surface(
         onClick = onClick,

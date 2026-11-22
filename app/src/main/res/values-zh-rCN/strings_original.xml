@@ -172,7 +172,6 @@
     <string name="pref_checkbox_title_intro_text">报时文本</string>
     <string name="pref_checkbox_summary_intro_text">启用报时文本。</string>
     <string name="pref_preference_open_app_title_auto_close_delay">延迟</string>
-    <string name="pref_checkbox_summary_pulse">定义报时时间间隔。</string>
     <string name="pref_list_title_pulse_interval">间隔</string>
     <string name="pref_preference_title_intro_sound">报时提示音</string>
     <string name="pref_preference_summary_intro_sound">每次报时前播放 %1$s 提示音。</string>

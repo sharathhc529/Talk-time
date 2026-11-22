@@ -85,6 +85,7 @@ fun SettingsScreen(screen: Screen, settings: Settings, service: TalkTimeService?
 @Composable
 private fun MainScreen(open: (Screen) -> Unit) {
     ScreenLink(stringResource(R.string.pref_screen_title_control), stringResource(R.string.pref_screen_summary_control)) { open(Screen.CONTROL) }
+    ScreenLink(stringResource(R.string.pref_screen_title_interval_speaking_clock), stringResource(R.string.pref_screen_summary_interval_speaking_clock)) { open(Screen.INTERVAL) }
     ScreenLink(stringResource(R.string.pref_screen_title_appearance), stringResource(R.string.pref_screen_summary_appearance)) { open(Screen.DISPLAY) }
     ScreenLink(stringResource(R.string.pref_screen_title_audio), stringResource(R.string.pref_screen_summary_audio)) { open(Screen.AUDIO) }
     ScreenLink(stringResource(R.string.pref_screen_title_system), stringResource(R.string.pref_screen_summary_system)) { open(Screen.SYSTEM) }
@@ -95,7 +96,6 @@ private fun ControlScreen(settings: Settings, open: (Screen) -> Unit) {
     ScreenLink(stringResource(R.string.pref_screen_title_headset_trigger), stringResource(R.string.pref_screen_summary_headset_trigger)) { open(Screen.HEADSET) }
     ScreenLink(stringResource(R.string.pref_screen_title_proximity_trigger), stringResource(R.string.pref_screen_summary_proximity_trigger)) { open(Screen.PROXIMITY) }
     ScreenLink(stringResource(R.string.pref_screen_title_night_clock), stringResource(R.string.pref_screen_summary_night_clock)) { open(Screen.NIGHT_CLOCK) }
-    ScreenLink(stringResource(R.string.pref_screen_title_interval_speaking_clock), stringResource(R.string.pref_screen_summary_interval_speaking_clock)) { open(Screen.INTERVAL) }
     ScreenLink(stringResource(R.string.pref_screen_title_power_button_trigger), stringResource(R.string.pref_screen_summary_power_button_trigger)) { open(Screen.POWER_BUTTON) }
     SwitchPreference(settings, Keys.touch, stringResource(R.string.pref_checkbox_title_touch), stringResource(R.string.pref_checkbox_summary_touch))
     ScreenLink(stringResource(R.string.pref_screen_title_shake_detector_trigger), stringResource(R.string.pref_screen_summary_shake_detector_trigger)) { open(Screen.SHAKE) }
@@ -221,11 +221,53 @@ private fun intervalOptions(settings: Settings): List<Pair<SpeakingInterval, Str
         .map { it to stringResource(TalkTimeService.intervalName(it)) }
 }
 
+/**
+ * The switch of the interval speaking clock with its daily start and stop time. While it is on, the
+ * clock starts at the start time and stops after the announcement at the stop time, every day.
+ */
+@Composable
+private fun IntervalSchedulePreferences(settings: Settings) {
+    val context = LocalContext.current
+    val start by settings.collect(Keys.intervalScheduleStart)
+    val end by settings.collect(Keys.intervalScheduleEnd)
+    val is24Hour = android.text.format.DateFormat.is24HourFormat(context)
+    val format = { minutes: Int ->
+        java.time.LocalTime.of(minutes / 60, minutes % 60)
+            .format(java.time.format.DateTimeFormatter.ofPattern(if (is24Hour) "HH:mm" else "h:mm a"))
+    }
+    val summary = if (start == end) {
+        stringResource(R.string.pref_interval_schedule_summary_same, format(start))
+    } else {
+        stringResource(R.string.pref_interval_schedule_summary_on, format(start), format(end))
+    }
+    SwitchPreference(
+        settings, Keys.intervalSchedule, stringResource(R.string.app_start_speaking_clock), summary,
+        onChange = { on ->
+            settings[Keys.intervalSchedule] = on
+            if (on) startIfDue(context, settings) else if (settings[Keys.intervalActive]) {
+                TalkTimeService.deliver(context, Intent(context, TalkTimeService::class.java).setAction(TalkTimeService.ACTION_STOP_INTERVAL))
+            }
+        },
+    )
+    val onTimeChange = { _: Int -> if (settings[Keys.intervalSchedule]) startIfDue(context, settings) }
+    TimePreference(settings, Keys.intervalScheduleStart, stringResource(R.string.pref_interval_schedule_start), is24Hour, format, onChange = onTimeChange)
+    TimePreference(settings, Keys.intervalScheduleEnd, stringResource(R.string.pref_interval_schedule_end), is24Hour, format, onChange = onTimeChange)
+}
+
+/** Starts the speaking clock right away when the current time is already between its start and stop time. */
+private fun startIfDue(context: android.content.Context, settings: Settings) {
+    val schedule = settings.intervalSchedule ?: return
+    if (!settings[Keys.intervalActive] && java.time.LocalDateTime.now() in schedule) {
+        TalkTimeService.deliver(context, Intent(context, TalkTimeService::class.java).setAction(TalkTimeService.ACTION_SCHEDULED_START))
+    }
+}
+
 @Composable
 private fun IntervalScreen(settings: Settings) {
     val context = LocalContext.current
     PreferenceCategory(stringResource(R.string.pref_category_title_speaking_clock_general))
-    SwitchPreference(settings, Keys.intervalActive, stringResource(R.string.app_start_speaking_clock), stringResource(R.string.pref_checkbox_summary_pulse))
+    IntervalSchedulePreferences(settings)
+    ListPreference(settings, Keys.interval, stringResource(R.string.pref_list_title_pulse_interval), intervalOptions(settings))
     SwitchPreference(
         settings, Keys.intervalNotification, stringResource(R.string.pref_checkbox_title_pulse_generator_notification),
         stringResource(R.string.pref_checkbox_summary_pulse_generator_notification_shown),
@@ -235,14 +277,9 @@ private fun IntervalScreen(settings: Settings) {
         settings, Keys.intervalSelectionDialog, stringResource(R.string.pref_checkbox_title_speaking_clock_interval_selection_dialog),
         stringResource(R.string.pref_checkbox_summary_speaking_clock_interval_selection_dialog),
     )
-    ListPreference(settings, Keys.interval, stringResource(R.string.pref_list_title_pulse_interval), intervalOptions(settings))
     SwitchPreference(
         settings, Keys.intervalAlarmMode, stringResource(R.string.pref_checkbox_title_speaking_clock_interval_alarm_mode),
         stringResource(R.string.pref_checkbox_summary_speaking_clock_interval_alarm_mode),
-    )
-    SwitchPreference(
-        settings, Keys.intervalAnnounceAtStart, stringResource(R.string.pref_checkbox_title_speaking_clock_interval_start_info),
-        stringResource(R.string.pref_checkbox_summary_speaking_clock_interval_start_info),
     )
     PreferenceCategory(stringResource(R.string.pref_category_title_speaking_clock_start_options))
     SwitchPreference(settings, Keys.intervalOnHeadset, stringResource(R.string.pref_checkbox_title_speaking_clock_headset), stringResource(R.string.pref_checkbox_summary_speaking_clock_headset))

@@ -8,6 +8,7 @@ import android.text.format.DateFormat
 import io.github.sharathhc529.talktime.speech.ClockTime
 import io.github.sharathhc529.talktime.speech.PhraseOptions
 import io.github.sharathhc529.talktime.speech.SpeakingInterval
+import io.github.sharathhc529.talktime.speech.SpeakingWindow
 import io.github.sharathhc529.talktime.speech.SpeechLanguage
 import io.github.sharathhc529.talktime.speech.TimeStyle
 import java.util.Locale
@@ -88,8 +89,11 @@ object Keys {
     val intervalSelectionDialog = BoolPref("interval_selection_dialog", true)
     val interval = EnumPref("interval", SpeakingInterval.EVERY_HOUR, SpeakingInterval.entries.toTypedArray())
     val intervalAlarmMode = BoolPref("interval_alarm_mode", true)
-    val intervalAnnounceAtStart = BoolPref("interval_announce_at_start", true)
     val intervalOnHeadset = BoolPref("interval_on_headset", false)
+    /** The speaking clock talks every day from the start to the stop time; times are minutes after midnight. */
+    val intervalSchedule = BoolPref("interval_schedule", false)
+    val intervalScheduleStart = IntPref("interval_schedule_start", 5 * 60, 0 until SpeakingWindow.MINUTES_PER_DAY)
+    val intervalScheduleEnd = IntPref("interval_schedule_end", 7 * 60, 0 until SpeakingWindow.MINUTES_PER_DAY)
 
     // Audio
     val language = OptionalEnumPref("language", SpeechLanguage.entries.toTypedArray())
@@ -174,6 +178,14 @@ class Settings(context: Context) {
             DisplayHourFormat.H24 -> true
             DisplayHourFormat.H12 -> false
             DisplayHourFormat.AUDIO -> this[Keys.style] == TimeStyle.FORMAL && is24Hour
+        }
+
+    /** The daily start and stop of the interval speaking clock, or null when it is not scheduled. */
+    val intervalSchedule: SpeakingWindow?
+        get() = if (this[Keys.intervalSchedule]) {
+            SpeakingWindow.ofMinutes(this[Keys.intervalScheduleStart], this[Keys.intervalScheduleEnd])
+        } else {
+            null
         }
 
     val introSoundUri: Uri?

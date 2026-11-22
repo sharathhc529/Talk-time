@@ -24,6 +24,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.KeyboardArrowRight
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Checkbox
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.RadioButton
@@ -31,6 +32,8 @@ import androidx.compose.material3.Slider
 import androidx.compose.material3.Switch
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
+import androidx.compose.material3.TimePicker
+import androidx.compose.material3.rememberTimePickerState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
@@ -158,6 +161,41 @@ fun <T> ListPreference(
                 }
             },
             confirmButton = {},
+            dismissButton = { TextButton(onClick = { open = false }) { Text(stringResource(R.string.app_cancel)) } },
+        )
+    }
+}
+
+/** Picks a time of day, stored in [pref] as minutes after midnight. */
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun TimePreference(
+    settings: Settings,
+    pref: IntPref,
+    title: String,
+    is24Hour: Boolean,
+    format: (Int) -> String,
+    enabled: Boolean = true,
+    onChange: ((Int) -> Unit)? = null,
+) {
+    var value by settings.mutable(pref)
+    var open by remember { mutableStateOf(false) }
+    PreferenceRow(title, format(value), enabled, onClick = { open = true })
+    if (open) {
+        val state = rememberTimePickerState(initialHour = value / 60, initialMinute = value % 60, is24Hour = is24Hour)
+        AlertDialog(
+            onDismissRequest = { open = false },
+            title = { Text(title) },
+            text = { TimePicker(state) },
+            confirmButton = {
+                TextButton(onClick = {
+                    value = state.hour * 60 + state.minute
+                    open = false
+                    onChange?.invoke(value)
+                }) {
+                    Text(stringResource(android.R.string.ok))
+                }
+            },
             dismissButton = { TextButton(onClick = { open = false }) { Text(stringResource(R.string.app_cancel)) } },
         )
     }

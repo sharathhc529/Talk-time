@@ -172,7 +172,6 @@
     <string name="pref_checkbox_title_intro_text">Intro text</string>
     <string name="pref_checkbox_summary_intro_text">Čas oznámenia bude oznámený s intro textom.</string>
     <string name="pref_preference_open_app_title_auto_close_delay">Oneskorenie</string>
-    <string name="pref_checkbox_summary_pulse">Oznamuje čas v zadefinovanom časovom intervale.</string>
     <string name="pref_list_title_pulse_interval">Interval</string>
     <string name="pref_preference_title_intro_sound">Intro zvuk</string>
     <string name="pref_preference_summary_intro_sound">Zvuk %1$s sa hrá pred každým časovým oznámením.</string>

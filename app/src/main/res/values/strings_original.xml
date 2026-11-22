@@ -173,7 +173,6 @@
     <string name="pref_checkbox_title_intro_text">Intro text</string>
     <string name="pref_checkbox_summary_intro_text">The time announcement will be announced with an intro text.</string>
     <string name="pref_preference_open_app_title_auto_close_delay">Delay</string>
-    <string name="pref_checkbox_summary_pulse">The time is announced in a defined time interval.</string>
     <string name="pref_list_title_pulse_interval">Interval</string>
     <string name="pref_preference_title_intro_sound">Intro sound</string>
     <string name="pref_preference_summary_intro_sound">The %1$s sound is played before every time announcement.</string>
@@ -194,8 +193,6 @@
     <string name="pref_list_title_audio_focus_selection">Volume of others audio apps</string>
     <string name="pref_checkbox_title_speaking_clock_interval_alarm_mode">Alarm mode</string>
     <string name="pref_checkbox_summary_speaking_clock_interval_alarm_mode">The speaking clock is registered as alarm in the system. This fixes a delayed time announcement on some devices.</string>
-    <string name="pref_checkbox_title_speaking_clock_interval_start_info">Announcement at start</string>
-    <string name="pref_checkbox_summary_speaking_clock_interval_start_info">The current time and the interval is announced when the speaking clock is started.</string>
     <string-array name="pref_list_headset_event_type_name">
         <item>Deactivated</item>
         <item>Single click</item>

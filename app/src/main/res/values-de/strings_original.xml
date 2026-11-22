@@ -167,7 +167,6 @@
     <string name="pref_checkbox_title_intro_text">Intro Text</string>
     <string name="pref_checkbox_summary_intro_text">Die Zeitansage wird mit einem Intro Text angesagt.</string>
     <string name="pref_preference_open_app_title_auto_close_delay">Verzögerung</string>
-    <string name="pref_checkbox_summary_pulse">Die Zeit wird in einem festgelegten Intervall angesagt.</string>
     <string name="pref_list_title_pulse_interval">Intervall</string>
     <string name="pref_preference_title_intro_sound">Intro Ton</string>
     <string name="pref_preference_summary_intro_sound">Der Ton %1$s wird vor jeder Zeitansage abgespielt.</string>
@@ -188,8 +187,6 @@
     <string name="pref_list_title_audio_focus_selection">Lautstärke andere Audioanwendungen</string>
     <string name="pref_checkbox_title_speaking_clock_interval_alarm_mode">Alarmmodus</string>
     <string name="pref_checkbox_summary_speaking_clock_interval_alarm_mode">Die Zeitansage wird als Alarm im System registriert. Dies behebt auf einigen Geräten eine verzögerte Zeitansage.</string>
-    <string name="pref_checkbox_title_speaking_clock_interval_start_info">Ansage beim Start</string>
-    <string name="pref_checkbox_summary_speaking_clock_interval_start_info">Die aktuelle Uhrzeit und das Intervall wird beim Start der Intervall-Zeitansage angesagt.</string>
     <string-array name="pref_list_headset_event_type_name">
         <item>Deaktiviert</item>
         <item>Einzelklick</item>

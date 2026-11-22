@@ -172,7 +172,6 @@
     <string name="pref_checkbox_title_intro_text">Texto de introducción</string>
     <string name="pref_checkbox_summary_intro_text">El anuncio de la hora se anunciará con un texto de introducción.</string>
     <string name="pref_preference_open_app_title_auto_close_delay">Retraso</string>
-    <string name="pref_checkbox_summary_pulse">El tiempo se anunció en un intervalo de tiempo definido.</string>
     <string name="pref_list_title_pulse_interval">Intervalo</string>
     <string name="pref_preference_title_intro_sound">Sonido Introducción</string>
     <string name="pref_preference_summary_intro_sound">El %1$s sonido se reproduce antes de cada anuncio de la hora.</string>
